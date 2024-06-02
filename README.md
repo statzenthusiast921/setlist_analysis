@@ -1,4 +1,4 @@
-# setlist_analysis
+# Setlist Analysis
 
 Description
 The purpose of this project was to:
