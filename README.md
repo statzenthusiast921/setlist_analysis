@@ -18,4 +18,4 @@ I chose 4 of my favorite bands (Dredg, Gorillaz, Tame Impala, TV on the Radio) a
 ## Challenges
 The spelling and punctuation was not always consistent between the lyrics datasets and the setlists datasets.  Eg: one of my favorite songs, Zebraskin by Dredg was often written as Zebra skin or Zebra Skin.  Due to this issue, I had to use the fuzzy_merge function of the [fuzzy_pandas](https://github.com/jsoma/fuzzy_pandas) library to sufficiently join the data sets.
 
-A similar issue popped up when ranking songs by emotions.  I had to use the (dedupe_dataframe)[https://pypi.org/project/pandas-dedupe/] function to perform fuzzy deduplication.
+A similar issue popped up when ranking songs by emotions.  I had to use the dedupe_dataframe function of the [pandas_dedupe](https://pypi.org/project/pandas-dedupe/) library to perform fuzzy deduplication.
