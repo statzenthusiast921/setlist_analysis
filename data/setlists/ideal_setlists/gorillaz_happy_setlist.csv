@@ -1,0 +1,23 @@
+Song Name,Closeness Score,Happy Score,Angry Score,Sad Score,Surprise Score,Fear Score,Prioritized Emotion,Artist Name
+phoenix on the hill,0.0,0.0,0.0,0.0,0.0,0.0,Happy,Gorillaz
+doncamatic,0.0,0.09,0.0,0.06,0.09,0.75,Happy,Gorillaz
+last living souls,0.0,0.09,0.05,0.09,0.68,0.09,Happy,Gorillaz
+skinny ape,0.0,0.11,0.0,0.37,0.15,0.37,Happy,Gorillaz
+momentary bliss,0.0050000000000000044,0.12,0.05,0.42,0.18,0.23,Happy,Gorillaz
+to binge,0.0,0.24,0.12,0.24,0.24,0.18,Happy,Gorillaz
+fire coming out of the monkey's head,0.0,0.13,0.12,0.35,0.15,0.25,Happy,Gorillaz
+meanwhile,0.004999999999999977,0.23,0.08,0.38,0.12,0.18,Happy,Gorillaz
+rockit,0.0,0.14,0.0,0.5,0.09,0.27,Happy,Gorillaz
+new gold,0.0,0.14,0.02,0.14,0.44,0.27,Happy,Gorillaz
+strange timez,0.0,0.11,0.05,0.11,0.16,0.58,Happy,Gorillaz
+kids with guns,0.0,0.09,0.0,0.43,0.1,0.37,Happy,Gorillaz
+dead butterflies,0.0,0.1,0.02,0.27,0.32,0.29,Happy,Gorillaz
+dirty harry,0.009999999999999995,0.08,0.0,0.32,0.16,0.45,Happy,Gorillaz
+silent running,0.0,0.12,0.0,0.47,0.12,0.29,Happy,Gorillaz
+empire ants,0.010000000000000009,0.1,0.05,0.15,0.15,0.55,Happy,Gorillaz
+ascension,0.010000000000000009,0.1,0.02,0.2,0.41,0.27,Happy,Gorillaz
+cloud of unknowing,0.020000000000000004,0.11,0.06,0.39,0.22,0.22,Happy,Gorillaz
+white flag,0.009999999999999995,0.12,0.02,0.34,0.22,0.29,Happy,Gorillaz
+clint eastwood,0.020000000000000018,0.14,0.02,0.11,0.55,0.18,Happy,Gorillaz
+stylo,0.0,0.15,0.15,0.24,0.2,0.27,Happy,Gorillaz
+all alone,0.009999999999999981,0.15,0.05,0.4,0.25,0.15,Happy,Gorillaz

@@ -1,0 +1,13 @@
+Song Name,Closeness Score,Happy Score,Angry Score,Sad Score,Surprise Score,Fear Score,Prioritized Emotion,Artist Name
+love stained,0.0,0.1,0.08,0.37,0.2,0.24,Surprise,TV on the Radio
+the wrong way,0.0,0.03,0.09,0.29,0.34,0.26,Surprise,TV on the Radio
+killer crane,0.0,0.12,0.12,0.24,0.24,0.27,Surprise,TV on the Radio
+could you,0.0,0.24,0.12,0.22,0.14,0.27,Surprise,TV on the Radio
+tonight,0.004999999999999977,0.31,0.1,0.21,0.17,0.21,Surprise,TV on the Radio
+red dress,0.0,0.11,0.11,0.25,0.19,0.34,Surprise,TV on the Radio
+young liars,0.0,0.07,0.1,0.33,0.2,0.3,Surprise,TV on the Radio
+blues from down here,0.0,0.04,0.16,0.27,0.2,0.33,Surprise,TV on the Radio
+crying,0.009999999999999981,0.04,0.25,0.21,0.21,0.29,Surprise,TV on the Radio
+right now,0.03,0.12,0.0,0.23,0.23,0.42,Surprise,TV on the Radio
+ambulance,0.0,0.25,0.05,0.25,0.25,0.2,Surprise,TV on the Radio
+a method,0.0,0.06,0.21,0.24,0.26,0.24,Surprise,TV on the Radio

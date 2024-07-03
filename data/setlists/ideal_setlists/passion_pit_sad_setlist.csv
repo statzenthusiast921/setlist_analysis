@@ -1,0 +1,14 @@
+Song Name,Closeness Score,Happy Score,Angry Score,Sad Score,Surprise Score,Fear Score,Prioritized Emotion,Artist Name
+take a walk,0.0,0.1,0.18,0.26,0.1,0.36,Sad,Passion Pit
+smile upon me,0.0,0.46,0.04,0.23,0.0,0.27,Sad,Passion Pit
+dreams,0.0,0.12,0.0,0.38,0.25,0.25,Sad,Passion Pit
+better things,0.0,0.04,0.12,0.24,0.29,0.31,Sad,Passion Pit
+eyes as candles,0.020000000000000018,0.02,0.05,0.29,0.36,0.29,Sad,Passion Pit
+carried away,0.010000000000000009,0.09,0.15,0.38,0.12,0.25,Sad,Passion Pit
+constant conversations,0.020000000000000018,0.2,0.03,0.31,0.11,0.34,Sad,Passion Pit
+whole life story,0.02999999999999997,0.03,0.1,0.41,0.21,0.24,Sad,Passion Pit
+where we belong,0.03999999999999998,0.14,0.11,0.25,0.18,0.32,Sad,Passion Pit
+all i want,0.010000000000000009,0.08,0.08,0.25,0.08,0.5,Sad,Passion Pit
+american blood,0.0,0.18,0.06,0.24,0.06,0.47,Sad,Passion Pit
+ill be alright,0.040000000000000036,0.15,0.19,0.33,0.04,0.3,Sad,Passion Pit
+looks like rain,0.04999999999999999,0.1,0.29,0.24,0.14,0.24,Sad,Passion Pit

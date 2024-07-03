@@ -1,0 +1,14 @@
+Song Name,Closeness Score,Happy Score,Angry Score,Sad Score,Surprise Score,Fear Score,Prioritized Emotion,Artist Name
+ode to the sun,0.0,0.08,0.12,0.32,0.12,0.36,Surprise,Dredg
+same ol' road,0.0,0.12,0.0,0.17,0.21,0.5,Surprise,Dredg
+quotes,0.0,0.0,0.12,0.25,0.12,0.5,Surprise,Dredg
+whoa is me,0.0,0.0,0.04,0.52,0.16,0.28,Surprise,Dredg
+spitshine,0.0,0.0,0.36,0.2,0.12,0.32,Surprise,Dredg
+yatahaze,0.0,0.0,0.12,0.25,0.12,0.5,Surprise,Dredg
+sang real/waltz,0.010000000000000009,0.2,0.07,0.33,0.13,0.27,Surprise,Dredg
+sanzen,0.0,0.31,0.08,0.31,0.08,0.23,Surprise,Dredg
+lightswitch,0.039999999999999994,0.0,0.24,0.28,0.08,0.4,Surprise,Dredg
+convalescent,0.04999999999999999,0.09,0.09,0.27,0.18,0.36,Surprise,Dredg
+not that simple,0.01999999999999999,0.0,0.08,0.08,0.18,0.67,Surprise,Dredg
+the ornament,0.009999999999999995,0.0,0.0,0.67,0.08,0.25,Surprise,Dredg
+scissor lock,0.01999999999999999,0.03,0.03,0.31,0.07,0.55,Surprise,Dredg

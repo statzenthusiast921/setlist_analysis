@@ -1,0 +1,14 @@
+Song Name,Closeness Score,Happy Score,Angry Score,Sad Score,Surprise Score,Fear Score,Prioritized Emotion,Artist Name
+let it happen,0.010000000000000009,0.4,0.0,0.25,0.1,0.25,Sad,Tame Impala
+why wont they talk to me,0.03999999999999998,0.41,0.06,0.29,0.12,0.12,Sad,Tame Impala
+keep on lying,0.009999999999999981,0.29,0.0,0.14,0.29,0.29,Sad,Tame Impala
+solitude is bliss,0.0,0.39,0.0,0.18,0.18,0.25,Sad,Tame Impala
+music to walk home by,0.010000000000000009,0.22,0.13,0.22,0.22,0.22,Sad,Tame Impala
+on track,0.010000000000000009,0.14,0.06,0.28,0.08,0.44,Sad,Tame Impala
+expectation,0.03999999999999998,0.06,0.06,0.31,0.36,0.22,Sad,Tame Impala
+sundown syndrome,0.020000000000000018,0.13,0.22,0.37,0.13,0.15,Sad,Tame Impala
+apocalypse dreams,0.010000000000000009,0.29,0.0,0.21,0.21,0.29,Sad,Tame Impala
+forty one mosquitoes flying in formation,0.009999999999999981,0.05,0.3,0.2,0.2,0.25,Sad,Tame Impala
+the less i know the better,0.01999999999999999,0.22,0.04,0.19,0.33,0.22,Sad,Tame Impala
+patience,0.010000000000000009,0.09,0.05,0.23,0.23,0.41,Sad,Tame Impala
+lucidity,0.020000000000000018,0.08,0.23,0.23,0.15,0.31,Sad,Tame Impala

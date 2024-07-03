@@ -1,0 +1,14 @@
+Song Name,Closeness Score,Happy Score,Angry Score,Sad Score,Surprise Score,Fear Score,Prioritized Emotion,Artist Name
+let it happen,0.0,0.4,0.0,0.25,0.1,0.25,Angry,Tame Impala
+solitude is bliss,0.0,0.39,0.0,0.18,0.18,0.25,Angry,Tame Impala
+borderline,0.0,0.35,0.02,0.12,0.13,0.38,Angry,Tame Impala
+keep on lying,0.0,0.29,0.0,0.14,0.29,0.29,Angry,Tame Impala
+mind mischief,0.0,0.27,0.06,0.06,0.33,0.27,Angry,Tame Impala
+elephant,0.0,0.13,0.07,0.4,0.2,0.2,Angry,Tame Impala
+expectation,0.010000000000000009,0.06,0.06,0.31,0.36,0.22,Angry,Tame Impala
+breathe deeper,0.01999999999999999,0.09,0.09,0.53,0.12,0.16,Angry,Tame Impala
+the less i know the better,0.0,0.22,0.04,0.19,0.33,0.22,Angry,Tame Impala
+apocalypse dreams,0.0,0.29,0.0,0.21,0.21,0.29,Angry,Tame Impala
+patience,0.0,0.09,0.05,0.23,0.23,0.41,Angry,Tame Impala
+cause im a man,0.0,0.25,0.04,0.33,0.08,0.29,Angry,Tame Impala
+reality in motion,0.0,0.0,0.05,0.54,0.12,0.29,Angry,Tame Impala
