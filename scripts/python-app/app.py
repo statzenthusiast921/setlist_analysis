@@ -146,34 +146,47 @@ app.layout = html.Div([
             children=[
                 dbc.Row([
                     dbc.Col([
+                        dbc.Label('Choose an artist: '),
                         dcc.Dropdown(
                             id='dropdown3',
                             style={'color':'black'},
                             options=[{'label': i, 'value': i} for i in artist_choices],
                             value=artist_choices[0]
                         ),
+                    ], width = 6),
+                    dbc.Col([
+                        dbc.Label('Choose a country: '),
                         dcc.Dropdown(
                             id='dropdown4',
                             style={'color':'black'},
                             options=[{'label': i, 'value': i} for i in country_choices],
                             value=country_choices[0]
-                        ),
+                        )
+                    ], width = 6),
+                ]),
+                dbc.Row([
+                    dbc.Col([
+                        dbc.Label('Choose a state: '),
                         dcc.Dropdown(
                             id='dropdown5',
                             style={'color':'black'},
                             options=[{'label': i, 'value': i} for i in state_choices],
                             value=state_choices[0]
                         ),
+                    ], width = 6),
+                    dbc.Col([
+                        dbc.Label('Choose a city: '),
                         dcc.Dropdown(
                             id='dropdown6',
                             style={'color':'black'},
                             options=[{'label': i, 'value': i} for i in city_choices],
                             value=city_choices[0]
-                        )
-
-                        
-                    ], width =6),
+                        )    
+                    ], width = 6)
+                ]),
+                dbc.Row([
                     dbc.Col([
+                        dbc.Label('Choose a concert date: '),
                         dcc.Slider(
                             id='date_slider',
                             min=0,  # Will be updated dynamically
@@ -182,7 +195,7 @@ app.layout = html.Div([
                             marks={},  # Will be updated dynamically
                             value=0  # Initial value
                         ),
-                    ], width = 6),
+                    ], width = 12),
                     dbc.Col([
                         html.Div(id='setlist_list')
                     ])
