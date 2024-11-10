@@ -24,6 +24,7 @@ artist_choices = np.sort(setlist_df['ArtistName'].unique())
 country_choices = np.sort(setlist_df['Country'].unique())
 state_choices = np.sort(setlist_df['State'].unique())
 city_choices = np.sort(setlist_df['City'].unique())
+song_choices = np.sort(setlist_df['SongName'].unique())
 
 #----- Artist --> Country Dictionary
 df_for_dict = setlist_df[['ArtistName','Country']]
@@ -39,6 +40,12 @@ country_state_dict = df_for_dict2.groupby('Country')['State'].apply(list).to_dic
 df_for_dict3 = setlist_df[['State','City']]
 df_for_dict3 = df_for_dict3.drop_duplicates(keep='first')
 state_city_dict = df_for_dict3.groupby('State')['City'].apply(list).to_dict()
+
+#----- Artist --> Song Dictionary
+df_for_dict4 = setlist_df[['ArtistName','SongName']]
+df_for_dict4 = df_for_dict4.drop_duplicates(keep='first')
+artist_song_dict = df_for_dict4.groupby('ArtistName')['SongName'].apply(list).to_dict()
+
 
 
 
@@ -202,32 +209,70 @@ app.layout = html.Div([
                 ])
             ]
         ),
-        dcc.Tab(label='Subject 3',value='tab-4',style=tab_style, selected_style=tab_selected_style,
+        dcc.Tab(label='Position Frequency',value='tab-4',style=tab_style, selected_style=tab_selected_style,
             children=[
                 dbc.Row([
                     dbc.Col([
-                       
+                       dbc.Label('Choose an artist: '),
+                        dcc.Dropdown(
+                            id='dropdown7',
+                            style={'color':'black'},
+                            options=[{'label': i, 'value': i} for i in artist_choices],
+                            value=artist_choices[0]
+                        ),
                     ], width =6),
                     dbc.Col([
+                        dbc.Label('Choose a song: '),
+                        dcc.Dropdown(
+                            id='dropdown8',
+                            style={'color':'black'},
+                            options=[{'label': i, 'value': i} for i in song_choices],
+                            value=song_choices[0]
+                        ),
                
                     ], width =6),
                     dbc.Col([
-                     
+                        dcc.RangeSlider(
+                            id='rangeslider',
+                            min=0,
+                            max=setlist_df['Date'].nunique()-1,
+                            value=[0, setlist_df['Date'].nunique()-1],
+                            allowCross=False
+                        )
                     ], width = 12),
+                    dbc.Col([
+                        dcc.Graph(id = 'position_frequency')
+                    ])
                   
 
-                ]),
+                ])
+
+            ]
+        ),
+        dcc.Tab(label='Rules-Based Setlists',value='tab-5',style=tab_style, selected_style=tab_selected_style,
+            children = [
+                dbc.Row([
                     dbc.Col([
 
-                    ], width = 6),
-                    dbc.Col([
-                    
-                    ], width = 6)
-
+                    ])
                 ])
             ]
+
+        ),
+        dcc.Tab(label='ML-Based Setlists',value='tab-6',style=tab_style, selected_style=tab_selected_style,
+            children = [
+                dbc.Row([
+                    dbc.Col([
+                        
+                    ])
+                ])
+            ]
+
         )
+        
     ])
+
+])
 
 
 
@@ -549,9 +594,37 @@ def table(dd3,dd4, dd5, dd6, slider_value, unique_dates):
                 data=setlist_table.to_dict('records')
             )
         ])
+
+
+#-----Tab 4: Position Frequency
     
+#------ Position Frequency
+@app.callback(
+    Output('dropdown8', 'options'),  # --> filter song
+    Output('dropdown8', 'value'),
+    Input('dropdown7', 'value')  # --> choose artist
+)
+def set_city_options_in_state(selected_artist):
+        return [{'label': i, 'value': i} for i in artist_song_dict[selected_artist]], artist_song_dict[selected_artist][0]
+    
+@app.callback(
+    Output('position_frequency','figure'),
+    Input('dropdown7','value'),
+    Input('dropdown8','value')
+)
 
+def position_freq_chart(dd7, dd8):
 
+    filtered_df = setlist_df[setlist_df['ArtistName']==dd7]
+    filtered_df = filtered_df[filtered_df['SongName']==dd8]
+
+    #song_freq_df = filtered_df[['Date','song_num']]
+    song_freq_df = filtered_df['song_num'].value_counts().reset_index().sort_values(by = 'song_num')
+    song_freq_df['song_num'] = song_freq_df['song_num'] + 1
+
+    fig = px.bar(song_freq_df, x='song_num', y='count')
+
+    return fig
 
 if __name__=='__main__':
 	app.run_server()
