@@ -12,11 +12,26 @@ from plotly.subplots import make_subplots
 import math
 import pyarrow
 import datetime
+import scipy.stats as stats
 
 #-----Read in and set up data
 url = 'https://raw.githubusercontent.com/statzenthusiast921/setlist_analysis/main/data/setlists/full_setlist_df.parquet'
 setlist_df = pd.read_parquet(url, engine='pyarrow')
 setlist_df['Date'] = pd.to_datetime(setlist_df['Date'], format='%m/%d/%y')
+setlist_df['Year'] = setlist_df['Date'].dt.year
+
+
+# Create the dictionary
+setlist_dict = {}
+
+# Group by artist and aggregate the songs and years
+for artist, group in setlist_df.groupby('ArtistName'):
+    songs = group['SongName'].unique().tolist()  # Get unique songs for each artist
+    years = group['Year'].unique().tolist()  # Get unique years for each artist
+    setlist_dict[artist] = {'songs': songs, 'years': years}
+
+# Output the dictionary
+print(setlist_dict)
 
 
 #----- Choices for dropdown menus
@@ -25,6 +40,7 @@ country_choices = np.sort(setlist_df['Country'].unique())
 state_choices = np.sort(setlist_df['State'].unique())
 city_choices = np.sort(setlist_df['City'].unique())
 song_choices = np.sort(setlist_df['SongName'].unique())
+year_choices = np.sort(setlist_df['Year'].unique())
 
 #----- Artist --> Country Dictionary
 df_for_dict = setlist_df[['ArtistName','Country']]
@@ -232,12 +248,16 @@ app.layout = html.Div([
                
                     ], width =6),
                     dbc.Col([
+                        dbc.Label('Choose a year range: '),
                         dcc.RangeSlider(
                             id='rangeslider',
-                            min=0,
-                            max=setlist_df['Date'].nunique()-1,
-                            value=[0, setlist_df['Date'].nunique()-1],
-                            allowCross=False
+                            min=2000,
+                            max=2024,
+                            value=[2000, 2024],
+                            step = 1,
+                            allowCross=False,
+                            marks={year: str(year) for year in range(2000, 2025)}  # Mark every year
+
                         )
                     ], width = 12),
                     dbc.Col([
@@ -604,25 +624,89 @@ def table(dd3,dd4, dd5, dd6, slider_value, unique_dates):
     Output('dropdown8', 'value'),
     Input('dropdown7', 'value')  # --> choose artist
 )
-def set_city_options_in_state(selected_artist):
+def set_song_options_per_artist(selected_artist):
         return [{'label': i, 'value': i} for i in artist_song_dict[selected_artist]], artist_song_dict[selected_artist][0]
     
+
+
+
+@app.callback(
+    Output('rangeslider', 'min'),
+    Output('rangeslider', 'max'),
+    Output('rangeslider', 'marks'),
+    Output('rangeslider', 'value'),
+    Input('dropdown7', 'value'),
+    Input('dropdown8', 'value')
+)
+def update_range_slider(dd7, dd8):
+    if dd7 is None or dd8 is None:
+        return 2000, 2024, {i: str(i) for i in range(2000, 2025)}, [2000, 2024]
+    
+    # Filter the data based on the selected artist and song
+    filtered_data = setlist_df[(setlist_df['ArtistName'] == dd7) &
+                               (setlist_df['SongName'] == dd8)]
+    
+    min_year = filtered_data['Year'].min()
+    max_year = filtered_data['Year'].max()
+    
+    # Update the slider marks and range
+    marks = {year: str(year) for year in range(min_year, max_year + 1)}
+    return min_year, max_year, marks, [min_year, max_year]
+
+
+
+
+
+
+
+
 @app.callback(
     Output('position_frequency','figure'),
     Input('dropdown7','value'),
-    Input('dropdown8','value')
+    Input('dropdown8','value'),
+    Input('rangeslider','value')
 )
 
-def position_freq_chart(dd7, dd8):
+def position_freq_chart(dd7, dd8, rs):
 
     filtered_df = setlist_df[setlist_df['ArtistName']==dd7]
     filtered_df = filtered_df[filtered_df['SongName']==dd8]
+    filtered_df = filtered_df[filtered_df['Year']>= rs[0]]
+    filtered_df = filtered_df[filtered_df['Year']<= rs[1]]
 
-    #song_freq_df = filtered_df[['Date','song_num']]
     song_freq_df = filtered_df['song_num'].value_counts().reset_index().sort_values(by = 'song_num')
     song_freq_df['song_num'] = song_freq_df['song_num'] + 1
 
-    fig = px.bar(song_freq_df, x='song_num', y='count')
+    fig = px.bar(
+        song_freq_df, 
+        x='song_num', 
+        y='count',
+        title=f'What positions did {dd8} by {dd7} occupy in the setlists between {rs[0]} & {rs[1]}',
+        labels={'song_num':'Song Position','count':'Count'},
+    )
+
+    # Fit a normal distribution to the data for the distribution curve, centered on max_count_pos
+    max_count_pos = song_freq_df.loc[song_freq_df['count'].idxmax(), 'song_num']
+
+    x_vals = np.linspace(song_freq_df['song_num'].min(), song_freq_df['song_num'].max(), 100)
+    std_dev = np.std(song_freq_df['song_num'])
+    y_vals = stats.norm.pdf(x_vals, max_count_pos, std_dev) * song_freq_df['count'].sum()  # Scale to match total count
+
+    # Create the distribution curve
+    curve = go.Scatter(
+        x=x_vals,
+        y=y_vals,
+        mode='lines',
+        name='Distribution Curve',
+        fill='tozeroy',  
+        line=dict(color='red', dash='dash'),
+        showlegend=False
+    )
+
+    # Update the figure with the distribution curve
+    fig.add_trace(curve)
+
+    
 
     return fig
 
