@@ -1,0 +1,775 @@
+,Song Name,Closeness Score,Happy Score,Angry Score,Sad Score,Surprise Score,Fear Score,Prioritized Emotion,Artist Name
+0,ode to the sun,0.0,0.08,0.12,0.32,0.12,0.36,Angry,Dredg
+1,same ol' road,0.0,0.12,0.0,0.17,0.21,0.5,Angry,Dredg
+2,convalescent,0.0099999999999999,0.09,0.09,0.27,0.18,0.36,Angry,Dredg
+3,sang real/waltz,0.0,0.2,0.07,0.33,0.13,0.27,Angry,Dredg
+4,information,0.0,0.02,0.05,0.4,0.21,0.31,Angry,Dredg
+5,the canyon behind her,0.0,0.0,0.06,0.29,0.06,0.59,Angry,Dredg
+6,whoa is me,0.0199999999999999,0.0,0.04,0.52,0.16,0.28,Angry,Dredg
+7,sanzen,0.0049999999999999,0.31,0.08,0.31,0.08,0.23,Angry,Dredg
+8,saviour,0.0149999999999999,0.0,0.09,0.3,0.04,0.57,Angry,Dredg
+9,not that simple,0.0099999999999999,0.0,0.08,0.08,0.18,0.67,Angry,Dredg
+10,hungover on a tuesday,0.02,0.21,0.05,0.32,0.21,0.21,Angry,Dredg
+11,quotes,0.03,0.0,0.12,0.25,0.12,0.5,Angry,Dredg
+12,scissor lock,0.04,0.03,0.03,0.31,0.07,0.55,Angry,Dredg
+13,convalescent,0.0,0.09,0.09,0.27,0.18,0.36,Fear,Dredg
+14,running through propellers,0.0,0.15,0.06,0.12,0.18,0.5,Fear,Dredg
+15,the papal insignia,0.01,0.04,0.39,0.04,0.14,0.39,Fear,Dredg
+16,information,0.01,0.02,0.05,0.4,0.21,0.31,Fear,Dredg
+17,eighteen people living in harmony,0.01,0.08,0.0,0.44,0.16,0.32,Fear,Dredg
+18,the tanbark is hot lava,0.0,0.0,0.35,0.3,0.04,0.3,Fear,Dredg
+19,ode to the sun,0.0,0.08,0.12,0.32,0.12,0.36,Fear,Dredg
+20,stamp of origin: ocean meets bay,0.0299999999999999,0.0,0.0,0.33,0.33,0.33,Fear,Dredg
+21,spitshine,0.0,0.0,0.36,0.2,0.12,0.32,Fear,Dredg
+22,whoa is me,0.0299999999999999,0.0,0.04,0.52,0.16,0.28,Fear,Dredg
+23,sang real/waltz,0.0,0.2,0.07,0.33,0.13,0.27,Fear,Dredg
+24,the ornament,0.0499999999999999,0.0,0.0,0.67,0.08,0.25,Fear,Dredg
+25,sanzen,0.04,0.31,0.08,0.31,0.08,0.23,Fear,Dredg
+26,eighteen people living in harmony,0.0,0.08,0.0,0.44,0.16,0.32,Happy,Dredg
+27,same ol' road,0.0,0.12,0.0,0.17,0.21,0.5,Happy,Dredg
+28,stamp of origin: take a look around,0.0,0.08,0.17,0.17,0.25,0.33,Happy,Dredg
+29,information,0.0,0.02,0.05,0.4,0.21,0.31,Happy,Dredg
+30,scissor lock,0.0099999999999999,0.03,0.03,0.31,0.07,0.55,Happy,Dredg
+31,stamp of origin: ocean meets bay,0.0,0.0,0.0,0.33,0.33,0.33,Happy,Dredg
+32,quotes,0.0,0.0,0.12,0.25,0.12,0.5,Happy,Dredg
+33,the tanbark is hot lava,0.0,0.0,0.35,0.3,0.04,0.3,Happy,Dredg
+34,whoa is me,0.0,0.0,0.04,0.52,0.16,0.28,Happy,Dredg
+35,yatahaze,0.0,0.0,0.12,0.25,0.12,0.5,Happy,Dredg
+36,paraih,0.0,0.0,0.12,0.21,0.21,0.46,Happy,Dredg
+37,spitshine,0.0,0.0,0.36,0.2,0.12,0.32,Happy,Dredg
+38,lightswitch,0.0,0.0,0.24,0.28,0.08,0.4,Happy,Dredg
+39,ode to the sun,0.0499999999999999,0.08,0.12,0.32,0.12,0.36,,Dredg
+40,same ol' road,0.0,0.12,0.0,0.17,0.21,0.5,,Dredg
+41,convalescent,0.15,0.09,0.09,0.27,0.18,0.36,,Dredg
+42,information,0.26,0.02,0.05,0.4,0.21,0.31,,Dredg
+43,sang real/waltz,0.28,0.2,0.07,0.33,0.13,0.27,,Dredg
+44,whoa is me,0.3,0.0,0.04,0.52,0.16,0.28,,Dredg
+45,quotes,0.23,0.0,0.12,0.25,0.12,0.5,,Dredg
+46,lightswitch,0.205,0.0,0.24,0.28,0.08,0.4,,Dredg
+47,yatahaze,0.2749999999999999,0.0,0.12,0.25,0.12,0.5,,Dredg
+48,stamp of origin: ocean meets bay,0.31,0.0,0.0,0.33,0.33,0.33,,Dredg
+49,paraih,0.36,0.0,0.12,0.21,0.21,0.46,,Dredg
+50,the tanbark is hot lava,0.32,0.0,0.35,0.3,0.04,0.3,,Dredg
+51,the canyon behind her,0.365,0.0,0.06,0.29,0.06,0.59,,Dredg
+52,convalescent,0.0,0.09,0.09,0.27,0.18,0.36,Sad,Dredg
+53,same ol' road,0.0,0.12,0.0,0.17,0.21,0.5,Sad,Dredg
+54,where i'll end up,0.0199999999999999,0.1,0.1,0.2,0.4,0.2,Sad,Dredg
+55,lechium,0.0,0.0,0.44,0.22,0.11,0.22,Sad,Dredg
+56,the tanbark is hot lava,0.0,0.0,0.35,0.3,0.04,0.3,Sad,Dredg
+57,saviour,0.0,0.0,0.09,0.3,0.04,0.57,Sad,Dredg
+58,lightswitch,0.0,0.0,0.24,0.28,0.08,0.4,Sad,Dredg
+59,the canyon behind her,0.0099999999999999,0.0,0.06,0.29,0.06,0.59,Sad,Dredg
+60,sanzen,0.01,0.31,0.08,0.31,0.08,0.23,Sad,Dredg
+61,scissor lock,0.0,0.03,0.03,0.31,0.07,0.55,Sad,Dredg
+62,quotes,0.03,0.0,0.12,0.25,0.12,0.5,Sad,Dredg
+63,ode to the sun,0.03,0.08,0.12,0.32,0.12,0.36,Sad,Dredg
+64,sang real/waltz,0.035,0.2,0.07,0.33,0.13,0.27,Sad,Dredg
+65,ode to the sun,0.0,0.08,0.12,0.32,0.12,0.36,Surprise,Dredg
+66,same ol' road,0.0,0.12,0.0,0.17,0.21,0.5,Surprise,Dredg
+67,quotes,0.0,0.0,0.12,0.25,0.12,0.5,Surprise,Dredg
+68,whoa is me,0.0,0.0,0.04,0.52,0.16,0.28,Surprise,Dredg
+69,spitshine,0.0,0.0,0.36,0.2,0.12,0.32,Surprise,Dredg
+70,yatahaze,0.0,0.0,0.12,0.25,0.12,0.5,Surprise,Dredg
+71,sang real/waltz,0.01,0.2,0.07,0.33,0.13,0.27,Surprise,Dredg
+72,sanzen,0.0,0.31,0.08,0.31,0.08,0.23,Surprise,Dredg
+73,lightswitch,0.0399999999999999,0.0,0.24,0.28,0.08,0.4,Surprise,Dredg
+74,convalescent,0.0499999999999999,0.09,0.09,0.27,0.18,0.36,Surprise,Dredg
+75,not that simple,0.0199999999999999,0.0,0.08,0.08,0.18,0.67,Surprise,Dredg
+76,the ornament,0.0099999999999999,0.0,0.0,0.67,0.08,0.25,Surprise,Dredg
+77,scissor lock,0.0199999999999999,0.03,0.03,0.31,0.07,0.55,Surprise,Dredg
+78,ship to wreck,0.0,0.11,0.03,0.51,0.18,0.17,Angry,Florence + the Machine
+79,100 years,0.0,0.09,0.04,0.39,0.15,0.33,Angry,Florence + the Machine
+80,breaking down,0.0,0.07,0.04,0.21,0.5,0.18,Angry,Florence + the Machine
+81,leave my body,0.0,0.02,0.06,0.33,0.27,0.31,Angry,Florence + the Machine
+82,lover to lover,0.0,0.2,0.07,0.23,0.3,0.2,Angry,Florence + the Machine
+83,rabbit heart (raise it up),0.0,0.07,0.07,0.23,0.37,0.27,Angry,Florence + the Machine
+84,never let me go,0.0099999999999999,0.15,0.05,0.2,0.27,0.34,Angry,Florence + the Machine
+85,drumming song,0.0,0.0,0.07,0.2,0.28,0.44,Angry,Florence + the Machine
+86,what the water gave me,0.0099999999999999,0.14,0.05,0.33,0.19,0.29,Angry,Florence + the Machine
+87,hunger,0.0,0.15,0.04,0.13,0.5,0.17,Angry,Florence + the Machine
+88,mermaids,0.0,0.32,0.08,0.19,0.19,0.22,Angry,Florence + the Machine
+89,only love can break your heart,0.0,0.3,0.07,0.3,0.22,0.11,Angry,Florence + the Machine
+90,free,0.0,0.2,0.07,0.3,0.14,0.3,Angry,Florence + the Machine
+91,what the water gave me,0.0,0.14,0.05,0.33,0.19,0.29,Fear,Florence + the Machine
+92,free,0.01,0.2,0.07,0.3,0.14,0.3,Fear,Florence + the Machine
+93,ship to wreck,0.0,0.11,0.03,0.51,0.18,0.17,Fear,Florence + the Machine
+94,sky full of song,0.0,0.07,0.23,0.33,0.1,0.27,Fear,Florence + the Machine
+95,rabbit heart (raise it up),0.0,0.07,0.07,0.23,0.37,0.27,Fear,Florence + the Machine
+96,flakes,0.0,0.16,0.23,0.13,0.26,0.23,Fear,Florence + the Machine
+97,patricia,0.0,0.3,0.02,0.19,0.28,0.21,Fear,Florence + the Machine
+98,lover to lover,0.0,0.2,0.07,0.23,0.3,0.2,Fear,Florence + the Machine
+99,"how big, how blue, how beautiful",0.0,0.21,0.09,0.3,0.17,0.23,Fear,Florence + the Machine
+100,howl,0.0,0.13,0.0,0.4,0.27,0.2,Fear,Florence + the Machine
+101,are you hurting the one you love,0.0,0.4,0.05,0.26,0.16,0.14,Fear,Florence + the Machine
+102,"no light, no light",0.01,0.19,0.2,0.24,0.24,0.13,Fear,Florence + the Machine
+103,falling,0.0199999999999999,0.18,0.14,0.14,0.25,0.29,Fear,Florence + the Machine
+104,heaven is here,0.0,0.1,0.1,0.29,0.29,0.24,Happy,Florence + the Machine
+105,south london forever,0.0,0.11,0.18,0.21,0.18,0.32,Happy,Florence + the Machine
+106,girl with one eye,0.0,0.09,0.0,0.34,0.41,0.16,Happy,Florence + the Machine
+107,prayer factory,0.0099999999999999,0.08,0.15,0.31,0.23,0.23,Happy,Florence + the Machine
+108,hurricane drunk,0.01,0.1,0.1,0.32,0.29,0.19,Happy,Florence + the Machine
+109,never let me go,0.0,0.15,0.05,0.2,0.27,0.34,Happy,Florence + the Machine
+110,lover to lover,0.0,0.2,0.07,0.23,0.3,0.2,Happy,Florence + the Machine
+111,what the water gave me,0.0,0.14,0.05,0.33,0.19,0.29,Happy,Florence + the Machine
+112,sky full of song,0.0199999999999999,0.07,0.23,0.33,0.1,0.27,Happy,Florence + the Machine
+113,st jude,0.0,0.11,0.04,0.52,0.22,0.11,Happy,Florence + the Machine
+114,daffodil,0.0099999999999999,0.15,0.1,0.5,0.2,0.05,Happy,Florence + the Machine
+115,hunger,0.0,0.15,0.04,0.13,0.5,0.17,Happy,Florence + the Machine
+116,bedroom hymns,0.0099999999999999,0.14,0.0,0.14,0.46,0.25,Happy,Florence + the Machine
+117,what the water gave me,0.07,0.14,0.05,0.33,0.19,0.29,,Florence + the Machine
+118,100 years,0.17,0.09,0.04,0.39,0.15,0.33,,Florence + the Machine
+119,hurricane drunk,0.0999999999999999,0.1,0.1,0.32,0.29,0.19,,Florence + the Machine
+120,heaven is here,0.13,0.1,0.1,0.29,0.29,0.24,,Florence + the Machine
+121,rabbit heart (raise it up),0.1199999999999999,0.07,0.07,0.23,0.37,0.27,,Florence + the Machine
+122,never let me go,0.16,0.15,0.05,0.2,0.27,0.34,,Florence + the Machine
+123,lover to lover,0.0699999999999999,0.2,0.07,0.23,0.3,0.2,,Florence + the Machine
+124,"no light, no light",0.26,0.19,0.2,0.24,0.24,0.13,,Florence + the Machine
+125,prayer factory,0.11,0.08,0.15,0.31,0.23,0.23,,Florence + the Machine
+126,big god,0.25,0.24,0.0,0.28,0.24,0.24,,Florence + the Machine
+127,mermaids,0.27,0.32,0.08,0.19,0.19,0.22,,Florence + the Machine
+128,only love can break your heart,0.2799999999999999,0.3,0.07,0.3,0.22,0.11,,Florence + the Machine
+129,if i had a heart,0.1899999999999999,0.26,0.09,0.16,0.19,0.31,,Florence + the Machine
+130,leave my body,0.01,0.02,0.06,0.33,0.27,0.31,Sad,Florence + the Machine
+131,dream girl evil,0.01,0.06,0.03,0.31,0.46,0.14,Sad,Florence + the Machine
+132,hurricane drunk,0.0,0.1,0.1,0.32,0.29,0.19,Sad,Florence + the Machine
+133,only love can break your heart,0.0,0.3,0.07,0.3,0.22,0.11,Sad,Florence + the Machine
+134,lover to lover,0.0,0.2,0.07,0.23,0.3,0.2,Sad,Florence + the Machine
+135,never let me go,0.0,0.15,0.05,0.2,0.27,0.34,Sad,Florence + the Machine
+136,breaking down,0.0,0.07,0.04,0.21,0.5,0.18,Sad,Florence + the Machine
+137,"no light, no light",0.0099999999999999,0.19,0.2,0.24,0.24,0.13,Sad,Florence + the Machine
+138,"how big, how blue, how beautiful",0.0,0.21,0.09,0.3,0.17,0.23,Sad,Florence + the Machine
+139,girls against god,0.0,0.07,0.2,0.24,0.31,0.18,Sad,Florence + the Machine
+140,mermaids,0.0,0.32,0.08,0.19,0.19,0.22,Sad,Florence + the Machine
+141,south london forever,0.02,0.11,0.18,0.21,0.18,0.32,Sad,Florence + the Machine
+142,if i had a heart,0.0199999999999999,0.26,0.09,0.16,0.19,0.31,Sad,Florence + the Machine
+143,what the water gave me,0.0,0.14,0.05,0.33,0.19,0.29,Surprise,Florence + the Machine
+144,if i had a heart,0.0,0.26,0.09,0.16,0.19,0.31,Surprise,Florence + the Machine
+145,patricia,0.0,0.3,0.02,0.19,0.28,0.21,Surprise,Florence + the Machine
+146,big god,0.01,0.24,0.0,0.28,0.24,0.24,Surprise,Florence + the Machine
+147,never let me go,0.0,0.15,0.05,0.2,0.27,0.34,Surprise,Florence + the Machine
+148,"no light, no light",0.0,0.19,0.2,0.24,0.24,0.13,Surprise,Florence + the Machine
+149,flakes,0.01,0.16,0.23,0.13,0.26,0.23,Surprise,Florence + the Machine
+150,st jude,0.0199999999999999,0.11,0.04,0.52,0.22,0.11,Surprise,Florence + the Machine
+151,prayer factory,0.0,0.08,0.15,0.31,0.23,0.23,Surprise,Florence + the Machine
+152,howl,0.03,0.13,0.0,0.4,0.27,0.2,Surprise,Florence + the Machine
+153,ship to wreck,0.0,0.11,0.03,0.51,0.18,0.17,Surprise,Florence + the Machine
+154,mermaids,0.0,0.32,0.08,0.19,0.19,0.22,Surprise,Florence + the Machine
+155,blinding,0.0,0.28,0.11,0.11,0.19,0.3,Surprise,Florence + the Machine
+156,latin simone (?que pasa contigo?),0.0,1.0,0.0,0.0,0.0,0.0,Angry,Gorillaz
+157,last living souls,0.0,0.09,0.05,0.09,0.68,0.09,Angry,Gorillaz
+158,strange timez,0.0,0.11,0.05,0.11,0.16,0.58,Angry,Gorillaz
+159,silent running,0.0,0.12,0.0,0.47,0.12,0.29,Angry,Gorillaz
+160,ascension,0.0099999999999999,0.1,0.02,0.2,0.41,0.27,Angry,Gorillaz
+161,let me out,0.0,0.22,0.0,0.44,0.14,0.19,Angry,Gorillaz
+162,opium,0.0,0.18,0.06,0.18,0.1,0.47,Angry,Gorillaz
+163,the valley of the pagans,0.0,0.24,0.04,0.24,0.06,0.42,Angry,Gorillaz
+164,tranz,0.0,0.0,0.0,0.22,0.17,0.61,Angry,Gorillaz
+165,busted and blue,0.0,0.23,0.04,0.27,0.19,0.27,Angry,Gorillaz
+166,empire ants,0.01,0.1,0.05,0.15,0.15,0.55,Angry,Gorillaz
+167,tomorrow comes today,0.0,0.12,0.0,0.0,0.12,0.75,Angry,Gorillaz
+168,momentary bliss,0.0,0.12,0.05,0.42,0.18,0.23,Angry,Gorillaz
+169,interlude: the non-conformist oath,0.0,0.12,0.0,0.75,0.12,0.0,Angry,Gorillaz
+170,clint eastwood,0.0,0.14,0.02,0.11,0.55,0.18,Angry,Gorillaz
+171,skinny ape,0.0,0.11,0.0,0.37,0.15,0.37,Angry,Gorillaz
+172,white flag,0.0,0.12,0.02,0.34,0.22,0.29,Angry,Gorillaz
+173,sex murder party,0.0,0.0,0.03,0.62,0.09,0.25,Angry,Gorillaz
+174,feel good inc.,0.0,0.22,0.03,0.27,0.3,0.19,Angry,Gorillaz
+175,souk eye,0.0,0.21,0.05,0.26,0.21,0.26,Angry,Gorillaz
+176,mls,0.0,0.27,0.03,0.23,0.26,0.21,Angry,Gorillaz
+177,dead butterflies,0.0099999999999999,0.1,0.02,0.27,0.32,0.29,Angry,Gorillaz
+178,latin simone (?que pasa contigo?),0.0,1.0,0.0,0.0,0.0,0.0,Fear,Gorillaz
+179,welcome to the world of the plastic beach,0.0,0.41,0.07,0.22,0.11,0.19,Fear,Gorillaz
+180,clint eastwood,0.0,0.14,0.02,0.11,0.55,0.18,Fear,Gorillaz
+181,garage palace,0.0,0.12,0.09,0.15,0.3,0.33,Fear,Gorillaz
+182,silent running,0.0,0.12,0.0,0.47,0.12,0.29,Fear,Gorillaz
+183,to binge,0.0,0.24,0.12,0.24,0.24,0.18,Fear,Gorillaz
+184,dead butterflies,0.0,0.1,0.02,0.27,0.32,0.29,Fear,Gorillaz
+185,sleeping powder,0.0,0.67,0.0,0.0,0.05,0.29,Fear,Gorillaz
+186,busted and blue,0.0,0.23,0.04,0.27,0.19,0.27,Fear,Gorillaz
+187,stylo,0.0,0.15,0.15,0.24,0.2,0.27,Fear,Gorillaz
+188,november has come,0.0,0.07,0.23,0.23,0.2,0.27,Fear,Gorillaz
+189,fire coming out of the monkey's head,0.0,0.13,0.12,0.35,0.15,0.25,Fear,Gorillaz
+190,some kind of nature,0.005,0.55,0.04,0.06,0.15,0.21,Fear,Gorillaz
+191,momentary bliss,0.0199999999999999,0.12,0.05,0.42,0.18,0.23,Fear,Gorillaz
+192,let me out,0.01,0.22,0.0,0.44,0.14,0.19,Fear,Gorillaz
+193,souk eye,0.01,0.21,0.05,0.26,0.21,0.26,Fear,Gorillaz
+194,ascension,0.0,0.1,0.02,0.2,0.41,0.27,Fear,Gorillaz
+195,feel good inc.,0.01,0.22,0.03,0.27,0.3,0.19,Fear,Gorillaz
+196,cloud of unknowing,0.0149999999999999,0.11,0.06,0.39,0.22,0.22,Fear,Gorillaz
+197,mls,0.01,0.27,0.03,0.23,0.26,0.21,Fear,Gorillaz
+198,fire flies,0.0,0.06,0.0,0.47,0.25,0.22,Fear,Gorillaz
+199,submission,0.01,0.17,0.2,0.31,0.09,0.23,Fear,Gorillaz
+200,phoenix on the hill,0.0,0.0,0.0,0.0,0.0,0.0,Happy,Gorillaz
+201,doncamatic,0.0,0.09,0.0,0.06,0.09,0.75,Happy,Gorillaz
+202,last living souls,0.0,0.09,0.05,0.09,0.68,0.09,Happy,Gorillaz
+203,skinny ape,0.0,0.11,0.0,0.37,0.15,0.37,Happy,Gorillaz
+204,momentary bliss,0.005,0.12,0.05,0.42,0.18,0.23,Happy,Gorillaz
+205,to binge,0.0,0.24,0.12,0.24,0.24,0.18,Happy,Gorillaz
+206,fire coming out of the monkey's head,0.0,0.13,0.12,0.35,0.15,0.25,Happy,Gorillaz
+207,meanwhile,0.0049999999999999,0.23,0.08,0.38,0.12,0.18,Happy,Gorillaz
+208,rockit,0.0,0.14,0.0,0.5,0.09,0.27,Happy,Gorillaz
+209,new gold,0.0,0.14,0.02,0.14,0.44,0.27,Happy,Gorillaz
+210,strange timez,0.0,0.11,0.05,0.11,0.16,0.58,Happy,Gorillaz
+211,kids with guns,0.0,0.09,0.0,0.43,0.1,0.37,Happy,Gorillaz
+212,dead butterflies,0.0,0.1,0.02,0.27,0.32,0.29,Happy,Gorillaz
+213,dirty harry,0.0099999999999999,0.08,0.0,0.32,0.16,0.45,Happy,Gorillaz
+214,silent running,0.0,0.12,0.0,0.47,0.12,0.29,Happy,Gorillaz
+215,empire ants,0.01,0.1,0.05,0.15,0.15,0.55,Happy,Gorillaz
+216,ascension,0.01,0.1,0.02,0.2,0.41,0.27,Happy,Gorillaz
+217,cloud of unknowing,0.02,0.11,0.06,0.39,0.22,0.22,Happy,Gorillaz
+218,white flag,0.0099999999999999,0.12,0.02,0.34,0.22,0.29,Happy,Gorillaz
+219,clint eastwood,0.02,0.14,0.02,0.11,0.55,0.18,Happy,Gorillaz
+220,stylo,0.0,0.15,0.15,0.24,0.2,0.27,Happy,Gorillaz
+221,all alone,0.0099999999999999,0.15,0.05,0.4,0.25,0.15,Happy,Gorillaz
+222,4-may,0.1799999999999999,0.0,0.0,0.09,0.91,0.0,,Gorillaz
+223,garage palace,0.39,0.12,0.09,0.15,0.3,0.33,,Gorillaz
+224,ascension,0.24,0.1,0.02,0.2,0.41,0.27,,Gorillaz
+225,skinny ape,0.27,0.11,0.0,0.37,0.15,0.37,,Gorillaz
+226,rhinestone eyes,0.2249999999999999,0.13,0.21,0.16,0.21,0.29,,Gorillaz
+227,mls,0.22,0.27,0.03,0.23,0.26,0.21,,Gorillaz
+228,jimmy jimmy,0.17,0.2,0.09,0.22,0.17,0.33,,Gorillaz
+229,busted and blue,0.1599999999999999,0.23,0.04,0.27,0.19,0.27,,Gorillaz
+230,stylo,0.2499999999999999,0.15,0.15,0.24,0.2,0.27,,Gorillaz
+231,fire coming out of the monkey's head,0.26,0.13,0.12,0.35,0.15,0.25,,Gorillaz
+232,white flag,0.26,0.12,0.02,0.34,0.22,0.29,,Gorillaz
+233,dead butterflies,0.3,0.1,0.02,0.27,0.32,0.29,,Gorillaz
+234,souk eye,0.235,0.21,0.05,0.26,0.21,0.26,,Gorillaz
+235,dirty harry,0.22,0.08,0.0,0.32,0.16,0.45,,Gorillaz
+236,momentary bliss,0.23,0.12,0.05,0.42,0.18,0.23,,Gorillaz
+237,silent running,0.33,0.12,0.0,0.47,0.12,0.29,,Gorillaz
+238,magic city,0.26,0.06,0.06,0.36,0.24,0.27,,Gorillaz
+239,cloud of unknowing,0.25,0.11,0.06,0.39,0.22,0.22,,Gorillaz
+240,meanwhile,0.295,0.23,0.08,0.38,0.12,0.18,,Gorillaz
+241,feel good inc.,0.27,0.22,0.03,0.27,0.3,0.19,,Gorillaz
+242,all alone,0.25,0.15,0.05,0.4,0.25,0.15,,Gorillaz
+243,crystalised,0.24,0.08,0.08,0.25,0.25,0.33,,Gorillaz
+244,latin simone (?que pasa contigo?),0.0,1.0,0.0,0.0,0.0,0.0,Sad,Gorillaz
+245,clint eastwood,0.0,0.14,0.02,0.11,0.55,0.18,Sad,Gorillaz
+246,hallelujah money,0.01,0.22,0.08,0.14,0.43,0.14,Sad,Gorillaz
+247,rhinestone eyes,0.0,0.13,0.21,0.16,0.21,0.29,Sad,Gorillaz
+248,garage palace,0.01,0.12,0.09,0.15,0.3,0.33,Sad,Gorillaz
+249,welcome to the world of the plastic beach,0.0199999999999999,0.41,0.07,0.22,0.11,0.19,Sad,Gorillaz
+250,el manana,0.0,0.45,0.1,0.2,0.15,0.1,Sad,Gorillaz
+251,jimmy jimmy,0.0049999999999999,0.2,0.09,0.22,0.17,0.33,Sad,Gorillaz
+252,ascension,0.0,0.1,0.02,0.2,0.41,0.27,Sad,Gorillaz
+253,tranz,0.0199999999999999,0.0,0.0,0.22,0.17,0.61,Sad,Gorillaz
+254,the pink phantom,0.02,0.29,0.1,0.18,0.1,0.32,Sad,Gorillaz
+255,mls,0.02,0.27,0.03,0.23,0.26,0.21,Sad,Gorillaz
+256,souk eye,0.0,0.21,0.05,0.26,0.21,0.26,Sad,Gorillaz
+257,dirty harry,0.0,0.08,0.0,0.32,0.16,0.45,Sad,Gorillaz
+258,sweepstakes,0.0199999999999999,0.21,0.03,0.28,0.11,0.37,Sad,Gorillaz
+259,november has come,0.0099999999999999,0.07,0.23,0.23,0.2,0.27,Sad,Gorillaz
+260,stylo,0.01,0.15,0.15,0.24,0.2,0.27,Sad,Gorillaz
+261,submission,0.01,0.17,0.2,0.31,0.09,0.23,Sad,Gorillaz
+262,white flag,0.02,0.12,0.02,0.34,0.22,0.29,Sad,Gorillaz
+263,busted and blue,0.0,0.23,0.04,0.27,0.19,0.27,Sad,Gorillaz
+264,feel good inc.,0.0,0.22,0.03,0.27,0.3,0.19,Sad,Gorillaz
+265,dead butterflies,0.01,0.1,0.02,0.27,0.32,0.29,Sad,Gorillaz
+266,4-may,0.0899999999999999,0.0,0.0,0.09,0.91,0.0,Surprise,Gorillaz
+267,dirty harry,0.0,0.08,0.0,0.32,0.16,0.45,Surprise,Gorillaz
+268,out of body,0.01,0.03,0.07,0.17,0.36,0.37,Surprise,Gorillaz
+269,momentary bliss,0.0099999999999999,0.12,0.05,0.42,0.18,0.23,Surprise,Gorillaz
+270,strange timez,0.01,0.11,0.05,0.11,0.16,0.58,Surprise,Gorillaz
+271,some kind of nature,0.01,0.55,0.04,0.06,0.15,0.21,Surprise,Gorillaz
+272,jimmy jimmy,0.0099999999999999,0.2,0.09,0.22,0.17,0.33,Surprise,Gorillaz
+273,the pink phantom,0.0,0.29,0.1,0.18,0.1,0.32,Surprise,Gorillaz
+274,fire coming out of the monkey's head,0.0,0.13,0.12,0.35,0.15,0.25,Surprise,Gorillaz
+275,empire ants,0.0,0.1,0.05,0.15,0.15,0.55,Surprise,Gorillaz
+276,skinny ape,0.0,0.11,0.0,0.37,0.15,0.37,Surprise,Gorillaz
+277,tranz,0.02,0.0,0.0,0.22,0.17,0.61,Surprise,Gorillaz
+278,meanwhile,0.01,0.23,0.08,0.38,0.12,0.18,Surprise,Gorillaz
+279,silent running,0.03,0.12,0.0,0.47,0.12,0.29,Surprise,Gorillaz
+280,let me out,0.0099999999999999,0.22,0.0,0.44,0.14,0.19,Surprise,Gorillaz
+281,tomorrow comes today,0.03,0.12,0.0,0.0,0.12,0.75,Surprise,Gorillaz
+282,busted and blue,0.03,0.23,0.04,0.27,0.19,0.27,Surprise,Gorillaz
+283,welcome to the world of the plastic beach,0.0,0.41,0.07,0.22,0.11,0.19,Surprise,Gorillaz
+284,interlude: the non-conformist oath,0.04,0.12,0.0,0.75,0.12,0.0,Surprise,Gorillaz
+285,every planet we reach is dead,0.0,0.24,0.18,0.24,0.18,0.18,Surprise,Gorillaz
+286,white flag,0.0,0.12,0.02,0.34,0.22,0.29,Surprise,Gorillaz
+287,to binge,0.0,0.24,0.12,0.24,0.24,0.18,Surprise,Gorillaz
+288,hold on,0.0,0.27,0.07,0.33,0.2,0.13,Angry,Little Dragon
+289,disco dangerous,0.0,0.44,0.0,0.22,0.11,0.22,Angry,Little Dragon
+290,slugs of love,0.0,0.55,0.04,0.28,0.0,0.13,Angry,Little Dragon
+291,cat rider,0.0,0.16,0.05,0.19,0.22,0.38,Angry,Little Dragon
+292,test,0.0,0.0,0.05,0.48,0.14,0.33,Angry,Little Dragon
+293,turn left,0.01,0.11,0.05,0.11,0.53,0.21,Angry,Little Dragon
+294,tumbling dice,0.02,0.25,0.07,0.29,0.14,0.25,Angry,Little Dragon
+295,new fiction,0.02,0.15,0.03,0.58,0.21,0.03,Angry,Little Dragon
+296,amoban,0.02,0.14,0.07,0.25,0.25,0.29,Angry,Little Dragon
+297,looking glass,0.02,0.1,0.07,0.47,0.23,0.13,Angry,Little Dragon
+298,only one,0.0,0.0,0.08,0.33,0.42,0.17,Angry,Little Dragon
+299,a new,0.0,0.14,0.29,0.29,0.0,0.29,Fear,Little Dragon
+300,disco dangerous,0.0,0.44,0.0,0.22,0.11,0.22,Fear,Little Dragon
+301,my step,0.0,0.12,0.0,0.53,0.18,0.18,Fear,Little Dragon
+302,the pop life,0.01,0.07,0.11,0.26,0.22,0.33,Fear,Little Dragon
+303,amoban,0.0,0.14,0.07,0.25,0.25,0.29,Fear,Little Dragon
+304,gold,0.01,0.17,0.0,0.27,0.22,0.34,Fear,Little Dragon
+305,easy falling,0.0,0.14,0.1,0.43,0.05,0.29,Fear,Little Dragon
+306,shuffle a dream,0.0,0.05,0.0,0.34,0.32,0.29,Fear,Little Dragon
+307,strobe light,0.0,0.14,0.19,0.3,0.11,0.27,Fear,Little Dragon
+308,klapp klapp,0.0,0.05,0.08,0.27,0.38,0.22,Fear,Little Dragon
+309,turn left,0.01,0.11,0.05,0.11,0.53,0.21,Fear,Little Dragon
+310,looking glass,0.0199999999999999,0.1,0.07,0.47,0.23,0.13,Happy,Little Dragon
+311,my step,0.0,0.12,0.0,0.53,0.18,0.18,Happy,Little Dragon
+312,killing me,0.01,0.06,0.0,0.44,0.36,0.14,Happy,Little Dragon
+313,the pop life,0.005,0.07,0.11,0.26,0.22,0.33,Happy,Little Dragon
+314,wink,0.0,0.05,0.1,0.3,0.3,0.25,Happy,Little Dragon
+315,underbart,0.0,0.06,0.09,0.24,0.24,0.38,Happy,Little Dragon
+316,dont cry,0.0,0.1,0.0,0.45,0.15,0.3,Happy,Little Dragon
+317,nightlight,0.03,0.13,0.0,0.22,0.17,0.48,Happy,Little Dragon
+318,a new,0.04,0.14,0.29,0.29,0.0,0.29,Happy,Little Dragon
+319,twice,0.0,0.06,0.12,0.44,0.19,0.19,Happy,Little Dragon
+320,turn left,0.0099999999999999,0.11,0.05,0.11,0.53,0.21,Happy,Little Dragon
+321,amoban,0.09,0.14,0.07,0.25,0.25,0.29,,Little Dragon
+322,dont cry,0.2099999999999999,0.1,0.0,0.45,0.15,0.3,,Little Dragon
+323,twice,0.21,0.06,0.12,0.44,0.19,0.19,,Little Dragon
+324,the pop life,0.105,0.07,0.11,0.26,0.22,0.33,,Little Dragon
+325,wink,0.1699999999999999,0.05,0.1,0.3,0.3,0.25,,Little Dragon
+326,cat rider,0.22,0.16,0.05,0.19,0.22,0.38,,Little Dragon
+327,gold,0.18,0.17,0.0,0.27,0.22,0.34,,Little Dragon
+328,shuffle a dream,0.26,0.05,0.0,0.34,0.32,0.29,,Little Dragon
+329,crystalfilm,0.2499999999999999,0.0,0.08,0.42,0.21,0.29,,Little Dragon
+330,klapp klapp,0.25,0.05,0.08,0.27,0.38,0.22,,Little Dragon
+331,hold on,0.265,0.27,0.07,0.33,0.2,0.13,,Little Dragon
+332,tumbling dice,0.0,0.25,0.07,0.29,0.14,0.25,Sad,Little Dragon
+333,strobe light,0.04,0.14,0.19,0.3,0.11,0.27,Sad,Little Dragon
+334,only one,0.0,0.0,0.08,0.33,0.42,0.17,Sad,Little Dragon
+335,underbart,0.0,0.06,0.09,0.24,0.24,0.38,Sad,Little Dragon
+336,should i,0.0,0.09,0.09,0.23,0.14,0.45,Sad,Little Dragon
+337,please turn,0.0,0.1,0.1,0.14,0.29,0.38,Sad,Little Dragon
+338,gold,0.0,0.17,0.0,0.27,0.22,0.34,Sad,Little Dragon
+339,wink,0.0,0.05,0.1,0.3,0.3,0.25,Sad,Little Dragon
+340,hold on,0.0,0.27,0.07,0.33,0.2,0.13,Sad,Little Dragon
+341,shuffle a dream,0.0,0.05,0.0,0.34,0.32,0.29,Sad,Little Dragon
+342,the pop life,0.075,0.07,0.11,0.26,0.22,0.33,Sad,Little Dragon
+343,cat rider,0.0,0.16,0.05,0.19,0.22,0.38,Surprise,Little Dragon
+344,dont cry,0.0,0.1,0.0,0.45,0.15,0.3,Surprise,Little Dragon
+345,twice,0.0,0.06,0.12,0.44,0.19,0.19,Surprise,Little Dragon
+346,looking glass,2.775557561562892e-17,0.1,0.07,0.47,0.23,0.13,Surprise,Little Dragon
+347,please turn,0.0,0.1,0.1,0.14,0.29,0.38,Surprise,Little Dragon
+348,crystalfilm,0.0,0.0,0.08,0.42,0.21,0.29,Surprise,Little Dragon
+349,new fiction,0.0,0.15,0.03,0.58,0.21,0.03,Surprise,Little Dragon
+350,hold on,0.0,0.27,0.07,0.33,0.2,0.13,Surprise,Little Dragon
+351,my step,0.02,0.12,0.0,0.53,0.18,0.18,Surprise,Little Dragon
+352,underbart,0.0,0.06,0.09,0.24,0.24,0.38,Surprise,Little Dragon
+353,the pop life,0.0099999999999999,0.07,0.11,0.26,0.22,0.33,Surprise,Little Dragon
+354,the man who lives forever,0.01,0.08,0.01,0.12,0.69,0.1,Angry,Lord Huron
+355,the balancers eye,0.0,0.13,0.1,0.2,0.27,0.3,Angry,Lord Huron
+356,dead mans hand,0.0,0.13,0.09,0.26,0.22,0.3,Angry,Lord Huron
+357,frozen pines,0.02,0.11,0.11,0.28,0.33,0.17,Angry,Lord Huron
+358,the problem with your daughter,0.0,0.25,0.06,0.12,0.25,0.31,Angry,Lord Huron
+359,time to run,0.01,0.02,0.1,0.05,0.56,0.27,Angry,Lord Huron
+360,we went wild,0.01,0.47,0.06,0.18,0.06,0.24,Angry,Lord Huron
+361,son of a gun,0.005,0.27,0.12,0.21,0.15,0.24,Angry,Lord Huron
+362,secret of life,0.0199999999999999,0.0,0.12,0.27,0.25,0.35,Angry,Lord Huron
+363,louisa,0.01,0.19,0.06,0.33,0.28,0.14,Angry,Lord Huron
+364,the world ender,0.01,0.09,0.06,0.34,0.26,0.26,Angry,Lord Huron
+365,in the wind,0.02,0.11,0.05,0.05,0.53,0.26,Angry,Lord Huron
+366,fool for love,0.0,0.17,0.07,0.2,0.15,0.41,Angry,Lord Huron
+367,i lied,0.02,0.07,0.05,0.22,0.51,0.15,Angry,Lord Huron
+368,moonbeam,0.02,0.05,0.05,0.3,0.25,0.35,Angry,Lord Huron
+369,mine forever,0.0199999999999999,0.12,0.04,0.2,0.4,0.24,Angry,Lord Huron
+370,the yawning grave,0.0049999999999999,0.04,0.04,0.25,0.29,0.39,Angry,Lord Huron
+371,ancient names (part ii),0.0,0.08,0.52,0.12,0.2,0.08,Fear,Lord Huron
+372,we went wild,0.0,0.47,0.06,0.18,0.06,0.24,Fear,Lord Huron
+373,the balancers eye,0.0,0.13,0.1,0.2,0.27,0.3,Fear,Lord Huron
+374,in the wind,0.01,0.11,0.05,0.05,0.53,0.26,Fear,Lord Huron
+375,the world ender,0.0,0.09,0.06,0.34,0.26,0.26,Fear,Lord Huron
+376,dead mans hand,0.0,0.13,0.09,0.26,0.22,0.3,Fear,Lord Huron
+377,lonesome dreams,0.0,0.08,0.02,0.28,0.43,0.19,Fear,Lord Huron
+378,son of a gun,0.02,0.27,0.12,0.21,0.15,0.24,Fear,Lord Huron
+379,she lit a fire,0.0,0.0,0.07,0.07,0.67,0.19,Fear,Lord Huron
+380,frozen pines,0.0199999999999999,0.11,0.11,0.28,0.33,0.17,Fear,Lord Huron
+381,mine forever,0.02,0.12,0.04,0.2,0.4,0.24,Fear,Lord Huron
+382,the problem with your daughter,0.0499999999999999,0.25,0.06,0.12,0.25,0.31,Fear,Lord Huron
+383,your other life,0.0,0.18,0.18,0.18,0.18,0.29,Fear,Lord Huron
+384,drops in the lake,0.0299999999999999,0.1,0.13,0.29,0.19,0.29,Fear,Lord Huron
+385,vide noir,0.0299999999999999,0.04,0.04,0.5,0.14,0.29,Fear,Lord Huron
+386,hurricane (johnnies theme),0.0799999999999999,0.06,0.16,0.25,0.22,0.31,Fear,Lord Huron
+387,never ever,0.01,0.32,0.0,0.14,0.27,0.27,Fear,Lord Huron
+388,ancient names (part ii),0.0,0.08,0.52,0.12,0.2,0.08,Happy,Lord Huron
+389,the balancers eye,0.0199999999999999,0.13,0.1,0.2,0.27,0.3,Happy,Lord Huron
+390,dead mans hand,0.0,0.13,0.09,0.26,0.22,0.3,Happy,Lord Huron
+391,mine forever,0.01,0.12,0.04,0.2,0.4,0.24,Happy,Lord Huron
+392,hurricane (johnnies theme),0.0,0.06,0.16,0.25,0.22,0.31,Happy,Lord Huron
+393,moonbeam,0.0099999999999999,0.05,0.05,0.3,0.25,0.35,Happy,Lord Huron
+394,i lied,0.01,0.07,0.05,0.22,0.51,0.15,Happy,Lord Huron
+395,the world ender,0.0099999999999999,0.09,0.06,0.34,0.26,0.26,Happy,Lord Huron
+396,not dead yet,0.0,0.04,0.13,0.22,0.26,0.35,Happy,Lord Huron
+397,lonesome dreams,0.0,0.08,0.02,0.28,0.43,0.19,Happy,Lord Huron
+398,drops in the lake,0.02,0.1,0.13,0.29,0.19,0.29,Happy,Lord Huron
+399,in the wind,0.0,0.11,0.05,0.05,0.53,0.26,Happy,Lord Huron
+400,vide noir,0.06,0.04,0.04,0.5,0.14,0.29,Happy,Lord Huron
+401,the yawning grave,0.0499999999999999,0.04,0.04,0.25,0.29,0.39,Happy,Lord Huron
+402,wait by the river,0.04,0.04,0.04,0.17,0.67,0.08,Happy,Lord Huron
+403,we went wild,0.3899999999999999,0.47,0.06,0.18,0.06,0.24,Happy,Lord Huron
+404,the problem with your daughter,0.18,0.25,0.06,0.12,0.25,0.31,Happy,Lord Huron
+405,cursed,0.48,0.1,0.04,0.38,0.38,0.1,,Lord Huron
+406,the balancers eye,0.1399999999999999,0.13,0.1,0.2,0.27,0.3,,Lord Huron
+407,dead mans hand,0.0,0.13,0.09,0.26,0.22,0.3,,Lord Huron
+408,drops in the lake,0.1499999999999999,0.1,0.13,0.29,0.19,0.29,,Lord Huron
+409,hurricane (johnnies theme),0.15,0.06,0.16,0.25,0.22,0.31,,Lord Huron
+410,not dead yet,0.1899999999999999,0.04,0.13,0.22,0.26,0.35,,Lord Huron
+411,the world ender,0.305,0.09,0.06,0.34,0.26,0.26,,Lord Huron
+412,mine forever,0.305,0.12,0.04,0.2,0.4,0.24,,Lord Huron
+413,secret of life,0.3299999999999999,0.0,0.12,0.27,0.25,0.35,,Lord Huron
+414,frozen pines,0.23,0.11,0.11,0.28,0.33,0.17,,Lord Huron
+415,moonbeam,0.1999999999999999,0.05,0.05,0.3,0.25,0.35,,Lord Huron
+416,the problem with your daughter,0.28,0.25,0.06,0.12,0.25,0.31,,Lord Huron
+417,fool for love,0.21,0.17,0.07,0.2,0.15,0.41,,Lord Huron
+418,your other life,0.27,0.18,0.18,0.18,0.18,0.29,,Lord Huron
+419,the yawning grave,0.29,0.04,0.04,0.25,0.29,0.39,,Lord Huron
+420,lonesome dreams,0.3299999999999999,0.08,0.02,0.28,0.43,0.19,,Lord Huron
+421,i lied,0.395,0.07,0.05,0.22,0.51,0.15,,Lord Huron
+422,the problem with your daughter,0.02,0.25,0.06,0.12,0.25,0.31,Sad,Lord Huron
+423,not dead yet,0.0,0.04,0.13,0.22,0.26,0.35,Sad,Lord Huron
+424,dead mans hand,0.0,0.13,0.09,0.26,0.22,0.3,Sad,Lord Huron
+425,hurricane (johnnies theme),0.01,0.06,0.16,0.25,0.22,0.31,Sad,Lord Huron
+426,the yawning grave,0.0,0.04,0.04,0.25,0.29,0.39,Sad,Lord Huron
+427,wait by the river,0.0,0.04,0.04,0.17,0.67,0.08,Sad,Lord Huron
+428,we went wild,0.0099999999999999,0.47,0.06,0.18,0.06,0.24,Sad,Lord Huron
+429,the balancers eye,0.0,0.13,0.1,0.2,0.27,0.3,Sad,Lord Huron
+430,son of a gun,0.0399999999999999,0.27,0.12,0.21,0.15,0.24,Sad,Lord Huron
+431,i lied,0.0,0.07,0.05,0.22,0.51,0.15,Sad,Lord Huron
+432,secret of life,0.03,0.0,0.12,0.27,0.25,0.35,Sad,Lord Huron
+433,mine forever,0.0,0.12,0.04,0.2,0.4,0.24,Sad,Lord Huron
+434,fool for love,0.0,0.17,0.07,0.2,0.15,0.41,Sad,Lord Huron
+435,your other life,0.02,0.18,0.18,0.18,0.18,0.29,Sad,Lord Huron
+436,moonbeam,0.0999999999999999,0.05,0.05,0.3,0.25,0.35,Sad,Lord Huron
+437,lonesome dreams,0.08,0.08,0.02,0.28,0.43,0.19,Sad,Lord Huron
+438,drops in the lake,0.0699999999999999,0.1,0.13,0.29,0.19,0.29,Sad,Lord Huron
+439,ancient names (part ii),0.0,0.08,0.52,0.12,0.2,0.08,Surprise,Lord Huron
+440,dead mans hand,0.01,0.13,0.09,0.26,0.22,0.3,Surprise,Lord Huron
+441,hurricane (johnnies theme),0.0,0.06,0.16,0.25,0.22,0.31,Surprise,Lord Huron
+442,the problem with your daughter,0.03,0.25,0.06,0.12,0.25,0.31,Surprise,Lord Huron
+443,drops in the lake,0.03,0.1,0.13,0.29,0.19,0.29,Surprise,Lord Huron
+444,moonbeam,0.0199999999999999,0.05,0.05,0.3,0.25,0.35,Surprise,Lord Huron
+445,the world ender,0.025,0.09,0.06,0.34,0.26,0.26,Surprise,Lord Huron
+446,not dead yet,0.03,0.04,0.13,0.22,0.26,0.35,Surprise,Lord Huron
+447,twenty long years,0.0,0.0,0.19,0.36,0.24,0.21,Surprise,Lord Huron
+448,the balancers eye,0.02,0.13,0.1,0.2,0.27,0.3,Surprise,Lord Huron
+449,secret of life,0.0,0.0,0.12,0.27,0.25,0.35,Surprise,Lord Huron
+450,the yawning grave,0.0399999999999999,0.04,0.04,0.25,0.29,0.39,Surprise,Lord Huron
+451,your other life,0.0099999999999999,0.18,0.18,0.18,0.18,0.29,Surprise,Lord Huron
+452,son of a gun,0.05,0.27,0.12,0.21,0.15,0.24,Surprise,Lord Huron
+453,vide noir,0.1099999999999999,0.04,0.04,0.5,0.14,0.29,Surprise,Lord Huron
+454,mine forever,0.14,0.12,0.04,0.2,0.4,0.24,Surprise,Lord Huron
+455,never ever,0.04,0.32,0.0,0.14,0.27,0.27,Surprise,Lord Huron
+456,little secrets,0.0,0.15,0.15,0.24,0.29,0.18,Angry,Passion Pit
+457,the reeling,0.0,0.17,0.08,0.17,0.21,0.38,Angry,Passion Pit
+458,whole life story,0.0,0.03,0.1,0.41,0.21,0.24,Angry,Passion Pit
+459,all i want,0.0,0.08,0.08,0.25,0.08,0.5,Angry,Passion Pit
+460,where the sky hangs,0.0,0.06,0.06,0.55,0.21,0.12,Angry,Passion Pit
+461,to kingdom come,0.0,0.02,0.11,0.41,0.22,0.24,Angry,Passion Pit
+462,make light,0.0,0.04,0.07,0.54,0.04,0.32,Angry,Passion Pit
+463,moths wings,0.0,0.09,0.09,0.59,0.18,0.05,Angry,Passion Pit
+464,where we belong,0.0099999999999999,0.14,0.11,0.25,0.18,0.32,Angry,Passion Pit
+465,hideaway,0.03,0.21,0.12,0.21,0.12,0.33,Angry,Passion Pit
+466,better things,0.0199999999999999,0.04,0.12,0.24,0.29,0.31,Angry,Passion Pit
+467,let your love grow tall,0.03,0.16,0.06,0.19,0.12,0.47,Angry,Passion Pit
+468,american blood,0.02,0.18,0.06,0.24,0.06,0.47,Angry,Passion Pit
+469,ill be alright,0.0,0.15,0.19,0.33,0.04,0.3,Fear,Passion Pit
+470,where we belong,0.0,0.14,0.11,0.25,0.18,0.32,Fear,Passion Pit
+471,dreams,0.0,0.12,0.0,0.38,0.25,0.25,Fear,Passion Pit
+472,make light,0.0,0.04,0.07,0.54,0.04,0.32,Fear,Passion Pit
+473,looks like rain,0.01,0.1,0.29,0.24,0.14,0.24,Fear,Passion Pit
+474,carried away,0.0,0.09,0.15,0.38,0.12,0.25,Fear,Passion Pit
+475,better things,0.01,0.04,0.12,0.24,0.29,0.31,Fear,Passion Pit
+476,whole life story,0.015,0.03,0.1,0.41,0.21,0.24,Fear,Passion Pit
+477,eyes as candles,0.0199999999999999,0.02,0.05,0.29,0.36,0.29,Fear,Passion Pit
+478,smile upon me,0.0299999999999999,0.46,0.04,0.23,0.0,0.27,Fear,Passion Pit
+479,hideaway,0.06,0.21,0.12,0.21,0.12,0.33,Fear,Passion Pit
+480,take a walk,0.07,0.1,0.18,0.26,0.1,0.36,Fear,Passion Pit
+481,to kingdom come,0.03,0.02,0.11,0.41,0.22,0.24,Fear,Passion Pit
+482,little secrets,0.0,0.15,0.15,0.24,0.29,0.18,Happy,Passion Pit
+483,the reeling,0.0,0.17,0.08,0.17,0.21,0.38,Happy,Passion Pit
+484,moths wings,0.0,0.09,0.09,0.59,0.18,0.05,Happy,Passion Pit
+485,all i want,0.0099999999999999,0.08,0.08,0.25,0.08,0.5,Happy,Passion Pit
+486,looks like rain,0.01,0.1,0.29,0.24,0.14,0.24,Happy,Passion Pit
+487,cuddle fuddle,0.0,0.06,0.06,0.42,0.33,0.12,Happy,Passion Pit
+488,carried away,0.0099999999999999,0.09,0.15,0.38,0.12,0.25,Happy,Passion Pit
+489,sleepyhead,0.0099999999999999,0.07,0.13,0.47,0.2,0.13,Happy,Passion Pit
+490,ill be alright,0.0,0.15,0.19,0.33,0.04,0.3,Happy,Passion Pit
+491,where we belong,0.0099999999999999,0.14,0.11,0.25,0.18,0.32,Happy,Passion Pit
+492,let your love grow tall,0.01,0.16,0.06,0.19,0.12,0.47,Happy,Passion Pit
+493,take a walk,0.0149999999999999,0.1,0.18,0.26,0.1,0.36,Happy,Passion Pit
+494,dreams,0.02,0.12,0.0,0.38,0.25,0.25,Happy,Passion Pit
+495,where we belong,0.13,0.14,0.11,0.25,0.18,0.32,,Passion Pit
+496,the reeling,0.12,0.17,0.08,0.17,0.21,0.38,,Passion Pit
+497,carried away,0.1099999999999999,0.09,0.15,0.38,0.12,0.25,,Passion Pit
+498,better things,0.1899999999999999,0.04,0.12,0.24,0.29,0.31,,Passion Pit
+499,my brother taught me how to swim,0.2299999999999999,0.11,0.15,0.35,0.2,0.19,,Passion Pit
+500,whole life story,0.1599999999999999,0.03,0.1,0.41,0.21,0.24,,Passion Pit
+501,constant conversations,0.2300000000000001,0.2,0.03,0.31,0.11,0.34,,Passion Pit
+502,to kingdom come,0.1649999999999999,0.02,0.11,0.41,0.22,0.24,,Passion Pit
+503,ill be alright,0.24,0.15,0.19,0.33,0.04,0.3,,Passion Pit
+504,hideaway,0.17,0.21,0.12,0.21,0.12,0.33,,Passion Pit
+505,take a walk,0.2699999999999999,0.1,0.18,0.26,0.1,0.36,,Passion Pit
+506,looks like rain,0.3249999999999999,0.1,0.29,0.24,0.14,0.24,,Passion Pit
+507,dreams,0.24,0.12,0.0,0.38,0.25,0.25,,Passion Pit
+508,take a walk,0.0,0.1,0.18,0.26,0.1,0.36,Sad,Passion Pit
+509,smile upon me,0.0,0.46,0.04,0.23,0.0,0.27,Sad,Passion Pit
+510,dreams,0.0,0.12,0.0,0.38,0.25,0.25,Sad,Passion Pit
+511,better things,0.0,0.04,0.12,0.24,0.29,0.31,Sad,Passion Pit
+512,eyes as candles,0.02,0.02,0.05,0.29,0.36,0.29,Sad,Passion Pit
+513,carried away,0.01,0.09,0.15,0.38,0.12,0.25,Sad,Passion Pit
+514,constant conversations,0.02,0.2,0.03,0.31,0.11,0.34,Sad,Passion Pit
+515,whole life story,0.0299999999999999,0.03,0.1,0.41,0.21,0.24,Sad,Passion Pit
+516,where we belong,0.0399999999999999,0.14,0.11,0.25,0.18,0.32,Sad,Passion Pit
+517,all i want,0.01,0.08,0.08,0.25,0.08,0.5,Sad,Passion Pit
+518,american blood,0.0,0.18,0.06,0.24,0.06,0.47,Sad,Passion Pit
+519,ill be alright,0.04,0.15,0.19,0.33,0.04,0.3,Sad,Passion Pit
+520,looks like rain,0.0499999999999999,0.1,0.29,0.24,0.14,0.24,Sad,Passion Pit
+521,hideaway,0.01,0.21,0.12,0.21,0.12,0.33,Surprise,Passion Pit
+522,the reeling,0.0,0.17,0.08,0.17,0.21,0.38,Surprise,Passion Pit
+523,moths wings,0.0,0.09,0.09,0.59,0.18,0.05,Surprise,Passion Pit
+524,sleepyhead,0.0,0.07,0.13,0.47,0.2,0.13,Surprise,Passion Pit
+525,my brother taught me how to swim,0.02,0.11,0.15,0.35,0.2,0.19,Surprise,Passion Pit
+526,carried away,0.0,0.09,0.15,0.38,0.12,0.25,Surprise,Passion Pit
+527,constant conversations,0.0099999999999999,0.2,0.03,0.31,0.11,0.34,Surprise,Passion Pit
+528,where the sky hangs,0.03,0.06,0.06,0.55,0.21,0.12,Surprise,Passion Pit
+529,let your love grow tall,0.0,0.16,0.06,0.19,0.12,0.47,Surprise,Passion Pit
+530,take a walk,0.0199999999999999,0.1,0.18,0.26,0.1,0.36,Surprise,Passion Pit
+531,somewhere up there,0.01,0.24,0.06,0.21,0.12,0.38,Surprise,Passion Pit
+532,looks like rain,0.01,0.1,0.29,0.24,0.14,0.24,Surprise,Passion Pit
+533,to kingdom come,0.0,0.02,0.11,0.41,0.22,0.24,Surprise,Passion Pit
+534,let it happen,0.0,0.4,0.0,0.25,0.1,0.25,Angry,Tame Impala
+535,solitude is bliss,0.0,0.39,0.0,0.18,0.18,0.25,Angry,Tame Impala
+536,borderline,0.0,0.35,0.02,0.12,0.13,0.38,Angry,Tame Impala
+537,keep on lying,0.0,0.29,0.0,0.14,0.29,0.29,Angry,Tame Impala
+538,mind mischief,0.0,0.27,0.06,0.06,0.33,0.27,Angry,Tame Impala
+539,elephant,0.0,0.13,0.07,0.4,0.2,0.2,Angry,Tame Impala
+540,expectation,0.01,0.06,0.06,0.31,0.36,0.22,Angry,Tame Impala
+541,breathe deeper,0.0199999999999999,0.09,0.09,0.53,0.12,0.16,Angry,Tame Impala
+542,the less i know the better,0.0,0.22,0.04,0.19,0.33,0.22,Angry,Tame Impala
+543,apocalypse dreams,0.0,0.29,0.0,0.21,0.21,0.29,Angry,Tame Impala
+544,patience,0.0,0.09,0.05,0.23,0.23,0.41,Angry,Tame Impala
+545,cause im a man,0.0,0.25,0.04,0.33,0.08,0.29,Angry,Tame Impala
+546,reality in motion,0.0,0.0,0.05,0.54,0.12,0.29,Angry,Tame Impala
+547,music to walk home by,0.0,0.22,0.13,0.22,0.22,0.22,Fear,Tame Impala
+548,let it happen,0.0,0.4,0.0,0.25,0.1,0.25,Fear,Tame Impala
+549,mind mischief,0.0,0.27,0.06,0.06,0.33,0.27,Fear,Tame Impala
+550,the less i know the better,0.0,0.22,0.04,0.19,0.33,0.22,Fear,Tame Impala
+551,forty one mosquitoes flying in formation,0.0,0.05,0.3,0.2,0.2,0.25,Fear,Tame Impala
+552,elephant,0.0,0.13,0.07,0.4,0.2,0.2,Fear,Tame Impala
+553,"new person, same old mistakes",0.0,0.04,0.11,0.46,0.2,0.2,Fear,Tame Impala
+554,expectation,0.0199999999999999,0.06,0.06,0.31,0.36,0.22,Fear,Tame Impala
+555,solitude is bliss,0.03,0.39,0.0,0.18,0.18,0.25,Fear,Tame Impala
+556,lost in yesterday,0.0199999999999999,0.14,0.04,0.5,0.07,0.25,Fear,Tame Impala
+557,apocalypse dreams,0.0399999999999999,0.29,0.0,0.21,0.21,0.29,Fear,Tame Impala
+558,alter ego,0.0199999999999999,0.08,0.46,0.15,0.08,0.23,Fear,Tame Impala
+559,cause im a man,0.0,0.25,0.04,0.33,0.08,0.29,Fear,Tame Impala
+560,elephant,0.0,0.13,0.07,0.4,0.2,0.2,Happy,Tame Impala
+561,solitude is bliss,0.0,0.39,0.0,0.18,0.18,0.25,Happy,Tame Impala
+562,mind mischief,0.0,0.27,0.06,0.06,0.33,0.27,Happy,Tame Impala
+563,cause im a man,0.0,0.25,0.04,0.33,0.08,0.29,Happy,Tame Impala
+564,it is not meant to be,0.0,0.25,0.0,0.29,0.17,0.29,Happy,Tame Impala
+565,on track,0.01,0.14,0.06,0.28,0.08,0.44,Happy,Tame Impala
+566,lost in yesterday,0.01,0.14,0.04,0.5,0.07,0.25,Happy,Tame Impala
+567,sundown syndrome,0.0,0.13,0.22,0.37,0.13,0.15,Happy,Tame Impala
+568,patience,0.04,0.09,0.05,0.23,0.23,0.41,Happy,Tame Impala
+569,one more year,0.02,0.13,0.0,0.16,0.03,0.68,Happy,Tame Impala
+570,lucidity,0.015,0.08,0.23,0.23,0.15,0.31,Happy,Tame Impala
+571,breathe deeper,0.04,0.09,0.09,0.53,0.12,0.16,Happy,Tame Impala
+572,reality in motion,0.11,0.0,0.05,0.54,0.12,0.29,Happy,Tame Impala
+573,it is not meant to be,0.2199999999999999,0.25,0.0,0.29,0.17,0.29,,Tame Impala
+574,let it happen,0.01,0.4,0.0,0.25,0.1,0.25,,Tame Impala
+575,apocalypse dreams,0.1599999999999999,0.29,0.0,0.21,0.21,0.29,,Tame Impala
+576,solitude is bliss,0.22,0.39,0.0,0.18,0.18,0.25,,Tame Impala
+577,music to walk home by,0.19,0.22,0.13,0.22,0.22,0.22,,Tame Impala
+578,elephant,0.13,0.13,0.07,0.4,0.2,0.2,,Tame Impala
+579,"new person, same old mistakes",0.24,0.04,0.11,0.46,0.2,0.2,,Tame Impala
+580,sundown syndrome,0.27,0.13,0.22,0.37,0.13,0.15,,Tame Impala
+581,the less i know the better,0.27,0.22,0.04,0.19,0.33,0.22,,Tame Impala
+582,patience,0.32,0.09,0.05,0.23,0.23,0.41,,Tame Impala
+583,lucidity,0.305,0.08,0.23,0.23,0.15,0.31,,Tame Impala
+584,cause im a man,0.32,0.25,0.04,0.33,0.08,0.29,,Tame Impala
+585,on track,0.31,0.14,0.06,0.28,0.08,0.44,,Tame Impala
+586,let it happen,0.01,0.4,0.0,0.25,0.1,0.25,Sad,Tame Impala
+587,why wont they talk to me,0.0399999999999999,0.41,0.06,0.29,0.12,0.12,Sad,Tame Impala
+588,keep on lying,0.0099999999999999,0.29,0.0,0.14,0.29,0.29,Sad,Tame Impala
+589,solitude is bliss,0.0,0.39,0.0,0.18,0.18,0.25,Sad,Tame Impala
+590,music to walk home by,0.01,0.22,0.13,0.22,0.22,0.22,Sad,Tame Impala
+591,on track,0.01,0.14,0.06,0.28,0.08,0.44,Sad,Tame Impala
+592,expectation,0.0399999999999999,0.06,0.06,0.31,0.36,0.22,Sad,Tame Impala
+593,sundown syndrome,0.02,0.13,0.22,0.37,0.13,0.15,Sad,Tame Impala
+594,apocalypse dreams,0.01,0.29,0.0,0.21,0.21,0.29,Sad,Tame Impala
+595,forty one mosquitoes flying in formation,0.0099999999999999,0.05,0.3,0.2,0.2,0.25,Sad,Tame Impala
+596,the less i know the better,0.0199999999999999,0.22,0.04,0.19,0.33,0.22,Sad,Tame Impala
+597,patience,0.01,0.09,0.05,0.23,0.23,0.41,Sad,Tame Impala
+598,lucidity,0.02,0.08,0.23,0.23,0.15,0.31,Sad,Tame Impala
+599,it is not meant to be,0.0,0.25,0.0,0.29,0.17,0.29,Surprise,Tame Impala
+600,let it happen,0.0,0.4,0.0,0.25,0.1,0.25,Surprise,Tame Impala
+601,solitude is bliss,0.0099999999999999,0.39,0.0,0.18,0.18,0.25,Surprise,Tame Impala
+602,cause im a man,0.05,0.25,0.04,0.33,0.08,0.29,Surprise,Tame Impala
+603,elephant,0.03,0.13,0.07,0.4,0.2,0.2,Surprise,Tame Impala
+604,"new person, same old mistakes",0.0,0.04,0.11,0.46,0.2,0.2,Surprise,Tame Impala
+605,patience,0.03,0.09,0.05,0.23,0.23,0.41,Surprise,Tame Impala
+606,sundown syndrome,0.0499999999999999,0.13,0.22,0.37,0.13,0.15,Surprise,Tame Impala
+607,be above it,0.0,0.18,0.0,0.64,0.18,0.0,Surprise,Tame Impala
+608,forty one mosquitoes flying in formation,0.02,0.05,0.3,0.2,0.2,0.25,Surprise,Tame Impala
+609,half full glass of wine,0.02,0.05,0.4,0.15,0.2,0.2,Surprise,Tame Impala
+610,breathe deeper,0.01,0.09,0.09,0.53,0.12,0.16,Surprise,Tame Impala
+611,reality in motion,0.01,0.0,0.05,0.54,0.12,0.29,Surprise,Tame Impala
+612,mary's song (oh my my my),0.0,0.5,0.05,0.2,0.15,0.1,Angry,Taylor Swift
+613,ours,0.0,0.21,0.08,0.3,0.17,0.24,Angry,Taylor Swift
+614,the lakes,0.0049999999999999,0.16,0.06,0.26,0.19,0.32,Angry,Taylor Swift
+615,you need to calm down,0.0,0.4,0.1,0.27,0.17,0.07,Angry,Taylor Swift
+616,coney island,0.0,0.19,0.07,0.35,0.16,0.23,Angry,Taylor Swift
+617,sad beautiful tragic,0.0,0.37,0.02,0.25,0.26,0.11,Angry,Taylor Swift
+618,'tis the damn season,0.0,0.19,0.03,0.42,0.16,0.19,Angry,Taylor Swift
+619,gold rush,0.0049999999999999,0.26,0.08,0.19,0.28,0.19,Angry,Taylor Swift
+620,the best day,0.0,0.21,0.05,0.34,0.18,0.21,Angry,Taylor Swift
+621,call it what you want,0.01,0.18,0.06,0.24,0.09,0.42,Angry,Taylor Swift
+622,22,0.0,0.22,0.06,0.17,0.19,0.36,Angry,Taylor Swift
+623,i can do it with a broken heart,0.0199999999999999,0.15,0.09,0.31,0.27,0.18,Angry,Taylor Swift
+624,vigilante shit,0.0,0.23,0.06,0.23,0.26,0.23,Angry,Taylor Swift
+625,how did it end?,0.0,0.17,0.04,0.33,0.25,0.21,Angry,Taylor Swift
+626,the smallest man who ever lived,0.0,0.18,0.11,0.18,0.21,0.32,Angry,Taylor Swift
+627,gold rush,0.0,0.26,0.08,0.19,0.28,0.19,Fear,Taylor Swift
+628,'tis the damn season,0.0,0.19,0.03,0.42,0.16,0.19,Fear,Taylor Swift
+629,snow on the beach,0.0,0.31,0.06,0.31,0.06,0.25,Fear,Taylor Swift
+630,the best day,0.0,0.21,0.05,0.34,0.18,0.21,Fear,Taylor Swift
+631,innocent,0.01,0.18,0.09,0.33,0.22,0.18,Fear,Taylor Swift
+632,how did it end?,0.0,0.17,0.04,0.33,0.25,0.21,Fear,Taylor Swift
+633,the lucky one,0.0,0.59,0.0,0.12,0.12,0.16,Fear,Taylor Swift
+634,fifteen,0.0,0.24,0.09,0.15,0.24,0.29,Fear,Taylor Swift
+635,the great war,0.0,0.21,0.05,0.34,0.18,0.21,Fear,Taylor Swift
+636,i can do it with a broken heart,0.01,0.15,0.09,0.31,0.27,0.18,Fear,Taylor Swift
+637,fortnight,0.0,0.15,0.03,0.49,0.15,0.18,Fear,Taylor Swift
+638,you belong with me,0.0,0.44,0.04,0.22,0.11,0.18,Fear,Taylor Swift
+639,i think he knows,0.01,0.33,0.02,0.29,0.16,0.2,Fear,Taylor Swift
+640,dancing with our hands tied,0.01,0.28,0.08,0.32,0.12,0.2,Fear,Taylor Swift
+641,enchanted,0.0,0.33,0.06,0.14,0.27,0.2,Fear,Taylor Swift
+642,lover,0.0,0.24,0.03,0.31,0.14,0.28,Happy,Taylor Swift
+643,fortnight,0.0999999999999999,0.15,0.03,0.49,0.15,0.18,Happy,Taylor Swift
+644,i can do it with a broken heart,0.0,0.15,0.09,0.31,0.27,0.18,Happy,Taylor Swift
+645,the last great american dynasty,0.03,0.15,0.02,0.34,0.32,0.17,Happy,Taylor Swift
+646,the story of us,0.0399999999999999,0.15,0.03,0.24,0.24,0.33,Happy,Taylor Swift
+647,tim mcgraw,0.0,0.22,0.02,0.22,0.07,0.48,Happy,Taylor Swift
+648,champagne problems,0.0399999999999999,0.15,0.02,0.31,0.08,0.44,Happy,Taylor Swift
+649,the lakes,0.05,0.16,0.06,0.26,0.19,0.32,Happy,Taylor Swift
+650,22,0.0,0.22,0.06,0.17,0.19,0.36,Happy,Taylor Swift
+651,"no body, no crime",0.03,0.16,0.03,0.24,0.03,0.54,Happy,Taylor Swift
+652,cowboy like me,0.01,0.23,0.05,0.14,0.21,0.37,Happy,Taylor Swift
+653,how did it end?,0.06,0.17,0.04,0.33,0.25,0.21,Happy,Taylor Swift
+654,starlight,0.0399999999999999,0.15,0.13,0.35,0.13,0.24,Happy,Taylor Swift
+655,bejeweled,0.0099999999999999,0.15,0.0,0.32,0.19,0.34,Happy,Taylor Swift
+656,blank space,0.03,0.17,0.05,0.18,0.31,0.29,Happy,Taylor Swift
+657,karma (remix),0.15,0.23,0.05,0.27,0.18,0.27,,Taylor Swift
+658,'tis the damn season,0.24,0.19,0.03,0.42,0.16,0.19,,Taylor Swift
+659,the lakes,0.105,0.16,0.06,0.26,0.19,0.32,,Taylor Swift
+660,starlight,0.1299999999999999,0.15,0.13,0.35,0.13,0.24,,Taylor Swift
+661,ours,0.2399999999999999,0.21,0.08,0.3,0.17,0.24,,Taylor Swift
+662,back to december,0.04,0.26,0.02,0.23,0.28,0.21,,Taylor Swift
+663,the great war,0.26,0.21,0.05,0.34,0.18,0.21,,Taylor Swift
+664,the story of us,0.145,0.15,0.03,0.24,0.24,0.33,,Taylor Swift
+665,the best day,0.2,0.21,0.05,0.34,0.18,0.21,,Taylor Swift
+666,i can do it with a broken heart,0.17,0.15,0.09,0.31,0.27,0.18,,Taylor Swift
+667,vigilante shit,0.14,0.23,0.06,0.23,0.26,0.23,,Taylor Swift
+668,innocent,0.19,0.18,0.09,0.33,0.22,0.18,,Taylor Swift
+669,coney island,0.23,0.19,0.07,0.35,0.16,0.23,,Taylor Swift
+670,how did it end?,0.12,0.17,0.04,0.33,0.25,0.21,,Taylor Swift
+671,gold rush,0.1799999999999999,0.26,0.08,0.19,0.28,0.19,,Taylor Swift
+672,tim mcgraw,0.0,0.22,0.02,0.22,0.07,0.48,Sad,Taylor Swift
+673,peter,0.0,0.18,0.12,0.44,0.15,0.12,Sad,Taylor Swift
+674,the lakes,0.0,0.16,0.06,0.26,0.19,0.32,Sad,Taylor Swift
+675,i can do it with a broken heart,0.0,0.15,0.09,0.31,0.27,0.18,Sad,Taylor Swift
+676,invisible,0.0,0.32,0.0,0.28,0.16,0.24,Sad,Taylor Swift
+677,vigilante shit,0.0,0.23,0.06,0.23,0.26,0.23,Sad,Taylor Swift
+678,question...?,0.0099999999999999,0.2,0.07,0.29,0.1,0.34,Sad,Taylor Swift
+679,the way you love me,0.0,0.47,0.03,0.22,0.21,0.07,Sad,Taylor Swift
+680,you belong with me,0.0,0.44,0.04,0.22,0.11,0.18,Sad,Taylor Swift
+681,down bad,0.0,0.5,0.1,0.25,0.0,0.15,Sad,Taylor Swift
+682,call it what you want,0.0,0.18,0.06,0.24,0.09,0.42,Sad,Taylor Swift
+683,love story,0.0,0.26,0.15,0.24,0.21,0.15,Sad,Taylor Swift
+684,cruel summer,0.0,0.24,0.03,0.26,0.29,0.18,Sad,Taylor Swift
+685,i think he knows,0.0,0.33,0.02,0.29,0.16,0.2,Sad,Taylor Swift
+686,gold rush,0.0,0.26,0.08,0.19,0.28,0.19,Sad,Taylor Swift
+687,ours,0.0,0.21,0.08,0.3,0.17,0.24,Surprise,Taylor Swift
+688,the best day,0.01,0.21,0.05,0.34,0.18,0.21,Surprise,Taylor Swift
+689,the way you love me,0.0,0.47,0.03,0.22,0.21,0.07,Surprise,Taylor Swift
+690,starlight,0.0,0.15,0.13,0.35,0.13,0.24,Surprise,Taylor Swift
+691,you belong with me,0.0,0.44,0.04,0.22,0.11,0.18,Surprise,Taylor Swift
+692,labyrinth,0.0,0.42,0.0,0.14,0.28,0.16,Surprise,Taylor Swift
+693,fortnight,0.0,0.15,0.03,0.49,0.15,0.18,Surprise,Taylor Swift
+694,fifteen,0.0,0.24,0.09,0.15,0.24,0.29,Surprise,Taylor Swift
+695,fresh out the slammer,0.0,0.26,0.04,0.22,0.11,0.37,Surprise,Taylor Swift
+696,love story,0.0,0.26,0.15,0.24,0.21,0.15,Surprise,Taylor Swift
+697,the lakes,0.0,0.16,0.06,0.26,0.19,0.32,Surprise,Taylor Swift
+698,innocent,0.01,0.18,0.09,0.33,0.22,0.18,Surprise,Taylor Swift
+699,lover,0.0099999999999999,0.24,0.03,0.31,0.14,0.28,Surprise,Taylor Swift
+700,the story of us,0.0199999999999999,0.15,0.03,0.24,0.24,0.33,Surprise,Taylor Swift
+701,tolerate it,0.0,0.23,0.14,0.19,0.3,0.14,Surprise,Taylor Swift
+702,young liars,0.0,0.07,0.1,0.33,0.2,0.3,Angry,TV on the Radio
+703,hours,0.0,0.14,0.09,0.27,0.23,0.27,Angry,TV on the Radio
+704,dancing choose,0.0,0.08,0.14,0.08,0.29,0.41,Angry,TV on the Radio
+705,wash the day,0.0,0.12,0.16,0.29,0.08,0.35,Angry,TV on the Radio
+706,dry drunk emperor,0.01,0.12,0.14,0.4,0.1,0.24,Angry,TV on the Radio
+707,red dress,0.0,0.11,0.11,0.25,0.19,0.34,Angry,TV on the Radio
+708,lover's day,0.0,0.12,0.11,0.41,0.16,0.2,Angry,TV on the Radio
+709,could you,0.0,0.24,0.12,0.22,0.14,0.27,Angry,TV on the Radio
+710,tonight,0.0099999999999999,0.31,0.1,0.21,0.17,0.21,Angry,TV on the Radio
+711,killer crane,0.0099999999999999,0.12,0.12,0.24,0.24,0.27,Angry,TV on the Radio
+712,dlz,0.0,0.12,0.08,0.21,0.23,0.37,Angry,TV on the Radio
+713,let the devil in,0.0,0.11,0.08,0.19,0.47,0.14,Angry,TV on the Radio
+714,young liars,0.0,0.07,0.1,0.33,0.2,0.3,Fear,TV on the Radio
+715,the wrong way,0.0,0.03,0.09,0.29,0.34,0.26,Fear,TV on the Radio
+716,halfway home,0.01,0.03,0.13,0.3,0.27,0.27,Fear,TV on the Radio
+717,dreams,0.005,0.15,0.07,0.3,0.15,0.33,Fear,TV on the Radio
+718,could you,0.0,0.24,0.12,0.22,0.14,0.27,Fear,TV on the Radio
+719,hours,0.0,0.14,0.09,0.27,0.23,0.27,Fear,TV on the Radio
+720,crying,0.01,0.04,0.25,0.21,0.21,0.29,Fear,TV on the Radio
+721,test pilot,0.0199999999999999,0.25,0.0,0.25,0.22,0.28,Fear,TV on the Radio
+722,wear you out,0.0,0.08,0.05,0.23,0.31,0.33,Fear,TV on the Radio
+723,red dress,0.0,0.11,0.11,0.25,0.19,0.34,Fear,TV on the Radio
+724,dlz,0.0,0.12,0.08,0.21,0.23,0.37,Fear,TV on the Radio
+725,happy idiot,0.0199999999999999,0.14,0.19,0.19,0.14,0.35,Fear,TV on the Radio
+726,young liars,0.0,0.07,0.1,0.33,0.2,0.3,Happy,TV on the Radio
+727,the wrong way,0.0,0.03,0.09,0.29,0.34,0.26,Happy,TV on the Radio
+728,dancing choose,0.0049999999999999,0.08,0.14,0.08,0.29,0.41,Happy,TV on the Radio
+729,second song,0.0,0.14,0.17,0.34,0.0,0.34,Happy,TV on the Radio
+730,i was a lover,0.0,0.11,0.0,0.43,0.14,0.32,Happy,TV on the Radio
+731,wolf like me,0.0,0.1,0.08,0.25,0.35,0.21,Happy,TV on the Radio
+732,love stained,0.0,0.1,0.08,0.37,0.2,0.24,Happy,TV on the Radio
+733,trouble,0.0,0.09,0.07,0.47,0.24,0.13,Happy,TV on the Radio
+734,stork & owl,0.005,0.09,0.09,0.38,0.06,0.38,Happy,TV on the Radio
+735,wear you out,0.0099999999999999,0.08,0.05,0.23,0.31,0.33,Happy,TV on the Radio
+736,repetition,0.0099999999999999,0.07,0.05,0.12,0.27,0.49,Happy,TV on the Radio
+737,let the devil in,0.0099999999999999,0.11,0.08,0.19,0.47,0.14,Happy,TV on the Radio
+738,young liars,0.0,0.07,0.1,0.33,0.2,0.3,,TV on the Radio
+739,the wrong way,0.0,0.03,0.09,0.29,0.34,0.26,,TV on the Radio
+740,killer crane,0.125,0.12,0.12,0.24,0.24,0.27,,TV on the Radio
+741,happy idiot,0.0549999999999999,0.14,0.19,0.19,0.14,0.35,,TV on the Radio
+742,red dress,0.135,0.11,0.11,0.25,0.19,0.34,,TV on the Radio
+743,hours,0.12,0.14,0.09,0.27,0.23,0.27,,TV on the Radio
+744,blues from down here,0.16,0.04,0.16,0.27,0.2,0.33,,TV on the Radio
+745,dlz,0.21,0.12,0.08,0.21,0.23,0.37,,TV on the Radio
+746,dreams,0.1949999999999999,0.15,0.07,0.3,0.15,0.33,,TV on the Radio
+747,wear you out,0.2,0.08,0.05,0.23,0.31,0.33,,TV on the Radio
+748,right now,0.1999999999999999,0.12,0.0,0.23,0.23,0.42,,TV on the Radio
+749,wolf like me,0.24,0.1,0.08,0.25,0.35,0.21,,TV on the Radio
+750,young liars,0.0,0.07,0.1,0.33,0.2,0.3,Sad,TV on the Radio
+751,the wrong way,0.0,0.03,0.09,0.29,0.34,0.26,Sad,TV on the Radio
+752,forgotten,0.0,0.35,0.1,0.19,0.06,0.29,Sad,TV on the Radio
+753,dlz,0.0099999999999999,0.12,0.08,0.21,0.23,0.37,Sad,TV on the Radio
+754,could you,0.0,0.24,0.12,0.22,0.14,0.27,Sad,TV on the Radio
+755,test pilot,0.0,0.25,0.0,0.25,0.22,0.28,Sad,TV on the Radio
+756,wolf like me,0.0,0.1,0.08,0.25,0.35,0.21,Sad,TV on the Radio
+757,red dress,0.0,0.11,0.11,0.25,0.19,0.34,Sad,TV on the Radio
+758,killer crane,0.01,0.12,0.12,0.24,0.24,0.27,Sad,TV on the Radio
+759,tonight,0.01,0.31,0.1,0.21,0.17,0.21,Sad,TV on the Radio
+760,right now,0.01,0.12,0.0,0.23,0.23,0.42,Sad,TV on the Radio
+761,wear you out,0.01,0.08,0.05,0.23,0.31,0.33,Sad,TV on the Radio
+762,love stained,0.0,0.1,0.08,0.37,0.2,0.24,Surprise,TV on the Radio
+763,the wrong way,0.0,0.03,0.09,0.29,0.34,0.26,Surprise,TV on the Radio
+764,killer crane,0.0,0.12,0.12,0.24,0.24,0.27,Surprise,TV on the Radio
+765,could you,0.0,0.24,0.12,0.22,0.14,0.27,Surprise,TV on the Radio
+766,tonight,0.0049999999999999,0.31,0.1,0.21,0.17,0.21,Surprise,TV on the Radio
+767,red dress,0.0,0.11,0.11,0.25,0.19,0.34,Surprise,TV on the Radio
+768,young liars,0.0,0.07,0.1,0.33,0.2,0.3,Surprise,TV on the Radio
+769,blues from down here,0.0,0.04,0.16,0.27,0.2,0.33,Surprise,TV on the Radio
+770,crying,0.0099999999999999,0.04,0.25,0.21,0.21,0.29,Surprise,TV on the Radio
+771,right now,0.03,0.12,0.0,0.23,0.23,0.42,Surprise,TV on the Radio
+772,ambulance,0.0,0.25,0.05,0.25,0.25,0.2,Surprise,TV on the Radio
+773,a method,0.0,0.06,0.21,0.24,0.26,0.24,Surprise,TV on the Radio
