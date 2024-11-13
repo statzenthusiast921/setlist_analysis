@@ -21,7 +21,8 @@ setlist_df = pd.read_parquet(url, engine='pyarrow')
 setlist_df['Date'] = pd.to_datetime(setlist_df['Date'], format='%m/%d/%y')
 setlist_df['Year'] = setlist_df['Date'].dt.year
 
-
+#-----Remove covers
+setlist_df = setlist_df[setlist_df['Cover']==""]
 
 #----- Read in processed rules-based setlist dataset
 url2 = 'https://raw.githubusercontent.com/statzenthusiast921/setlist_analysis/refs/heads/main/data/setlists/ideal_setlists/all_setlists_rb.csv'
@@ -32,6 +33,9 @@ artist_choices = np.sort(setlist_df['ArtistName'].unique())
 country_choices = np.sort(setlist_df['Country'].unique())
 state_choices = np.sort(setlist_df['State'].unique())
 city_choices = np.sort(setlist_df['City'].unique())
+
+
+
 song_choices = np.sort(setlist_df['SongName'].unique())
 year_choices = np.sort(setlist_df['Year'].unique())
 emotion_choices = ['None','Angry','Fear','Happy','Sad','Surprise']
@@ -267,7 +271,8 @@ app.layout = html.Div([
                         dbc.Card(id='card7')
                     ],width=3),
                     dbc.Col([
-                        dcc.Graph(id = 'position_frequency')
+                        dcc.Graph(id = 'position_frequency'),
+                        html.Div(id = 'message_div')
                     ])
                 ])
             ]
@@ -416,14 +421,13 @@ def concert_map_refresh(dd1, dd2):
     filtered_df = setlist_df[setlist_df['ArtistName'] == dd1]
     filtered_df = filtered_df[filtered_df['Country'] == dd2]
 
-
-   # Deduplicate by 'RecordID' column
+    #----- Deduplicate by 'RecordID' column
     filtered_df = filtered_df.drop_duplicates(subset='RecordID')
 
-    # Group by the required columns and count the number of rows for each group
+    #----- Group by the required columns and count the number of rows for each group
     concert_map_df = filtered_df.groupby(['City', 'State', 'Country', 'Latitude', 'Longitude'], as_index=False).size()
 
-    # Rename the 'size' column to something more descriptive like 'Concert Count'
+    #----- Rename the 'size' column to something more descriptive like 'Concert Count'
     concert_map_df.rename(
         columns={'size': '# Concerts'}, 
         inplace=True
@@ -577,8 +581,6 @@ def update_date_slider(artist, country, state, city):
     return 0, len(unique_dates) - 1, marks, 0, unique_dates  # Return unique_dates list
 
 
-
-
 @app.callback(
     Output('setlist_list','children'),
     Input('dropdown3','value'),
@@ -642,7 +644,10 @@ def table(dd3,dd4, dd5, dd6, slider_value, unique_dates):
         ])
 
 
-#-----Tab 4: Position Frequency
+#----------------------------------------------------------------------------------#
+#------------------------------- TAB 4: Position Frequency  -----------------------#
+#----------------------------------------------------------------------------------#
+
     
 #------ Position Frequency
 @app.callback(
@@ -653,34 +658,11 @@ def table(dd3,dd4, dd5, dd6, slider_value, unique_dates):
 def set_song_options_per_artist(selected_artist):
         return [{'label': i, 'value': i} for i in artist_song_dict[selected_artist]], artist_song_dict[selected_artist][0]
     
-
-
-
-@app.callback(
-    Output('rangeslider', 'min'),
-    Output('rangeslider', 'max'),
-    Output('rangeslider', 'marks'),
-    Output('rangeslider', 'value'),
-    Input('dropdown7', 'value'),
-    Input('dropdown8', 'value')
-)
-def update_range_slider(dd7, dd8):
-    if dd7 is None or dd8 is None:
-        return 2000, 2024, {i: str(i) for i in range(2000, 2025)}, [2000, 2024]
-    
-    # Filter the data based on the selected artist and song
-    filtered_data = setlist_df[(setlist_df['ArtistName'] == dd7) &
-                               (setlist_df['SongName'] == dd8)]
-    
-    min_year = filtered_data['Year'].min()
-    max_year = filtered_data['Year'].max()
-    
-    # Update the slider marks and range
-    marks = {year: str(year) for year in range(min_year, max_year + 1)}
-    return min_year, max_year, marks, [min_year, max_year]
-
 @app.callback(
     Output('position_frequency','figure'),
+    Output('position_frequency', 'style'),  # Output style to control chart visibility
+
+    Output('message_div', 'children'),    
     Output('card4', 'children'),
     Output('card5', 'children'),
     Output('card6', 'children'),
@@ -689,16 +671,25 @@ def update_range_slider(dd7, dd8):
     Input('dropdown8','value'),
     Input('rangeslider','value')
 )
-
 def position_freq_chart(dd7, dd8, rs):
 
     filtered_df = setlist_df[setlist_df['ArtistName']==dd7]
     filtered_df = filtered_df[filtered_df['SongName']==dd8]
     filtered_df = filtered_df[filtered_df['Year']>= rs[0]]
     filtered_df = filtered_df[filtered_df['Year']<= rs[1]]
-
+    
     song_freq_df = filtered_df['song_num'].value_counts().reset_index().sort_values(by = 'song_num')
     song_freq_df['song_num'] = song_freq_df['song_num'] + 1
+
+
+    #----- Check if there's only one unique song_num value
+    if len(song_freq_df['song_num'].unique()) <= 1:
+        #----- Return empty figure and message if only one unique value
+        empty_fig = go.Figure()
+        hidden_style = {'display': 'none'} 
+
+        message = f"### {dd8} by {dd7} has only one unique setlist position in the selected time range.  Choose a different song or different time range."
+        return empty_fig, hidden_style, dcc.Markdown(message), None, None, None, None
 
     fig = px.bar(
         song_freq_df, 
@@ -708,35 +699,40 @@ def position_freq_chart(dd7, dd8, rs):
         labels={'song_num':'Setlist Song Position','count':'Count'},
     )
 
-    # Prepare data for KDE to get a more flexible multi-modal distribution
-    song_positions = song_freq_df['song_num'].repeat(song_freq_df['count'])  # Repeat positions by count for KDE
+    #----- Only attempt KDE if there’s more than one unique position
+    if len(song_freq_df['song_num'].unique()) > 1:
+        #----- Prepare data for KDE to get a more flexible multi-modal distribution
+        song_positions = song_freq_df['song_num'].repeat(song_freq_df['count'])
+        #----- Extend x-axis slightly beyond data range
+        x_min = song_freq_df['song_num'].min() - 0.5
+        x_max = song_freq_df['song_num'].max() + 0.5
+        x_vals = np.linspace(x_min, x_max, 100)
 
-    # Extend x-axis slightly beyond data range
-    x_min = song_freq_df['song_num'].min() - 0.5
-    x_max = song_freq_df['song_num'].max() + 0.5
-    x_vals = np.linspace(x_min, x_max, 100)
+        #----- Perform KDE and scale to match the total count of bars
+        kde = stats.gaussian_kde(song_positions, bw_method=0.3)
+        y_vals = kde(x_vals) * song_freq_df['count'].sum()
 
-    # Perform KDE and scale to match the total count of bars
-    kde = stats.gaussian_kde(song_positions, bw_method=0.3)  # Adjust `bw_method` to tune sensitivity
-    y_vals = kde(x_vals) * song_freq_df['count'].sum()  # Scale to match bar chart height
+        #----- Add the distribution curve as a trace
+        curve = go.Scatter(
+            x=x_vals,
+            y=y_vals,
+            mode='lines',
+            fill='tozeroy',
+            line=dict(color='red', dash='dash'),
+            showlegend=False
+        )
+        #----- Update the figure with the distribution curve
+        fig.add_trace(curve)
 
-
-    # Add the distribution curve as a trace
-    curve = go.Scatter(
-        x=x_vals,
-        y=y_vals,
-        mode='lines',
-        fill='tozeroy',
-        line=dict(color='red', dash='dash'),
-        showlegend=False
-    )
-    # Update the figure with the distribution curve
-    fig.add_trace(curve)
 
     #----- Metric for Card 4: Most played song
     metric_df = setlist_df[setlist_df['ArtistName']==dd7]
-    #metric_df = metric_df[metric_df['Year']>=rs[0]]
-    #metric_df = metric_df[metric_df['Year']<=rs[1]]
+
+    #----- Songs that are not playing nice
+    metric_df = metric_df[(metric_df['SongName']!= "")]
+
+    metric_df = metric_df[metric_df['Year']>=rs[0]]
+    metric_df = metric_df[metric_df['Year']<=rs[1]]
 
     metric4 = metric_df['SongName'].value_counts().reset_index()
     metric4_song_name = metric4['SongName'][0]
@@ -834,11 +830,15 @@ def position_freq_chart(dd7, dd8, rs):
             'fontSize':16},
         outline=True)
 
+    #----- Show the chart and clear the message
+    visible_style = {'display': 'block'}  # Show the chart
+
+    return fig,visible_style, "", card4, card5, card6, card7
 
 
-
-
-    return fig, card4, card5, card6, card7
+#----------------------------------------------------------------------------------#
+#------------------------------- TAB 5: Rules Based Setlists  ---------------------#
+#----------------------------------------------------------------------------------#
 
 if __name__=='__main__':
 	app.run_server()
