@@ -881,44 +881,210 @@ def rb_table(dd9,dd10):
     tbl_data = rb_setlist_df[rb_setlist_df['Artist Name']==dd9]
     tbl_data = tbl_data[tbl_data['Prioritized Emotion']==dd10]
     tbl_data['Position'] =  range(1, len(tbl_data) + 1)
-    tbl_data = tbl_data.round(2)
+    tbl_data = tbl_data.round(4)
 
-    tbl_data = tbl_data[['Song Name','Position','Closeness Score', 'Happy Score', 'Angry Score','Sad Score', 'Surprise Score', 'Fear Score']]
+    if 'Angry' in dd10:
+        tbl_data = tbl_data[['Song Name','Position','Closeness Score', 'Angry Score']]
+        
+        # Melt data to make it suitable for multi-line plotting
+        tbl_data = tbl_data.melt(
+            id_vars=['Song Name'],  # Use 'Song Name' for the x-axis
+            value_vars=['Closeness Score', 'Angry Score'],
+            var_name='Score Type', 
+            value_name='Score'
+        )
+
+        # Define colors (first line in color, others in grey)
+        color_map = {'Closeness Score': 'grey', 'Angry Score': 'blue'}
+
+        # Create line chart
+        setlist_chart = px.line(
+            tbl_data,
+            x='Song Name',
+            y='Score',
+            color='Score Type',
+            color_discrete_map=color_map
+        )
+
+        # Update layout for better visualization
+        setlist_chart.update_layout(
+            xaxis_title='Song Name',
+            yaxis_title='Score',
+            xaxis_tickangle=45  # Rotate x-axis labels for readability
+        )
+
+        return setlist_chart
+
+    elif 'Fear' in dd10:
+        tbl_data = tbl_data[['Song Name','Position','Closeness Score', 'Fear Score']]
+                
+        # Melt data to make it suitable for multi-line plotting
+        tbl_data = tbl_data.melt(
+            id_vars=['Song Name'],  
+            value_vars=['Closeness Score','Fear Score'],
+            var_name='Score Type', 
+            value_name='Score'
+        )
+
+        # Define colors (first line in color, others in grey)
+        color_map = {'Closeness Score': 'grey', 'Fear Score': 'blue'}
+
+        # Create line chart
+        setlist_chart = px.line(
+                    tbl_data,
+                    x='Song Name',  # Label x-axis with 'Song Name'
+                    y='Score',
+                    color='Score Type',
+                    color_discrete_map=color_map
+                )
+
+        # Update layout for better visualization
+        setlist_chart.update_layout(
+                    xaxis_title='Song Name',
+                    yaxis_title='Score',
+                    xaxis_tickangle=45  # Rotate x-axis labels for readability
+                )
+
+        return setlist_chart
     
-    # Melt data to make it suitable for multi-line plotting
-    tbl_data = tbl_data.melt(id_vars=['Song Name'],  # Use 'Song Name' for the x-axis
-                             value_vars=['Closeness Score', 'Happy Score', 
-                                         'Angry Score', 'Sad Score', 
-                                         'Surprise Score', 'Fear Score'],
-                             var_name='Score Type', 
-                             value_name='Score')
+    elif 'Happy' in dd10:
+        tbl_data = tbl_data[['Song Name','Position','Closeness Score', 'Happy Score']]
+                
+        # Melt data to make it suitable for multi-line plotting
+        tbl_data = tbl_data.melt(
+            id_vars=['Song Name'],  
+            value_vars=['Closeness Score','Happy Score'],
+            var_name='Score Type', 
+            value_name='Score'
+        )
 
-    # Define colors (first line in color, others in grey)
-    color_map = {'Closeness Score': 'blue', 
-                 'Happy Score': 'grey', 
-                 'Angry Score': 'grey', 
-                 'Sad Score': 'grey', 
-                 'Surprise Score': 'grey', 
-                 'Fear Score': 'grey'}
+        # Define colors (first line in color, others in grey)
+        color_map = {'Closeness Score': 'grey', 'Happy Score': 'blue'}
 
-    # Create line chart
-    setlist_chart = px.line(
-        tbl_data,
-        x='Song Name',  # Label x-axis with 'Song Name'
-        y='Score',
-        color='Score Type',
-        color_discrete_map=color_map
-    )
+        # Create line chart
+        setlist_chart = px.line(
+                    tbl_data,
+                    x='Song Name',  # Label x-axis with 'Song Name'
+                    y='Score',
+                    color='Score Type',
+                    color_discrete_map=color_map
+                )
 
-    # Update layout for better visualization
-    setlist_chart.update_layout(
-        xaxis_title='Song Name',
-        yaxis_title='Score',
-        xaxis_tickangle=45  # Rotate x-axis labels for readability
-    )
+        # Update layout for better visualization
+        setlist_chart.update_layout(
+                    xaxis_title='Song Name',
+                    yaxis_title='Score',
+                    xaxis_tickangle=45  # Rotate x-axis labels for readability
+                )
 
-    return setlist_chart
+        return setlist_chart
 
+
+    elif 'Sad' in dd10:
+        tbl_data = tbl_data[['Song Name','Position','Closeness Score', 'Sad Score']]
+                
+        # Melt data to make it suitable for multi-line plotting
+        tbl_data = tbl_data.melt(
+            id_vars=['Song Name'],  
+            value_vars=['Closeness Score','Sad Score'],
+            var_name='Score Type', 
+            value_name='Score'
+        )
+
+        # Define colors (first line in color, others in grey)
+        color_map = {'Closeness Score': 'grey', 'Sad Score': 'blue'}
+
+        # Create line chart
+        setlist_chart = px.line(
+                    tbl_data,
+                    x='Song Name',  # Label x-axis with 'Song Name'
+                    y='Score',
+                    color='Score Type',
+                    color_discrete_map=color_map
+                )
+
+        # Update layout for better visualization
+        setlist_chart.update_layout(
+                    xaxis_title='Song Name',
+                    yaxis_title='Score',
+                    xaxis_tickangle=45  # Rotate x-axis labels for readability
+                )
+
+        return setlist_chart
+
+
+    elif 'Surprise' in dd10:
+        tbl_data = tbl_data[['Song Name','Position','Closeness Score', 'Surprise Score']]
+                
+        # Melt data to make it suitable for multi-line plotting
+        tbl_data = tbl_data.melt(
+            id_vars=['Song Name'],  
+            value_vars=['Closeness Score','Surprise Score'],
+            var_name='Score Type', 
+            value_name='Score'
+        )
+
+        # Define colors (first line in color, others in grey)
+        color_map = {'Closeness Score': 'grey', 'Surprise Score': 'blue'}
+
+        # Create line chart
+        setlist_chart = px.line(
+                    tbl_data,
+                    x='Song Name',  # Label x-axis with 'Song Name'
+                    y='Score',
+                    color='Score Type',
+                    color_discrete_map=color_map
+                )
+
+        # Update layout for better visualization
+        setlist_chart.update_layout(
+                    xaxis_title='Song Name',
+                    yaxis_title='Score',
+                    xaxis_tickangle=45  # Rotate x-axis labels for readability
+                )
+
+        return setlist_chart
+    
+    else:
+
+        # Keep only relevant columns
+        tbl_data = tbl_data[['Song Name', 'Position', 'Closeness Score', 
+                         'Happy Score', 'Angry Score', 'Sad Score', 
+                         'Surprise Score', 'Fear Score']]
+    
+        # Melt data to make it suitable for multi-line plotting
+        tbl_data = tbl_data.melt(id_vars=['Song Name'],  # Use 'Song Name' for the x-axis
+                                value_vars=['Closeness Score', 'Happy Score', 
+                                            'Angry Score', 'Sad Score', 
+                                            'Surprise Score', 'Fear Score'],
+                                var_name='Score Type', 
+                                value_name='Score')
+
+        # Define colors (first line in color, others in grey)
+        color_map = {'Closeness Score': 'blue', 
+                    'Happy Score': 'grey', 
+                    'Angry Score': 'grey', 
+                    'Sad Score': 'grey', 
+                    'Surprise Score': 'grey', 
+                    'Fear Score': 'grey'}
+
+        # Create line chart
+        setlist_chart = px.line(
+            tbl_data,
+            x='Song Name',  # Label x-axis with 'Song Name'
+            y='Score',
+            color='Score Type',
+            color_discrete_map=color_map
+        )
+
+        # Update layout for better visualization
+        setlist_chart.update_layout(
+            xaxis_title='Song Name',
+            yaxis_title='Score',
+            xaxis_tickangle=45  # Rotate x-axis labels for readability
+        )
+
+        return setlist_chart
 
 
 
