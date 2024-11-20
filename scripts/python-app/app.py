@@ -27,6 +27,9 @@ setlist_df = setlist_df[setlist_df['Cover']==""]
 #----- Read in processed rules-based setlist dataset
 url2 = 'https://raw.githubusercontent.com/statzenthusiast921/setlist_analysis/refs/heads/main/data/setlists/ideal_setlists/all_setlists_rb.csv'
 rb_setlist_df = pd.read_csv(url2)
+rb_setlist_df = rb_setlist_df.drop(rb_setlist_df.columns[0], axis=1)
+rb_setlist_df['Prioritized Emotion'] = rb_setlist_df['Prioritized Emotion'].fillna('None')
+
 
 #----- Choices for dropdown menus
 artist_choices = np.sort(setlist_df['ArtistName'].unique())
@@ -280,6 +283,31 @@ app.layout = html.Div([
         dcc.Tab(label='Rules-Based Setlists',value='tab-5',style=tab_style, selected_style=tab_selected_style,
             children = [
                 dbc.Row([
+                    dbc.Button("How does this work?",id='info1')
+                ]),
+                html.Div([
+                    dbc.Modal(
+                        children=[
+                            dbc.ModalHeader("Dashboard Information Page #1"),
+                            dbc.ModalBody(
+                                children=[
+                                    html.P('On this page, you will find 4 parameters to modify the charts:'),
+                                    html.P('1.) Season'),
+                                    html.P('2.) Character #1'),
+                                    html.P('3.) Character #2'),
+                                    html.P('4.) # of words in a sequence'),
+                                    html.P('To compare the dialogue of your preferred characters, you can select any of the 4 parameters to update the two charts.'),
+                                    html.P("The dialogue has been scrubbed of most stop-words, which include words such as 'I', 'you', 'and', and so on.")
+                                ]
+                            ),
+                            dbc.ModalFooter( 
+                                dbc.Button("Close", id="close_info1")#,color='Secondary',className='me-1')
+                            ),
+                        ],id="modal_info1", size="md"
+
+                    )
+                ]),
+                dbc.Row([
                     dbc.Col([
                         dbc.Label('Choose an artist: '),
                         dcc.Dropdown(
@@ -298,6 +326,13 @@ app.layout = html.Div([
                             value=emotion_choices[0]
                         ),
                     ], width = 6),
+                ]),
+                dbc.Row([
+                    dbc.Col([
+                        dcc.Graph(id='rules_based_setlist_chart')
+                    ], width = 12),
+                ]),
+                dbc.Row([
                     dbc.Col([
                         html.Div([
                             html.Iframe(
@@ -306,7 +341,7 @@ app.layout = html.Div([
                             )
                         ], style={'textAlign': 'center'}),
 
-                    ])
+                    ], width = 12)
                 ])
             ]
 
@@ -617,9 +652,6 @@ def table(dd3,dd4, dd5, dd6, slider_value, unique_dates):
     setlist_table = setlist_table.sort_values('song_num', ascending=True)
     setlist_table['song_num'] += 1
 
-    #----- Debug 1: print filtered data
-    print(f"Check 1:\n{filtered_df.shape}")
-
     setlist_table = setlist_table.rename(
         columns={
             setlist_table.columns[0]: "Venue Name",
@@ -688,7 +720,7 @@ def position_freq_chart(dd7, dd8, rs):
         empty_fig = go.Figure()
         hidden_style = {'display': 'none'} 
 
-        message = f"### {dd8} by {dd7} has only one unique setlist position in the selected time range.  Choose a different song or different time range."
+        message = f"### {dd8} by {dd7} has only one unique setlist position in the selected time range or was not played in the selected time range.  Choose a different song or different time range."
         return empty_fig, hidden_style, dcc.Markdown(message), None, None, None, None
 
     fig = px.bar(
@@ -839,6 +871,70 @@ def position_freq_chart(dd7, dd8, rs):
 #----------------------------------------------------------------------------------#
 #------------------------------- TAB 5: Rules Based Setlists  ---------------------#
 #----------------------------------------------------------------------------------#
+
+@app.callback(
+    Output('rules_based_setlist_chart','figure'),
+    Input('dropdown9','value'),
+    Input('dropdown10','value')
+)
+def rb_table(dd9,dd10):
+    tbl_data = rb_setlist_df[rb_setlist_df['Artist Name']==dd9]
+    tbl_data = tbl_data[tbl_data['Prioritized Emotion']==dd10]
+    tbl_data['Position'] =  range(1, len(tbl_data) + 1)
+    tbl_data = tbl_data.round(2)
+
+    tbl_data = tbl_data[['Song Name','Position','Closeness Score', 'Happy Score', 'Angry Score','Sad Score', 'Surprise Score', 'Fear Score']]
+    
+    # Melt data to make it suitable for multi-line plotting
+    tbl_data = tbl_data.melt(id_vars=['Song Name'],  # Use 'Song Name' for the x-axis
+                             value_vars=['Closeness Score', 'Happy Score', 
+                                         'Angry Score', 'Sad Score', 
+                                         'Surprise Score', 'Fear Score'],
+                             var_name='Score Type', 
+                             value_name='Score')
+
+    # Define colors (first line in color, others in grey)
+    color_map = {'Closeness Score': 'blue', 
+                 'Happy Score': 'grey', 
+                 'Angry Score': 'grey', 
+                 'Sad Score': 'grey', 
+                 'Surprise Score': 'grey', 
+                 'Fear Score': 'grey'}
+
+    # Create line chart
+    setlist_chart = px.line(
+        tbl_data,
+        x='Song Name',  # Label x-axis with 'Song Name'
+        y='Score',
+        color='Score Type',
+        color_discrete_map=color_map
+    )
+
+    # Update layout for better visualization
+    setlist_chart.update_layout(
+        xaxis_title='Song Name',
+        yaxis_title='Score',
+        xaxis_tickangle=45  # Rotate x-axis labels for readability
+    )
+
+    return setlist_chart
+
+
+
+
+@app.callback(
+    Output("modal_info1", "is_open"),
+    [Input("info1", "n_clicks"), 
+    Input("close_info1", "n_clicks")],
+    [State("modal_info1", "is_open")],
+)
+
+def toggle_modal_info1(n1, n2, is_open):
+    if n1 or n2:
+        return not is_open
+    return is_open
+
+
 
 if __name__=='__main__':
 	app.run_server()
