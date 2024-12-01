@@ -24,6 +24,13 @@ setlist_df['Year'] = setlist_df['Date'].dt.year
 #-----Remove covers
 setlist_df = setlist_df[setlist_df['Cover']==""]
 
+
+#----- Make df of emotions
+setlist_emotions_df = setlist_df[['ArtistName','SongName','happy','angry','surprise','sad','fear']]
+setlist_emotions_df = setlist_emotions_df.drop_duplicates(keep='first')
+setlist_emotions_df = setlist_emotions_df.dropna()
+setlist_emotions_df = setlist_emotions_df[~setlist_emotions_df['SongName'].str.contains('"The Lucky One"')]
+
 #----- Read in processed rules-based setlist dataset
 url2 = 'https://raw.githubusercontent.com/statzenthusiast921/setlist_analysis/refs/heads/main/data/setlists/ideal_setlists/all_setlists_rb.csv'
 rb_setlist_df = pd.read_csv(url2)
@@ -42,6 +49,8 @@ city_choices = np.sort(setlist_df['City'].unique())
 song_choices = np.sort(setlist_df['SongName'].unique())
 year_choices = np.sort(setlist_df['Year'].unique())
 emotion_choices = ['None','Angry','Fear','Happy','Sad','Surprise']
+emotion_choices2 = ['Angry','Fear','Happy','Sad','Surprise']
+
 
 #----- Artist --> Country Dictionary
 df_for_dict = setlist_df[['ArtistName','Country']]
@@ -280,7 +289,59 @@ app.layout = html.Div([
                 ])
             ]
         ),
-        dcc.Tab(label='Rules-Based Setlists',value='tab-5',style=tab_style, selected_style=tab_selected_style,
+        dcc.Tab(label='Emotion Scores', value = 'tab-5', style = tab_style, selected_style=tab_selected_style,
+            children = [
+                dbc.Row([
+                    dbc.Button("How does this work?",id='info2')
+                ]),
+                html.Div([
+                    dbc.Modal(
+                        children=[
+                            dbc.ModalHeader("Emotion Scores"),
+                            dbc.ModalBody(
+                                children=[
+                                    html.P('The emotion scores are processed using the text2emotion Python library through the following steps:'),
+                                    html.P("1.) The input text is preprocessed to remove noise and prepare it for analysis by lowercasing, tokenizing, removing stopwords, removing punctuation, and stemming/lemmatizting."),
+                                    html.P("2.) A predefined emotion lexicon maps words to emotions such as love --> Happy; anger --> Angry; sad --> Sad.  For each word in a song, the library checks its emotion association in the lexicon and accumulates emotion scores."),
+                                    html.P("3.) The emotion scores for individual words are aggregated across the entire song.  Each emotion is assigned a numeric score based on the frequency and relevance of the associated words."),
+                                    html.P('4.) The library outputs results among 5 key emotions: Happy, Angry, Sad, Fear, and Surprise.  The full song will receive scores for each of the 5 emotions which all sum to a value of 1.')
+                                ]
+                            ),
+                            dbc.ModalFooter( 
+                                dbc.Button("Close", id="close_info2")
+                            ),
+                        ],id="modal_info2", size="md"
+
+                    )
+                ]),
+                dbc.Row([
+                    dbc.Col([
+                        dbc.Label('Choose an artist: '),
+                        dcc.Dropdown(
+                            id='dropdown11',
+                            style={'color':'black'},
+                            options=[{'label': i, 'value': i} for i in artist_choices],
+                            value=artist_choices[0]
+                        ),
+                    ], width = 6),
+                    dbc.Col([
+                        dbc.Label('Choose an emotion: '),
+                         dcc.Dropdown(
+                            id='dropdown12',
+                            style={'color':'black'},
+                            options=[{'label': i, 'value': i} for i in emotion_choices2],
+                            value=emotion_choices2[0]
+                        ),
+                    ], width = 6)
+                ]),
+                dbc.Row([
+                    dbc.Col([
+                        dcc.Graph(id = 'emotion_chart')
+                    ])
+                ])
+            ]
+        ),
+        dcc.Tab(label='Rules-Based Setlists',value='tab-6',style=tab_style, selected_style=tab_selected_style,
             children = [
                 dbc.Row([
                     dbc.Button("How does this work?",id='info1')
@@ -288,16 +349,18 @@ app.layout = html.Div([
                 html.Div([
                     dbc.Modal(
                         children=[
-                            dbc.ModalHeader("Dashboard Information Page #1"),
+                            dbc.ModalHeader("Rules-Based Setlist Process"),
                             dbc.ModalBody(
                                 children=[
-                                    html.P('On this page, you will find 4 parameters to modify the charts:'),
-                                    html.P('1.) Season'),
-                                    html.P('2.) Character #1'),
-                                    html.P('3.) Character #2'),
-                                    html.P('4.) # of words in a sequence'),
-                                    html.P('To compare the dialogue of your preferred characters, you can select any of the 4 parameters to update the two charts.'),
-                                    html.P("The dialogue has been scrubbed of most stop-words, which include words such as 'I', 'you', 'and', and so on.")
+                                    html.P('The rules-based approach works as follows:'),
+                                    html.P("1.) Calculate the median emotion scores (0-1) for each position in an artist's setlist.  Setlist lengths are determined from median length of historical setlists."),
+                                    html.P('2.) Calculate emotion scores (0-1) for all songs for each artist.'),
+                                    html.P('3.) Take scores from Step 1 for each successive position in the setlist and calculate the absolute differences from scores in Step 2.'),
+                                    html.P('4.) Count # of emotions where result from Step 3 is within threshold of 0.05.  Filter down to songs with at least 3 emotions within tolerance threshold.'),
+                                    html.P('5.) Sum up absolute differences across all emotions for songs resulting from Step 4 to get "Similarity Score".  Invert score for ease of interpretation.'),
+                                    html.P("6.) Song with highest Similarity Score is chosen for the 1st position in the setlist.  Remove song from master list so it can not be chosen again."),
+                                    html.P("7.) Repeat process for remaining positions in setlist.")
+
                                 ]
                             ),
                             dbc.ModalFooter( 
@@ -316,7 +379,7 @@ app.layout = html.Div([
                             options=[{'label': i, 'value': i} for i in artist_choices],
                             value=artist_choices[0]
                         ),
-                    ], width = 6),
+                    ], width = 4),
                     dbc.Col([
                         dbc.Label('Choose an emotion to prioritize: '),
                         dcc.Dropdown(
@@ -325,11 +388,22 @@ app.layout = html.Div([
                             options=[{'label': i, 'value': i} for i in emotion_choices],
                             value=emotion_choices[0]
                         ),
-                    ], width = 6),
+                    ], width = 4),
+                    dbc.Col([
+                        dbc.Label('Choose a setlist position:'),
+                        dcc.Slider(
+                            id='position_slider',
+                            min=1,  # Will be updated dynamically
+                            max=15,  # Will be updated dynamically
+                            step=1,  # Discrete values only
+                            marks={},  # Will be updated dynamically
+                            value=1  # Initial value
+                        ),
+                    ], width = 4)
                 ]),
                 dbc.Row([
                     dbc.Col([
-                        dcc.Graph(id='rules_based_setlist_chart')
+                        dcc.Graph(id='closeness_score_chart')
                     ], width = 12),
                 ]),
                 dbc.Row([
@@ -346,7 +420,7 @@ app.layout = html.Div([
             ]
 
         ),
-        dcc.Tab(label='ML-Based Setlists',value='tab-6',style=tab_style, selected_style=tab_selected_style,
+        dcc.Tab(label='ML-Based Setlists',value='tab-7',style=tab_style, selected_style=tab_selected_style,
             children = [
                 dbc.Row([
                     dbc.Col([
@@ -398,7 +472,7 @@ def cards_against_concerts(dd1, dd2):
 
     card1 = dbc.Card([
             dbc.CardBody([
-                html.P(f'# concerts'),
+                html.P(f'# Concerts'),
                 html.H5(f"{metric1}")
             ])
         ],
@@ -413,7 +487,7 @@ def cards_against_concerts(dd1, dd2):
 
     card2 = dbc.Card([
             dbc.CardBody([
-                html.P(f'# cities played'),
+                html.P(f'# Cities played'),
                 html.H5(f"{metric2}")
             ])
         ],
@@ -428,7 +502,7 @@ def cards_against_concerts(dd1, dd2):
 
     card3 = dbc.Card([
             dbc.CardBody([
-                html.P(f'# songs played'),
+                html.P(f'# Songs played'),
                 html.H5(f"{metric3}")
             ])
         ],
@@ -866,225 +940,140 @@ def position_freq_chart(dd7, dd8, rs):
     visible_style = {'display': 'block'}  # Show the chart
 
     return fig,visible_style, "", card4, card5, card6, card7
-
-
-#----------------------------------------------------------------------------------#
-#------------------------------- TAB 5: Rules Based Setlists  ---------------------#
-#----------------------------------------------------------------------------------#
-
+#------------------------------------------------------------------#
+#--------------------- TAB 5: Emotion Scores  ---------------------#
+#------------------------------------------------------------------#
 @app.callback(
-    Output('rules_based_setlist_chart','figure'),
-    Input('dropdown9','value'),
-    Input('dropdown10','value')
+    Output('emotion_chart','figure'),
+    Input('dropdown11','value'),
+    Input('dropdown12','value')
 )
-def rb_table(dd9,dd10):
-    tbl_data = rb_setlist_df[rb_setlist_df['Artist Name']==dd9]
-    tbl_data = tbl_data[tbl_data['Prioritized Emotion']==dd10]
-    tbl_data['Position'] =  range(1, len(tbl_data) + 1)
-    tbl_data = tbl_data.round(4)
+def emotion_chart(dd11,dd12):
+    emotion_tbl = setlist_emotions_df[setlist_emotions_df['ArtistName']==dd11]
+    emotion_tbl = emotion_tbl.rename(
+            columns={
+                emotion_tbl.columns[0]: "Artist Name",
+                emotion_tbl.columns[1]: "Song Name",
+                emotion_tbl.columns[2]: "Happy",
+                emotion_tbl.columns[3]: "Angry",
+                emotion_tbl.columns[4]: "Surprise",
+                emotion_tbl.columns[5]: "Sad",
+                emotion_tbl.columns[6]: "Fear"
 
-    if 'Angry' in dd10:
-        tbl_data = tbl_data[['Song Name','Position','Closeness Score', 'Angry Score']]
-        
-        # Melt data to make it suitable for multi-line plotting
-        tbl_data = tbl_data.melt(
-            id_vars=['Song Name'],  # Use 'Song Name' for the x-axis
-            value_vars=['Closeness Score', 'Angry Score'],
-            var_name='Score Type', 
-            value_name='Score'
+            }
         )
+  
+    if 'Angry' in dd12:
+        emotion_tbl = emotion_tbl[['Artist Name','Song Name','Angry']]
+        emotion_tbl = emotion_tbl.sort_values('Angry', ascending=False)
+        emotion_tbl = emotion_tbl.head(10)
+     
 
-        # Define colors (first line in color, others in grey)
-        color_map = {'Closeness Score': 'grey', 'Angry Score': 'blue'}
 
-        # Create line chart
-        setlist_chart = px.line(
-            tbl_data,
+        emotion_chart = px.bar(
+            emotion_tbl,
             x='Song Name',
-            y='Score',
-            color='Score Type',
-            color_discrete_map=color_map
+            y='Angry',
+            color = 'Angry',
+            color_continuous_scale=[
+                    (0.0, 'lightblue'),  # Light blue for low values
+                    (0.5, 'blue'),       # Midway blue for medium values
+                    (1.0, 'darkblue')    # Dark blue for high values
+            ],
+            title = f'Top 10 Songs Ranked by {dd12} Scores'
         )
 
-        # Update layout for better visualization
-        setlist_chart.update_layout(
-            xaxis_title='Song Name',
-            yaxis_title='Score',
-            xaxis_tickangle=45  # Rotate x-axis labels for readability
+        return emotion_chart
+
+    elif 'Surprise' in dd12:
+        emotion_tbl = emotion_tbl[['Artist Name','Song Name','Surprise']]
+        emotion_tbl = emotion_tbl.sort_values('Surprise', ascending=False)
+        emotion_tbl = emotion_tbl.head(10)
+
+        emotion_chart = px.bar(
+            emotion_tbl,
+            x='Song Name',
+            y='Surprise',
+            title = f'Top 10 Songs Ranked by {dd12} Scores',
+            color = 'Surprise',
+            color_continuous_scale=[
+                    (0.0, 'lightblue'),  # Light blue for low values
+                    (0.5, 'blue'),       # Midway blue for medium values
+                    (1.0, 'darkblue')    # Dark blue for high values
+            ],
+
         )
 
-        return setlist_chart
+        return emotion_chart
 
-    elif 'Fear' in dd10:
-        tbl_data = tbl_data[['Song Name','Position','Closeness Score', 'Fear Score']]
-                
-        # Melt data to make it suitable for multi-line plotting
-        tbl_data = tbl_data.melt(
-            id_vars=['Song Name'],  
-            value_vars=['Closeness Score','Fear Score'],
-            var_name='Score Type', 
-            value_name='Score'
+    elif 'Sad' in dd12:
+        emotion_tbl = emotion_tbl[['Artist Name','Song Name','Sad']]
+        emotion_tbl = emotion_tbl.sort_values('Sad', ascending=False)
+        emotion_tbl = emotion_tbl.head(10)
+
+        emotion_chart = px.bar(
+            emotion_tbl,
+            x='Song Name',
+            y='Sad',
+            title = f'Top 10 Songs Ranked by {dd12} Scores',
+            color = 'Sad',
+            color_continuous_scale=[
+                    (0.0, 'lightblue'),  # Light blue for low values
+                    (0.5, 'blue'),       # Midway blue for medium values
+                    (1.0, 'darkblue')    # Dark blue for high values
+            ],
+
         )
 
-        # Define colors (first line in color, others in grey)
-        color_map = {'Closeness Score': 'grey', 'Fear Score': 'blue'}
+        return emotion_chart
 
-        # Create line chart
-        setlist_chart = px.line(
-                    tbl_data,
-                    x='Song Name',  # Label x-axis with 'Song Name'
-                    y='Score',
-                    color='Score Type',
-                    color_discrete_map=color_map
-                )
+    elif 'Fear' in dd12:
+        emotion_tbl = emotion_tbl[['Artist Name','Song Name','Fear']]
+        emotion_tbl = emotion_tbl.sort_values('Fear', ascending=False)
+        emotion_tbl = emotion_tbl.head(10)
 
-        # Update layout for better visualization
-        setlist_chart.update_layout(
-                    xaxis_title='Song Name',
-                    yaxis_title='Score',
-                    xaxis_tickangle=45  # Rotate x-axis labels for readability
-                )
+        emotion_chart = px.bar(
+            emotion_tbl,
+            x='Song Name',
+            y='Fear',
+            title = f'Top 10 Songs Ranked by {dd12} Scores',
+            color = 'Fear',
+            color_continuous_scale=[
+                    (0.0, 'lightblue'),  # Light blue for low values
+                    (0.5, 'blue'),       # Midway blue for medium values
+                    (1.0, 'darkblue')    # Dark blue for high values
+            ],
 
-        return setlist_chart
-    
-    elif 'Happy' in dd10:
-        tbl_data = tbl_data[['Song Name','Position','Closeness Score', 'Happy Score']]
-                
-        # Melt data to make it suitable for multi-line plotting
-        tbl_data = tbl_data.melt(
-            id_vars=['Song Name'],  
-            value_vars=['Closeness Score','Happy Score'],
-            var_name='Score Type', 
-            value_name='Score'
         )
 
-        # Define colors (first line in color, others in grey)
-        color_map = {'Closeness Score': 'grey', 'Happy Score': 'blue'}
+        return emotion_chart
 
-        # Create line chart
-        setlist_chart = px.line(
-                    tbl_data,
-                    x='Song Name',  # Label x-axis with 'Song Name'
-                    y='Score',
-                    color='Score Type',
-                    color_discrete_map=color_map
-                )
+    elif 'Happy' in dd12:
+        emotion_tbl = emotion_tbl[['Artist Name','Song Name','Happy']]
+        emotion_tbl = emotion_tbl.sort_values('Happy', ascending=False)
+        emotion_tbl = emotion_tbl.head(10)
 
-        # Update layout for better visualization
-        setlist_chart.update_layout(
-                    xaxis_title='Song Name',
-                    yaxis_title='Score',
-                    xaxis_tickangle=45  # Rotate x-axis labels for readability
-                )
+        emotion_chart = px.bar(
+            emotion_tbl,
+            x='Song Name',
+            y='Happy',
+            title = f'Top 10 Songs Ranked by {dd12} Scores',
+            color = 'Happy',
+            color_continuous_scale=[
+                    (0.0, 'lightblue'),  # Light blue for low values
+                    (0.5, 'blue'),       # Midway blue for medium values
+                    (1.0, 'darkblue')    # Dark blue for high values
+            ],
 
-        return setlist_chart
-
-
-    elif 'Sad' in dd10:
-        tbl_data = tbl_data[['Song Name','Position','Closeness Score', 'Sad Score']]
-                
-        # Melt data to make it suitable for multi-line plotting
-        tbl_data = tbl_data.melt(
-            id_vars=['Song Name'],  
-            value_vars=['Closeness Score','Sad Score'],
-            var_name='Score Type', 
-            value_name='Score'
         )
 
-        # Define colors (first line in color, others in grey)
-        color_map = {'Closeness Score': 'grey', 'Sad Score': 'blue'}
-
-        # Create line chart
-        setlist_chart = px.line(
-                    tbl_data,
-                    x='Song Name',  # Label x-axis with 'Song Name'
-                    y='Score',
-                    color='Score Type',
-                    color_discrete_map=color_map
-                )
-
-        # Update layout for better visualization
-        setlist_chart.update_layout(
-                    xaxis_title='Song Name',
-                    yaxis_title='Score',
-                    xaxis_tickangle=45  # Rotate x-axis labels for readability
-                )
-
-        return setlist_chart
+        return emotion_chart
 
 
-    elif 'Surprise' in dd10:
-        tbl_data = tbl_data[['Song Name','Position','Closeness Score', 'Surprise Score']]
-                
-        # Melt data to make it suitable for multi-line plotting
-        tbl_data = tbl_data.melt(
-            id_vars=['Song Name'],  
-            value_vars=['Closeness Score','Surprise Score'],
-            var_name='Score Type', 
-            value_name='Score'
-        )
+#----------------------------------------------------------------------------------#
+#------------------------------- TAB 6: Rules Based Setlists  ---------------------#
+#----------------------------------------------------------------------------------#
 
-        # Define colors (first line in color, others in grey)
-        color_map = {'Closeness Score': 'grey', 'Surprise Score': 'blue'}
-
-        # Create line chart
-        setlist_chart = px.line(
-                    tbl_data,
-                    x='Song Name',  # Label x-axis with 'Song Name'
-                    y='Score',
-                    color='Score Type',
-                    color_discrete_map=color_map
-                )
-
-        # Update layout for better visualization
-        setlist_chart.update_layout(
-                    xaxis_title='Song Name',
-                    yaxis_title='Score',
-                    xaxis_tickangle=45  # Rotate x-axis labels for readability
-                )
-
-        return setlist_chart
-    
-    else:
-
-        # Keep only relevant columns
-        tbl_data = tbl_data[['Song Name', 'Position', 'Closeness Score', 
-                         'Happy Score', 'Angry Score', 'Sad Score', 
-                         'Surprise Score', 'Fear Score']]
-    
-        # Melt data to make it suitable for multi-line plotting
-        tbl_data = tbl_data.melt(id_vars=['Song Name'],  # Use 'Song Name' for the x-axis
-                                value_vars=['Closeness Score', 'Happy Score', 
-                                            'Angry Score', 'Sad Score', 
-                                            'Surprise Score', 'Fear Score'],
-                                var_name='Score Type', 
-                                value_name='Score')
-
-        # Define colors (first line in color, others in grey)
-        color_map = {'Closeness Score': 'blue', 
-                    'Happy Score': 'grey', 
-                    'Angry Score': 'grey', 
-                    'Sad Score': 'grey', 
-                    'Surprise Score': 'grey', 
-                    'Fear Score': 'grey'}
-
-        # Create line chart
-        setlist_chart = px.line(
-            tbl_data,
-            x='Song Name',  # Label x-axis with 'Song Name'
-            y='Score',
-            color='Score Type',
-            color_discrete_map=color_map
-        )
-
-        # Update layout for better visualization
-        setlist_chart.update_layout(
-            xaxis_title='Song Name',
-            yaxis_title='Score',
-            xaxis_tickangle=45  # Rotate x-axis labels for readability
-        )
-
-        return setlist_chart
 
 
 
@@ -1096,6 +1085,19 @@ def rb_table(dd9,dd10):
 )
 
 def toggle_modal_info1(n1, n2, is_open):
+    if n1 or n2:
+        return not is_open
+    return is_open
+
+
+@app.callback(
+    Output("modal_info2", "is_open"),
+    [Input("info2", "n_clicks"), 
+    Input("close_info2", "n_clicks")],
+    [State("modal_info2", "is_open")],
+)
+
+def toggle_modal_info2(n1, n2, is_open):
     if n1 or n2:
         return not is_open
     return is_open
