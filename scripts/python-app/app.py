@@ -37,6 +37,11 @@ rb_setlist_df = pd.read_csv(url2)
 rb_setlist_df = rb_setlist_df.drop(rb_setlist_df.columns[0], axis=1)
 rb_setlist_df['Prioritized Emotion'] = rb_setlist_df['Prioritized Emotion'].fillna('None')
 
+#----- Read in position by position dataset
+url3 = 'https://raw.githubusercontent.com/statzenthusiast921/setlist_analysis/refs/heads/main/data/setlists/full_position_by_position_df.csv'
+pos_by_pos_df = pd.read_csv(url3)
+pos_by_pos_df['Emotion'] = pos_by_pos_df['Emotion'].fillna('None')
+
 
 #----- Choices for dropdown menus
 artist_choices = np.sort(setlist_df['ArtistName'].unique())
@@ -379,7 +384,7 @@ app.layout = html.Div([
                             options=[{'label': i, 'value': i} for i in artist_choices],
                             value=artist_choices[0]
                         ),
-                    ], width = 4),
+                    ], width = 3),
                     dbc.Col([
                         dbc.Label('Choose an emotion to prioritize: '),
                         dcc.Dropdown(
@@ -388,7 +393,7 @@ app.layout = html.Div([
                             options=[{'label': i, 'value': i} for i in emotion_choices],
                             value=emotion_choices[0]
                         ),
-                    ], width = 4),
+                    ], width = 3),
                     dbc.Col([
                         dbc.Label('Choose a setlist position:'),
                         dcc.Slider(
@@ -399,24 +404,33 @@ app.layout = html.Div([
                             marks={},  # Will be updated dynamically
                             value=1  # Initial value
                         ),
-                    ], width = 4)
+                    ], width = 3),
+                    dbc.Col([
+                        dbc.Label('Switch views'),
+                        dcc.RadioItems(
+                            id='radio-button-toggle',
+                            options=[
+                                {'label': ' Chart View', 'value': ' Chart View'},
+                                {'label': ' Playlist View', 'value': ' Playlist View'}
+                            ],
+                        value=' Chart View',  # default value
+                        labelStyle={'display': 'block'}  # display options vertically
+                        ),
+                    ])
                 ]),
                 dbc.Row([
                     dbc.Col([
-                        dcc.Graph(id='closeness_score_chart')
+                         html.Div(id = 'output_toggle_container', children = [
+                            dcc.Graph(id='closeness_score_chart'),
+                            html.Iframe(
+                                id = 'playlist1',
+                                src="https://open.spotify.com/embed/playlist/2ZnH0vDq6zdxT8nqdSh2W9?utm_source=generator",  
+                                width="300", height="380", style={'border': 'none', 'display': 'none', 'margin': '0 auto'},
+                            )
+
+                         ])
                     ], width = 12),
                 ]),
-                dbc.Row([
-                    dbc.Col([
-                        html.Div([
-                            html.Iframe(
-                                src="https://open.spotify.com/embed/playlist/2ZnH0vDq6zdxT8nqdSh2W9?utm_source=generator",  # Replace with your playlist URL
-                                width="300", height="380", style={'border': 'none', 'display': 'block', 'margin': '0 auto'}
-                            )
-                        ], style={'textAlign': 'center'}),
-
-                    ], width = 12)
-                ])
             ]
 
         ),
@@ -1074,7 +1088,97 @@ def emotion_chart(dd11,dd12):
 #------------------------------- TAB 6: Rules Based Setlists  ---------------------#
 #----------------------------------------------------------------------------------#
 
+#----- Define length of slider based on setlist length
+@app.callback(
+    Output('position_slider', 'max'),
+    Input('dropdown9', 'value')
+)
+def update_slider_max(dd9):
+    if 'Little Dragon' in dd9:
+        return 11
+    elif 'Lord Huron' in dd9:
+        return 17
+    elif 'Taylor Swift' in dd9:
+        return 15
+    elif 'TV on the Radio' in dd9:
+        return 12
+    else:
+        return 13
 
+#----- Closeness Scores by Position Succession
+
+@app.callback(
+    Output('closeness_score_chart', 'figure'),
+    Input('dropdown9', 'value'),
+    Input('dropdown10','value'),
+    Input('position_slider','value')
+)
+def update_slider_max(dd9, dd10, pos_slider):
+
+    pos_df = pos_by_pos_df[pos_by_pos_df['ArtistName']==dd9]
+    pos_df = pos_df[pos_df['Emotion']==dd10]
+    pos_df = pos_df[pos_df['Iteration']==pos_slider]
+    pos_df['Closeness_Score'] = 1 - pos_df['Closeness_Score']
+    pos_df['Closeness_Score'] = pos_df['Closeness_Score'].round(2)
+
+
+    #----- Remove weird song names that are wrong
+    pos_df = pos_df[~pos_df['name'].str.contains('Whoa is Me', na=False)]
+    pos_df = pos_df[~pos_df['name'].str.contains('Paraih', na=False)]
+    pos_df = pos_df[~pos_df['name'].str.contains('Sang Real/Waltz', na=False)]
+    pos_df = pos_df[~pos_df['name'].str.contains("I Don't Know/Kitty", na=False)]
+    pos_df = pos_df[~pos_df['name'].str.contains("Eighteen People Living In Harmony", na=False)]
+    pos_df = pos_df[~pos_df['name'].str.contains("Matroshka", na=False)]
+
+    pos_df = pos_df.head(10)
+
+    chosen_song = pos_df['name'].values[0]
+
+    fig = px.bar(
+        pos_df, 
+        x="Closeness_Score", y="name", orientation='h',
+        title = f'Ranked Similarity Scores for Setlist Position: {pos_slider}',
+            color = 'Closeness_Score',
+            color_continuous_scale=[
+                    (0.0, 'lightgreen'),  
+                    (0.5, 'green'),       
+                    (1.0, 'darkgreen')    
+            ],
+            labels={
+                "name": "Song Name",
+                "Closeness_Score": "Similarity Score"
+                 },
+    )
+    fig.update_layout(
+        yaxis={'categoryorder': 'total ascending'},
+        xaxis=dict(range=[0, 1]),
+        title=dict(
+            xref='paper',  
+            x=0.5,
+            subtitle=dict(
+                text=f"{chosen_song} is chosen for position {pos_slider} and then can not be chosen again.",
+                font=dict(color="gray", size=13),
+            ),      
+        )
+
+    )
+
+
+    return fig
+
+
+#----- Toggle between chart and playlist
+
+@app.callback(
+    Output('playlist1', 'style'),
+    Output('closeness_score_chart', 'style'),
+    Input('radio-toggle-button', 'value')
+)
+def toggle_between_chart_and_playlist(selected_value):
+    if selected_value == 'Chart View':
+        return {'display': 'none'}, {'display': 'block'}
+    elif selected_value == 'Playlist View':
+        return {'display': 'block'}, {'display': 'none'}
 
 
 @app.callback(
