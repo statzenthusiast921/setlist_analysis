@@ -398,23 +398,23 @@ app.layout = html.Div([
                         dbc.Label('Choose a setlist position:'),
                         dcc.Slider(
                             id='position_slider',
-                            min=1,  # Will be updated dynamically
-                            max=15,  # Will be updated dynamically
-                            step=1,  # Discrete values only
-                            marks={},  # Will be updated dynamically
-                            value=1  # Initial value
+                            min=1,  
+                            max=15, 
+                            step=1,  
+                            marks={},  
+                            value=1  
                         ),
                     ], width = 3),
                     dbc.Col([
-                        dbc.Label('Switch views'),
+                        dbc.Label('Switch views:'),
                         dcc.RadioItems(
                             id='radio-button-toggle',
                             options=[
-                                {'label': ' Chart View', 'value': ' Chart View'},
-                                {'label': ' Playlist View', 'value': ' Playlist View'}
+                                {'label': ' Chart View', 'value': 'Chart View'},
+                                {'label': ' Playlist View', 'value': 'Playlist View'}
                             ],
-                        value=' Chart View',  # default value
-                        labelStyle={'display': 'block'}  # display options vertically
+                        value='Chart View',  
+                        labelStyle={'display': 'block'}  
                         ),
                     ])
                 ]),
@@ -425,7 +425,7 @@ app.layout = html.Div([
                             html.Iframe(
                                 id = 'playlist1',
                                 src="https://open.spotify.com/embed/playlist/2ZnH0vDq6zdxT8nqdSh2W9?utm_source=generator",  
-                                width="300", height="380", style={'border': 'none', 'display': 'none', 'margin': '0 auto'},
+                                width="100%", height="380", style={'border': 'none', 'display': 'none', 'margin': '0 auto'},
                             )
 
                          ])
@@ -1172,7 +1172,7 @@ def update_slider_max(dd9, dd10, pos_slider):
 @app.callback(
     Output('playlist1', 'style'),
     Output('closeness_score_chart', 'style'),
-    Input('radio-toggle-button', 'value')
+    Input('radio-button-toggle', 'value')
 )
 def toggle_between_chart_and_playlist(selected_value):
     if selected_value == 'Chart View':
