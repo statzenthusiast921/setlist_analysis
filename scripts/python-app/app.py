@@ -45,6 +45,8 @@ pos_by_pos_df['Emotion'] = pos_by_pos_df['Emotion'].fillna('None')
 
 #----- Choices for dropdown menus
 artist_choices = np.sort(setlist_df['ArtistName'].unique())
+artist_choices = artist_choices[artist_choices != "Gorillaz"]
+
 country_choices = np.sort(setlist_df['Country'].unique())
 state_choices = np.sort(setlist_df['State'].unique())
 city_choices = np.sort(setlist_df['City'].unique())
@@ -422,12 +424,54 @@ app.layout = html.Div([
                     dbc.Col([
                          html.Div(id = 'output_toggle_container', children = [
                             dcc.Graph(id='closeness_score_chart'),
+                            #----- Passion Pit
                             html.Iframe(
                                 id = 'playlist1',
                                 src="https://open.spotify.com/embed/playlist/2ZnH0vDq6zdxT8nqdSh2W9?utm_source=generator",  
                                 width="100%", height="380", style={'border': 'none', 'display': 'none', 'margin': '0 auto'},
-                            )
-
+                            ),
+                            #----- TV on the Radio
+                            html.Iframe(
+                                id = 'playlist2',
+                                src="https://open.spotify.com/embed/playlist/18yWRizPvyC7CSO7oedDZD?utm_source=generator",  
+                                width="100%", height="380", style={'border': 'none', 'display': 'none', 'margin': '0 auto'},
+                            ),
+                            #----- Taylor Swift
+                            html.Iframe(
+                                id = 'playlist3',
+                                src="https://open.spotify.com/embed/playlist/24Tyqqbn2QpvzYgOm1wspe?utm_source=generator",  
+                                width="100%", height="380", style={'border': 'none', 'display': 'none', 'margin': '0 auto'},
+                            ),
+                            #----- Little Dragon
+                            html.Iframe(
+                                id = 'playlist4',
+                                src="https://open.spotify.com/embed/playlist/40nRKuP7kl1pREQtWlZ6Rk?utm_source=generator",  
+                                width="100%", height="380", style={'border': 'none', 'display': 'none', 'margin': '0 auto'},
+                            ),
+                            #----- Florence + the Machine
+                            html.Iframe(
+                                id = 'playlist5',
+                                src="https://open.spotify.com/embed/playlist/6zSEB5Oq0ZRbIgWf99fo6L?utm_source=generator",  
+                                width="100%", height="380", style={'border': 'none', 'display': 'none', 'margin': '0 auto'},
+                            ),
+                            #----- Dredg
+                            html.Iframe(
+                                id = 'playlist6',
+                                src="https://open.spotify.com/embed/playlist/4wI3273u0X0xodPRWlgJkZ?utm_source=generator",  
+                                width="100%", height="380", style={'border': 'none', 'display': 'none', 'margin': '0 auto'},
+                            ),
+                            #----- Tame Impala
+                            html.Iframe(
+                                id = 'playlist7',
+                                src="https://open.spotify.com/embed/playlist/6fr5bhWEVn9Xr5xu7bKTOB?utm_source=generator",  
+                                width="100%", height="380", style={'border': 'none', 'display': 'none', 'margin': '0 auto'},
+                            ),
+                            #----- Lord Huron
+                            html.Iframe(
+                                id = 'playlist8',
+                                src="https://open.spotify.com/embed/playlist/32r6Wsrhrad237DVYclwgh?utm_source=generator",  
+                                width="100%", height="380", style={'border': 'none', 'display': 'none', 'margin': '0 auto'},
+                            ),
                          ])
                     ], width = 12),
                 ]),
@@ -1170,15 +1214,51 @@ def update_slider_max(dd9, dd10, pos_slider):
 #----- Toggle between chart and playlist
 
 @app.callback(
-    Output('playlist1', 'style'),
+    Output('playlist1', 'style'), # Passion Pit
+    Output('playlist2', 'style'), # TV on the Radio
+    Output('playlist3', 'style'), # Taylor Swift
+    Output('playlist4', 'style'), # Little Dragon
+    Output('playlist5', 'style'), # Florence + the Machine
+    Output('playlist6', 'style'), # Dredg
+    Output('playlist7', 'style'), # Tame Impala
+    Output('playlist8', 'style'), # Lord Huron
+
+
     Output('closeness_score_chart', 'style'),
-    Input('radio-button-toggle', 'value')
+    Input('radio-button-toggle', 'value'),
+    Input('dropdown9', 'value')
+
 )
-def toggle_between_chart_and_playlist(selected_value):
-    if selected_value == 'Chart View':
-        return {'display': 'none'}, {'display': 'block'}
-    elif selected_value == 'Playlist View':
-        return {'display': 'block'}, {'display': 'none'}
+def toggle_between_chart_and_playlist(radio_selection, dd9):
+    if radio_selection == 'Chart View':
+        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'},{'display': 'block'}
+    
+    elif radio_selection == 'Playlist View' and "Passion Pit" in dd9:
+        return {'display': 'block'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'}
+    
+    elif radio_selection == 'Playlist View' and "TV on the Radio" in dd9:
+        return {'display': 'none'}, {'display': 'block'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}
+   
+    elif radio_selection == 'Playlist View' and "Taylor Swift" in dd9:
+        return {'display': 'none'}, {'display': 'none'}, {'display': 'block'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}
+    
+    elif radio_selection == 'Playlist View' and "Little Dragon" in dd9:
+        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'block'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}
+    
+    elif radio_selection == 'Playlist View' and "Florence + the Machine" in dd9:
+        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'block'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}
+    
+    elif radio_selection == 'Playlist View' and "Dredg" in dd9:
+        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'block'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}
+
+    elif radio_selection == 'Playlist View' and "Tame Impala" in dd9:
+        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'block'}, {'display': 'none'}, {'display': 'none'}
+
+    elif radio_selection == 'Playlist View' and "Lord Huron" in dd9:
+        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'}, {'display': 'block'}, {'display': 'none'}
+        
+    else:
+        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}
 
 
 @app.callback(
