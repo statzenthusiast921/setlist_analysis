@@ -413,7 +413,9 @@ app.layout = html.Div([
                             id='radio-button-toggle',
                             options=[
                                 {'label': ' Chart View', 'value': 'Chart View'},
+                                {'label': ' Spotify View', 'value': 'Spotify View'},
                                 {'label': ' Playlist View', 'value': 'Playlist View'}
+
                             ],
                         value='Chart View',  
                         labelStyle={'display': 'block'}  
@@ -472,6 +474,8 @@ app.layout = html.Div([
                                 src="https://open.spotify.com/embed/playlist/32r6Wsrhrad237DVYclwgh?utm_source=generator",  
                                 width="100%", height="380", style={'border': 'none', 'display': 'none', 'margin': '0 auto'},
                             ),
+                            html.Div(id='playlist_table')
+
                          ])
                     ], width = 12),
                 ]),
@@ -1173,6 +1177,8 @@ def update_slider_max(dd9, dd10, pos_slider):
     pos_df = pos_df[~pos_df['name'].str.contains("I Don't Know/Kitty", na=False)]
     pos_df = pos_df[~pos_df['name'].str.contains("Eighteen People Living In Harmony", na=False)]
     pos_df = pos_df[~pos_df['name'].str.contains("Matroshka", na=False)]
+    pos_df = pos_df[~pos_df['name'].str.contains("Wrong Way", na=False)]
+    pos_df = pos_df[~pos_df['name'].str.contains("This Love / Call It What You Want", na=False)]
 
     pos_df = pos_df.head(10)
 
@@ -1225,40 +1231,72 @@ def update_slider_max(dd9, dd10, pos_slider):
 
 
     Output('closeness_score_chart', 'style'),
+    Output('playlist_table', 'style'),
     Input('radio-button-toggle', 'value'),
     Input('dropdown9', 'value')
 
 )
 def toggle_between_chart_and_playlist(radio_selection, dd9):
     if radio_selection == 'Chart View':
-        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'},{'display': 'block'}
+        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'},{'display': 'block'},{'display': 'none'}
     
-    elif radio_selection == 'Playlist View' and "Passion Pit" in dd9:
-        return {'display': 'block'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'}
+    elif radio_selection == 'Spotify View' and "Passion Pit" in dd9:
+        return {'display': 'block'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'},{'display': 'none'}
     
-    elif radio_selection == 'Playlist View' and "TV on the Radio" in dd9:
-        return {'display': 'none'}, {'display': 'block'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}
+    elif radio_selection == 'Spotify View' and "TV on the Radio" in dd9:
+        return {'display': 'none'}, {'display': 'block'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}
    
-    elif radio_selection == 'Playlist View' and "Taylor Swift" in dd9:
-        return {'display': 'none'}, {'display': 'none'}, {'display': 'block'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}
+    elif radio_selection == 'Spotify View' and "Taylor Swift" in dd9:
+        return {'display': 'none'}, {'display': 'none'}, {'display': 'block'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}
     
-    elif radio_selection == 'Playlist View' and "Little Dragon" in dd9:
-        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'block'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}
+    elif radio_selection == 'Spotify View' and "Little Dragon" in dd9:
+        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'block'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}
     
-    elif radio_selection == 'Playlist View' and "Florence + the Machine" in dd9:
-        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'block'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}
+    elif radio_selection == 'Spotify View' and "Florence + the Machine" in dd9:
+        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'block'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}
     
-    elif radio_selection == 'Playlist View' and "Dredg" in dd9:
-        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'block'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}
+    elif radio_selection == 'Spotify View' and "Dredg" in dd9:
+        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'block'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}
 
-    elif radio_selection == 'Playlist View' and "Tame Impala" in dd9:
-        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'block'}, {'display': 'none'}, {'display': 'none'}
+    elif radio_selection == 'Spotify View' and "Tame Impala" in dd9:
+        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'block'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}
 
-    elif radio_selection == 'Playlist View' and "Lord Huron" in dd9:
-        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'}, {'display': 'block'}, {'display': 'none'}
-        
-    else:
-        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}
+    elif radio_selection == 'Spotify View' and "Lord Huron" in dd9:
+        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'}, {'display': 'block'}, {'display': 'none'},{'display': 'none'}
+    
+    elif radio_selection == "Playlist View":
+        return {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'none'}, {'display': 'none'}, {'display': 'none'}, {'display': 'none'},{'display': 'block'}
+
+
+
+
+#----- Playlist tables
+
+@app.callback(
+    Output('playlist_table','children'),
+    Input('dropdown9','value'),
+    Input('dropdown10','value')
+)
+def table(dd9, dd10):
+    filtered_df = rb_setlist_df[rb_setlist_df['Artist Name']==dd9]
+    filtered_df = filtered_df[filtered_df['Prioritized Emotion']==dd10]
+
+
+    table_df = filtered_df[['Artist Name','Prioritized Emotion','Song Name']]
+
+    return html.Div([
+            dash_table.DataTable(
+                columns=[{"name": i, "id": i} for i in table_df.columns],
+                style_data_conditional=[{
+                    'if': {'row_index': 'odd'},'backgroundColor': 'rgb(248, 248, 248)'}],
+                style_header={'backgroundColor': 'rgb(230, 230, 230)','fontWeight': 'bold'},
+                style_data={'width': '125px', 'minWidth': '125px', 'maxWidth': '125px','overflow': 'hidden','textOverflow': 'ellipsis'},
+                sort_action='native',sort_mode="multi",
+                page_action="native", page_current= 0,page_size= 14,                     
+                data=table_df.to_dict('records')
+            )
+        ])
+
 
 
 @app.callback(
