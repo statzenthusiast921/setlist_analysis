@@ -224,7 +224,7 @@ A New,0.14,0.29,0.29,0.29,0,0.51,7,None,Little Dragon
 Let Go,0.15,0.3,0.1,0.05,0.4,0.52,7,None,Little Dragon
 New Fiction,0.15,0.03,0.03,0.58,0.21,0.64,7,None,Little Dragon
 Shuffle a Dream,0.05,0.29,0,0.34,0.32,0.26,8,None,Little Dragon
-Crystalfilm,0,0.29,0.08,0.42,0.21,0.26,8,None,Little Dragon
+Crystalfilm,0,0.29,0.08,0.42,0.21,0.2600001,8,None,Little Dragon
 Underbart,0.06,0.38,0.09,0.24,0.24,0.27,8,None,Little Dragon
 Tumbling Dice,0.25,0.25,0.07,0.29,0.14,0.28,8,None,Little Dragon
 Strobe Light,0.14,0.27,0.19,0.3,0.11,0.29,8,None,Little Dragon
@@ -511,13 +511,11 @@ It Is Not Meant to Be,0.25,0.29,0,0.29,0.17,0.18,1,None,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.23,1,None,Tame Impala
 Apocalypse Dreams,0.29,0.29,0,0.21,0.21,0.28,1,None,Tame Impala
 Elephant,0.13,0.2,0.07,0.4,0.2,0.3,1,None,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.31,1,None,Tame Impala
 Music to Walk Home By,0.22,0.22,0.13,0.22,0.22,0.33,1,None,Tame Impala
 Solitude Is Bliss,0.39,0.25,0,0.18,0.18,0.34,1,None,Tame Impala
 Let It Happen,0.4,0.25,0,0.25,0.1,0.34,1,None,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.38,1,None,Tame Impala
 Be Above It,0.18,0,0,0.64,0.18,0.68,1,None,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.7,1,None,Tame Impala
 Let It Happen,0.4,0.25,0,0.25,0.1,0.01,2,None,Tame Impala
 Solitude Is Bliss,0.39,0.25,0,0.18,0.18,0.15,2,None,Tame Impala
 Why Won't They Talk to Me?,0.41,0.12,0.06,0.29,0.12,0.27,2,None,Tame Impala
@@ -550,7 +548,6 @@ Elephant,0.13,0.2,0.07,0.4,0.2,0.38,5,None,Tame Impala
 Forty One Mosquitoes Flying in Formation,0.05,0.25,0.3,0.2,0.2,0.5,5,None,Tame Impala
 "New Person, Same Old Mistakes",0.04,0.2,0.11,0.46,0.2,0.57,5,None,Tame Impala
 Elephant,0.13,0.2,0.07,0.4,0.2,0.13,6,None,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.2,6,None,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.28,6,None,Tame Impala
 Expectation,0.06,0.22,0.06,0.31,0.36,0.3,6,None,Tame Impala
 "New Person, Same Old Mistakes",0.04,0.2,0.11,0.46,0.2,0.32,6,None,Tame Impala
@@ -559,12 +556,10 @@ On Track,0.14,0.44,0.06,0.28,0.08,0.39,6,None,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.44,6,None,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.45,6,None,Tame Impala
 "New Person, Same Old Mistakes",0.04,0.2,0.11,0.46,0.2,0.24,7,None,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.28,7,None,Tame Impala
 Expectation,0.06,0.22,0.06,0.31,0.36,0.3,7,None,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.36,7,None,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.37,7,None,Tame Impala
 Patience,0.09,0.41,0.05,0.23,0.23,0.42,7,None,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.26,8,None,Tame Impala
 Sundown Syndrome,0.13,0.15,0.22,0.37,0.13,0.27,8,None,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.3,8,None,Tame Impala
 Expectation,0.06,0.22,0.06,0.31,0.36,0.32,8,None,Tame Impala
@@ -591,7 +586,6 @@ Expectation,0.06,0.22,0.06,0.31,0.36,0.37,11,None,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.44,11,None,Tame Impala
 One More Year,0.13,0.68,0,0.16,0.03,0.7,11,None,Tame Impala
 One More Hour,0.13,0.68,0,0.16,0.03,0.7,11,None,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.72,11,None,Tame Impala
 'Cause I'm a Man,0.25,0.29,0.04,0.33,0.08,0.32,12,None,Tame Impala
 On Track,0.14,0.44,0.06,0.28,0.08,0.33,12,None,Tame Impala
 Lucidity,0.08,0.31,0.23,0.23,0.15,0.33,12,None,Tame Impala
@@ -599,7 +593,6 @@ Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.35,12,None,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.5,12,None,Tame Impala
 Reality in Motion,0,0.29,0.05,0.54,0.12,0.51,12,None,Tame Impala
 Alter Ego,0.08,0.23,0.46,0.15,0.08,0.61,12,None,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.75,12,None,Tame Impala
 Be Above It,0.18,0,0,0.64,0.18,0.81,12,None,Tame Impala
 Lucidity,0.08,0.31,0.23,0.23,0.15,0.27,13,None,Tame Impala
 On Track,0.14,0.44,0.06,0.28,0.08,0.31,13,None,Tame Impala
@@ -608,8 +601,7 @@ Reality in Motion,0,0.29,0.05,0.54,0.12,0.45,13,None,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.52,13,None,Tame Impala
 One More Year,0.13,0.68,0,0.16,0.03,0.61,13,None,Tame Impala
 One More Hour,0.13,0.68,0,0.16,0.03,0.61,13,None,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.73,13,None,Tame Impala
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.15,1,None,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.15,1,None,Taylor Swift
 Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.16,1,None,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.18,1,None,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.18,1,None,Taylor Swift
@@ -637,7 +629,6 @@ tolerate it,0.23,0.14,0.14,0.19,0.3,0.31,1,None,Taylor Swift
 Begin Again,0.21,0.15,0.03,0.23,0.38,0.31,1,None,Taylor Swift
 Mary's Song (Oh My My My),0.5,0.1,0.05,0.2,0.15,0.39,1,None,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.41,1,None,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.41,1,None,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0.41,1,None,Taylor Swift
 Tim McGraw,0.22,0.48,0.02,0.22,0.07,0.44,1,None,Taylor Swift
 Superman,0.26,0.16,0.32,0.09,0.18,0.46,1,None,Taylor Swift
@@ -674,7 +665,6 @@ Back to December,0.26,0.21,0.02,0.23,0.28,0.285,3,None,Taylor Swift
 Fifteen,0.24,0.29,0.09,0.15,0.24,0.305,3,None,Taylor Swift
 Invisible,0.32,0.24,0,0.28,0.16,0.305,3,None,Taylor Swift
 Cold as You,0.17,0.28,0.2,0.23,0.12,0.315,3,None,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.345,3,None,Taylor Swift
 I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.345,3,None,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.345,3,None,Taylor Swift
 Snow on the Beach,0.31,0.25,0.06,0.31,0.06,0.365,3,None,Taylor Swift
@@ -682,7 +672,6 @@ champagne problems,0.15,0.44,0.02,0.31,0.08,0.405,3,None,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.525,3,None,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.525,3,None,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.565,3,None,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.565,3,None,Taylor Swift
 Daylight,0.15,0.24,0.13,0.35,0.13,0.13,4,None,Taylor Swift
 Starlight,0.15,0.24,0.13,0.35,0.13,0.13,4,None,Taylor Swift
 coney island,0.19,0.23,0.07,0.35,0.16,0.19,4,None,Taylor Swift
@@ -697,9 +686,7 @@ The Great War,0.21,0.21,0.05,0.34,0.18,0.22,4,None,Taylor Swift
 State of Grace,0.17,0.28,0.05,0.33,0.17,0.23,4,None,Taylor Swift
 Question...?,0.2,0.34,0.07,0.29,0.1,0.29,4,None,Taylor Swift
 "You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.33,4,None,Taylor Swift
-"You're on Your Own, Kid / Long Live",0.26,0.26,0.14,0.26,0.08,0.33,4,None,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0.33,4,None,Taylor Swift
-"Fifteen / You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.33,4,None,Taylor Swift
 Snow on the Beach,0.31,0.25,0.06,0.31,0.06,0.34,4,None,Taylor Swift
 Beautiful Eyes,0.16,0.41,0,0.31,0.12,0.35,4,None,Taylor Swift
 I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.35,4,None,Taylor Swift
@@ -721,7 +708,6 @@ Lover,0.24,0.28,0.03,0.31,0.14,0.32,5,None,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0.34,5,None,Taylor Swift
 I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.34,5,None,Taylor Swift
 Snow on the Beach,0.31,0.25,0.06,0.31,0.06,0.35,5,None,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.37,5,None,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.37,5,None,Taylor Swift
 Beautiful Eyes,0.16,0.41,0,0.31,0.12,0.38,5,None,Taylor Swift
 Invisible,0.32,0.24,0,0.28,0.16,0.38,5,None,Taylor Swift
@@ -757,7 +743,6 @@ Labyrinth,0.42,0.16,0,0.14,0.28,0.36,6,None,Taylor Swift
 The Other Side of the Door,0.21,0.18,0.18,0.11,0.32,0.36,6,None,Taylor Swift
 Fresh Out the Slammer,0.26,0.37,0.04,0.22,0.11,0.4,6,None,Taylor Swift
 You Belong With Me,0.44,0.18,0.04,0.22,0.11,0.45,6,None,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.49,6,None,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.49,6,None,Taylor Swift
 Tim McGraw,0.22,0.48,0.02,0.22,0.07,0.49,6,None,Taylor Swift
 ME!,0.19,0.03,0.04,0.19,0.55,0.54,6,None,Taylor Swift
@@ -802,7 +787,6 @@ Iris,0.27,0.27,0.12,0.23,0.12,0.355,8,None,Taylor Swift
 Paris,0.27,0.27,0.12,0.23,0.12,0.355,8,None,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.375,8,None,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.575,8,None,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.655,8,None,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.655,8,None,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.2,9,None,Taylor Swift
 Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.2,9,None,Taylor Swift
@@ -814,9 +798,7 @@ Lover,0.24,0.28,0.03,0.31,0.14,0.23,9,None,Taylor Swift
 betty,0.23,0.26,0.05,0.38,0.08,0.25,9,None,Taylor Swift
 Question...?,0.2,0.34,0.07,0.29,0.1,0.25,9,None,Taylor Swift
 coney island,0.19,0.23,0.07,0.35,0.16,0.25,9,None,Taylor Swift
-"Fifteen / You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.25,9,None,Taylor Swift
 "You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.25,9,None,Taylor Swift
-"You're on Your Own, Kid / Long Live",0.26,0.26,0.14,0.26,0.08,0.25,9,None,Taylor Swift
 You Belong With Me,0.44,0.18,0.04,0.22,0.11,0.26,9,None,Taylor Swift
 I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.27,9,None,Taylor Swift
 Snow on the Beach,0.31,0.25,0.06,0.31,0.06,0.28,9,None,Taylor Swift
@@ -826,7 +808,6 @@ Cold as You,0.17,0.28,0.2,0.23,0.12,0.29,9,None,Taylor Swift
 gold rush,0.26,0.19,0.08,0.19,0.28,0.29,9,None,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.29,9,None,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.3,9,None,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.3,9,None,Taylor Swift
 How Did It End?,0.17,0.21,0.04,0.33,0.25,0.31,9,None,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.33,9,None,Taylor Swift
 Tim McGraw,0.22,0.48,0.02,0.22,0.07,0.34,9,None,Taylor Swift
@@ -856,12 +837,10 @@ Begin Again,0.21,0.15,0.03,0.23,0.38,0.35,10,None,Taylor Swift
 I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.35,10,None,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0.37,10,None,Taylor Swift
 Invisible,0.32,0.24,0,0.28,0.16,0.39,10,None,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.42,10,None,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.42,10,None,Taylor Swift
 You Belong With Me,0.44,0.18,0.04,0.22,0.11,0.48,10,None,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.48,10,None,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.53,10,None,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.53,10,None,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.61,10,None,Taylor Swift
 Down Bad,0.5,0.15,0.1,0.25,0,0.65,10,None,Taylor Swift
 Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.14,11,None,Taylor Swift
@@ -889,12 +868,10 @@ Dreams,0.26,0.13,0,0.29,0.32,0.33,11,None,Taylor Swift
 Dress,0.26,0.13,0,0.29,0.32,0.33,11,None,Taylor Swift
 You Belong With Me,0.44,0.18,0.04,0.22,0.11,0.34,11,None,Taylor Swift
 Fresh Out the Slammer,0.26,0.37,0.04,0.22,0.11,0.35,11,None,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.38,11,None,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.38,11,None,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.38,11,None,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0.39,11,None,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.43,11,None,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.43,11,None,Taylor Swift
 Mary's Song (Oh My My My),0.5,0.1,0.05,0.2,0.15,0.45,11,None,Taylor Swift
 Tim McGraw,0.22,0.48,0.02,0.22,0.07,0.48,11,None,Taylor Swift
 Superman,0.26,0.16,0.32,0.09,0.18,0.48,11,None,Taylor Swift
@@ -912,7 +889,6 @@ I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.39,12,None,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0.39,12,None,Taylor Swift
 You Belong With Me,0.44,0.18,0.04,0.22,0.11,0.48,12,None,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.5,12,None,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.53,12,None,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.53,12,None,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.63,12,None,Taylor Swift
 Down Bad,0.5,0.15,0.1,0.25,0,0.67,12,None,Taylor Swift
@@ -952,7 +928,6 @@ My Boy Only Breaks His Favorite Toys,0.27,0.3,0,0.24,0.19,0.36,14,None,Taylor Sw
 Beautiful Eyes,0.16,0.41,0,0.31,0.12,0.4,14,None,Taylor Swift
 Sad Beautiful Tragic,0.37,0.11,0.02,0.25,0.26,0.41,14,None,Taylor Swift
 champagne problems,0.15,0.44,0.02,0.31,0.08,0.44,14,None,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.47,14,None,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.47,14,None,Taylor Swift
 Death by a Thousand Cuts,0.17,0.44,0.02,0.32,0.05,0.5,14,None,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.62,14,None,Taylor Swift
@@ -967,7 +942,6 @@ Enchanted,0.33,0.2,0.06,0.14,0.27,0.32,15,None,Taylor Swift
 Dear Reader,0.17,0.09,0.09,0.17,0.49,0.37,15,None,Taylor Swift
 coney island,0.19,0.23,0.07,0.35,0.16,0.42,15,None,Taylor Swift
 Labyrinth,0.42,0.16,0,0.14,0.28,0.5,15,None,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.57,15,None,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.57,15,None,Taylor Swift
 Young Liars,0.07,0.3,0.1,0.33,0.2,0,1,None,TV on the Radio
 Love Stained,0.1,0.24,0.08,0.37,0.2,0.15,1,None,TV on the Radio
@@ -980,7 +954,7 @@ Dreams,0.15,0.33,0.07,0.3,0.15,0.22,1,None,TV on the Radio
 Killer Crane,0.12,0.27,0.12,0.24,0.24,0.23,1,None,TV on the Radio
 The Wrong Way,0.03,0.26,0.09,0.29,0.34,0.27,1,None,TV on the Radio
 Wrong Way,0.03,0.26,0.09,0.29,0.34,0.27,1,None,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.28,1,None,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.28,1,None,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.28,1,None,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.29,1,None,TV on the Radio
 Stork & Owl,0.09,0.38,0.09,0.38,0.06,0.3,1,None,TV on the Radio
@@ -1026,7 +1000,7 @@ Second Song,0.14,0.34,0.17,0.34,0,0.295,4,None,TV on the Radio
 King Eternal,0.11,0.5,0.17,0.06,0.17,0.375,4,None,TV on the Radio
 Dry Drunk Emperor,0.12,0.24,0.14,0.4,0.1,0.375,4,None,TV on the Radio
 Staring at the Sun,0.02,0.54,0.12,0.22,0.1,0.425,4,None,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.435,4,None,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.435,4,None,TV on the Radio
 I Was a Lover,0.11,0.32,0,0.43,0.14,0.435,4,None,TV on the Radio
 New Health Rock,0.12,0.15,0.15,0.42,0.15,0.445,4,None,TV on the Radio
 Red Dress,0.11,0.34,0.11,0.25,0.19,0.135,5,None,TV on the Radio
@@ -1037,7 +1011,7 @@ Crying,0.04,0.29,0.25,0.21,0.21,0.255,5,None,TV on the Radio
 A Method,0.06,0.24,0.21,0.24,0.26,0.265,5,None,TV on the Radio
 Love Stained,0.1,0.24,0.08,0.37,0.2,0.265,5,None,TV on the Radio
 Snakes and Martyrs,0.12,0.28,0.09,0.38,0.12,0.275,5,None,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.305,5,None,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.305,5,None,TV on the Radio
 Dry Drunk Emperor,0.12,0.24,0.14,0.4,0.1,0.305,5,None,TV on the Radio
 Tonight,0.31,0.21,0.1,0.21,0.17,0.305,5,None,TV on the Radio
 New Cannonball Blues,0.15,0.23,0.16,0.15,0.31,0.315,5,None,TV on the Radio
@@ -1059,7 +1033,7 @@ Dreams,0.15,0.33,0.07,0.3,0.15,0.24,6,None,TV on the Radio
 Snakes and Martyrs,0.12,0.28,0.09,0.38,0.12,0.25,6,None,TV on the Radio
 Wolf Like Me,0.1,0.21,0.08,0.25,0.35,0.25,6,None,TV on the Radio
 A Method,0.06,0.24,0.21,0.24,0.26,0.25,6,None,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.28,6,None,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.28,6,None,TV on the Radio
 Crying,0.04,0.29,0.25,0.21,0.21,0.28,6,None,TV on the Radio
 Wrong Way,0.03,0.26,0.09,0.29,0.34,0.29,6,None,TV on the Radio
 Wash the Day,0.12,0.35,0.16,0.29,0.08,0.3,6,None,TV on the Radio
@@ -1088,7 +1062,7 @@ Wash the Day,0.12,0.35,0.16,0.29,0.08,0.28,7,None,TV on the Radio
 Test Pilot,0.25,0.28,0,0.25,0.22,0.3,7,None,TV on the Radio
 Right Now,0.12,0.42,0,0.23,0.23,0.3,7,None,TV on the Radio
 Wrong Way,0.03,0.26,0.09,0.29,0.34,0.31,7,None,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.32,7,None,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.32,7,None,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.32,7,None,TV on the Radio
 Tonight,0.31,0.21,0.1,0.21,0.17,0.38,7,None,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.48,7,None,TV on the Radio
@@ -1106,7 +1080,7 @@ Wrong Way,0.03,0.26,0.09,0.29,0.34,0.31,8,None,TV on the Radio
 Right Now,0.12,0.42,0,0.23,0.23,0.32,8,None,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.32,8,None,TV on the Radio
 Test Pilot,0.25,0.28,0,0.25,0.22,0.32,8,None,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.34,8,None,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.34,8,None,TV on the Radio
 Tonight,0.31,0.21,0.1,0.21,0.17,0.4,8,None,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.48,8,None,TV on the Radio
 Dreams,0.15,0.33,0.07,0.3,0.15,0.195,9,None,TV on the Radio
@@ -1119,7 +1093,7 @@ Snakes and Martyrs,0.12,0.28,0.09,0.38,0.12,0.305,9,None,TV on the Radio
 Wolf Like Me,0.1,0.21,0.08,0.25,0.35,0.305,9,None,TV on the Radio
 Test Pilot,0.25,0.28,0,0.25,0.22,0.335,9,None,TV on the Radio
 Stork & Owl,0.09,0.38,0.09,0.38,0.06,0.345,9,None,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.355,9,None,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.355,9,None,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.355,9,None,TV on the Radio
 Tonight,0.31,0.21,0.1,0.21,0.17,0.415,9,None,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.505,9,None,TV on the Radio
@@ -1131,7 +1105,7 @@ Love Stained,0.1,0.24,0.08,0.37,0.2,0.29,10,None,TV on the Radio
 Wolf Like Me,0.1,0.21,0.08,0.25,0.35,0.35,10,None,TV on the Radio
 Stork & Owl,0.09,0.38,0.09,0.38,0.06,0.36,10,None,TV on the Radio
 Tonight,0.31,0.21,0.1,0.21,0.17,0.4,10,None,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.4,10,None,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.4,10,None,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.4,10,None,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.54,10,None,TV on the Radio
 Let the Devil In,0.11,0.14,0.08,0.19,0.47,0.55,10,None,TV on the Radio
@@ -1256,7 +1230,7 @@ Drumming Song,0,0.44,0.07,0.2,0.28,0.4,6,None,Florence + the Machine
 St Jude,0.11,0.11,0.04,0.52,0.22,0.53,6,None,Florence + the Machine
 Daffodil,0.15,0.05,0.1,0.5,0.2,0.55,6,None,Florence + the Machine
 Lover to Lover,0.2,0.2,0.07,0.23,0.3,0.06,7,None,Florence + the Machine
-Over the Love,0.2,0.2,0.07,0.23,0.3,0.06,7,None,Florence + the Machine
+Over the Love,0.2,0.2,0.07,0.23,0.3,0.06000001,7,None,Florence + the Machine
 Patricia,0.3,0.21,0.02,0.19,0.28,0.18,7,None,Florence + the Machine
 Big God,0.24,0.24,0,0.28,0.24,0.24,7,None,Florence + the Machine
 Mermaids,0.32,0.22,0.08,0.19,0.19,0.26,7,None,Florence + the Machine
@@ -1294,7 +1268,7 @@ Mermaids,0.32,0.22,0.08,0.19,0.19,0.41,9,None,Florence + the Machine
 Long & Lost,0.07,0.26,0.02,0.56,0.09,0.49,9,None,Florence + the Machine
 Which Witch,0.07,0.04,0.11,0.34,0.45,0.52,9,None,Florence + the Machine
 Big God,0.24,0.24,0,0.28,0.24,0.25,10,None,Florence + the Machine
-Howl,0.13,0.2,0,0.4,0.27,0.25,10,None,Florence + the Machine
+Howl,0.13,0.2,0,0.4,0.27,0.25000001,10,None,Florence + the Machine
 Girls Against God,0.07,0.18,0.2,0.24,0.31,0.29,10,None,Florence + the Machine
 Patricia,0.3,0.21,0.02,0.19,0.28,0.31,10,None,Florence + the Machine
 Grace,0.12,0.17,0.1,0.42,0.2,0.32,10,None,Florence + the Machine
@@ -1360,7 +1334,7 @@ St Jude,0.11,0.11,0.04,0.52,0.22,0.6,13,None,Florence + the Machine
 Mary's Song (Oh My My My),0.5,0.1,0.05,0.2,0.15,0,1,Angry,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0,1,Angry,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0,1,Angry,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0,1,Angry,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0,1,Angry,Taylor Swift
 cowboy like me,0.23,0.37,0.05,0.14,0.21,0,1,Angry,Taylor Swift
 22,0.22,0.36,0.06,0.17,0.19,0.01,1,Angry,Taylor Swift
 Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.01,1,Angry,Taylor Swift
@@ -1375,7 +1349,6 @@ Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.02,1,Angry,Taylor Swift
 ...Ready for It?,0.25,0.11,0.07,0.36,0.21,0.02,1,Angry,Taylor Swift
 Lover,0.24,0.28,0.03,0.31,0.14,0.02,1,Angry,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0.02,1,Angry,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.02,1,Angry,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.02,1,Angry,Taylor Swift
 Dancing With Our Hands Tied,0.28,0.2,0.08,0.32,0.12,0.03,1,Angry,Taylor Swift
 Ours,0.21,0.24,0.08,0.3,0.17,0.03,1,Angry,Taylor Swift
@@ -1406,14 +1379,12 @@ State of Grace,0.17,0.28,0.05,0.33,0.17,0.005,3,Angry,Taylor Swift
 Blank Space,0.17,0.29,0.05,0.18,0.31,0.005,3,Angry,Taylor Swift
 Snow on the Beach,0.31,0.25,0.06,0.31,0.06,0.005,3,Angry,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.005,3,Angry,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.005,3,Angry,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.005,3,Angry,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.005,3,Angry,Taylor Swift
 Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.005,3,Angry,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.005,3,Angry,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.005,3,Angry,Taylor Swift
 How Did It End?,0.17,0.21,0.04,0.33,0.25,0.015,3,Angry,Taylor Swift
 coney island,0.19,0.23,0.07,0.35,0.16,0.015,3,Angry,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.025,3,Angry,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.025,3,Angry,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.025,3,Angry,Taylor Swift
 'tis the damn season,0.19,0.19,0.03,0.42,0.16,0.025,3,Angry,Taylor Swift
@@ -1443,9 +1414,7 @@ Question...?,0.2,0.34,0.07,0.29,0.1,0.03,4,Angry,Taylor Swift
 Daylight,0.15,0.24,0.13,0.35,0.13,0.03,4,Angry,Taylor Swift
 Snow on the Beach,0.31,0.25,0.06,0.31,0.06,0.04,4,Angry,Taylor Swift
 "You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.04,4,Angry,Taylor Swift
-"You're on Your Own, Kid / Long Live",0.26,0.26,0.14,0.26,0.08,0.04,4,Angry,Taylor Swift
-"Fifteen / You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.04,4,Angry,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.05,4,Angry,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.05,4,Angry,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.05,4,Angry,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.05,4,Angry,Taylor Swift
 State of Grace,0.17,0.28,0.05,0.33,0.17,0.05,4,Angry,Taylor Swift
@@ -1460,7 +1429,6 @@ coney island,0.19,0.23,0.07,0.35,0.16,0,5,Angry,Taylor Swift
 Question...?,0.2,0.34,0.07,0.29,0.1,0,5,Angry,Taylor Swift
 Dancing With Our Hands Tied,0.28,0.2,0.08,0.32,0.12,0.01,5,Angry,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.01,5,Angry,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.01,5,Angry,Taylor Swift
 Snow on the Beach,0.31,0.25,0.06,0.31,0.06,0.01,5,Angry,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.02,5,Angry,Taylor Swift
 I Can Do It With a Broken Heart,0.15,0.18,0.09,0.31,0.27,0.02,5,Angry,Taylor Swift
@@ -1500,12 +1468,11 @@ Dress,0.26,0.13,0,0.29,0.32,0.02,6,Angry,Taylor Swift
 Labyrinth,0.42,0.16,0,0.14,0.28,0.02,6,Angry,Taylor Swift
 Fresh Out the Slammer,0.26,0.37,0.04,0.22,0.11,0.02,6,Angry,Taylor Swift
 Untouchable,0.32,0.09,0,0.27,0.32,0.02,6,Angry,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.03,6,Angry,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.03,6,Angry,Taylor Swift
 Blank Space,0.17,0.29,0.05,0.18,0.31,0.03,6,Angry,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.03,6,Angry,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.03,6,Angry,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.04,6,Angry,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.04,6,Angry,Taylor Swift
 Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.04,6,Angry,Taylor Swift
 Enchanted,0.33,0.2,0.06,0.14,0.27,0.04,6,Angry,Taylor Swift
 gold rush,0.26,0.19,0.08,0.19,0.28,0.06,6,Angry,Taylor Swift
@@ -1526,7 +1493,7 @@ How Did It End?,0.17,0.21,0.04,0.33,0.25,0.01,7,Angry,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.02,7,Angry,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.02,7,Angry,Taylor Swift
 State of Grace,0.17,0.28,0.05,0.33,0.17,0.02,7,Angry,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.02,7,Angry,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.02,7,Angry,Taylor Swift
 Bejeweled,0.15,0.34,0,0.32,0.19,0.03,7,Angry,Taylor Swift
 Beautiful Eyes,0.16,0.41,0,0.31,0.12,0.03,7,Angry,Taylor Swift
 The Lucky One,0.59,0.16,0,0.12,0.12,0.03,7,Angry,Taylor Swift
@@ -1549,7 +1516,6 @@ Blank Space,0.17,0.29,0.05,0.18,0.31,0.025,8,Angry,Taylor Swift
 The Smallest Man Who Ever Lived,0.18,0.32,0.11,0.18,0.21,0.035,8,Angry,Taylor Swift
 Iris,0.27,0.27,0.12,0.23,0.12,0.045,8,Angry,Taylor Swift
 Paris,0.27,0.27,0.12,0.23,0.12,0.045,8,Angry,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.045,8,Angry,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.045,8,Angry,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.045,8,Angry,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.045,8,Angry,Taylor Swift
@@ -1563,7 +1529,6 @@ The Best Day,0.21,0.21,0.05,0.34,0.18,0,9,Angry,Taylor Swift
 Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.01,9,Angry,Taylor Swift
 Snow on the Beach,0.31,0.25,0.06,0.31,0.06,0.01,9,Angry,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.01,9,Angry,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.01,9,Angry,Taylor Swift
 Fresh Out the Slammer,0.26,0.37,0.04,0.22,0.11,0.01,9,Angry,Taylor Swift
 ME!,0.19,0.03,0.04,0.19,0.55,0.01,9,Angry,Taylor Swift
 You Belong With Me,0.44,0.18,0.04,0.22,0.11,0.01,9,Angry,Taylor Swift
@@ -1583,27 +1548,23 @@ Innocent,0.18,0.18,0.09,0.33,0.22,0.04,9,Angry,Taylor Swift
 Dear Reader,0.17,0.09,0.09,0.17,0.49,0.04,9,Angry,Taylor Swift
 Invisible,0.32,0.24,0,0.28,0.16,0.05,9,Angry,Taylor Swift
 The Lucky One,0.59,0.16,0,0.12,0.12,0.05,9,Angry,Taylor Swift
-"Fifteen / You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.09,9,Angry,Taylor Swift
 "You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.09,9,Angry,Taylor Swift
-"You're on Your Own, Kid / Long Live",0.26,0.26,0.14,0.26,0.08,0.09,9,Angry,Taylor Swift
 I Did Something Bad,0.21,0.21,0.17,0.31,0.1,0.12,9,Angry,Taylor Swift
 Cold as You,0.17,0.28,0.2,0.23,0.12,0.15,9,Angry,Taylor Swift
 Wildest Dreams,0.24,0.24,0.36,0.08,0.08,0.31,9,Angry,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.01,10,Angry,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.01,10,Angry,Taylor Swift
 Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.01,10,Angry,Taylor Swift
 I Can Do It With a Broken Heart,0.15,0.18,0.09,0.31,0.27,0.02,10,Angry,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.02,10,Angry,Taylor Swift
 State of Grace,0.17,0.28,0.05,0.33,0.17,0.02,10,Angry,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.02,10,Angry,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.02,10,Angry,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.02,10,Angry,Taylor Swift
 Down Bad,0.5,0.15,0.1,0.25,0,0.03,10,Angry,Taylor Swift
 You Belong With Me,0.44,0.18,0.04,0.22,0.11,0.03,10,Angry,Taylor Swift
 How Did It End?,0.17,0.21,0.04,0.33,0.25,0.03,10,Angry,Taylor Swift
 The Smallest Man Who Ever Lived,0.18,0.32,0.11,0.18,0.21,0.04,10,Angry,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0.04,10,Angry,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.04,10,Angry,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.04,10,Angry,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.04,10,Angry,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.04,10,Angry,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.04,10,Angry,Taylor Swift
@@ -1616,8 +1577,7 @@ Why She Disappeared,0.17,0.28,0.14,0.25,0.17,0.07,10,Angry,Taylor Swift
 Love Story,0.26,0.15,0.15,0.24,0.21,0.08,10,Angry,Taylor Swift
 Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0,11,Angry,Taylor Swift
 22,0.22,0.36,0.06,0.17,0.19,0,11,Angry,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0,11,Angry,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.01,11,Angry,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.01,11,Angry,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.01,11,Angry,Taylor Swift
 cowboy like me,0.23,0.37,0.05,0.14,0.21,0.01,11,Angry,Taylor Swift
 State of Grace,0.17,0.28,0.05,0.33,0.17,0.01,11,Angry,Taylor Swift
@@ -1633,7 +1593,6 @@ Tied Together With a Smile,0.23,0.11,0.03,0.4,0.23,0.03,11,Angry,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.03,11,Angry,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0.03,11,Angry,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.03,11,Angry,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.03,11,Angry,Taylor Swift
 Lover,0.24,0.28,0.03,0.31,0.14,0.03,11,Angry,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.03,11,Angry,Taylor Swift
 Fifteen,0.24,0.29,0.09,0.15,0.24,0.03,11,Angry,Taylor Swift
@@ -1652,7 +1611,7 @@ Super Bass,0.26,0.16,0.32,0.09,0.18,0.26,11,Angry,Taylor Swift
 I Can Do It With a Broken Heart,0.15,0.18,0.09,0.31,0.27,0.02,12,Angry,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.02,12,Angry,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.02,12,Angry,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.02,12,Angry,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.02,12,Angry,Taylor Swift
 Down Bad,0.5,0.15,0.1,0.25,0,0.03,12,Angry,Taylor Swift
 How Did It End?,0.17,0.21,0.04,0.33,0.25,0.03,12,Angry,Taylor Swift
 You Belong With Me,0.44,0.18,0.04,0.22,0.11,0.03,12,Angry,Taylor Swift
@@ -1660,7 +1619,6 @@ Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.04,12,Angry,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0.04,12,Angry,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.04,12,Angry,Taylor Swift
 Begin Again,0.21,0.15,0.03,0.23,0.38,0.04,12,Angry,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.04,12,Angry,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.04,12,Angry,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.04,12,Angry,Taylor Swift
 I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.05,12,Angry,Taylor Swift
@@ -1668,7 +1626,7 @@ Back to December,0.26,0.21,0.02,0.23,0.28,0.05,12,Angry,Taylor Swift
 the last great american dynasty,0.15,0.17,0.02,0.34,0.32,0.05,12,Angry,Taylor Swift
 Love Story,0.26,0.15,0.15,0.24,0.21,0.08,12,Angry,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.01,13,Angry,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.01,13,Angry,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.01,13,Angry,Taylor Swift
 Question...?,0.2,0.34,0.07,0.29,0.1,0.01,13,Angry,Taylor Swift
 You Belong With Me,0.44,0.18,0.04,0.22,0.11,0.02,13,Angry,Taylor Swift
 Fresh Out the Slammer,0.26,0.37,0.04,0.22,0.11,0.02,13,Angry,Taylor Swift
@@ -1694,9 +1652,8 @@ Fortnight,0.15,0.18,0.03,0.49,0.15,0.01,14,Angry,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.01,14,Angry,Taylor Swift
 State of Grace,0.17,0.28,0.05,0.33,0.17,0.01,14,Angry,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.01,14,Angry,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.01,14,Angry,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.01,14,Angry,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.01,14,Angry,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.02,14,Angry,Taylor Swift
 the last great american dynasty,0.15,0.17,0.02,0.34,0.32,0.02,14,Angry,Taylor Swift
 champagne problems,0.15,0.44,0.02,0.31,0.08,0.02,14,Angry,Taylor Swift
 Death by a Thousand Cuts,0.17,0.44,0.02,0.32,0.05,0.02,14,Angry,Taylor Swift
@@ -1718,17 +1675,16 @@ Starlight,0.15,0.24,0.13,0.35,0.13,0.02,15,Angry,Taylor Swift
 Daylight,0.15,0.24,0.13,0.35,0.13,0.02,15,Angry,Taylor Swift
 tolerate it,0.23,0.14,0.14,0.19,0.3,0.03,15,Angry,Taylor Swift
 Enchanted,0.33,0.2,0.06,0.14,0.27,0.05,15,Angry,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.05,15,Angry,Taylor Swift
 Blank Space,0.17,0.29,0.05,0.18,0.31,0.06,15,Angry,Taylor Swift
 Back to December,0.26,0.21,0.02,0.23,0.28,0.09,15,Angry,Taylor Swift
 the last great american dynasty,0.15,0.17,0.02,0.34,0.32,0.09,15,Angry,Taylor Swift
 Last Kiss,0.19,0.17,0.21,0.15,0.28,0.1,15,Angry,Taylor Swift
 Labyrinth,0.42,0.16,0,0.14,0.28,0.11,15,Angry,Taylor Swift
 Looking Glass,0.1,0.13,0.07,0.47,0.23,0.02,1,Happy,Little Dragon
-A New,0.14,0.29,0.29,0.29,0,0.02,1,Happy,Little Dragon
-Strobe Light,0.14,0.27,0.19,0.3,0.11,0.02,1,Happy,Little Dragon
-Amöban,0.14,0.29,0.07,0.25,0.25,0.02,1,Happy,Little Dragon
-Easy Falling,0.14,0.29,0.1,0.43,0.05,0.02,1,Happy,Little Dragon
+A New,0.14,0.29,0.29,0.29,0,0.020001,1,Happy,Little Dragon
+Strobe Light,0.14,0.27,0.19,0.3,0.11,0.020001,1,Happy,Little Dragon
+Amöban,0.14,0.29,0.07,0.25,0.25,0.020001,1,Happy,Little Dragon
+Easy Falling,0.14,0.29,0.1,0.43,0.05,0.020001,1,Happy,Little Dragon
 New Fiction,0.15,0.03,0.03,0.58,0.21,0.03,1,Happy,Little Dragon
 Let Go,0.15,0.3,0.1,0.05,0.4,0.03,1,Happy,Little Dragon
 Cat Rider,0.16,0.38,0.05,0.19,0.22,0.04,1,Happy,Little Dragon
@@ -1746,8 +1702,8 @@ Strobe Light,0.14,0.27,0.19,0.3,0.11,0.02,2,Happy,Little Dragon
 Little Man,0.08,0.36,0,0.44,0.12,0.04,2,Happy,Little Dragon
 Disco Dangerous,0.44,0.22,0,0.22,0.11,0.32,2,Happy,Little Dragon
 Killing Me,0.06,0.14,0,0.44,0.36,0.01,3,Happy,Little Dragon
-Twice,0.06,0.19,0.12,0.44,0.19,0.01,3,Happy,Little Dragon
-Underbart,0.06,0.38,0.09,0.24,0.24,0.01,3,Happy,Little Dragon
+Twice,0.06,0.19,0.12,0.44,0.19,0.010001,3,Happy,Little Dragon
+Underbart,0.06,0.38,0.09,0.24,0.24,0.010001,3,Happy,Little Dragon
 Should I,0.09,0.45,0.09,0.23,0.14,0.02,3,Happy,Little Dragon
 Klapp Klapp,0.05,0.22,0.08,0.27,0.38,0.02,3,Happy,Little Dragon
 Nabuma Rubberband,0.05,0.16,0.37,0.21,0.21,0.02,3,Happy,Little Dragon
@@ -1763,7 +1719,7 @@ Tumbling Dice,0.25,0.25,0.07,0.29,0.14,0.18,3,Happy,Little Dragon
 Hold On,0.27,0.13,0.07,0.33,0.2,0.2,3,Happy,Little Dragon
 Slugs of Love,0.55,0.13,0.04,0.28,0,0.48,3,Happy,Little Dragon
 The Pop Life,0.07,0.33,0.11,0.26,0.22,0.005,4,Happy,Little Dragon
-Underbart,0.06,0.38,0.09,0.24,0.24,0.005,4,Happy,Little Dragon
+Underbart,0.06,0.38,0.09,0.24,0.24,0.0050001,4,Happy,Little Dragon
 Klapp Klapp,0.05,0.22,0.08,0.27,0.38,0.015,4,Happy,Little Dragon
 Shuffle a Dream,0.05,0.29,0,0.34,0.32,0.015,4,Happy,Little Dragon
 Forever,0.08,0.36,0.03,0.53,0,0.015,4,Happy,Little Dragon
@@ -1780,8 +1736,8 @@ Cat Rider,0.16,0.38,0.05,0.19,0.22,0.095,4,Happy,Little Dragon
 Gold,0.17,0.34,0,0.27,0.22,0.105,4,Happy,Little Dragon
 Another Lover,0.26,0.3,0,0.19,0.26,0.195,4,Happy,Little Dragon
 Wink,0.05,0.25,0.1,0.3,0.3,0,5,Happy,Little Dragon
-Shuffle a Dream,0.05,0.29,0,0.34,0.32,0,5,Happy,Little Dragon
-Klapp Klapp,0.05,0.22,0.08,0.27,0.38,0,5,Happy,Little Dragon
+Shuffle a Dream,0.05,0.29,0,0.34,0.32,0.00001,5,Happy,Little Dragon
+Klapp Klapp,0.05,0.22,0.08,0.27,0.38,0.00001,5,Happy,Little Dragon
 Underbart,0.06,0.38,0.09,0.24,0.24,0.01,5,Happy,Little Dragon
 Should I,0.09,0.45,0.09,0.23,0.14,0.04,5,Happy,Little Dragon
 Don't Cry,0.1,0.3,0,0.45,0.15,0.05,5,Happy,Little Dragon
@@ -1838,9 +1794,9 @@ Tumbling Dice,0.25,0.25,0.07,0.29,0.14,0.15,8,Happy,Little Dragon
 Hold On,0.27,0.13,0.07,0.33,0.2,0.17,8,Happy,Little Dragon
 Never Never,0.33,0.33,0,0.33,0,0.23,8,Happy,Little Dragon
 A New,0.14,0.29,0.29,0.29,0,0.04,9,Happy,Little Dragon
-Strobe Light,0.14,0.27,0.19,0.3,0.11,0.04,9,Happy,Little Dragon
-Amöban,0.14,0.29,0.07,0.25,0.25,0.04,9,Happy,Little Dragon
-Easy Falling,0.14,0.29,0.1,0.43,0.05,0.04,9,Happy,Little Dragon
+Strobe Light,0.14,0.27,0.19,0.3,0.11,0.040001,9,Happy,Little Dragon
+Amöban,0.14,0.29,0.07,0.25,0.25,0.040001,9,Happy,Little Dragon
+Easy Falling,0.14,0.29,0.1,0.43,0.05,0.040001,9,Happy,Little Dragon
 New Fiction,0.15,0.03,0.03,0.58,0.21,0.05,9,Happy,Little Dragon
 Let Go,0.15,0.3,0.1,0.05,0.4,0.05,9,Happy,Little Dragon
 Shuffle a Dream,0.05,0.29,0,0.34,0.32,0.05,9,Happy,Little Dragon
@@ -2247,10 +2203,10 @@ I Lied,0.07,0.15,0.05,0.22,0.51,0.11,17,Fear,Lord Huron
 The Yawning Grave,0.04,0.39,0.04,0.25,0.29,0.13,17,Fear,Lord Huron
 Wait by the River,0.04,0.08,0.04,0.17,0.67,0.18,17,Fear,Lord Huron
 Leave My Body,0.02,0.31,0.06,0.33,0.27,0.01,1,Sad,Florence + the Machine
-Sky Full of Song,0.07,0.27,0.23,0.33,0.1,0.01,1,Sad,Florence + the Machine
-Prayer Factory,0.08,0.23,0.15,0.31,0.23,0.01,1,Sad,Florence + the Machine
-Dream Girl Evil,0.06,0.14,0.03,0.31,0.46,0.01,1,Sad,Florence + the Machine
-What the Water Gave Me,0.14,0.29,0.05,0.33,0.19,0.01,1,Sad,Florence + the Machine
+Sky Full of Song,0.07,0.27,0.23,0.33,0.1,0.0100001,1,Sad,Florence + the Machine
+Prayer Factory,0.08,0.23,0.15,0.31,0.23,0.0100001,1,Sad,Florence + the Machine
+Dream Girl Evil,0.06,0.14,0.03,0.31,0.46,0.0100001,1,Sad,Florence + the Machine
+What the Water Gave Me,0.14,0.29,0.05,0.33,0.19,0.0100001,1,Sad,Florence + the Machine
 Girl With One Eye,0.09,0.16,0,0.34,0.41,0.02,1,Sad,Florence + the Machine
 Only Love Can Break Your Heart,0.3,0.11,0.07,0.3,0.22,0.02,1,Sad,Florence + the Machine
 Free,0.2,0.3,0.07,0.3,0.14,0.02,1,Sad,Florence + the Machine
@@ -2265,9 +2221,9 @@ Ship to Wreck,0.11,0.17,0.03,0.51,0.18,0.19,1,Sad,Florence + the Machine
 St Jude,0.11,0.11,0.04,0.52,0.22,0.2,1,Sad,Florence + the Machine
 Long & Lost,0.07,0.26,0.02,0.56,0.09,0.24,1,Sad,Florence + the Machine
 Dream Girl Evil,0.06,0.14,0.03,0.31,0.46,0.01,2,Sad,Florence + the Machine
-Sky Full of Song,0.07,0.27,0.23,0.33,0.1,0.01,2,Sad,Florence + the Machine
-Prayer Factory,0.08,0.23,0.15,0.31,0.23,0.01,2,Sad,Florence + the Machine
-What the Water Gave Me,0.14,0.29,0.05,0.33,0.19,0.01,2,Sad,Florence + the Machine
+Sky Full of Song,0.07,0.27,0.23,0.33,0.1,0.0100001,2,Sad,Florence + the Machine
+Prayer Factory,0.08,0.23,0.15,0.31,0.23,0.0100001,2,Sad,Florence + the Machine
+What the Water Gave Me,0.14,0.29,0.05,0.33,0.19,0.0100001,2,Sad,Florence + the Machine
 Girl With One Eye,0.09,0.16,0,0.34,0.41,0.02,2,Sad,Florence + the Machine
 My Best Dress,0.16,0.41,0.03,0.34,0.06,0.02,2,Sad,Florence + the Machine
 Only Love Can Break Your Heart,0.3,0.11,0.07,0.3,0.22,0.02,2,Sad,Florence + the Machine
@@ -2298,8 +2254,8 @@ Patricia,0.3,0.21,0.02,0.19,0.28,0.13,3,Sad,Florence + the Machine
 Between Two Lungs,0.06,0.17,0.03,0.14,0.61,0.18,3,Sad,Florence + the Machine
 Ship to Wreck,0.11,0.17,0.03,0.51,0.18,0.19,3,Sad,Florence + the Machine
 Only Love Can Break Your Heart,0.3,0.11,0.07,0.3,0.22,0,4,Sad,Florence + the Machine
-"How Big, How Blue, How Beautiful",0.21,0.23,0.09,0.3,0.17,0,4,Sad,Florence + the Machine
-Free,0.2,0.3,0.07,0.3,0.14,0,4,Sad,Florence + the Machine
+"How Big, How Blue, How Beautiful",0.21,0.23,0.09,0.3,0.17,0.0100001,4,Sad,Florence + the Machine
+Free,0.2,0.3,0.07,0.3,0.14,0.0100001,4,Sad,Florence + the Machine
 Heaven Is Here,0.1,0.24,0.1,0.29,0.29,0.01,4,Sad,Florence + the Machine
 Prayer Factory,0.08,0.23,0.15,0.31,0.23,0.01,4,Sad,Florence + the Machine
 Big God,0.24,0.24,0,0.28,0.24,0.02,4,Sad,Florence + the Machine
@@ -2311,8 +2267,8 @@ Grace,0.12,0.17,0.1,0.42,0.2,0.12,4,Sad,Florence + the Machine
 St Jude,0.11,0.11,0.04,0.52,0.22,0.22,4,Sad,Florence + the Machine
 Long & Lost,0.07,0.26,0.02,0.56,0.09,0.26,4,Sad,Florence + the Machine
 Lover to Lover,0.2,0.2,0.07,0.23,0.3,0,5,Sad,Florence + the Machine
-Over the Love,0.2,0.2,0.07,0.23,0.3,0,5,Sad,Florence + the Machine
-Rabbit Heart (Raise It Up),0.07,0.27,0.07,0.23,0.37,0,5,Sad,Florence + the Machine
+Over the Love,0.2,0.2,0.07,0.23,0.3,0.0100001,5,Sad,Florence + the Machine
+Rabbit Heart (Raise It Up),0.07,0.27,0.07,0.23,0.37,0.0100001,5,Sad,Florence + the Machine
 Girls Against God,0.07,0.18,0.2,0.24,0.31,0.01,5,Sad,Florence + the Machine
 Cassandra,0.06,0.03,0.03,0.24,0.64,0.01,5,Sad,Florence + the Machine
 South London Forever,0.11,0.32,0.18,0.21,0.18,0.02,5,Sad,Florence + the Machine
@@ -2326,7 +2282,7 @@ Prayer Factory,0.08,0.23,0.15,0.31,0.23,0.08,5,Sad,Florence + the Machine
 Shake It Out,0.1,0.35,0.12,0.15,0.28,0.08,5,Sad,Florence + the Machine
 Long & Lost,0.07,0.26,0.02,0.56,0.09,0.33,5,Sad,Florence + the Machine
 Never Let Me Go,0.15,0.34,0.05,0.2,0.27,0,6,Sad,Florence + the Machine
-Drumming Song,0,0.44,0.07,0.2,0.28,0,6,Sad,Florence + the Machine
+Drumming Song,0,0.44,0.07,0.2,0.28,0.0100001,6,Sad,Florence + the Machine
 Mermaids,0.32,0.22,0.08,0.19,0.19,0.01,6,Sad,Florence + the Machine
 Patricia,0.3,0.21,0.02,0.19,0.28,0.01,6,Sad,Florence + the Machine
 Over the Love,0.2,0.2,0.07,0.23,0.3,0.03,6,Sad,Florence + the Machine
@@ -2381,7 +2337,7 @@ Grace,0.12,0.17,0.1,0.42,0.2,0.12,9,Sad,Florence + the Machine
 St Jude,0.11,0.11,0.04,0.52,0.22,0.22,9,Sad,Florence + the Machine
 Long & Lost,0.07,0.26,0.02,0.56,0.09,0.26,9,Sad,Florence + the Machine
 Girls Against God,0.07,0.18,0.2,0.24,0.31,0,10,Sad,Florence + the Machine
-Cassandra,0.06,0.03,0.03,0.24,0.64,0,10,Sad,Florence + the Machine
+Cassandra,0.06,0.03,0.03,0.24,0.64,0.0100001,10,Sad,Florence + the Machine
 Rabbit Heart (Raise It Up),0.07,0.27,0.07,0.23,0.37,0.01,10,Sad,Florence + the Machine
 Drumming Song,0,0.44,0.07,0.2,0.28,0.04,10,Sad,Florence + the Machine
 Big God,0.24,0.24,0,0.28,0.24,0.04,10,Sad,Florence + the Machine
@@ -2623,7 +2579,7 @@ Dream Girl Evil,0.06,0.14,0.03,0.31,0.46,0.15,2,Fear,Florence + the Machine
 Only Love Can Break Your Heart,0.3,0.11,0.07,0.3,0.22,0.18,2,Fear,Florence + the Machine
 St Jude,0.11,0.11,0.04,0.52,0.22,0.18,2,Fear,Florence + the Machine
 Ship to Wreck,0.11,0.17,0.03,0.51,0.18,0,3,Fear,Florence + the Machine
-Between Two Lungs,0.06,0.17,0.03,0.14,0.61,0,3,Fear,Florence + the Machine
+Between Two Lungs,0.06,0.17,0.03,0.14,0.61,0.00001,3,Fear,Florence + the Machine
 Back in Town,0.12,0.18,0.35,0.35,0,0.01,3,Fear,Florence + the Machine
 Breaking Down,0.07,0.18,0.04,0.21,0.5,0.01,3,Fear,Florence + the Machine
 Girls Against God,0.07,0.18,0.2,0.24,0.31,0.01,3,Fear,Florence + the Machine
@@ -2638,7 +2594,7 @@ Big God,0.24,0.24,0,0.28,0.24,0.07,3,Fear,Florence + the Machine
 Heaven Is Here,0.1,0.24,0.1,0.29,0.29,0.07,3,Fear,Florence + the Machine
 Leave My Body,0.02,0.31,0.06,0.33,0.27,0.14,3,Fear,Florence + the Machine
 Sky Full of Song,0.07,0.27,0.23,0.33,0.1,0,4,Fear,Florence + the Machine
-Rabbit Heart (Raise It Up),0.07,0.27,0.07,0.23,0.37,0,4,Fear,Florence + the Machine
+Rabbit Heart (Raise It Up),0.07,0.27,0.07,0.23,0.37,0.000001,4,Fear,Florence + the Machine
 Long & Lost,0.07,0.26,0.02,0.56,0.09,0.01,4,Fear,Florence + the Machine
 Big God,0.24,0.24,0,0.28,0.24,0.03,4,Fear,Florence + the Machine
 Heaven Is Here,0.1,0.24,0.1,0.29,0.29,0.03,4,Fear,Florence + the Machine
@@ -2685,7 +2641,7 @@ St Jude,0.11,0.11,0.04,0.52,0.22,0.12,6,Fear,Florence + the Machine
 Daffodil,0.15,0.05,0.1,0.5,0.2,0.18,6,Fear,Florence + the Machine
 Drumming Song,0,0.44,0.07,0.2,0.28,0.21,6,Fear,Florence + the Machine
 Lover to Lover,0.2,0.2,0.07,0.23,0.3,0,7,Fear,Florence + the Machine
-Over the Love,0.2,0.2,0.07,0.23,0.3,0,7,Fear,Florence + the Machine
+Over the Love,0.2,0.2,0.07,0.23,0.3,0.00001,7,Fear,Florence + the Machine
 Patricia,0.3,0.21,0.02,0.19,0.28,0.01,7,Fear,Florence + the Machine
 Hurricane Drunk,0.1,0.19,0.1,0.32,0.29,0.01,7,Fear,Florence + the Machine
 Mermaids,0.32,0.22,0.08,0.19,0.19,0.02,7,Fear,Florence + the Machine
@@ -2698,7 +2654,7 @@ Heaven Is Here,0.1,0.24,0.1,0.29,0.29,0.04,7,Fear,Florence + the Machine
 Never Let Me Go,0.15,0.34,0.05,0.2,0.27,0.14,7,Fear,Florence + the Machine
 Drumming Song,0,0.44,0.07,0.2,0.28,0.24,7,Fear,Florence + the Machine
 Over the Love,0.2,0.2,0.07,0.23,0.3,0,8,Fear,Florence + the Machine
-Howl,0.13,0.2,0,0.4,0.27,0,8,Fear,Florence + the Machine
+Howl,0.13,0.2,0,0.4,0.27,0.00001,8,Fear,Florence + the Machine
 Patricia,0.3,0.21,0.02,0.19,0.28,0.01,8,Fear,Florence + the Machine
 Hurricane Drunk,0.1,0.19,0.1,0.32,0.29,0.01,8,Fear,Florence + the Machine
 Mermaids,0.32,0.22,0.08,0.19,0.19,0.02,8,Fear,Florence + the Machine
@@ -2713,7 +2669,7 @@ Shake It Out,0.1,0.35,0.12,0.15,0.28,0.15,8,Fear,Florence + the Machine
 Daffodil,0.15,0.05,0.1,0.5,0.2,0.15,8,Fear,Florence + the Machine
 Drumming Song,0,0.44,0.07,0.2,0.28,0.24,8,Fear,Florence + the Machine
 "How Big, How Blue, How Beautiful",0.21,0.23,0.09,0.3,0.17,0,9,Fear,Florence + the Machine
-Prayer Factory,0.08,0.23,0.15,0.31,0.23,0,9,Fear,Florence + the Machine
+Prayer Factory,0.08,0.23,0.15,0.31,0.23,0.00001,9,Fear,Florence + the Machine
 Big God,0.24,0.24,0,0.28,0.24,0.01,9,Fear,Florence + the Machine
 Heaven Is Here,0.1,0.24,0.1,0.29,0.29,0.01,9,Fear,Florence + the Machine
 Mermaids,0.32,0.22,0.08,0.19,0.19,0.01,9,Fear,Florence + the Machine
@@ -2781,7 +2737,7 @@ South London Forever,0.11,0.32,0.18,0.21,0.18,0.18,12,Fear,Florence + the Machin
 Never Let Me Go,0.15,0.34,0.05,0.2,0.27,0.2,12,Fear,Florence + the Machine
 Breath of Life,0.17,0.4,0,0.27,0.17,0.26,12,Fear,Florence + the Machine
 Falling,0.18,0.29,0.14,0.14,0.25,0.02,13,Fear,Florence + the Machine
-Bedroom Hymns,0.14,0.25,0,0.14,0.46,0.02,13,Fear,Florence + the Machine
+Bedroom Hymns,0.14,0.25,0,0.14,0.46,0.02000001,13,Fear,Florence + the Machine
 Blinding,0.28,0.3,0.11,0.11,0.19,0.03,13,Fear,Florence + the Machine
 Heaven Is Here,0.1,0.24,0.1,0.29,0.29,0.03,13,Fear,Florence + the Machine
 If I Had a Heart,0.26,0.31,0.09,0.16,0.19,0.04,13,Fear,Florence + the Machine
@@ -2917,7 +2873,6 @@ Lightswitch,0,0.4,0.24,0.28,0.08,0.17,13,Angry,Dredg
 The Tanbark is Hot Lava,0,0.3,0.35,0.3,0.04,0.28,13,Angry,Dredg
 Spitshine,0,0.32,0.36,0.2,0.12,0.29,13,Angry,Dredg
 Let It Happen,0.4,0.25,0,0.25,0.1,0.01,1,Sad,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.01,1,Sad,Tame Impala
 It Is Not Meant to Be,0.25,0.29,0,0.29,0.17,0.03,1,Sad,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.03,1,Sad,Tame Impala
 Music to Walk Home By,0.22,0.22,0.13,0.22,0.22,0.04,1,Sad,Tame Impala
@@ -2925,7 +2880,6 @@ Apocalypse Dreams,0.29,0.29,0,0.21,0.21,0.05,1,Sad,Tame Impala
 Solitude Is Bliss,0.39,0.25,0,0.18,0.18,0.08,1,Sad,Tame Impala
 Elephant,0.13,0.2,0.07,0.4,0.2,0.14,1,Sad,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.24,1,Sad,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.26,1,Sad,Tame Impala
 Be Above It,0.18,0,0,0.64,0.18,0.38,1,Sad,Tame Impala
 Why Won't They Talk to Me?,0.41,0.12,0.06,0.29,0.12,0.04,2,Sad,Tame Impala
 It Is Not Meant to Be,0.25,0.29,0,0.29,0.17,0.04,2,Sad,Tame Impala
@@ -2962,7 +2916,6 @@ It Is Not Meant to Be,0.25,0.29,0,0.29,0.17,0.06,5,Sad,Tame Impala
 Mind Mischief,0.27,0.27,0.06,0.06,0.33,0.17,5,Sad,Tame Impala
 Elephant,0.13,0.2,0.07,0.4,0.2,0.17,5,Sad,Tame Impala
 "New Person, Same Old Mistakes",0.04,0.2,0.11,0.46,0.2,0.23,5,Sad,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0,6,Sad,Tame Impala
 On Track,0.14,0.44,0.06,0.28,0.08,0.01,6,Sad,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.02,6,Sad,Tame Impala
 Expectation,0.06,0.22,0.06,0.31,0.36,0.04,6,Sad,Tame Impala
@@ -3009,7 +2962,6 @@ One More Hour,0.13,0.68,0,0.16,0.03,0.05,11,Sad,Tame Impala
 It Is Not Meant to Be,0.25,0.29,0,0.29,0.17,0.08,11,Sad,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.08,11,Sad,Tame Impala
 Elephant,0.13,0.2,0.07,0.4,0.2,0.19,11,Sad,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.21,11,Sad,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.29,11,Sad,Tame Impala
 Patience,0.09,0.41,0.05,0.23,0.23,0.01,12,Sad,Tame Impala
 Lucidity,0.08,0.31,0.23,0.23,0.15,0.01,12,Sad,Tame Impala
@@ -3019,7 +2971,6 @@ Last Nite,0.15,0.37,0.05,0.29,0.15,0.07,12,Sad,Tame Impala
 Alter Ego,0.08,0.23,0.46,0.15,0.08,0.07,12,Sad,Tame Impala
 'Cause I'm a Man,0.25,0.29,0.04,0.33,0.08,0.11,12,Sad,Tame Impala
 Elephant,0.13,0.2,0.07,0.4,0.2,0.18,12,Sad,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.22,12,Sad,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.28,12,Sad,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.31,12,Sad,Tame Impala
 Reality in Motion,0,0.29,0.05,0.54,0.12,0.32,12,Sad,Tame Impala
@@ -3031,12 +2982,11 @@ On Track,0.14,0.44,0.06,0.28,0.08,0.07,13,Sad,Tame Impala
 It Is Not Meant to Be,0.25,0.29,0,0.29,0.17,0.08,13,Sad,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.08,13,Sad,Tame Impala
 'Cause I'm a Man,0.25,0.29,0.04,0.33,0.08,0.12,13,Sad,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.21,13,Sad,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.29,13,Sad,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.32,13,Sad,Tame Impala
 Reality in Motion,0,0.29,0.05,0.54,0.12,0.33,13,Sad,Tame Impala
 Ship to Wreck,0.11,0.17,0.03,0.51,0.18,0,1,Angry,Florence + the Machine
-Dream Girl Evil,0.06,0.14,0.03,0.31,0.46,0,1,Angry,Florence + the Machine
+Dream Girl Evil,0.06,0.14,0.03,0.31,0.46,0.000001,1,Angry,Florence + the Machine
 Long & Lost,0.07,0.26,0.02,0.56,0.09,0.01,1,Angry,Florence + the Machine
 100 Years,0.09,0.33,0.04,0.39,0.15,0.01,1,Angry,Florence + the Machine
 St Jude,0.11,0.11,0.04,0.52,0.22,0.01,1,Angry,Florence + the Machine
@@ -3054,7 +3004,7 @@ Prayer Factory,0.08,0.23,0.15,0.31,0.23,0.12,1,Angry,Florence + the Machine
 South London Forever,0.11,0.32,0.18,0.21,0.18,0.15,1,Angry,Florence + the Machine
 Sky Full of Song,0.07,0.27,0.23,0.33,0.1,0.2,1,Angry,Florence + the Machine
 100 Years,0.09,0.33,0.04,0.39,0.15,0,2,Angry,Florence + the Machine
-St Jude,0.11,0.11,0.04,0.52,0.22,0,2,Angry,Florence + the Machine
+St Jude,0.11,0.11,0.04,0.52,0.22,0.00001,2,Angry,Florence + the Machine
 Dream Girl Evil,0.06,0.14,0.03,0.31,0.46,0.01,2,Angry,Florence + the Machine
 My Best Dress,0.16,0.41,0.03,0.34,0.06,0.01,2,Angry,Florence + the Machine
 What the Water Gave Me,0.14,0.29,0.05,0.33,0.19,0.01,2,Angry,Florence + the Machine
@@ -3104,9 +3054,9 @@ Big God,0.24,0.24,0,0.28,0.24,0.06,4,Angry,Florence + the Machine
 Prayer Factory,0.08,0.23,0.15,0.31,0.23,0.09,4,Angry,Florence + the Machine
 Sky Full of Song,0.07,0.27,0.23,0.33,0.1,0.17,4,Angry,Florence + the Machine
 Lover to Lover,0.2,0.2,0.07,0.23,0.3,0,5,Angry,Florence + the Machine
-Over the Love,0.2,0.2,0.07,0.23,0.3,0,5,Angry,Florence + the Machine
-Rabbit Heart (Raise It Up),0.07,0.27,0.07,0.23,0.37,0,5,Angry,Florence + the Machine
-Drumming Song,0,0.44,0.07,0.2,0.28,0,5,Angry,Florence + the Machine
+Over the Love,0.2,0.2,0.07,0.23,0.3,0.00001,5,Angry,Florence + the Machine
+Rabbit Heart (Raise It Up),0.07,0.27,0.07,0.23,0.37,0.00001,5,Angry,Florence + the Machine
+Drumming Song,0,0.44,0.07,0.2,0.28,0.00001,5,Angry,Florence + the Machine
 Never Let Me Go,0.15,0.34,0.05,0.2,0.27,0.02,5,Angry,Florence + the Machine
 Hurricane Drunk,0.1,0.19,0.1,0.32,0.29,0.03,5,Angry,Florence + the Machine
 Heaven Is Here,0.1,0.24,0.1,0.29,0.29,0.03,5,Angry,Florence + the Machine
@@ -3118,9 +3068,9 @@ Prayer Factory,0.08,0.23,0.15,0.31,0.23,0.08,5,Angry,Florence + the Machine
 South London Forever,0.11,0.32,0.18,0.21,0.18,0.11,5,Angry,Florence + the Machine
 Girls Against God,0.07,0.18,0.2,0.24,0.31,0.13,5,Angry,Florence + the Machine
 All This and Heaven Too,0.02,0.28,0.21,0.19,0.3,0.14,5,Angry,Florence + the Machine
-Drumming Song,0,0.44,0.07,0.2,0.28,0,6,Angry,Florence + the Machine
+Drumming Song,0,0.44,0.07,0.2,0.28,0.000001,6,Angry,Florence + the Machine
 Rabbit Heart (Raise It Up),0.07,0.27,0.07,0.23,0.37,0,6,Angry,Florence + the Machine
-Over the Love,0.2,0.2,0.07,0.23,0.3,0,6,Angry,Florence + the Machine
+Over the Love,0.2,0.2,0.07,0.23,0.3,0.000001,6,Angry,Florence + the Machine
 Mermaids,0.32,0.22,0.08,0.19,0.19,0.01,6,Angry,Florence + the Machine
 If I Had a Heart,0.26,0.31,0.09,0.16,0.19,0.02,6,Angry,Florence + the Machine
 Never Let Me Go,0.15,0.34,0.05,0.2,0.27,0.02,6,Angry,Florence + the Machine
@@ -3136,7 +3086,7 @@ Howl,0.13,0.2,0,0.4,0.27,0.07,6,Angry,Florence + the Machine
 "No Light, No Light",0.19,0.13,0.2,0.24,0.24,0.13,6,Angry,Florence + the Machine
 Flakes,0.16,0.23,0.23,0.13,0.26,0.16,6,Angry,Florence + the Machine
 Never Let Me Go,0.15,0.34,0.05,0.2,0.27,0.01,7,Angry,Florence + the Machine
-Over the Love,0.2,0.2,0.07,0.23,0.3,0.01,7,Angry,Florence + the Machine
+Over the Love,0.2,0.2,0.07,0.23,0.3,0.0100001,7,Angry,Florence + the Machine
 Mermaids,0.32,0.22,0.08,0.19,0.19,0.02,7,Angry,Florence + the Machine
 "How Big, How Blue, How Beautiful",0.21,0.23,0.09,0.3,0.17,0.03,7,Angry,Florence + the Machine
 Patricia,0.3,0.21,0.02,0.19,0.28,0.04,7,Angry,Florence + the Machine
@@ -3161,8 +3111,7 @@ Howl,0.13,0.2,0,0.4,0.27,0.07,8,Angry,Florence + the Machine
 "No Light, No Light",0.19,0.13,0.2,0.24,0.24,0.13,8,Angry,Florence + the Machine
 Flakes,0.16,0.23,0.23,0.13,0.26,0.16,8,Angry,Florence + the Machine
 What the Water Gave Me,0.14,0.29,0.05,0.33,0.19,0.01,9,Angry,Florence + the Machine
-Only Love Can Break Your Heart,0.3,0.11,0.07,0.3,0.22,0.01,9,Angry,Florence + the Machine
-Rabbit Heart (Raise It Up),0.07,0.27,0.07,0.23,0.37,0.01,9,Angry,Florence + the Machine
+Only Love Can Break Your Heart,0.3,0.11,0.07,0.3,0.22,0.0100001,9,Angry,Florence + the Machine
 St Jude,0.11,0.11,0.04,0.52,0.22,0.02,9,Angry,Florence + the Machine
 Mermaids,0.32,0.22,0.08,0.19,0.19,0.02,9,Angry,Florence + the Machine
 "How Big, How Blue, How Beautiful",0.21,0.23,0.09,0.3,0.17,0.03,9,Angry,Florence + the Machine
@@ -3177,11 +3126,10 @@ Howl,0.13,0.2,0,0.4,0.27,0.06,9,Angry,Florence + the Machine
 Prayer Factory,0.08,0.23,0.15,0.31,0.23,0.09,9,Angry,Florence + the Machine
 Sky Full of Song,0.07,0.27,0.23,0.33,0.1,0.17,9,Angry,Florence + the Machine
 St Jude,0.11,0.11,0.04,0.52,0.22,0,10,Angry,Florence + the Machine
-Hunger,0.15,0.17,0.04,0.13,0.5,0,10,Angry,Florence + the Machine
+Hunger,0.15,0.17,0.04,0.13,0.5,0.000001,10,Angry,Florence + the Machine
 Between Two Lungs,0.06,0.17,0.03,0.14,0.61,0.01,10,Angry,Florence + the Machine
 Cassandra,0.06,0.03,0.03,0.24,0.64,0.01,10,Angry,Florence + the Machine
 Patricia,0.3,0.21,0.02,0.19,0.28,0.02,10,Angry,Florence + the Machine
-Rabbit Heart (Raise It Up),0.07,0.27,0.07,0.23,0.37,0.03,10,Angry,Florence + the Machine
 Big God,0.24,0.24,0,0.28,0.24,0.04,10,Angry,Florence + the Machine
 Bedroom Hymns,0.14,0.25,0,0.14,0.46,0.04,10,Angry,Florence + the Machine
 Howl,0.13,0.2,0,0.4,0.27,0.04,10,Angry,Florence + the Machine
@@ -3236,12 +3184,10 @@ Falling,0.18,0.29,0.14,0.14,0.25,0.07,13,Angry,Florence + the Machine
 Bedroom Hymns,0.14,0.25,0,0.14,0.46,0.07,13,Angry,Florence + the Machine
 South London Forever,0.11,0.32,0.18,0.21,0.18,0.11,13,Angry,Florence + the Machine
 Flakes,0.16,0.23,0.23,0.13,0.26,0.16,13,Angry,Florence + the Machine
-Led Zeppelin,0.14,0.29,0,0,0.57,0,1,Happy,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0,1,Happy,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.01,1,Happy,Tame Impala
 Elephant,0.13,0.2,0.07,0.4,0.2,0.01,1,Happy,Tame Impala
 Be Above It,0.18,0,0,0.64,0.18,0.04,1,Happy,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.04,1,Happy,Tame Impala
 Music to Walk Home By,0.22,0.22,0.13,0.22,0.22,0.08,1,Happy,Tame Impala
 It Is Not Meant to Be,0.25,0.29,0,0.29,0.17,0.11,1,Happy,Tame Impala
 Apocalypse Dreams,0.29,0.29,0,0.21,0.21,0.15,1,Happy,Tame Impala
@@ -3287,25 +3233,21 @@ Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.01,6,Happy,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.02,6,Happy,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.04,6,Happy,Tame Impala
 Patience,0.09,0.41,0.05,0.23,0.23,0.04,6,Happy,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.05,6,Happy,Tame Impala
 Expectation,0.06,0.22,0.06,0.31,0.36,0.07,6,Happy,Tame Impala
 "New Person, Same Old Mistakes",0.04,0.2,0.11,0.46,0.2,0.09,6,Happy,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.01,7,Happy,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.04,7,Happy,Tame Impala
 Patience,0.09,0.41,0.05,0.23,0.23,0.04,7,Happy,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.05,7,Happy,Tame Impala
 Expectation,0.06,0.22,0.06,0.31,0.36,0.07,7,Happy,Tame Impala
 "New Person, Same Old Mistakes",0.04,0.2,0.11,0.46,0.2,0.09,7,Happy,Tame Impala
 Sundown Syndrome,0.13,0.15,0.22,0.37,0.13,0,8,Happy,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.02,8,Happy,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.04,8,Happy,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.05,8,Happy,Tame Impala
 Expectation,0.06,0.22,0.06,0.31,0.36,0.07,8,Happy,Tame Impala
 "New Person, Same Old Mistakes",0.04,0.2,0.11,0.46,0.2,0.09,8,Happy,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.02,9,Happy,Tame Impala
 Patience,0.09,0.41,0.05,0.23,0.23,0.04,9,Happy,Tame Impala
 Be Above It,0.18,0,0,0.64,0.18,0.05,9,Happy,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.05,9,Happy,Tame Impala
 Lucidity,0.08,0.31,0.23,0.23,0.15,0.05,9,Happy,Tame Impala
 Forty One Mosquitoes Flying in Formation,0.05,0.25,0.3,0.2,0.2,0.08,9,Happy,Tame Impala
 The Less I Know the Better,0.22,0.22,0.04,0.19,0.33,0.09,9,Happy,Tame Impala
@@ -3349,14 +3291,12 @@ Let It Happen,0.4,0.25,0,0.25,0.1,0.29,13,Happy,Tame Impala
 It Is Not Meant to Be,0.25,0.29,0,0.29,0.17,0,1,Surprise,Tame Impala
 Solitude Is Bliss,0.39,0.25,0,0.18,0.18,0.01,1,Surprise,Tame Impala
 Be Above It,0.18,0,0,0.64,0.18,0.01,1,Surprise,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.01,1,Surprise,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.02,1,Surprise,Tame Impala
 Elephant,0.13,0.2,0.07,0.4,0.2,0.03,1,Surprise,Tame Impala
 Apocalypse Dreams,0.29,0.29,0,0.21,0.21,0.04,1,Surprise,Tame Impala
 Music to Walk Home By,0.22,0.22,0.13,0.22,0.22,0.05,1,Surprise,Tame Impala
 Let It Happen,0.4,0.25,0,0.25,0.1,0.07,1,Surprise,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.1,1,Surprise,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.4,1,Surprise,Tame Impala
 Let It Happen,0.4,0.25,0,0.25,0.1,0,2,Surprise,Tame Impala
 Why Won't They Talk to Me?,0.41,0.12,0.06,0.29,0.12,0.02,2,Surprise,Tame Impala
 Island Walking,0.38,0.38,0,0.12,0.12,0.02,2,Surprise,Tame Impala
@@ -3389,14 +3329,12 @@ Music to Walk Home By,0.22,0.22,0.13,0.22,0.22,0.05,5,Surprise,Tame Impala
 Mind Mischief,0.27,0.27,0.06,0.06,0.33,0.16,5,Surprise,Tame Impala
 The Less I Know the Better,0.22,0.22,0.04,0.19,0.33,0.16,5,Surprise,Tame Impala
 "New Person, Same Old Mistakes",0.04,0.2,0.11,0.46,0.2,0,6,Surprise,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.02,6,Surprise,Tame Impala
 Patience,0.09,0.41,0.05,0.23,0.23,0.03,6,Surprise,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.05,6,Surprise,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.08,6,Surprise,Tame Impala
 On Track,0.14,0.44,0.06,0.28,0.08,0.12,6,Surprise,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.13,6,Surprise,Tame Impala
 Expectation,0.06,0.22,0.06,0.31,0.36,0.16,6,Surprise,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.02,7,Surprise,Tame Impala
 Patience,0.09,0.41,0.05,0.23,0.23,0.03,7,Surprise,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.08,7,Surprise,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.13,7,Surprise,Tame Impala
@@ -3432,7 +3370,6 @@ One More Year,0.13,0.68,0,0.16,0.03,0.15,11,Surprise,Tame Impala
 One More Hour,0.13,0.68,0,0.16,0.03,0.15,11,Surprise,Tame Impala
 The Less I Know the Better,0.22,0.22,0.04,0.19,0.33,0.15,11,Surprise,Tame Impala
 Expectation,0.06,0.22,0.06,0.31,0.36,0.18,11,Surprise,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.39,11,Surprise,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.01,12,Surprise,Tame Impala
 Reality in Motion,0,0.29,0.05,0.54,0.12,0.01,12,Surprise,Tame Impala
 Lucidity,0.08,0.31,0.23,0.23,0.15,0.02,12,Surprise,Tame Impala
@@ -3441,7 +3378,6 @@ Alter Ego,0.08,0.23,0.46,0.15,0.08,0.05,12,Surprise,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.06,12,Surprise,Tame Impala
 Patience,0.09,0.41,0.05,0.23,0.23,0.1,12,Surprise,Tame Impala
 The Less I Know the Better,0.22,0.22,0.04,0.19,0.33,0.2,12,Surprise,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.44,12,Surprise,Tame Impala
 Reality in Motion,0,0.29,0.05,0.54,0.12,0.01,13,Surprise,Tame Impala
 Lucidity,0.08,0.31,0.23,0.23,0.15,0.02,13,Surprise,Tame Impala
 On Track,0.14,0.44,0.06,0.28,0.08,0.05,13,Surprise,Tame Impala
@@ -3449,16 +3385,13 @@ Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.06,13,Surprise,Tame Impala
 One More Year,0.13,0.68,0,0.16,0.03,0.1,13,Surprise,Tame Impala
 One More Hour,0.13,0.68,0,0.16,0.03,0.1,13,Surprise,Tame Impala
 Patience,0.09,0.41,0.05,0.23,0.23,0.1,13,Surprise,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.44,13,Surprise,Tame Impala
 Let It Happen,0.4,0.25,0,0.25,0.1,0,1,Fear,Tame Impala
 Solitude Is Bliss,0.39,0.25,0,0.18,0.18,0,1,Fear,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0,1,Fear,Tame Impala
 Music to Walk Home By,0.22,0.22,0.13,0.22,0.22,0.03,1,Fear,Tame Impala
 Apocalypse Dreams,0.29,0.29,0,0.21,0.21,0.04,1,Fear,Tame Impala
 It Is Not Meant to Be,0.25,0.29,0,0.29,0.17,0.04,1,Fear,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.04,1,Fear,Tame Impala
 Elephant,0.13,0.2,0.07,0.4,0.2,0.05,1,Fear,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.07,1,Fear,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.12,1,Fear,Tame Impala
 Be Above It,0.18,0,0,0.64,0.18,0.25,1,Fear,Tame Impala
 Solitude Is Bliss,0.39,0.25,0,0.18,0.18,0,2,Fear,Tame Impala
@@ -3497,7 +3430,6 @@ Elephant,0.13,0.2,0.07,0.4,0.2,0.05,5,Fear,Tame Impala
 Elephant,0.13,0.2,0.07,0.4,0.2,0,6,Fear,Tame Impala
 "New Person, Same Old Mistakes",0.04,0.2,0.11,0.46,0.2,0,6,Fear,Tame Impala
 Expectation,0.06,0.22,0.06,0.31,0.36,0.02,6,Fear,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.02,6,Fear,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.04,6,Fear,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.05,6,Fear,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.17,6,Fear,Tame Impala
@@ -3505,12 +3437,10 @@ Patience,0.09,0.41,0.05,0.23,0.23,0.21,6,Fear,Tame Impala
 On Track,0.14,0.44,0.06,0.28,0.08,0.24,6,Fear,Tame Impala
 "New Person, Same Old Mistakes",0.04,0.2,0.11,0.46,0.2,0,7,Fear,Tame Impala
 Expectation,0.06,0.22,0.06,0.31,0.36,0.02,7,Fear,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.02,7,Fear,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.04,7,Fear,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.05,7,Fear,Tame Impala
 Patience,0.09,0.41,0.05,0.23,0.23,0.21,7,Fear,Tame Impala
 Expectation,0.06,0.22,0.06,0.31,0.36,0.02,8,Fear,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.02,8,Fear,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.04,8,Fear,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.05,8,Fear,Tame Impala
 Sundown Syndrome,0.13,0.15,0.22,0.37,0.13,0.05,8,Fear,Tame Impala
@@ -3518,7 +3448,6 @@ Last Nite,0.15,0.37,0.05,0.29,0.15,0.17,8,Fear,Tame Impala
 The Less I Know the Better,0.22,0.22,0.04,0.19,0.33,0,9,Fear,Tame Impala
 Music to Walk Home By,0.22,0.22,0.13,0.22,0.22,0,9,Fear,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.03,9,Fear,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.04,9,Fear,Tame Impala
 Apocalypse Dreams,0.29,0.29,0,0.21,0.21,0.07,9,Fear,Tame Impala
 Lucidity,0.08,0.31,0.23,0.23,0.15,0.09,9,Fear,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.15,9,Fear,Tame Impala
@@ -3535,7 +3464,6 @@ One More Hour,0.13,0.68,0,0.16,0.03,0.45,10,Fear,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0,11,Fear,Tame Impala
 Apocalypse Dreams,0.29,0.29,0,0.21,0.21,0.04,11,Fear,Tame Impala
 It Is Not Meant to Be,0.25,0.29,0,0.29,0.17,0.04,11,Fear,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.04,11,Fear,Tame Impala
 Lucidity,0.08,0.31,0.23,0.23,0.15,0.06,11,Fear,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.12,11,Fear,Tame Impala
 Patience,0.09,0.41,0.05,0.23,0.23,0.16,11,Fear,Tame Impala
@@ -3544,7 +3472,6 @@ One More Hour,0.13,0.68,0,0.16,0.03,0.43,11,Fear,Tame Impala
 Apocalypse Dreams,0.29,0.29,0,0.21,0.21,0.04,12,Fear,Tame Impala
 'Cause I'm a Man,0.25,0.29,0.04,0.33,0.08,0.04,12,Fear,Tame Impala
 It Is Not Meant to Be,0.25,0.29,0,0.29,0.17,0.04,12,Fear,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.04,12,Fear,Tame Impala
 Reality in Motion,0,0.29,0.05,0.54,0.12,0.04,12,Fear,Tame Impala
 Lucidity,0.08,0.31,0.23,0.23,0.15,0.06,12,Fear,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.09,12,Fear,Tame Impala
@@ -3554,7 +3481,6 @@ On Track,0.14,0.44,0.06,0.28,0.08,0.19,12,Fear,Tame Impala
 Be Above It,0.18,0,0,0.64,0.18,0.25,12,Fear,Tame Impala
 'Cause I'm a Man,0.25,0.29,0.04,0.33,0.08,0,13,Fear,Tame Impala
 It Is Not Meant to Be,0.25,0.29,0,0.29,0.17,0,13,Fear,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0,13,Fear,Tame Impala
 Reality in Motion,0,0.29,0.05,0.54,0.12,0,13,Fear,Tame Impala
 Lucidity,0.08,0.31,0.23,0.23,0.15,0.02,13,Fear,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.08,13,Fear,Tame Impala
@@ -3573,7 +3499,7 @@ DLZ,0.12,0.37,0.08,0.21,0.23,0.03,1,Surprise,TV on the Radio
 Killer Crane,0.12,0.27,0.12,0.24,0.24,0.04,1,Surprise,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.04,1,Surprise,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.04,1,Surprise,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.04,1,Surprise,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.04,1,Surprise,TV on the Radio
 Shout Me Out,0.04,0.17,0.17,0.38,0.25,0.05,1,Surprise,TV on the Radio
 Dreams,0.15,0.33,0.07,0.3,0.15,0.05,1,Surprise,TV on the Radio
 Halfway Home,0.03,0.27,0.13,0.3,0.27,0.07,1,Surprise,TV on the Radio
@@ -3616,7 +3542,7 @@ Happy Idiot,0.14,0.35,0.19,0.19,0.14,0,4,Surprise,TV on the Radio
 I Was a Lover,0.11,0.32,0,0.43,0.14,0,4,Surprise,TV on the Radio
 Dreams,0.15,0.33,0.07,0.3,0.15,0.01,4,Surprise,TV on the Radio
 New Health Rock,0.12,0.15,0.15,0.42,0.15,0.01,4,Surprise,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.02,4,Surprise,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.02,4,Surprise,TV on the Radio
 King Eternal,0.11,0.5,0.17,0.06,0.17,0.03,4,Surprise,TV on the Radio
 Dry Drunk Emperor,0.12,0.24,0.14,0.4,0.1,0.04,4,Surprise,TV on the Radio
 Staring at the Sun,0.02,0.54,0.12,0.22,0.1,0.04,4,Surprise,TV on the Radio
@@ -3626,7 +3552,7 @@ DLZ,0.12,0.37,0.08,0.21,0.23,0.09,4,Surprise,TV on the Radio
 Second Song,0.14,0.34,0.17,0.34,0,0.14,4,Surprise,TV on the Radio
 Tonight,0.31,0.21,0.1,0.21,0.17,0.005,5,Surprise,TV on the Radio
 King Eternal,0.11,0.5,0.17,0.06,0.17,0.005,5,Surprise,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.015,5,Surprise,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.015,5,Surprise,TV on the Radio
 Red Dress,0.11,0.34,0.11,0.25,0.19,0.015,5,Surprise,TV on the Radio
 New Health Rock,0.12,0.15,0.15,0.42,0.15,0.025,5,Surprise,TV on the Radio
 Young Liars,0.07,0.3,0.1,0.33,0.2,0.025,5,Surprise,TV on the Radio
@@ -3649,7 +3575,7 @@ Blues From Down Here,0.04,0.33,0.16,0.27,0.2,0.01,6,Surprise,TV on the Radio
 Young Liars,0.07,0.3,0.1,0.33,0.2,0.01,6,Surprise,TV on the Radio
 Crying,0.04,0.29,0.25,0.21,0.21,0.02,6,Surprise,TV on the Radio
 Test Pilot,0.25,0.28,0,0.25,0.22,0.03,6,Surprise,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.03,6,Surprise,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.03,6,Surprise,TV on the Radio
 Dreams,0.15,0.33,0.07,0.3,0.15,0.04,6,Surprise,TV on the Radio
 Hours,0.14,0.27,0.09,0.27,0.23,0.04,6,Surprise,TV on the Radio
 Right Now,0.12,0.42,0,0.23,0.23,0.04,6,Surprise,TV on the Radio
@@ -3677,7 +3603,7 @@ Right Now,0.12,0.42,0,0.23,0.23,0.03,7,Surprise,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.03,7,Surprise,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.04,7,Surprise,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.04,7,Surprise,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.04,7,Surprise,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.04,7,Surprise,TV on the Radio
 Dreams,0.15,0.33,0.07,0.3,0.15,0.05,7,Surprise,TV on the Radio
 Halfway Home,0.03,0.27,0.13,0.3,0.27,0.07,7,Surprise,TV on the Radio
 Snakes and Martyrs,0.12,0.28,0.09,0.38,0.12,0.08,7,Surprise,TV on the Radio
@@ -3693,7 +3619,7 @@ Right Now,0.12,0.42,0,0.23,0.23,0.03,8,Surprise,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.03,8,Surprise,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.04,8,Surprise,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.04,8,Surprise,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.04,8,Surprise,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.04,8,Surprise,TV on the Radio
 Dreams,0.15,0.33,0.07,0.3,0.15,0.05,8,Surprise,TV on the Radio
 Halfway Home,0.03,0.27,0.13,0.3,0.27,0.07,8,Surprise,TV on the Radio
 Snakes and Martyrs,0.12,0.28,0.09,0.38,0.12,0.08,8,Surprise,TV on the Radio
@@ -3708,7 +3634,7 @@ Right Now,0.12,0.42,0,0.23,0.23,0.03,9,Surprise,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.03,9,Surprise,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.04,9,Surprise,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.04,9,Surprise,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.04,9,Surprise,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.04,9,Surprise,TV on the Radio
 Dreams,0.15,0.33,0.07,0.3,0.15,0.05,9,Surprise,TV on the Radio
 Snakes and Martyrs,0.12,0.28,0.09,0.38,0.12,0.08,9,Surprise,TV on the Radio
 Wear You Out,0.08,0.33,0.05,0.23,0.31,0.11,9,Surprise,TV on the Radio
@@ -3719,7 +3645,7 @@ Right Now,0.12,0.42,0,0.23,0.23,0.03,10,Surprise,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.03,10,Surprise,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.04,10,Surprise,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.04,10,Surprise,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.04,10,Surprise,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.04,10,Surprise,TV on the Radio
 Wear You Out,0.08,0.33,0.05,0.23,0.31,0.11,10,Surprise,TV on the Radio
 Wash the Day,0.12,0.35,0.16,0.29,0.08,0.12,10,Surprise,TV on the Radio
 Stork & Owl,0.09,0.38,0.09,0.38,0.06,0.14,10,Surprise,TV on the Radio
@@ -3889,7 +3815,7 @@ The World Ender,0.09,0.26,0.06,0.34,0.26,0.12,17,Sad,Lord Huron
 In the Wind,0.11,0.26,0.05,0.05,0.53,0.17,17,Sad,Lord Huron
 Vide Noir,0.04,0.29,0.04,0.5,0.14,0.28,17,Sad,Lord Huron
 Young Liars,0.07,0.3,0.1,0.33,0.2,0,1,Angry,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.01,1,Angry,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.01,1,Angry,TV on the Radio
 Red Dress,0.11,0.34,0.11,0.25,0.19,0.01,1,Angry,TV on the Radio
 Wrong Way,0.03,0.26,0.09,0.29,0.34,0.01,1,Angry,TV on the Radio
 Hours,0.14,0.27,0.09,0.27,0.23,0.01,1,Angry,TV on the Radio
@@ -3944,7 +3870,7 @@ Happy Idiot,0.14,0.35,0.19,0.19,0.14,0.03,4,Angry,TV on the Radio
 Could You,0.24,0.27,0.12,0.22,0.14,0.04,4,Angry,TV on the Radio
 Killer Crane,0.12,0.27,0.12,0.24,0.24,0.04,4,Angry,TV on the Radio
 Staring at the Sun,0.02,0.54,0.12,0.22,0.1,0.04,4,Angry,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.05,4,Angry,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.05,4,Angry,TV on the Radio
 Red Dress,0.11,0.34,0.11,0.25,0.19,0.05,4,Angry,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.08,4,Angry,TV on the Radio
 Dreams,0.15,0.33,0.07,0.3,0.15,0.09,4,Angry,TV on the Radio
@@ -3954,7 +3880,7 @@ Could You,0.24,0.27,0.12,0.22,0.14,0.01,5,Angry,TV on the Radio
 Killer Crane,0.12,0.27,0.12,0.24,0.24,0.01,5,Angry,TV on the Radio
 New Health Rock,0.12,0.15,0.15,0.42,0.15,0.02,5,Angry,TV on the Radio
 Red Dress,0.11,0.34,0.11,0.25,0.19,0.02,5,Angry,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.02,5,Angry,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.02,5,Angry,TV on the Radio
 Forgotten,0.35,0.29,0.1,0.19,0.06,0.03,5,Angry,TV on the Radio
 New Cannonball Blues,0.15,0.23,0.16,0.15,0.31,0.03,5,Angry,TV on the Radio
 Tonight,0.31,0.21,0.1,0.21,0.17,0.03,5,Angry,TV on the Radio
@@ -3971,7 +3897,7 @@ Crying,0.04,0.29,0.25,0.21,0.21,0.12,5,Angry,TV on the Radio
 Test Pilot,0.25,0.28,0,0.25,0.22,0.13,5,Angry,TV on the Radio
 I Was a Lover,0.11,0.32,0,0.43,0.14,0.13,5,Angry,TV on the Radio
 Red Dress,0.11,0.34,0.11,0.25,0.19,0,6,Angry,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0,6,Angry,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0,6,Angry,TV on the Radio
 Killer Crane,0.12,0.27,0.12,0.24,0.24,0.01,6,Angry,TV on the Radio
 Tonight,0.31,0.21,0.1,0.21,0.17,0.01,6,Angry,TV on the Radio
 Could You,0.24,0.27,0.12,0.22,0.14,0.01,6,Angry,TV on the Radio
@@ -3995,7 +3921,7 @@ Test Pilot,0.25,0.28,0,0.25,0.22,0.11,6,Angry,TV on the Radio
 I Was a Lover,0.11,0.32,0,0.43,0.14,0.11,6,Angry,TV on the Radio
 Right Now,0.12,0.42,0,0.23,0.23,0.11,6,Angry,TV on the Radio
 Crying,0.04,0.29,0.25,0.21,0.21,0.14,6,Angry,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0,7,Angry,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0,7,Angry,TV on the Radio
 Tonight,0.31,0.21,0.1,0.21,0.17,0.01,7,Angry,TV on the Radio
 Could You,0.24,0.27,0.12,0.22,0.14,0.01,7,Angry,TV on the Radio
 Killer Crane,0.12,0.27,0.12,0.24,0.24,0.01,7,Angry,TV on the Radio
@@ -4090,9 +4016,9 @@ Right Now,0.12,0.42,0,0.23,0.23,0.08,12,Angry,TV on the Radio
 Happy Idiot,0.14,0.35,0.19,0.19,0.14,0.11,12,Angry,TV on the Radio
 A Method,0.06,0.24,0.21,0.24,0.26,0.13,12,Angry,TV on the Radio
 A New,0.14,0.29,0.29,0.29,0,0,1,Fear,Little Dragon
-Amöban,0.14,0.29,0.07,0.25,0.25,0,1,Fear,Little Dragon
-Easy Falling,0.14,0.29,0.1,0.43,0.05,0,1,Fear,Little Dragon
-Crystalfilm,0,0.29,0.08,0.42,0.21,0,1,Fear,Little Dragon
+Amöban,0.14,0.29,0.07,0.25,0.25,0.00001,1,Fear,Little Dragon
+Easy Falling,0.14,0.29,0.1,0.43,0.05,0.00001,1,Fear,Little Dragon
+Crystalfilm,0,0.29,0.08,0.42,0.21,0.00001,1,Fear,Little Dragon
 Let Go,0.15,0.3,0.1,0.05,0.4,0.01,1,Fear,Little Dragon
 Strobe Light,0.14,0.27,0.19,0.3,0.11,0.02,1,Fear,Little Dragon
 Tumbling Dice,0.25,0.25,0.07,0.29,0.14,0.04,1,Fear,Little Dragon
@@ -4148,8 +4074,8 @@ Recommendation,0.03,0.14,0.29,0.29,0.26,0.18,4,Fear,Little Dragon
 Looking Glass,0.1,0.13,0.07,0.47,0.23,0.19,4,Fear,Little Dragon
 Kenneth,0.03,0.03,0.5,0.25,0.19,0.29,4,Fear,Little Dragon
 Amöban,0.14,0.29,0.07,0.25,0.25,0,5,Fear,Little Dragon
-Shuffle a Dream,0.05,0.29,0,0.34,0.32,0,5,Fear,Little Dragon
-Crystalfilm,0,0.29,0.08,0.42,0.21,0,5,Fear,Little Dragon
+Shuffle a Dream,0.05,0.29,0,0.34,0.32,0.000001,5,Fear,Little Dragon
+Crystalfilm,0,0.29,0.08,0.42,0.21,0.000001,5,Fear,Little Dragon
 Another Lover,0.26,0.3,0,0.19,0.26,0.01,5,Fear,Little Dragon
 Don't Cry,0.1,0.3,0,0.45,0.15,0.01,5,Fear,Little Dragon
 Wink,0.05,0.25,0.1,0.3,0.3,0.04,5,Fear,Little Dragon
@@ -4160,8 +4086,8 @@ Underbart,0.06,0.38,0.09,0.24,0.24,0.09,5,Fear,Little Dragon
 Peace,0,0.43,0,0.29,0.29,0.14,5,Fear,Little Dragon
 Should I,0.09,0.45,0.09,0.23,0.14,0.16,5,Fear,Little Dragon
 Gold,0.17,0.34,0,0.27,0.22,0.01,6,Fear,Little Dragon
-Constant Surprises,0.05,0.34,0.02,0.05,0.54,0.01,6,Fear,Little Dragon
-Frisco,0.02,0.32,0.11,0.15,0.4,0.01,6,Fear,Little Dragon
+Constant Surprises,0.05,0.34,0.02,0.05,0.54,0.010001,6,Fear,Little Dragon
+Frisco,0.02,0.32,0.11,0.15,0.4,0.010001,6,Fear,Little Dragon
 Summertearz,0.15,0.35,0.2,0.1,0.2,0.02,6,Fear,Little Dragon
 Little Man,0.08,0.36,0,0.44,0.12,0.03,6,Fear,Little Dragon
 Forever,0.08,0.36,0.03,0.53,0,0.03,6,Fear,Little Dragon
@@ -4178,8 +4104,8 @@ High,0.03,0.47,0,0.13,0.37,0.14,6,Fear,Little Dragon
 Swimming,0.1,0.14,0.03,0.14,0.59,0.19,6,Fear,Little Dragon
 Looking Glass,0.1,0.13,0.07,0.47,0.23,0.2,6,Fear,Little Dragon
 Easy Falling,0.14,0.29,0.1,0.43,0.05,0,7,Fear,Little Dragon
-Shuffle a Dream,0.05,0.29,0,0.34,0.32,0,7,Fear,Little Dragon
-Crystalfilm,0,0.29,0.08,0.42,0.21,0,7,Fear,Little Dragon
+Shuffle a Dream,0.05,0.29,0,0.34,0.32,0.00001,7,Fear,Little Dragon
+Crystalfilm,0,0.29,0.08,0.42,0.21,0.00001,7,Fear,Little Dragon
 Let Go,0.15,0.3,0.1,0.05,0.4,0.01,7,Fear,Little Dragon
 Don't Cry,0.1,0.3,0,0.45,0.15,0.01,7,Fear,Little Dragon
 Strobe Light,0.14,0.27,0.19,0.3,0.11,0.02,7,Fear,Little Dragon
@@ -4192,7 +4118,7 @@ Should I,0.09,0.45,0.09,0.23,0.14,0.16,7,Fear,Little Dragon
 Nightlight,0.13,0.48,0,0.22,0.17,0.19,7,Fear,Little Dragon
 New Fiction,0.15,0.03,0.03,0.58,0.21,0.26,7,Fear,Little Dragon
 Shuffle a Dream,0.05,0.29,0,0.34,0.32,0,8,Fear,Little Dragon
-Crystalfilm,0,0.29,0.08,0.42,0.21,0,8,Fear,Little Dragon
+Crystalfilm,0,0.29,0.08,0.42,0.21,0.00001,8,Fear,Little Dragon
 Let Go,0.15,0.3,0.1,0.05,0.4,0.01,8,Fear,Little Dragon
 Don't Cry,0.1,0.3,0,0.45,0.15,0.01,8,Fear,Little Dragon
 Strobe Light,0.14,0.27,0.19,0.3,0.11,0.02,8,Fear,Little Dragon
@@ -4439,7 +4365,7 @@ Long & Lost,0.07,0.26,0.02,0.56,0.09,0.16,4,Surprise,Florence + the Machine
 Which Witch,0.07,0.04,0.11,0.34,0.45,0.2,4,Surprise,Florence + the Machine
 Dream Girl Evil,0.06,0.14,0.03,0.31,0.46,0.21,4,Surprise,Florence + the Machine
 Never Let Me Go,0.15,0.34,0.05,0.2,0.27,0,5,Surprise,Florence + the Machine
-Leave My Body,0.02,0.31,0.06,0.33,0.27,0,5,Surprise,Florence + the Machine
+Leave My Body,0.02,0.31,0.06,0.33,0.27,0.0100001,5,Surprise,Florence + the Machine
 Shake It Out,0.1,0.35,0.12,0.15,0.28,0.01,5,Surprise,Florence + the Machine
 Drumming Song,0,0.44,0.07,0.2,0.28,0.01,5,Surprise,Florence + the Machine
 Hurricane Drunk,0.1,0.19,0.1,0.32,0.29,0.02,5,Surprise,Florence + the Machine
@@ -4469,7 +4395,7 @@ Lover to Lover,0.2,0.2,0.07,0.23,0.3,0.06,6,Surprise,Florence + the Machine
 Over the Love,0.2,0.2,0.07,0.23,0.3,0.06,6,Surprise,Florence + the Machine
 Rabbit Heart (Raise It Up),0.07,0.27,0.07,0.23,0.37,0.13,6,Surprise,Florence + the Machine
 Flakes,0.16,0.23,0.23,0.13,0.26,0.01,7,Surprise,Florence + the Machine
-Drumming Song,0,0.44,0.07,0.2,0.28,0.01,7,Surprise,Florence + the Machine
+Drumming Song,0,0.44,0.07,0.2,0.28,0.0100001,7,Surprise,Florence + the Machine
 Hurricane Drunk,0.1,0.19,0.1,0.32,0.29,0.02,7,Surprise,Florence + the Machine
 Heaven Is Here,0.1,0.24,0.1,0.29,0.29,0.02,7,Surprise,Florence + the Machine
 Lover to Lover,0.2,0.2,0.07,0.23,0.3,0.03,7,Surprise,Florence + the Machine
@@ -4524,9 +4450,9 @@ Breaking Down,0.07,0.18,0.04,0.21,0.5,0.26,10,Surprise,Florence + the Machine
 Between Two Lungs,0.06,0.17,0.03,0.14,0.61,0.37,10,Surprise,Florence + the Machine
 Cassandra,0.06,0.03,0.03,0.24,0.64,0.4,10,Surprise,Florence + the Machine
 Bird Song,0,0.19,0.06,0.57,0.17,0.005,11,Surprise,Florence + the Machine
-Bird Song Intro,0,0.19,0.06,0.57,0.17,0.005,11,Surprise,Florence + the Machine
-Ship to Wreck,0.11,0.17,0.03,0.51,0.18,0.005,11,Surprise,Florence + the Machine
-South London Forever,0.11,0.32,0.18,0.21,0.18,0.005,11,Surprise,Florence + the Machine
+Bird Song Intro,0,0.19,0.06,0.57,0.17,0.00500001,11,Surprise,Florence + the Machine
+Ship to Wreck,0.11,0.17,0.03,0.51,0.18,0.00500001,11,Surprise,Florence + the Machine
+South London Forever,0.11,0.32,0.18,0.21,0.18,0.00500001,11,Surprise,Florence + the Machine
 Are You Hurting the One You Love?,0.4,0.14,0.05,0.26,0.16,0.015,11,Surprise,Florence + the Machine
 Mermaids,0.32,0.22,0.08,0.19,0.19,0.015,11,Surprise,Florence + the Machine
 Daffodil,0.15,0.05,0.1,0.5,0.2,0.025,11,Surprise,Florence + the Machine
@@ -4589,13 +4515,12 @@ Ours,0.21,0.24,0.08,0.3,0.17,0.05,1,Fear,Taylor Swift
 Invisible,0.32,0.24,0,0.28,0.16,0.05,1,Fear,Taylor Swift
 tolerate it,0.23,0.14,0.14,0.19,0.3,0.05,1,Fear,Taylor Swift
 ...Ready for It?,0.25,0.11,0.07,0.36,0.21,0.08,1,Fear,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.08,1,Fear,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.08,1,Fear,Taylor Swift
 Mary's Song (Oh My My My),0.5,0.1,0.05,0.2,0.15,0.09,1,Fear,Taylor Swift
 Lover,0.24,0.28,0.03,0.31,0.14,0.09,1,Fear,Taylor Swift
 My Boy Only Breaks His Favorite Toys,0.27,0.3,0,0.24,0.19,0.11,1,Fear,Taylor Swift
 Teardrops on My Guitar,0.27,0.3,0,0.27,0.17,0.11,1,Fear,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.12,1,Fear,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.12,1,Fear,Taylor Swift
 the lakes,0.16,0.32,0.06,0.26,0.19,0.13,1,Fear,Taylor Swift
 ME!,0.19,0.03,0.04,0.19,0.55,0.16,1,Fear,Taylor Swift
 22,0.22,0.36,0.06,0.17,0.19,0.17,1,Fear,Taylor Swift
@@ -4616,7 +4541,7 @@ Invisible,0.32,0.24,0,0.28,0.16,0.01,3,Fear,Taylor Swift
 Ours,0.21,0.24,0.08,0.3,0.17,0.01,3,Fear,Taylor Swift
 coney island,0.19,0.23,0.07,0.35,0.16,0.02,3,Fear,Taylor Swift
 Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.02,3,Fear,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.02,3,Fear,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.02,3,Fear,Taylor Swift
 Why She Disappeared,0.17,0.28,0.14,0.25,0.17,0.03,3,Fear,Taylor Swift
 Cold as You,0.17,0.28,0.2,0.23,0.12,0.03,3,Fear,Taylor Swift
 State of Grace,0.17,0.28,0.05,0.33,0.17,0.03,3,Fear,Taylor Swift
@@ -4635,11 +4560,9 @@ the lakes,0.16,0.32,0.06,0.26,0.19,0.07,3,Fear,Taylor Swift
 I Can Do It With a Broken Heart,0.15,0.18,0.09,0.31,0.27,0.07,3,Fear,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.07,3,Fear,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.08,3,Fear,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.17,3,Fear,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.17,3,Fear,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.18,3,Fear,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.18,3,Fear,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.18,3,Fear,Taylor Swift
 champagne problems,0.15,0.44,0.02,0.31,0.08,0.19,3,Fear,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.29,3,Fear,Taylor Swift
 I Did Something Bad,0.21,0.21,0.17,0.31,0.1,0,4,Fear,Taylor Swift
@@ -4656,11 +4579,9 @@ Daylight,0.15,0.24,0.13,0.35,0.13,0.03,4,Fear,Taylor Swift
 Invisible,0.32,0.24,0,0.28,0.16,0.03,4,Fear,Taylor Swift
 Ours,0.21,0.24,0.08,0.3,0.17,0.03,4,Fear,Taylor Swift
 the last great american dynasty,0.15,0.17,0.02,0.34,0.32,0.04,4,Fear,Taylor Swift
-"Fifteen / You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.05,4,Fear,Taylor Swift
 "You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.05,4,Fear,Taylor Swift
-"You're on Your Own, Kid / Long Live",0.26,0.26,0.14,0.26,0.08,0.05,4,Fear,Taylor Swift
 Maroon,0.21,0.27,0.12,0.27,0.12,0.06,4,Fear,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.06,4,Fear,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.06,4,Fear,Taylor Swift
 State of Grace,0.17,0.28,0.05,0.33,0.17,0.07,4,Fear,Taylor Swift
 the lakes,0.16,0.32,0.06,0.26,0.19,0.11,4,Fear,Taylor Swift
 Question...?,0.2,0.34,0.07,0.29,0.1,0.13,4,Fear,Taylor Swift
@@ -4689,7 +4610,6 @@ The Story of Us,0.15,0.33,0.03,0.24,0.24,0.14,5,Fear,Taylor Swift
 Question...?,0.2,0.34,0.07,0.29,0.1,0.15,5,Fear,Taylor Swift
 Beautiful Eyes,0.16,0.41,0,0.31,0.12,0.22,5,Fear,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.23,5,Fear,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.23,5,Fear,Taylor Swift
 champagne problems,0.15,0.44,0.02,0.31,0.08,0.25,5,Fear,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.35,5,Fear,Taylor Swift
 How Did It End?,0.17,0.21,0.04,0.33,0.25,0,6,Fear,Taylor Swift
@@ -4705,7 +4625,7 @@ Last Kiss,0.19,0.17,0.21,0.15,0.28,0.04,6,Fear,Taylor Swift
 the last great american dynasty,0.15,0.17,0.02,0.34,0.32,0.04,6,Fear,Taylor Swift
 Labyrinth,0.42,0.16,0,0.14,0.28,0.05,6,Fear,Taylor Swift
 Begin Again,0.21,0.15,0.03,0.23,0.38,0.06,6,Fear,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.06,6,Fear,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.06,6,Fear,Taylor Swift
 tolerate it,0.23,0.14,0.14,0.19,0.3,0.07,6,Fear,Taylor Swift
 Dreams,0.26,0.13,0,0.29,0.32,0.08,6,Fear,Taylor Swift
 Dress,0.26,0.13,0,0.29,0.32,0.08,6,Fear,Taylor Swift
@@ -4717,7 +4637,6 @@ Untouchable,0.32,0.09,0,0.27,0.32,0.12,6,Fear,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.12,6,Fear,Taylor Swift
 Fresh Out the Slammer,0.26,0.37,0.04,0.22,0.11,0.16,6,Fear,Taylor Swift
 ME!,0.19,0.03,0.04,0.19,0.55,0.18,6,Fear,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.21,6,Fear,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.21,6,Fear,Taylor Swift
 Tim McGraw,0.22,0.48,0.02,0.22,0.07,0.27,6,Fear,Taylor Swift
 The Lucky One,0.59,0.16,0,0.12,0.12,0,7,Fear,Taylor Swift
@@ -4735,7 +4654,7 @@ The Great War,0.21,0.21,0.05,0.34,0.18,0.05,7,Fear,Taylor Swift
 Sad Beautiful Tragic,0.37,0.11,0.02,0.25,0.26,0.05,7,Fear,Taylor Swift
 Invisible,0.32,0.24,0,0.28,0.16,0.08,7,Fear,Taylor Swift
 Ours,0.21,0.24,0.08,0.3,0.17,0.08,7,Fear,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.11,7,Fear,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.11,7,Fear,Taylor Swift
 Lover,0.24,0.28,0.03,0.31,0.14,0.12,7,Fear,Taylor Swift
 State of Grace,0.17,0.28,0.05,0.33,0.17,0.12,7,Fear,Taylor Swift
 My Boy Only Breaks His Favorite Toys,0.27,0.3,0,0.24,0.19,0.14,7,Fear,Taylor Swift
@@ -4759,7 +4678,6 @@ Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.06,8,Fear,Taylor Swift
 22,0.22,0.36,0.06,0.17,0.19,0.07,8,Fear,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.11,8,Fear,Taylor Swift
 I Can Do It With a Broken Heart,0.15,0.18,0.09,0.31,0.27,0.11,8,Fear,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.22,8,Fear,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.22,8,Fear,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.25,8,Fear,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0,9,Fear,Taylor Swift
@@ -4776,9 +4694,7 @@ Fortnight,0.15,0.18,0.03,0.49,0.15,0.03,9,Fear,Taylor Swift
 Invisible,0.32,0.24,0,0.28,0.16,0.03,9,Fear,Taylor Swift
 Wildest Dreams,0.24,0.24,0.36,0.08,0.08,0.03,9,Fear,Taylor Swift
 betty,0.23,0.26,0.05,0.38,0.08,0.05,9,Fear,Taylor Swift
-"Fifteen / You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.05,9,Fear,Taylor Swift
 "You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.05,9,Fear,Taylor Swift
-"You're on Your Own, Kid / Long Live",0.26,0.26,0.14,0.26,0.08,0.05,9,Fear,Taylor Swift
 Begin Again,0.21,0.15,0.03,0.23,0.38,0.06,9,Fear,Taylor Swift
 Cold as You,0.17,0.28,0.2,0.23,0.12,0.07,9,Fear,Taylor Swift
 Lover,0.24,0.28,0.03,0.31,0.14,0.07,9,Fear,Taylor Swift
@@ -4791,7 +4707,6 @@ Question...?,0.2,0.34,0.07,0.29,0.1,0.13,9,Fear,Taylor Swift
 22,0.22,0.36,0.06,0.17,0.19,0.15,9,Fear,Taylor Swift
 Fresh Out the Slammer,0.26,0.37,0.04,0.22,0.11,0.16,9,Fear,Taylor Swift
 ME!,0.19,0.03,0.04,0.19,0.55,0.18,9,Fear,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.21,9,Fear,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.21,9,Fear,Taylor Swift
 Tim McGraw,0.22,0.48,0.02,0.22,0.07,0.27,9,Fear,Taylor Swift
 I Can Do It With a Broken Heart,0.15,0.18,0.09,0.31,0.27,0.01,10,Fear,Taylor Swift
@@ -4809,16 +4724,14 @@ Love Story,0.26,0.15,0.15,0.24,0.21,0.04,10,Fear,Taylor Swift
 Begin Again,0.21,0.15,0.03,0.23,0.38,0.04,10,Fear,Taylor Swift
 Ours,0.21,0.24,0.08,0.3,0.17,0.05,10,Fear,Taylor Swift
 Invisible,0.32,0.24,0,0.28,0.16,0.05,10,Fear,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.08,10,Fear,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.08,10,Fear,Taylor Swift
 Why She Disappeared,0.17,0.28,0.14,0.25,0.17,0.09,10,Fear,Taylor Swift
 State of Grace,0.17,0.28,0.05,0.33,0.17,0.09,10,Fear,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.12,10,Fear,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.12,10,Fear,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.12,10,Fear,Taylor Swift
 The Smallest Man Who Ever Lived,0.18,0.32,0.11,0.18,0.21,0.13,10,Fear,Taylor Swift
 the lakes,0.16,0.32,0.06,0.26,0.19,0.13,10,Fear,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.14,10,Fear,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.23,10,Fear,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.23,10,Fear,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.35,10,Fear,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0,11,Fear,Taylor Swift
@@ -4841,13 +4754,12 @@ Ours,0.21,0.24,0.08,0.3,0.17,0.06,11,Fear,Taylor Swift
 ...Ready for It?,0.25,0.11,0.07,0.36,0.21,0.07,11,Fear,Taylor Swift
 Tied Together With a Smile,0.23,0.11,0.03,0.4,0.23,0.07,11,Fear,Taylor Swift
 Mary's Song (Oh My My My),0.5,0.1,0.05,0.2,0.15,0.08,11,Fear,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.09,11,Fear,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.09,11,Fear,Taylor Swift
 State of Grace,0.17,0.28,0.05,0.33,0.17,0.1,11,Fear,Taylor Swift
 Why She Disappeared,0.17,0.28,0.14,0.25,0.17,0.1,11,Fear,Taylor Swift
 Lover,0.24,0.28,0.03,0.31,0.14,0.1,11,Fear,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.11,11,Fear,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.11,11,Fear,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.11,11,Fear,Taylor Swift
 the lakes,0.16,0.32,0.06,0.26,0.19,0.14,11,Fear,Taylor Swift
 The Smallest Man Who Ever Lived,0.18,0.32,0.11,0.18,0.21,0.14,11,Fear,Taylor Swift
 ME!,0.19,0.03,0.04,0.19,0.55,0.15,11,Fear,Taylor Swift
@@ -4857,7 +4769,6 @@ Question...?,0.2,0.34,0.07,0.29,0.1,0.16,11,Fear,Taylor Swift
 Fresh Out the Slammer,0.26,0.37,0.04,0.22,0.11,0.19,11,Fear,Taylor Swift
 cowboy like me,0.23,0.37,0.05,0.14,0.21,0.19,11,Fear,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.24,11,Fear,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.24,11,Fear,Taylor Swift
 Tim McGraw,0.22,0.48,0.02,0.22,0.07,0.3,11,Fear,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0,12,Fear,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0,12,Fear,Taylor Swift
@@ -4868,8 +4779,7 @@ Back to December,0.26,0.21,0.02,0.23,0.28,0.03,12,Fear,Taylor Swift
 Love Story,0.26,0.15,0.15,0.24,0.21,0.03,12,Fear,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.03,12,Fear,Taylor Swift
 Begin Again,0.21,0.15,0.03,0.23,0.38,0.03,12,Fear,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.09,12,Fear,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.11,12,Fear,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.09,12,Fear,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.11,12,Fear,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.11,12,Fear,Taylor Swift
 the lakes,0.16,0.32,0.06,0.26,0.19,0.14,12,Fear,Taylor Swift
@@ -4888,7 +4798,7 @@ Ours,0.21,0.24,0.08,0.3,0.17,0.05,13,Fear,Taylor Swift
 Invisible,0.32,0.24,0,0.28,0.16,0.05,13,Fear,Taylor Swift
 Starlight,0.15,0.24,0.13,0.35,0.13,0.05,13,Fear,Taylor Swift
 Daylight,0.15,0.24,0.13,0.35,0.13,0.05,13,Fear,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.08,13,Fear,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.08,13,Fear,Taylor Swift
 Lover,0.24,0.28,0.03,0.31,0.14,0.09,13,Fear,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.12,13,Fear,Taylor Swift
 the lakes,0.16,0.32,0.06,0.26,0.19,0.13,13,Fear,Taylor Swift
@@ -4908,7 +4818,7 @@ Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.04,14,Fear,Taylor Swift
 Invisible,0.32,0.24,0,0.28,0.16,0.05,14,Fear,Taylor Swift
 Ours,0.21,0.24,0.08,0.3,0.17,0.05,14,Fear,Taylor Swift
 Sad Beautiful Tragic,0.37,0.11,0.02,0.25,0.26,0.08,14,Fear,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.08,14,Fear,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.08,14,Fear,Taylor Swift
 Why She Disappeared,0.17,0.28,0.14,0.25,0.17,0.09,14,Fear,Taylor Swift
 State of Grace,0.17,0.28,0.05,0.33,0.17,0.09,14,Fear,Taylor Swift
 My Boy Only Breaks His Favorite Toys,0.27,0.3,0,0.24,0.19,0.11,14,Fear,Taylor Swift
@@ -4917,7 +4827,6 @@ the lakes,0.16,0.32,0.06,0.26,0.19,0.13,14,Fear,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.14,14,Fear,Taylor Swift
 Bejeweled,0.15,0.34,0,0.32,0.19,0.15,14,Fear,Taylor Swift
 Beautiful Eyes,0.16,0.41,0,0.31,0.12,0.22,14,Fear,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.23,14,Fear,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.23,14,Fear,Taylor Swift
 Death by a Thousand Cuts,0.17,0.44,0.02,0.32,0.05,0.25,14,Fear,Taylor Swift
 champagne problems,0.15,0.44,0.02,0.31,0.08,0.25,14,Fear,Taylor Swift
@@ -4936,7 +4845,6 @@ the 1,0.19,0.29,0.13,0.16,0.23,0.09,15,Fear,Taylor Swift
 Blank Space,0.17,0.29,0.05,0.18,0.31,0.09,15,Fear,Taylor Swift
 Dear Reader,0.17,0.09,0.09,0.17,0.49,0.11,15,Fear,Taylor Swift
 The Smallest Man Who Ever Lived,0.18,0.32,0.11,0.18,0.21,0.12,15,Fear,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.22,15,Fear,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.22,15,Fear,Taylor Swift
 Young Liars,0.07,0.3,0.1,0.33,0.2,0,1,Fear,TV on the Radio
 Crying,0.04,0.29,0.25,0.21,0.21,0.01,1,Fear,TV on the Radio
@@ -4954,7 +4862,7 @@ Wash the Day,0.12,0.35,0.16,0.29,0.08,0.05,1,Fear,TV on the Radio
 Love Stained,0.1,0.24,0.08,0.37,0.2,0.06,1,Fear,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.07,1,Fear,TV on the Radio
 Stork & Owl,0.09,0.38,0.09,0.38,0.06,0.08,1,Fear,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.1,1,Fear,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.1,1,Fear,TV on the Radio
 Shout Me Out,0.04,0.17,0.17,0.38,0.25,0.13,1,Fear,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.14,1,Fear,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.17,1,Fear,TV on the Radio
@@ -4995,7 +4903,7 @@ DLZ,0.12,0.37,0.08,0.21,0.23,0.035,4,Fear,TV on the Radio
 Could You,0.24,0.27,0.12,0.22,0.14,0.065,4,Fear,TV on the Radio
 Killer Crane,0.12,0.27,0.12,0.24,0.24,0.065,4,Fear,TV on the Radio
 Dry Drunk Emperor,0.12,0.24,0.14,0.4,0.1,0.095,4,Fear,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.135,4,Fear,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.135,4,Fear,TV on the Radio
 King Eternal,0.11,0.5,0.17,0.06,0.17,0.165,4,Fear,TV on the Radio
 New Health Rock,0.12,0.15,0.15,0.42,0.15,0.185,4,Fear,TV on the Radio
 Staring at the Sun,0.02,0.54,0.12,0.22,0.1,0.205,4,Fear,TV on the Radio
@@ -5014,7 +4922,7 @@ New Cannonball Blues,0.15,0.23,0.16,0.15,0.31,0.04,5,Fear,TV on the Radio
 I Was a Lover,0.11,0.32,0,0.43,0.14,0.05,5,Fear,TV on the Radio
 Tonight,0.31,0.21,0.1,0.21,0.17,0.06,5,Fear,TV on the Radio
 Wolf Like Me,0.1,0.21,0.08,0.25,0.35,0.06,5,Fear,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.07,5,Fear,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.07,5,Fear,TV on the Radio
 Red Dress,0.11,0.34,0.11,0.25,0.19,0.07,5,Fear,TV on the Radio
 Happy Idiot,0.14,0.35,0.19,0.19,0.14,0.08,5,Fear,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.1,5,Fear,TV on the Radio
@@ -5038,7 +4946,7 @@ Blues From Down Here,0.04,0.33,0.16,0.27,0.2,0.06,6,Fear,TV on the Radio
 Wolf Like Me,0.1,0.21,0.08,0.25,0.35,0.06,6,Fear,TV on the Radio
 Tonight,0.31,0.21,0.1,0.21,0.17,0.06,6,Fear,TV on the Radio
 Red Dress,0.11,0.34,0.11,0.25,0.19,0.07,6,Fear,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.07,6,Fear,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.07,6,Fear,TV on the Radio
 Wash the Day,0.12,0.35,0.16,0.29,0.08,0.08,6,Fear,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.1,6,Fear,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.11,6,Fear,TV on the Radio
@@ -5058,7 +4966,7 @@ Love Stained,0.1,0.24,0.08,0.37,0.2,0.06,7,Fear,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.07,7,Fear,TV on the Radio
 Tonight,0.31,0.21,0.1,0.21,0.17,0.09,7,Fear,TV on the Radio
 Wolf Like Me,0.1,0.21,0.08,0.25,0.35,0.09,7,Fear,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.1,7,Fear,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.1,7,Fear,TV on the Radio
 Right Now,0.12,0.42,0,0.23,0.23,0.12,7,Fear,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.14,7,Fear,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.17,7,Fear,TV on the Radio
@@ -5074,7 +4982,7 @@ Love Stained,0.1,0.24,0.08,0.37,0.2,0.06,8,Fear,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.07,8,Fear,TV on the Radio
 Tonight,0.31,0.21,0.1,0.21,0.17,0.09,8,Fear,TV on the Radio
 Wolf Like Me,0.1,0.21,0.08,0.25,0.35,0.09,8,Fear,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.1,8,Fear,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.1,8,Fear,TV on the Radio
 Right Now,0.12,0.42,0,0.23,0.23,0.12,8,Fear,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.14,8,Fear,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.17,8,Fear,TV on the Radio
@@ -5090,7 +4998,7 @@ Right Now,0.12,0.42,0,0.23,0.23,0.09,9,Fear,TV on the Radio
 Love Stained,0.1,0.24,0.08,0.37,0.2,0.09,9,Fear,TV on the Radio
 Tonight,0.31,0.21,0.1,0.21,0.17,0.12,9,Fear,TV on the Radio
 Wolf Like Me,0.1,0.21,0.08,0.25,0.35,0.12,9,Fear,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.13,9,Fear,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.13,9,Fear,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.17,9,Fear,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.2,9,Fear,TV on the Radio
 Red Dress,0.11,0.34,0.11,0.25,0.19,0,10,Fear,TV on the Radio
@@ -5103,7 +5011,7 @@ Right Now,0.12,0.42,0,0.23,0.23,0.08,10,Fear,TV on the Radio
 Love Stained,0.1,0.24,0.08,0.37,0.2,0.1,10,Fear,TV on the Radio
 Tonight,0.31,0.21,0.1,0.21,0.17,0.13,10,Fear,TV on the Radio
 Wolf Like Me,0.1,0.21,0.08,0.25,0.35,0.13,10,Fear,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.14,10,Fear,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.14,10,Fear,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.18,10,Fear,TV on the Radio
 Let the Devil In,0.11,0.14,0.08,0.19,0.47,0.2,10,Fear,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.21,10,Fear,TV on the Radio
@@ -5248,7 +5156,7 @@ Stork & Owl,0.09,0.38,0.09,0.38,0.06,0.05,1,Sad,TV on the Radio
 Shout Me Out,0.04,0.17,0.17,0.38,0.25,0.05,1,Sad,TV on the Radio
 Hours,0.14,0.27,0.09,0.27,0.23,0.06,1,Sad,TV on the Radio
 Blues From Down Here,0.04,0.33,0.16,0.27,0.2,0.06,1,Sad,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.08,1,Sad,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.08,1,Sad,TV on the Radio
 Red Dress,0.11,0.34,0.11,0.25,0.19,0.08,1,Sad,TV on the Radio
 Killer Crane,0.12,0.27,0.12,0.24,0.24,0.09,1,Sad,TV on the Radio
 Wear You Out,0.08,0.33,0.05,0.23,0.31,0.1,1,Sad,TV on the Radio
@@ -5293,7 +5201,7 @@ Dreams,0.15,0.33,0.07,0.3,0.15,0.1,4,Sad,TV on the Radio
 Second Song,0.14,0.34,0.17,0.34,0,0.14,4,Sad,TV on the Radio
 King Eternal,0.11,0.5,0.17,0.06,0.17,0.14,4,Sad,TV on the Radio
 Dry Drunk Emperor,0.12,0.24,0.14,0.4,0.1,0.2,4,Sad,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.21,4,Sad,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.21,4,Sad,TV on the Radio
 New Health Rock,0.12,0.15,0.15,0.42,0.15,0.22,4,Sad,TV on the Radio
 I Was a Lover,0.11,0.32,0,0.43,0.14,0.23,4,Sad,TV on the Radio
 Could You,0.24,0.27,0.12,0.22,0.14,0,5,Sad,TV on the Radio
@@ -5313,7 +5221,7 @@ Love Stained,0.1,0.24,0.08,0.37,0.2,0.15,5,Sad,TV on the Radio
 Snakes and Martyrs,0.12,0.28,0.09,0.38,0.12,0.16,5,Sad,TV on the Radio
 King Eternal,0.11,0.5,0.17,0.06,0.17,0.16,5,Sad,TV on the Radio
 Dry Drunk Emperor,0.12,0.24,0.14,0.4,0.1,0.18,5,Sad,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.19,5,Sad,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.19,5,Sad,TV on the Radio
 New Health Rock,0.12,0.15,0.15,0.42,0.15,0.2,5,Sad,TV on the Radio
 I Was a Lover,0.11,0.32,0,0.43,0.14,0.21,5,Sad,TV on the Radio
 Test Pilot,0.25,0.28,0,0.25,0.22,0,6,Sad,TV on the Radio
@@ -5336,7 +5244,7 @@ New Cannonball Blues,0.15,0.23,0.16,0.15,0.31,0.1,6,Sad,TV on the Radio
 Love Stained,0.1,0.24,0.08,0.37,0.2,0.12,6,Sad,TV on the Radio
 Snakes and Martyrs,0.12,0.28,0.09,0.38,0.12,0.13,6,Sad,TV on the Radio
 Dry Drunk Emperor,0.12,0.24,0.14,0.4,0.1,0.15,6,Sad,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.16,6,Sad,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.16,6,Sad,TV on the Radio
 New Health Rock,0.12,0.15,0.15,0.42,0.15,0.17,6,Sad,TV on the Radio
 I Was a Lover,0.11,0.32,0,0.43,0.14,0.18,6,Sad,TV on the Radio
 Family Tree,0.05,0.24,0.02,0.45,0.24,0.2,6,Sad,TV on the Radio
@@ -5357,7 +5265,7 @@ Dreams,0.15,0.33,0.07,0.3,0.15,0.05,7,Sad,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.1,7,Sad,TV on the Radio
 Love Stained,0.1,0.24,0.08,0.37,0.2,0.12,7,Sad,TV on the Radio
 Snakes and Martyrs,0.12,0.28,0.09,0.38,0.12,0.13,7,Sad,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.16,7,Sad,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.16,7,Sad,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.22,7,Sad,TV on the Radio
 Red Dress,0.11,0.34,0.11,0.25,0.19,0,8,Sad,TV on the Radio
 Killer Crane,0.12,0.27,0.12,0.24,0.24,0.01,8,Sad,TV on the Radio
@@ -5374,7 +5282,7 @@ Halfway Home,0.03,0.27,0.13,0.3,0.27,0.05,8,Sad,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.1,8,Sad,TV on the Radio
 Love Stained,0.1,0.24,0.08,0.37,0.2,0.12,8,Sad,TV on the Radio
 Snakes and Martyrs,0.12,0.28,0.09,0.38,0.12,0.13,8,Sad,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.16,8,Sad,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.16,8,Sad,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.22,8,Sad,TV on the Radio
 Killer Crane,0.12,0.27,0.12,0.24,0.24,0.01,9,Sad,TV on the Radio
 Right Now,0.12,0.42,0,0.23,0.23,0.02,9,Sad,TV on the Radio
@@ -5389,7 +5297,7 @@ Million Miles,0.11,0.16,0.14,0.35,0.24,0.1,9,Sad,TV on the Radio
 Love Stained,0.1,0.24,0.08,0.37,0.2,0.12,9,Sad,TV on the Radio
 Snakes and Martyrs,0.12,0.28,0.09,0.38,0.12,0.13,9,Sad,TV on the Radio
 Stork & Owl,0.09,0.38,0.09,0.38,0.06,0.13,9,Sad,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.16,9,Sad,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.16,9,Sad,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.22,9,Sad,TV on the Radio
 Tonight,0.31,0.21,0.1,0.21,0.17,0.01,10,Sad,TV on the Radio
 Right Now,0.12,0.42,0,0.23,0.23,0.01,10,Sad,TV on the Radio
@@ -5401,7 +5309,7 @@ Wash the Day,0.12,0.35,0.16,0.29,0.08,0.07,10,Sad,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.13,10,Sad,TV on the Radio
 Love Stained,0.1,0.24,0.08,0.37,0.2,0.15,10,Sad,TV on the Radio
 Stork & Owl,0.09,0.38,0.09,0.38,0.06,0.16,10,Sad,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.19,10,Sad,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.19,10,Sad,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.25,10,Sad,TV on the Radio
 Right Now,0.12,0.42,0,0.23,0.23,0.01,11,Sad,TV on the Radio
 Wear You Out,0.08,0.33,0.05,0.23,0.31,0.01,11,Sad,TV on the Radio
@@ -5666,7 +5574,7 @@ Ours,0.21,0.24,0.08,0.3,0.17,0,1,Surprise,Taylor Swift
 Teardrops on My Guitar,0.27,0.3,0,0.27,0.17,0,1,Surprise,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.01,1,Surprise,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.01,1,Surprise,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.01,1,Surprise,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.01,1,Surprise,Taylor Swift
 Super Bass,0.26,0.16,0.32,0.09,0.18,0.01,1,Surprise,Taylor Swift
 Superman,0.26,0.16,0.32,0.09,0.18,0.01,1,Surprise,Taylor Swift
 coney island,0.19,0.23,0.07,0.35,0.16,0.01,1,Surprise,Taylor Swift
@@ -5679,7 +5587,6 @@ the lakes,0.16,0.32,0.06,0.26,0.19,0.02,1,Surprise,Taylor Swift
 Mary's Song (Oh My My My),0.5,0.1,0.05,0.2,0.15,0.02,1,Surprise,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0.02,1,Surprise,Taylor Swift
 Lover,0.24,0.28,0.03,0.31,0.14,0.03,1,Surprise,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.04,1,Surprise,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.04,1,Surprise,Taylor Swift
 Love Story,0.26,0.15,0.15,0.24,0.21,0.04,1,Surprise,Taylor Swift
 ...Ready for It?,0.25,0.11,0.07,0.36,0.21,0.04,1,Surprise,Taylor Swift
@@ -5705,14 +5612,13 @@ Innocent,0.18,0.18,0.09,0.33,0.22,0.03,2,Surprise,Taylor Swift
 Tied Together With a Smile,0.23,0.11,0.03,0.4,0.23,0.04,2,Surprise,Taylor Swift
 Peter,0.18,0.12,0.12,0.44,0.15,0.04,2,Surprise,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0.04,2,Surprise,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0,3,Surprise,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0,3,Surprise,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.01,3,Surprise,Taylor Swift
 the lakes,0.16,0.32,0.06,0.26,0.19,0.02,3,Surprise,Taylor Swift
 My Boy Only Breaks His Favorite Toys,0.27,0.3,0,0.24,0.19,0.02,3,Surprise,Taylor Swift
 the 1,0.19,0.29,0.13,0.16,0.23,0.02,3,Surprise,Taylor Swift
 Fifteen,0.24,0.29,0.09,0.15,0.24,0.03,3,Surprise,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.03,3,Surprise,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.03,3,Surprise,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.03,3,Surprise,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.03,3,Surprise,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.04,3,Surprise,Taylor Swift
@@ -5730,7 +5636,6 @@ Lover,0.24,0.28,0.03,0.31,0.14,0.07,3,Surprise,Taylor Swift
 Back to December,0.26,0.21,0.02,0.23,0.28,0.07,3,Surprise,Taylor Swift
 Cold as You,0.17,0.28,0.2,0.23,0.12,0.09,3,Surprise,Taylor Swift
 Blank Space,0.17,0.29,0.05,0.18,0.31,0.1,3,Surprise,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.12,3,Surprise,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.12,3,Surprise,Taylor Swift
 champagne problems,0.15,0.44,0.02,0.31,0.08,0.13,3,Surprise,Taylor Swift
 Snow on the Beach,0.31,0.25,0.06,0.31,0.06,0.15,3,Surprise,Taylor Swift
@@ -5749,10 +5654,8 @@ I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.03,4,Surprise,Taylor Swift
 State of Grace,0.17,0.28,0.05,0.33,0.17,0.04,4,Surprise,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.04,4,Surprise,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.05,4,Surprise,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.05,4,Surprise,Taylor Swift
-"Fifteen / You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.05,4,Surprise,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.05,4,Surprise,Taylor Swift
 "You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.05,4,Surprise,Taylor Swift
-"You're on Your Own, Kid / Long Live",0.26,0.26,0.14,0.26,0.08,0.05,4,Surprise,Taylor Swift
 champagne problems,0.15,0.44,0.02,0.31,0.08,0.05,4,Surprise,Taylor Swift
 the lakes,0.16,0.32,0.06,0.26,0.19,0.06,4,Surprise,Taylor Swift
 Snow on the Beach,0.31,0.25,0.06,0.31,0.06,0.07,4,Surprise,Taylor Swift
@@ -5766,7 +5669,6 @@ Maroon,0.21,0.27,0.12,0.27,0.12,0.01,5,Surprise,Taylor Swift
 Dancing With Our Hands Tied,0.28,0.2,0.08,0.32,0.12,0.01,5,Surprise,Taylor Swift
 Beautiful Eyes,0.16,0.41,0,0.31,0.12,0.01,5,Surprise,Taylor Swift
 Starlight,0.15,0.24,0.13,0.35,0.13,0.02,5,Surprise,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.02,5,Surprise,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.02,5,Surprise,Taylor Swift
 champagne problems,0.15,0.44,0.02,0.31,0.08,0.03,5,Surprise,Taylor Swift
 Lover,0.24,0.28,0.03,0.31,0.14,0.03,5,Surprise,Taylor Swift
@@ -5805,12 +5707,11 @@ The Other Side of the Door,0.21,0.18,0.18,0.11,0.32,0.04,6,Surprise,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.04,6,Surprise,Taylor Swift
 London Boy,0.3,0.13,0,0.25,0.33,0.05,6,Surprise,Taylor Swift
 Begin Again,0.21,0.15,0.03,0.23,0.38,0.1,6,Surprise,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.1,6,Surprise,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.1,6,Surprise,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.1,6,Surprise,Taylor Swift
 'tis the damn season,0.19,0.19,0.03,0.42,0.16,0.12,6,Surprise,Taylor Swift
 coney island,0.19,0.23,0.07,0.35,0.16,0.12,6,Surprise,Taylor Swift
 Fresh Out the Slammer,0.26,0.37,0.04,0.22,0.11,0.17,6,Surprise,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.19,6,Surprise,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.19,6,Surprise,Taylor Swift
 Tim McGraw,0.22,0.48,0.02,0.22,0.07,0.21,6,Surprise,Taylor Swift
 ME!,0.19,0.03,0.04,0.19,0.55,0.27,6,Surprise,Taylor Swift
@@ -5823,7 +5724,7 @@ State of Grace,0.17,0.28,0.05,0.33,0.17,0.02,7,Surprise,Taylor Swift
 Teardrops on My Guitar,0.27,0.3,0,0.27,0.17,0.02,7,Surprise,Taylor Swift
 The Lucky One,0.59,0.16,0,0.12,0.12,0.03,7,Surprise,Taylor Swift
 Beautiful Eyes,0.16,0.41,0,0.31,0.12,0.03,7,Surprise,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.03,7,Surprise,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.03,7,Surprise,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.03,7,Surprise,Taylor Swift
 Dancing With Our Hands Tied,0.28,0.2,0.08,0.32,0.12,0.03,7,Surprise,Taylor Swift
 the lakes,0.16,0.32,0.06,0.26,0.19,0.04,7,Surprise,Taylor Swift
@@ -5864,13 +5765,10 @@ I Did Something Bad,0.21,0.21,0.17,0.31,0.1,0.01,9,Surprise,Taylor Swift
 Dancing With Our Hands Tied,0.28,0.2,0.08,0.32,0.12,0.01,9,Surprise,Taylor Swift
 Cold as You,0.17,0.28,0.2,0.23,0.12,0.01,9,Surprise,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.02,9,Surprise,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.02,9,Surprise,Taylor Swift
 betty,0.23,0.26,0.05,0.38,0.08,0.03,9,Surprise,Taylor Swift
 Wildest Dreams,0.24,0.24,0.36,0.08,0.08,0.03,9,Surprise,Taylor Swift
 Delicate,0.17,0.1,0.02,0.63,0.08,0.03,9,Surprise,Taylor Swift
 "You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.03,9,Surprise,Taylor Swift
-"You're on Your Own, Kid / Long Live",0.26,0.26,0.14,0.26,0.08,0.03,9,Surprise,Taylor Swift
-"Fifteen / You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.03,9,Surprise,Taylor Swift
 Lover,0.24,0.28,0.03,0.31,0.14,0.03,9,Surprise,Taylor Swift
 Tim McGraw,0.22,0.48,0.02,0.22,0.07,0.04,9,Surprise,Taylor Swift
 Mary's Song (Oh My My My),0.5,0.1,0.05,0.2,0.15,0.04,9,Surprise,Taylor Swift
@@ -5897,7 +5795,7 @@ The Smallest Man Who Ever Lived,0.18,0.32,0.11,0.18,0.21,0,10,Surprise,Taylor Sw
 Love Story,0.26,0.15,0.15,0.24,0.21,0,10,Surprise,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.01,10,Surprise,Taylor Swift
 the lakes,0.16,0.32,0.06,0.26,0.19,0.02,10,Surprise,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.03,10,Surprise,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.03,10,Surprise,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.03,10,Surprise,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.03,10,Surprise,Taylor Swift
 Why She Disappeared,0.17,0.28,0.14,0.25,0.17,0.04,10,Surprise,Taylor Swift
@@ -5913,7 +5811,6 @@ I Can Do It With a Broken Heart,0.15,0.18,0.09,0.31,0.27,0.06,10,Surprise,Taylor
 Back to December,0.26,0.21,0.02,0.23,0.28,0.07,10,Surprise,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.08,10,Surprise,Taylor Swift
 the last great american dynasty,0.15,0.17,0.02,0.34,0.32,0.11,10,Surprise,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.12,10,Surprise,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.12,10,Surprise,Taylor Swift
 Begin Again,0.21,0.15,0.03,0.23,0.38,0.17,10,Surprise,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.18,10,Surprise,Taylor Swift
@@ -5922,7 +5819,7 @@ Down Bad,0.5,0.15,0.1,0.25,0,0.21,10,Surprise,Taylor Swift
 the lakes,0.16,0.32,0.06,0.26,0.19,0,11,Surprise,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.01,11,Surprise,Taylor Swift
 Superman,0.26,0.16,0.32,0.09,0.18,0.01,11,Surprise,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.01,11,Surprise,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.01,11,Surprise,Taylor Swift
 Super Bass,0.26,0.16,0.32,0.09,0.18,0.01,11,Surprise,Taylor Swift
 The Smallest Man Who Ever Lived,0.18,0.32,0.11,0.18,0.21,0.02,11,Surprise,Taylor Swift
 Why She Disappeared,0.17,0.28,0.14,0.25,0.17,0.02,11,Surprise,Taylor Swift
@@ -5945,7 +5842,6 @@ Question...?,0.2,0.34,0.07,0.29,0.1,0.09,11,Surprise,Taylor Swift
 gold rush,0.26,0.19,0.08,0.19,0.28,0.09,11,Surprise,Taylor Swift
 Back to December,0.26,0.21,0.02,0.23,0.28,0.09,11,Surprise,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.1,11,Surprise,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.1,11,Surprise,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.1,11,Surprise,Taylor Swift
 tolerate it,0.23,0.14,0.14,0.19,0.3,0.11,11,Surprise,Taylor Swift
 Tim McGraw,0.22,0.48,0.02,0.22,0.07,0.12,11,Surprise,Taylor Swift
@@ -5958,7 +5854,7 @@ Love Story,0.26,0.15,0.15,0.24,0.21,0,12,Surprise,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.01,12,Surprise,Taylor Swift
 the lakes,0.16,0.32,0.06,0.26,0.19,0.02,12,Surprise,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.03,12,Surprise,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.03,12,Surprise,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.03,12,Surprise,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.03,12,Surprise,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.04,12,Surprise,Taylor Swift
 How Did It End?,0.17,0.21,0.04,0.33,0.25,0.04,12,Surprise,Taylor Swift
@@ -5982,7 +5878,7 @@ You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.02,13,Surprise,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.03,13,Surprise,Taylor Swift
 Dancing With Our Hands Tied,0.28,0.2,0.08,0.32,0.12,0.03,13,Surprise,Taylor Swift
 Beautiful Eyes,0.16,0.41,0,0.31,0.12,0.03,13,Surprise,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.03,13,Surprise,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.03,13,Surprise,Taylor Swift
 the lakes,0.16,0.32,0.06,0.26,0.19,0.04,13,Surprise,Taylor Swift
 I Did Something Bad,0.21,0.21,0.17,0.31,0.1,0.05,13,Surprise,Taylor Swift
 Question...?,0.2,0.34,0.07,0.29,0.1,0.05,13,Surprise,Taylor Swift
@@ -6003,7 +5899,7 @@ the lakes,0.16,0.32,0.06,0.26,0.19,0.03,14,Surprise,Taylor Swift
 My Boy Only Breaks His Favorite Toys,0.27,0.3,0,0.24,0.19,0.03,14,Surprise,Taylor Swift
 How Did It End?,0.17,0.21,0.04,0.33,0.25,0.03,14,Surprise,Taylor Swift
 Sad Beautiful Tragic,0.37,0.11,0.02,0.25,0.26,0.04,14,Surprise,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.04,14,Surprise,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.04,14,Surprise,Taylor Swift
 Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.04,14,Surprise,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.04,14,Surprise,Taylor Swift
 State of Grace,0.17,0.28,0.05,0.33,0.17,0.05,14,Surprise,Taylor Swift
@@ -6019,7 +5915,6 @@ Dancing With Our Hands Tied,0.28,0.2,0.08,0.32,0.12,0.1,14,Surprise,Taylor Swift
 Beautiful Eyes,0.16,0.41,0,0.31,0.12,0.1,14,Surprise,Taylor Swift
 the last great american dynasty,0.15,0.17,0.02,0.34,0.32,0.1,14,Surprise,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.13,14,Surprise,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.13,14,Surprise,Taylor Swift
 champagne problems,0.15,0.44,0.02,0.31,0.08,0.14,14,Surprise,Taylor Swift
 Death by a Thousand Cuts,0.17,0.44,0.02,0.32,0.05,0.17,14,Surprise,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.19,14,Surprise,Taylor Swift
@@ -6038,7 +5933,6 @@ The Smallest Man Who Ever Lived,0.18,0.32,0.11,0.18,0.21,0.09,15,Surprise,Taylor
 coney island,0.19,0.23,0.07,0.35,0.16,0.14,15,Surprise,Taylor Swift
 Starlight,0.15,0.24,0.13,0.35,0.13,0.17,15,Surprise,Taylor Swift
 Dear Reader,0.17,0.09,0.09,0.17,0.49,0.19,15,Surprise,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.21,15,Surprise,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.21,15,Surprise,Taylor Swift
 Ancient Names (Part II),0.08,0.08,0.52,0.12,0.2,0,1,Surprise,Lord Huron
 "Ancient Names, Pt. I",0.08,0.08,0.52,0.12,0.2,0,1,Surprise,Lord Huron
@@ -6198,12 +6092,10 @@ Solitude Is Bliss,0.39,0.25,0,0.18,0.18,0,1,Angry,Tame Impala
 Apocalypse Dreams,0.29,0.29,0,0.21,0.21,0,1,Angry,Tame Impala
 It Is Not Meant to Be,0.25,0.29,0,0.29,0.17,0,1,Angry,Tame Impala
 Be Above It,0.18,0,0,0.64,0.18,0,1,Angry,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0,1,Angry,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.04,1,Angry,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.05,1,Angry,Tame Impala
 Elephant,0.13,0.2,0.07,0.4,0.2,0.07,1,Angry,Tame Impala
 Music to Walk Home By,0.22,0.22,0.13,0.22,0.22,0.13,1,Angry,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.18,1,Angry,Tame Impala
 Solitude Is Bliss,0.39,0.25,0,0.18,0.18,0,2,Angry,Tame Impala
 Island Walking,0.38,0.38,0,0.12,0.12,0,2,Angry,Tame Impala
 Apocalypse Dreams,0.29,0.29,0,0.21,0.21,0,2,Angry,Tame Impala
@@ -6246,18 +6138,15 @@ Last Nite,0.15,0.37,0.05,0.29,0.15,0.02,6,Angry,Tame Impala
 Patience,0.09,0.41,0.05,0.23,0.23,0.02,6,Angry,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.03,6,Angry,Tame Impala
 "New Person, Same Old Mistakes",0.04,0.2,0.11,0.46,0.2,0.04,6,Angry,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.11,6,Angry,Tame Impala
 Expectation,0.06,0.22,0.06,0.31,0.36,0.01,7,Angry,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.02,7,Angry,Tame Impala
 Patience,0.09,0.41,0.05,0.23,0.23,0.02,7,Angry,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.03,7,Angry,Tame Impala
 "New Person, Same Old Mistakes",0.04,0.2,0.11,0.46,0.2,0.04,7,Angry,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.11,7,Angry,Tame Impala
 Breathe Deeper,0.09,0.16,0.09,0.53,0.12,0.02,8,Angry,Tame Impala
 Last Nite,0.15,0.37,0.05,0.29,0.15,0.02,8,Angry,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.03,8,Angry,Tame Impala
 "New Person, Same Old Mistakes",0.04,0.2,0.11,0.46,0.2,0.04,8,Angry,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.11,8,Angry,Tame Impala
 Sundown Syndrome,0.13,0.15,0.22,0.37,0.13,0.15,8,Angry,Tame Impala
 The Less I Know the Better,0.22,0.22,0.04,0.19,0.33,0,9,Angry,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0,9,Angry,Tame Impala
@@ -6266,7 +6155,6 @@ Patience,0.09,0.41,0.05,0.23,0.23,0.01,9,Angry,Tame Impala
 Apocalypse Dreams,0.29,0.29,0,0.21,0.21,0.04,9,Angry,Tame Impala
 Be Above It,0.18,0,0,0.64,0.18,0.04,9,Angry,Tame Impala
 Music to Walk Home By,0.22,0.22,0.13,0.22,0.22,0.09,9,Angry,Tame Impala
-Are You a Hypnotist??,0.18,0.18,0.18,0.27,0.18,0.14,9,Angry,Tame Impala
 Lucidity,0.08,0.31,0.23,0.23,0.15,0.19,9,Angry,Tame Impala
 Forty One Mosquitoes Flying in Formation,0.05,0.25,0.3,0.2,0.2,0.26,9,Angry,Tame Impala
 Apocalypse Dreams,0.29,0.29,0,0.21,0.21,0,10,Angry,Tame Impala
@@ -6282,7 +6170,6 @@ Last Nite,0.15,0.37,0.05,0.29,0.15,0,11,Angry,Tame Impala
 Patience,0.09,0.41,0.05,0.23,0.23,0,11,Angry,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.01,11,Angry,Tame Impala
 It Is Not Meant to Be,0.25,0.29,0,0.29,0.17,0.05,11,Angry,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.05,11,Angry,Tame Impala
 One More Year,0.13,0.68,0,0.16,0.03,0.05,11,Angry,Tame Impala
 One More Hour,0.13,0.68,0,0.16,0.03,0.05,11,Angry,Tame Impala
 Music to Walk Home By,0.22,0.22,0.13,0.22,0.22,0.08,11,Angry,Tame Impala
@@ -6295,7 +6182,6 @@ Reality in Motion,0,0.29,0.05,0.54,0.12,0.01,12,Angry,Tame Impala
 On Track,0.14,0.44,0.06,0.28,0.08,0.02,12,Angry,Tame Impala
 It Is Not Meant to Be,0.25,0.29,0,0.29,0.17,0.04,12,Angry,Tame Impala
 Be Above It,0.18,0,0,0.64,0.18,0.04,12,Angry,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.04,12,Angry,Tame Impala
 Lucidity,0.08,0.31,0.23,0.23,0.15,0.19,12,Angry,Tame Impala
 Alter Ego,0.08,0.23,0.46,0.15,0.08,0.42,12,Angry,Tame Impala
 Patience,0.09,0.41,0.05,0.23,0.23,0,13,Angry,Tame Impala
@@ -6303,7 +6189,6 @@ Reality in Motion,0,0.29,0.05,0.54,0.12,0,13,Angry,Tame Impala
 On Track,0.14,0.44,0.06,0.28,0.08,0.01,13,Angry,Tame Impala
 Lost in Yesterday,0.14,0.25,0.04,0.5,0.07,0.01,13,Angry,Tame Impala
 It Is Not Meant to Be,0.25,0.29,0,0.29,0.17,0.05,13,Angry,Tame Impala
-Led Zeppelin,0.14,0.29,0,0,0.57,0.05,13,Angry,Tame Impala
 One More Year,0.13,0.68,0,0.16,0.03,0.05,13,Angry,Tame Impala
 One More Hour,0.13,0.68,0,0.16,0.03,0.05,13,Angry,Tame Impala
 Lucidity,0.08,0.31,0.23,0.23,0.15,0.18,13,Angry,Tame Impala
@@ -6326,8 +6211,8 @@ Free,0.2,0.3,0.07,0.3,0.14,0.1,1,Happy,Florence + the Machine
 Big God,0.24,0.24,0,0.28,0.24,0.14,1,Happy,Florence + the Machine
 Only Love Can Break Your Heart,0.3,0.11,0.07,0.3,0.22,0.2,1,Happy,Florence + the Machine
 South London Forever,0.11,0.32,0.18,0.21,0.18,0,2,Happy,Florence + the Machine
-St Jude,0.11,0.11,0.04,0.52,0.22,0,2,Happy,Florence + the Machine
-Ship to Wreck,0.11,0.17,0.03,0.51,0.18,0,2,Happy,Florence + the Machine
+St Jude,0.11,0.11,0.04,0.52,0.22,0.00001,2,Happy,Florence + the Machine
+Ship to Wreck,0.11,0.17,0.03,0.51,0.18,0.00001,2,Happy,Florence + the Machine
 Girl With One Eye,0.09,0.16,0,0.34,0.41,0.02,2,Happy,Florence + the Machine
 100 Years,0.09,0.33,0.04,0.39,0.15,0.02,2,Happy,Florence + the Machine
 Prayer Factory,0.08,0.23,0.15,0.31,0.23,0.03,2,Happy,Florence + the Machine
@@ -6360,7 +6245,7 @@ Over the Love,0.2,0.2,0.07,0.23,0.3,0.11,3,Happy,Florence + the Machine
 Big God,0.24,0.24,0,0.28,0.24,0.15,3,Happy,Florence + the Machine
 Patricia,0.3,0.21,0.02,0.19,0.28,0.21,3,Happy,Florence + the Machine
 Prayer Factory,0.08,0.23,0.15,0.31,0.23,0.01,4,Happy,Florence + the Machine
-Hurricane Drunk,0.1,0.19,0.1,0.32,0.29,0.01,4,Happy,Florence + the Machine
+Hurricane Drunk,0.1,0.19,0.1,0.32,0.29,0.0100001,4,Happy,Florence + the Machine
 Sky Full of Song,0.07,0.27,0.23,0.33,0.1,0.02,4,Happy,Florence + the Machine
 Long & Lost,0.07,0.26,0.02,0.56,0.09,0.02,4,Happy,Florence + the Machine
 Rabbit Heart (Raise It Up),0.07,0.27,0.07,0.23,0.37,0.02,4,Happy,Florence + the Machine
@@ -6375,7 +6260,7 @@ Free,0.2,0.3,0.07,0.3,0.14,0.11,4,Happy,Florence + the Machine
 Big God,0.24,0.24,0,0.28,0.24,0.15,4,Happy,Florence + the Machine
 Only Love Can Break Your Heart,0.3,0.11,0.07,0.3,0.22,0.21,4,Happy,Florence + the Machine
 Hurricane Drunk,0.1,0.19,0.1,0.32,0.29,0.01,5,Happy,Florence + the Machine
-Shake It Out,0.1,0.35,0.12,0.15,0.28,0.01,5,Happy,Florence + the Machine
+Shake It Out,0.1,0.35,0.12,0.15,0.28,0.01000001,5,Happy,Florence + the Machine
 Breaking Down,0.07,0.18,0.04,0.21,0.5,0.02,5,Happy,Florence + the Machine
 Long & Lost,0.07,0.26,0.02,0.56,0.09,0.02,5,Happy,Florence + the Machine
 Rabbit Heart (Raise It Up),0.07,0.27,0.07,0.23,0.37,0.02,5,Happy,Florence + the Machine
@@ -6389,7 +6274,7 @@ Lover to Lover,0.2,0.2,0.07,0.23,0.3,0.11,5,Happy,Florence + the Machine
 Over the Love,0.2,0.2,0.07,0.23,0.3,0.11,5,Happy,Florence + the Machine
 Patricia,0.3,0.21,0.02,0.19,0.28,0.21,5,Happy,Florence + the Machine
 Never Let Me Go,0.15,0.34,0.05,0.2,0.27,0,6,Happy,Florence + the Machine
-Daffodil,0.15,0.05,0.1,0.5,0.2,0,6,Happy,Florence + the Machine
+Daffodil,0.15,0.05,0.1,0.5,0.2,0.000001,6,Happy,Florence + the Machine
 What the Water Gave Me,0.14,0.29,0.05,0.33,0.19,0.01,6,Happy,Florence + the Machine
 Flakes,0.16,0.23,0.23,0.13,0.26,0.01,6,Happy,Florence + the Machine
 Howl,0.13,0.2,0,0.4,0.27,0.02,6,Happy,Florence + the Machine
@@ -6405,7 +6290,7 @@ Patricia,0.3,0.21,0.02,0.19,0.28,0.15,6,Happy,Florence + the Machine
 Drumming Song,0,0.44,0.07,0.2,0.28,0.15,6,Happy,Florence + the Machine
 Mermaids,0.32,0.22,0.08,0.19,0.19,0.17,6,Happy,Florence + the Machine
 Lover to Lover,0.2,0.2,0.07,0.23,0.3,0,7,Happy,Florence + the Machine
-Over the Love,0.2,0.2,0.07,0.23,0.3,0,7,Happy,Florence + the Machine
+Over the Love,0.2,0.2,0.07,0.23,0.3,0.000001,7,Happy,Florence + the Machine
 "How Big, How Blue, How Beautiful",0.21,0.23,0.09,0.3,0.17,0.01,7,Happy,Florence + the Machine
 "No Light, No Light",0.19,0.13,0.2,0.24,0.24,0.01,7,Happy,Florence + the Machine
 Big God,0.24,0.24,0,0.28,0.24,0.04,7,Happy,Florence + the Machine
@@ -6431,10 +6316,10 @@ Drumming Song,0,0.44,0.07,0.2,0.28,0.14,8,Happy,Florence + the Machine
 Patricia,0.3,0.21,0.02,0.19,0.28,0.16,8,Happy,Florence + the Machine
 Mermaids,0.32,0.22,0.08,0.19,0.19,0.18,8,Happy,Florence + the Machine
 Sky Full of Song,0.07,0.27,0.23,0.33,0.1,0.02,9,Happy,Florence + the Machine
-Long & Lost,0.07,0.26,0.02,0.56,0.09,0.02,9,Happy,Florence + the Machine
-Rabbit Heart (Raise It Up),0.07,0.27,0.07,0.23,0.37,0.02,9,Happy,Florence + the Machine
-Which Witch,0.07,0.04,0.11,0.34,0.45,0.02,9,Happy,Florence + the Machine
-St Jude,0.11,0.11,0.04,0.52,0.22,0.02,9,Happy,Florence + the Machine
+Long & Lost,0.07,0.26,0.02,0.56,0.09,0.0200001,9,Happy,Florence + the Machine
+Rabbit Heart (Raise It Up),0.07,0.27,0.07,0.23,0.37,0.0200001,9,Happy,Florence + the Machine
+Which Witch,0.07,0.04,0.11,0.34,0.45,0.0200001,9,Happy,Florence + the Machine
+St Jude,0.11,0.11,0.04,0.52,0.22,0.0200001,9,Happy,Florence + the Machine
 Grace,0.12,0.17,0.1,0.42,0.2,0.03,9,Happy,Florence + the Machine
 Dream Girl Evil,0.06,0.14,0.03,0.31,0.46,0.03,9,Happy,Florence + the Machine
 Howl,0.13,0.2,0,0.4,0.27,0.04,9,Happy,Florence + the Machine
@@ -6444,7 +6329,7 @@ Big God,0.24,0.24,0,0.28,0.24,0.15,9,Happy,Florence + the Machine
 Only Love Can Break Your Heart,0.3,0.11,0.07,0.3,0.22,0.21,9,Happy,Florence + the Machine
 Mermaids,0.32,0.22,0.08,0.19,0.19,0.23,9,Happy,Florence + the Machine
 St Jude,0.11,0.11,0.04,0.52,0.22,0,10,Happy,Florence + the Machine
-Ship to Wreck,0.11,0.17,0.03,0.51,0.18,0,10,Happy,Florence + the Machine
+Ship to Wreck,0.11,0.17,0.03,0.51,0.18,0.000001,10,Happy,Florence + the Machine
 Grace,0.12,0.17,0.1,0.42,0.2,0.01,10,Happy,Florence + the Machine
 Howl,0.13,0.2,0,0.4,0.27,0.02,10,Happy,Florence + the Machine
 Bedroom Hymns,0.14,0.25,0,0.14,0.46,0.03,10,Happy,Florence + the Machine
@@ -6461,8 +6346,8 @@ Big God,0.24,0.24,0,0.28,0.24,0.13,10,Happy,Florence + the Machine
 Patricia,0.3,0.21,0.02,0.19,0.28,0.19,10,Happy,Florence + the Machine
 Mermaids,0.32,0.22,0.08,0.19,0.19,0.21,10,Happy,Florence + the Machine
 Hunger,0.15,0.17,0.04,0.13,0.5,0.01,11,Happy,Florence + the Machine
-No Choir,0.15,0.1,0.2,0.2,0.35,0.01,11,Happy,Florence + the Machine
-Daffodil,0.15,0.05,0.1,0.5,0.2,0.01,11,Happy,Florence + the Machine
+No Choir,0.15,0.1,0.2,0.2,0.35,0.0100001,11,Happy,Florence + the Machine
+Daffodil,0.15,0.05,0.1,0.5,0.2,0.0100001,11,Happy,Florence + the Machine
 Grace,0.12,0.17,0.1,0.42,0.2,0.02,11,Happy,Florence + the Machine
 Donkey Kosh,0.12,0.12,0.12,0.65,0,0.02,11,Happy,Florence + the Machine
 Hardest of Hearts,0.17,0.12,0.03,0.57,0.1,0.03,11,Happy,Florence + the Machine
@@ -6477,7 +6362,7 @@ Only Love Can Break Your Heart,0.3,0.11,0.07,0.3,0.22,0.16,11,Happy,Florence + t
 Mermaids,0.32,0.22,0.08,0.19,0.19,0.18,11,Happy,Florence + the Machine
 Are You Hurting the One You Love?,0.4,0.14,0.05,0.26,0.16,0.26,11,Happy,Florence + the Machine
 No Choir,0.15,0.1,0.2,0.2,0.35,0,12,Happy,Florence + the Machine
-Daffodil,0.15,0.05,0.1,0.5,0.2,0,12,Happy,Florence + the Machine
+Daffodil,0.15,0.05,0.1,0.5,0.2,0.000001,12,Happy,Florence + the Machine
 Hardest of Hearts,0.17,0.12,0.03,0.57,0.1,0.02,12,Happy,Florence + the Machine
 Breath of Life,0.17,0.4,0,0.27,0.17,0.02,12,Happy,Florence + the Machine
 Grace,0.12,0.17,0.1,0.42,0.2,0.03,12,Happy,Florence + the Machine
@@ -6515,7 +6400,7 @@ Red Dress,0.11,0.34,0.11,0.25,0.19,0.04,1,Happy,TV on the Radio
 The Wrong Way,0.03,0.26,0.09,0.29,0.34,0.04,1,Happy,TV on the Radio
 Wrong Way,0.03,0.26,0.09,0.29,0.34,0.04,1,Happy,TV on the Radio
 Halfway Home,0.03,0.27,0.13,0.3,0.27,0.04,1,Happy,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.05,1,Happy,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.05,1,Happy,TV on the Radio
 Snakes and Martyrs,0.12,0.28,0.09,0.38,0.12,0.05,1,Happy,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.05,1,Happy,TV on the Radio
 Killer Crane,0.12,0.27,0.12,0.24,0.24,0.05,1,Happy,TV on the Radio
@@ -6557,7 +6442,7 @@ New Health Rock,0.12,0.15,0.15,0.42,0.15,0.02,4,Happy,TV on the Radio
 Killer Crane,0.12,0.27,0.12,0.24,0.24,0.02,4,Happy,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.02,4,Happy,TV on the Radio
 Dry Drunk Emperor,0.12,0.24,0.14,0.4,0.1,0.02,4,Happy,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.02,4,Happy,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.02,4,Happy,TV on the Radio
 King Eternal,0.11,0.5,0.17,0.06,0.17,0.03,4,Happy,TV on the Radio
 Red Dress,0.11,0.34,0.11,0.25,0.19,0.03,4,Happy,TV on the Radio
 I Was a Lover,0.11,0.32,0,0.43,0.14,0.03,4,Happy,TV on the Radio
@@ -6567,7 +6452,7 @@ I Was a Lover,0.11,0.32,0,0.43,0.14,0,5,Happy,TV on the Radio
 King Eternal,0.11,0.5,0.17,0.06,0.17,0,5,Happy,TV on the Radio
 Let the Devil In,0.11,0.14,0.08,0.19,0.47,0,5,Happy,TV on the Radio
 Red Dress,0.11,0.34,0.11,0.25,0.19,0,5,Happy,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.01,5,Happy,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.01,5,Happy,TV on the Radio
 Dry Drunk Emperor,0.12,0.24,0.14,0.4,0.1,0.01,5,Happy,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.01,5,Happy,TV on the Radio
 Snakes and Martyrs,0.12,0.28,0.09,0.38,0.12,0.01,5,Happy,TV on the Radio
@@ -6591,7 +6476,7 @@ Red Dress,0.11,0.34,0.11,0.25,0.19,0.01,6,Happy,TV on the Radio
 Million Miles,0.11,0.16,0.14,0.35,0.24,0.01,6,Happy,TV on the Radio
 Trouble,0.09,0.13,0.07,0.47,0.24,0.01,6,Happy,TV on the Radio
 Dry Drunk Emperor,0.12,0.24,0.14,0.4,0.1,0.02,6,Happy,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.02,6,Happy,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.02,6,Happy,TV on the Radio
 Snakes and Martyrs,0.12,0.28,0.09,0.38,0.12,0.02,6,Happy,TV on the Radio
 Killer Crane,0.12,0.27,0.12,0.24,0.24,0.02,6,Happy,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.02,6,Happy,TV on the Radio
@@ -6620,7 +6505,7 @@ Right Now,0.12,0.42,0,0.23,0.23,0.02,7,Happy,TV on the Radio
 Wash the Day,0.12,0.35,0.16,0.29,0.08,0.02,7,Happy,TV on the Radio
 Killer Crane,0.12,0.27,0.12,0.24,0.24,0.02,7,Happy,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.02,7,Happy,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.02,7,Happy,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.02,7,Happy,TV on the Radio
 Wear You Out,0.08,0.33,0.05,0.23,0.31,0.02,7,Happy,TV on the Radio
 Hours,0.14,0.27,0.09,0.27,0.23,0.04,7,Happy,TV on the Radio
 Dreams,0.15,0.33,0.07,0.3,0.15,0.05,7,Happy,TV on the Radio
@@ -6640,7 +6525,7 @@ Right Now,0.12,0.42,0,0.23,0.23,0.03,8,Happy,TV on the Radio
 Wash the Day,0.12,0.35,0.16,0.29,0.08,0.03,8,Happy,TV on the Radio
 Killer Crane,0.12,0.27,0.12,0.24,0.24,0.03,8,Happy,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.03,8,Happy,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.03,8,Happy,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.03,8,Happy,TV on the Radio
 Crying,0.04,0.29,0.25,0.21,0.21,0.05,8,Happy,TV on the Radio
 Blues From Down Here,0.04,0.33,0.16,0.27,0.2,0.05,8,Happy,TV on the Radio
 Hours,0.14,0.27,0.09,0.27,0.23,0.05,8,Happy,TV on the Radio
@@ -6659,7 +6544,7 @@ Wash the Day,0.12,0.35,0.16,0.29,0.08,0.025,9,Happy,TV on the Radio
 Killer Crane,0.12,0.27,0.12,0.24,0.24,0.025,9,Happy,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.025,9,Happy,TV on the Radio
 Snakes and Martyrs,0.12,0.28,0.09,0.38,0.12,0.025,9,Happy,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.025,9,Happy,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.025,9,Happy,TV on the Radio
 Hours,0.14,0.27,0.09,0.27,0.23,0.045,9,Happy,TV on the Radio
 Dreams,0.15,0.33,0.07,0.3,0.15,0.055,9,Happy,TV on the Radio
 Blues From Down Here,0.04,0.33,0.16,0.27,0.2,0.055,9,Happy,TV on the Radio
@@ -6674,7 +6559,7 @@ Right Now,0.12,0.42,0,0.23,0.23,0.03,10,Happy,TV on the Radio
 Wash the Day,0.12,0.35,0.16,0.29,0.08,0.03,10,Happy,TV on the Radio
 Killer Crane,0.12,0.27,0.12,0.24,0.24,0.03,10,Happy,TV on the Radio
 DLZ,0.12,0.37,0.08,0.21,0.23,0.03,10,Happy,TV on the Radio
-Lover’s Day,0.12,0.2,0.11,0.41,0.16,0.03,10,Happy,TV on the Radio
+Lover's Day,0.12,0.2,0.11,0.41,0.16,0.03,10,Happy,TV on the Radio
 Blues From Down Here,0.04,0.33,0.16,0.27,0.2,0.05,10,Happy,TV on the Radio
 Crying,0.04,0.29,0.25,0.21,0.21,0.05,10,Happy,TV on the Radio
 Tonight,0.31,0.21,0.1,0.21,0.17,0.22,10,Happy,TV on the Radio
@@ -7080,7 +6965,7 @@ Lover,0.24,0.28,0.03,0.31,0.14,0,1,Happy,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0,1,Happy,Taylor Swift
 tolerate it,0.23,0.14,0.14,0.19,0.3,0.01,1,Happy,Taylor Swift
 Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.01,1,Happy,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.01,1,Happy,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.01,1,Happy,Taylor Swift
 cowboy like me,0.23,0.37,0.05,0.14,0.21,0.01,1,Happy,Taylor Swift
 ...Ready for It?,0.25,0.11,0.07,0.36,0.21,0.01,1,Happy,Taylor Swift
 22,0.22,0.36,0.06,0.17,0.19,0.02,1,Happy,Taylor Swift
@@ -7108,7 +6993,6 @@ Fortnight,0.15,0.18,0.03,0.49,0.15,0.09,1,Happy,Taylor Swift
 I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.09,1,Happy,Taylor Swift
 You Belong With Me,0.44,0.18,0.04,0.22,0.11,0.2,1,Happy,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.23,1,Happy,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.23,1,Happy,Taylor Swift
 Down Bad,0.5,0.15,0.1,0.25,0,0.26,1,Happy,Taylor Swift
 Mary's Song (Oh My My My),0.5,0.1,0.05,0.2,0.15,0.26,1,Happy,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0.1,2,Happy,Taylor Swift
@@ -7131,7 +7015,6 @@ Blank Space,0.17,0.29,0.05,0.18,0.31,0.02,3,Happy,Taylor Swift
 How Did It End?,0.17,0.21,0.04,0.33,0.25,0.02,3,Happy,Taylor Swift
 Why She Disappeared,0.17,0.28,0.14,0.25,0.17,0.02,3,Happy,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.03,3,Happy,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.03,3,Happy,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.03,3,Happy,Taylor Swift
 coney island,0.19,0.23,0.07,0.35,0.16,0.04,3,Happy,Taylor Swift
 the 1,0.19,0.29,0.13,0.16,0.23,0.04,3,Happy,Taylor Swift
@@ -7140,7 +7023,7 @@ The Best Day,0.21,0.21,0.05,0.34,0.18,0.06,3,Happy,Taylor Swift
 Ours,0.21,0.24,0.08,0.3,0.17,0.06,3,Happy,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.06,3,Happy,Taylor Swift
 Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.08,3,Happy,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.08,3,Happy,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.08,3,Happy,Taylor Swift
 Fifteen,0.24,0.29,0.09,0.15,0.24,0.09,3,Happy,Taylor Swift
 Back to December,0.26,0.21,0.02,0.23,0.28,0.11,3,Happy,Taylor Swift
 My Boy Only Breaks His Favorite Toys,0.27,0.3,0,0.24,0.19,0.12,3,Happy,Taylor Swift
@@ -7150,7 +7033,6 @@ Invisible,0.32,0.24,0,0.28,0.16,0.17,3,Happy,Taylor Swift
 I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.18,3,Happy,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.25,3,Happy,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.32,3,Happy,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.32,3,Happy,Taylor Swift
 Daylight,0.15,0.24,0.13,0.35,0.13,0.03,4,Happy,Taylor Swift
 champagne problems,0.15,0.44,0.02,0.31,0.08,0.03,4,Happy,Taylor Swift
 Starlight,0.15,0.24,0.13,0.35,0.13,0.03,4,Happy,Taylor Swift
@@ -7166,10 +7048,8 @@ Maroon,0.21,0.27,0.12,0.27,0.12,0.09,4,Happy,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.09,4,Happy,Taylor Swift
 Ours,0.21,0.24,0.08,0.3,0.17,0.09,4,Happy,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.09,4,Happy,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.11,4,Happy,Taylor Swift
-"Fifteen / You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.14,4,Happy,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.11,4,Happy,Taylor Swift
 "You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.14,4,Happy,Taylor Swift
-"You're on Your Own, Kid / Long Live",0.26,0.26,0.14,0.26,0.08,0.14,4,Happy,Taylor Swift
 Dancing With Our Hands Tied,0.28,0.2,0.08,0.32,0.12,0.16,4,Happy,Taylor Swift
 Snow on the Beach,0.31,0.25,0.06,0.31,0.06,0.19,4,Happy,Taylor Swift
 Invisible,0.32,0.24,0,0.28,0.16,0.2,4,Happy,Taylor Swift
@@ -7184,7 +7064,6 @@ Beautiful Eyes,0.16,0.41,0,0.31,0.12,0.05,5,Happy,Taylor Swift
 the lakes,0.16,0.32,0.06,0.26,0.19,0.05,5,Happy,Taylor Swift
 How Did It End?,0.17,0.21,0.04,0.33,0.25,0.06,5,Happy,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.07,5,Happy,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.07,5,Happy,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.07,5,Happy,Taylor Swift
 coney island,0.19,0.23,0.07,0.35,0.16,0.08,5,Happy,Taylor Swift
 'tis the damn season,0.19,0.19,0.03,0.42,0.16,0.08,5,Happy,Taylor Swift
@@ -7206,7 +7085,7 @@ The Great War,0.21,0.21,0.05,0.34,0.18,0.01,6,Happy,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.01,6,Happy,Taylor Swift
 The Other Side of the Door,0.21,0.18,0.18,0.11,0.32,0.01,6,Happy,Taylor Swift
 tolerate it,0.23,0.14,0.14,0.19,0.3,0.01,6,Happy,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.01,6,Happy,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.01,6,Happy,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.02,6,Happy,Taylor Swift
 You Are in Love,0.24,0.12,0.03,0.35,0.27,0.02,6,Happy,Taylor Swift
 'tis the damn season,0.19,0.19,0.03,0.42,0.16,0.03,6,Happy,Taylor Swift
@@ -7217,7 +7096,6 @@ Fresh Out the Slammer,0.26,0.37,0.04,0.22,0.11,0.04,6,Happy,Taylor Swift
 Dreams,0.26,0.13,0,0.29,0.32,0.04,6,Happy,Taylor Swift
 Back to December,0.26,0.21,0.02,0.23,0.28,0.04,6,Happy,Taylor Swift
 Dress,0.26,0.13,0,0.29,0.32,0.04,6,Happy,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.04,6,Happy,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.04,6,Happy,Taylor Swift
 gold rush,0.26,0.19,0.08,0.19,0.28,0.04,6,Happy,Taylor Swift
 Blank Space,0.17,0.29,0.05,0.18,0.31,0.05,6,Happy,Taylor Swift
@@ -7243,7 +7121,7 @@ I Did Something Bad,0.21,0.21,0.17,0.31,0.1,0.1,7,Happy,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.1,7,Happy,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.1,7,Happy,Taylor Swift
 Ours,0.21,0.24,0.08,0.3,0.17,0.1,7,Happy,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.12,7,Happy,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.12,7,Happy,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.13,7,Happy,Taylor Swift
 Dreams,0.26,0.13,0,0.29,0.32,0.15,7,Happy,Taylor Swift
 Dress,0.26,0.13,0,0.29,0.32,0.15,7,Happy,Taylor Swift
@@ -7268,7 +7146,6 @@ gold rush,0.26,0.19,0.08,0.19,0.28,0.15,8,Happy,Taylor Swift
 Iris,0.27,0.27,0.12,0.23,0.12,0.16,8,Happy,Taylor Swift
 My Boy Only Breaks His Favorite Toys,0.27,0.3,0,0.24,0.19,0.16,8,Happy,Taylor Swift
 Paris,0.27,0.27,0.12,0.23,0.12,0.16,8,Happy,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.36,8,Happy,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.36,8,Happy,Taylor Swift
 22,0.22,0.36,0.06,0.17,0.19,0,9,Happy,Taylor Swift
 I Did Something Bad,0.21,0.21,0.17,0.31,0.1,0.01,9,Happy,Taylor Swift
@@ -7284,13 +7161,10 @@ Wildest Dreams,0.24,0.24,0.36,0.08,0.08,0.02,9,Happy,Taylor Swift
 ME!,0.19,0.03,0.04,0.19,0.55,0.03,9,Happy,Taylor Swift
 'tis the damn season,0.19,0.19,0.03,0.42,0.16,0.03,9,Happy,Taylor Swift
 coney island,0.19,0.23,0.07,0.35,0.16,0.03,9,Happy,Taylor Swift
-"Fifteen / You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.04,9,Happy,Taylor Swift
 Fresh Out the Slammer,0.26,0.37,0.04,0.22,0.11,0.04,9,Happy,Taylor Swift
 "You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.04,9,Happy,Taylor Swift
-"You're on Your Own, Kid / Long Live",0.26,0.26,0.14,0.26,0.08,0.04,9,Happy,Taylor Swift
 Back to December,0.26,0.21,0.02,0.23,0.28,0.04,9,Happy,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.04,9,Happy,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.04,9,Happy,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.04,9,Happy,Taylor Swift
 gold rush,0.26,0.19,0.08,0.19,0.28,0.04,9,Happy,Taylor Swift
 How Did It End?,0.17,0.21,0.04,0.33,0.25,0.05,9,Happy,Taylor Swift
@@ -7311,7 +7185,6 @@ How Did It End?,0.17,0.21,0.04,0.33,0.25,0.04,10,Happy,Taylor Swift
 Why She Disappeared,0.17,0.28,0.14,0.25,0.17,0.04,10,Happy,Taylor Swift
 State of Grace,0.17,0.28,0.05,0.33,0.17,0.04,10,Happy,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.05,10,Happy,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.05,10,Happy,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.05,10,Happy,Taylor Swift
 The Smallest Man Who Ever Lived,0.18,0.32,0.11,0.18,0.21,0.05,10,Happy,Taylor Swift
 coney island,0.19,0.23,0.07,0.35,0.16,0.06,10,Happy,Taylor Swift
@@ -7320,7 +7193,7 @@ Begin Again,0.21,0.15,0.03,0.23,0.38,0.08,10,Happy,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.08,10,Happy,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.08,10,Happy,Taylor Swift
 Ours,0.21,0.24,0.08,0.3,0.17,0.08,10,Happy,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.1,10,Happy,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.1,10,Happy,Taylor Swift
 Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.1,10,Happy,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.11,10,Happy,Taylor Swift
 Love Story,0.26,0.15,0.15,0.24,0.21,0.13,10,Happy,Taylor Swift
@@ -7330,7 +7203,6 @@ I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.2,10,Happy,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.27,10,Happy,Taylor Swift
 You Belong With Me,0.44,0.18,0.04,0.22,0.11,0.31,10,Happy,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.34,10,Happy,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.34,10,Happy,Taylor Swift
 Down Bad,0.5,0.15,0.1,0.25,0,0.37,10,Happy,Taylor Swift
 cowboy like me,0.23,0.37,0.05,0.14,0.21,0.01,11,Happy,Taylor Swift
 Begin Again,0.21,0.15,0.03,0.23,0.38,0.01,11,Happy,Taylor Swift
@@ -7340,7 +7212,7 @@ Ours,0.21,0.24,0.08,0.3,0.17,0.01,11,Happy,Taylor Swift
 Tied Together With a Smile,0.23,0.11,0.03,0.4,0.23,0.01,11,Happy,Taylor Swift
 tolerate it,0.23,0.14,0.14,0.19,0.3,0.01,11,Happy,Taylor Swift
 Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.01,11,Happy,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.01,11,Happy,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.01,11,Happy,Taylor Swift
 Fifteen,0.24,0.29,0.09,0.15,0.24,0.02,11,Happy,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.02,11,Happy,Taylor Swift
 Question...?,0.2,0.34,0.07,0.29,0.1,0.02,11,Happy,Taylor Swift
@@ -7356,7 +7228,6 @@ Back to December,0.26,0.21,0.02,0.23,0.28,0.04,11,Happy,Taylor Swift
 Dress,0.26,0.13,0,0.29,0.32,0.04,11,Happy,Taylor Swift
 The Smallest Man Who Ever Lived,0.18,0.32,0.11,0.18,0.21,0.04,11,Happy,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.04,11,Happy,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.04,11,Happy,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.04,11,Happy,Taylor Swift
 Love Story,0.26,0.15,0.15,0.24,0.21,0.04,11,Happy,Taylor Swift
 Superman,0.26,0.16,0.32,0.09,0.18,0.04,11,Happy,Taylor Swift
@@ -7367,7 +7238,6 @@ I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.11,11,Happy,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.18,11,Happy,Taylor Swift
 You Belong With Me,0.44,0.18,0.04,0.22,0.11,0.22,11,Happy,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.25,11,Happy,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.25,11,Happy,Taylor Swift
 Down Bad,0.5,0.15,0.1,0.25,0,0.28,11,Happy,Taylor Swift
 Mary's Song (Oh My My My),0.5,0.1,0.05,0.2,0.15,0.28,11,Happy,Taylor Swift
 How Did It End?,0.17,0.21,0.04,0.33,0.25,0.06,12,Happy,Taylor Swift
@@ -7376,7 +7246,7 @@ Innocent,0.18,0.18,0.09,0.33,0.22,0.07,12,Happy,Taylor Swift
 Begin Again,0.21,0.15,0.03,0.23,0.38,0.1,12,Happy,Taylor Swift
 The Great War,0.21,0.21,0.05,0.34,0.18,0.1,12,Happy,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.1,12,Happy,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.12,12,Happy,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.12,12,Happy,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.13,12,Happy,Taylor Swift
 Love Story,0.26,0.15,0.15,0.24,0.21,0.15,12,Happy,Taylor Swift
 Back to December,0.26,0.21,0.02,0.23,0.28,0.15,12,Happy,Taylor Swift
@@ -7385,7 +7255,6 @@ I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.22,12,Happy,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.29,12,Happy,Taylor Swift
 You Belong With Me,0.44,0.18,0.04,0.22,0.11,0.33,12,Happy,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.36,12,Happy,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.36,12,Happy,Taylor Swift
 Down Bad,0.5,0.15,0.1,0.25,0,0.39,12,Happy,Taylor Swift
 champagne problems,0.15,0.44,0.02,0.31,0.08,0.04,13,Happy,Taylor Swift
 Starlight,0.15,0.24,0.13,0.35,0.13,0.04,13,Happy,Taylor Swift
@@ -7399,7 +7268,7 @@ The Great War,0.21,0.21,0.05,0.34,0.18,0.1,13,Happy,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.1,13,Happy,Taylor Swift
 Ours,0.21,0.24,0.08,0.3,0.17,0.1,13,Happy,Taylor Swift
 Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.12,13,Happy,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.12,13,Happy,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.12,13,Happy,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.13,13,Happy,Taylor Swift
 Fresh Out the Slammer,0.26,0.37,0.04,0.22,0.11,0.15,13,Happy,Taylor Swift
 Back to December,0.26,0.21,0.02,0.23,0.28,0.15,13,Happy,Taylor Swift
@@ -7415,7 +7284,6 @@ Death by a Thousand Cuts,0.17,0.44,0.02,0.32,0.05,0.03,14,Happy,Taylor Swift
 State of Grace,0.17,0.28,0.05,0.33,0.17,0.03,14,Happy,Taylor Swift
 Why She Disappeared,0.17,0.28,0.14,0.25,0.17,0.03,14,Happy,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.04,14,Happy,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.04,14,Happy,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.04,14,Happy,Taylor Swift
 coney island,0.19,0.23,0.07,0.35,0.16,0.05,14,Happy,Taylor Swift
 'tis the damn season,0.19,0.19,0.03,0.42,0.16,0.05,14,Happy,Taylor Swift
@@ -7423,7 +7291,7 @@ The Great War,0.21,0.21,0.05,0.34,0.18,0.07,14,Happy,Taylor Swift
 The Best Day,0.21,0.21,0.05,0.34,0.18,0.07,14,Happy,Taylor Swift
 Ours,0.21,0.24,0.08,0.3,0.17,0.07,14,Happy,Taylor Swift
 Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0.09,14,Happy,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.09,14,Happy,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.09,14,Happy,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.1,14,Happy,Taylor Swift
 Love Story,0.26,0.15,0.15,0.24,0.21,0.12,14,Happy,Taylor Swift
 My Boy Only Breaks His Favorite Toys,0.27,0.3,0,0.24,0.19,0.13,14,Happy,Taylor Swift
@@ -7437,7 +7305,6 @@ Blank Space,0.17,0.29,0.05,0.18,0.31,0.03,15,Happy,Taylor Swift
 Dear Reader,0.17,0.09,0.09,0.17,0.49,0.03,15,Happy,Taylor Swift
 The Smallest Man Who Ever Lived,0.18,0.32,0.11,0.18,0.21,0.04,15,Happy,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.04,15,Happy,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.04,15,Happy,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.04,15,Happy,Taylor Swift
 the 1,0.19,0.29,0.13,0.16,0.23,0.05,15,Happy,Taylor Swift
 Last Kiss,0.19,0.17,0.21,0.15,0.28,0.05,15,Happy,Taylor Swift
@@ -7449,7 +7316,6 @@ gold rush,0.26,0.19,0.08,0.19,0.28,0.12,15,Happy,Taylor Swift
 Enchanted,0.33,0.2,0.06,0.14,0.27,0.19,15,Happy,Taylor Swift
 Labyrinth,0.42,0.16,0,0.14,0.28,0.28,15,Happy,Taylor Swift
 Tim McGraw,0.22,0.48,0.02,0.22,0.07,0,1,Sad,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0,1,Sad,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0,1,Sad,Taylor Swift
 You Belong With Me,0.44,0.18,0.04,0.22,0.11,0,1,Sad,Taylor Swift
 Fresh Out the Slammer,0.26,0.37,0.04,0.22,0.11,0,1,Sad,Taylor Swift
@@ -7467,7 +7333,7 @@ the lakes,0.16,0.32,0.06,0.26,0.19,0.04,1,Sad,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.04,1,Sad,Taylor Swift
 22,0.22,0.36,0.06,0.17,0.19,0.05,1,Sad,Taylor Swift
 Teardrops on My Guitar,0.27,0.3,0,0.27,0.17,0.05,1,Sad,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.05,1,Sad,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.05,1,Sad,Taylor Swift
 Invisible,0.32,0.24,0,0.28,0.16,0.06,1,Sad,Taylor Swift
 I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.07,1,Sad,Taylor Swift
 Ours,0.21,0.24,0.08,0.3,0.17,0.08,1,Sad,Taylor Swift
@@ -7495,12 +7361,11 @@ Ours,0.21,0.24,0.08,0.3,0.17,0.14,2,Sad,Taylor Swift
 the lakes,0.16,0.32,0.06,0.26,0.19,0,3,Sad,Taylor Swift
 Why She Disappeared,0.17,0.28,0.14,0.25,0.17,0.01,3,Sad,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.01,3,Sad,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.01,3,Sad,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.01,3,Sad,Taylor Swift
 Teardrops on My Guitar,0.27,0.3,0,0.27,0.17,0.01,3,Sad,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.02,3,Sad,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.02,3,Sad,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.02,3,Sad,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.02,3,Sad,Taylor Swift
 My Boy Only Breaks His Favorite Toys,0.27,0.3,0,0.24,0.19,0.02,3,Sad,Taylor Swift
 Invisible,0.32,0.24,0,0.28,0.16,0.02,3,Sad,Taylor Swift
 I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.03,3,Sad,Taylor Swift
@@ -7509,7 +7374,6 @@ Cold as You,0.17,0.28,0.2,0.23,0.12,0.03,3,Sad,Taylor Swift
 Back to December,0.26,0.21,0.02,0.23,0.28,0.03,3,Sad,Taylor Swift
 Ours,0.21,0.24,0.08,0.3,0.17,0.04,3,Sad,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.04,3,Sad,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0.04,3,Sad,Taylor Swift
 champagne problems,0.15,0.44,0.02,0.31,0.08,0.05,3,Sad,Taylor Swift
 I Can Do It With a Broken Heart,0.15,0.18,0.09,0.31,0.27,0.05,3,Sad,Taylor Swift
 Lover,0.24,0.28,0.03,0.31,0.14,0.05,3,Sad,Taylor Swift
@@ -7542,12 +7406,10 @@ the last great american dynasty,0.15,0.17,0.02,0.34,0.32,0.03,4,Sad,Taylor Swift
 Starlight,0.15,0.24,0.13,0.35,0.13,0.04,4,Sad,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.04,4,Sad,Taylor Swift
 Maroon,0.21,0.27,0.12,0.27,0.12,0.04,4,Sad,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.04,4,Sad,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.04,4,Sad,Taylor Swift
 coney island,0.19,0.23,0.07,0.35,0.16,0.04,4,Sad,Taylor Swift
 Daylight,0.15,0.24,0.13,0.35,0.13,0.04,4,Sad,Taylor Swift
-"Fifteen / You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.05,4,Sad,Taylor Swift
 "You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.05,4,Sad,Taylor Swift
-"You're on Your Own, Kid / Long Live",0.26,0.26,0.14,0.26,0.08,0.05,4,Sad,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0.18,4,Sad,Taylor Swift
 Invisible,0.32,0.24,0,0.28,0.16,0,5,Sad,Taylor Swift
 I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.01,5,Sad,Taylor Swift
@@ -7563,7 +7425,6 @@ Lover,0.24,0.28,0.03,0.31,0.14,0.03,5,Sad,Taylor Swift
 Down Bad,0.5,0.15,0.1,0.25,0,0.03,5,Sad,Taylor Swift
 Dancing With Our Hands Tied,0.28,0.2,0.08,0.32,0.12,0.04,5,Sad,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.04,5,Sad,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.04,5,Sad,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.04,5,Sad,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.04,5,Sad,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.05,5,Sad,Taylor Swift
@@ -7579,7 +7440,6 @@ Vigilante Shit,0.23,0.23,0.06,0.23,0.26,0,6,Sad,Taylor Swift
 Begin Again,0.21,0.15,0.03,0.23,0.38,0,6,Sad,Taylor Swift
 Back to December,0.26,0.21,0.02,0.23,0.28,0,6,Sad,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.01,6,Sad,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.01,6,Sad,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.01,6,Sad,Taylor Swift
 You Belong With Me,0.44,0.18,0.04,0.22,0.11,0.01,6,Sad,Taylor Swift
 Fresh Out the Slammer,0.26,0.37,0.04,0.22,0.11,0.01,6,Sad,Taylor Swift
@@ -7588,7 +7448,7 @@ London Boy,0.3,0.13,0,0.25,0.33,0.02,6,Sad,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.03,6,Sad,Taylor Swift
 Untouchable,0.32,0.09,0,0.27,0.32,0.04,6,Sad,Taylor Swift
 gold rush,0.26,0.19,0.08,0.19,0.28,0.04,6,Sad,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.04,6,Sad,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.04,6,Sad,Taylor Swift
 ME!,0.19,0.03,0.04,0.19,0.55,0.04,6,Sad,Taylor Swift
 tolerate it,0.23,0.14,0.14,0.19,0.3,0.04,6,Sad,Taylor Swift
 Blank Space,0.17,0.29,0.05,0.18,0.31,0.05,6,Sad,Taylor Swift
@@ -7609,7 +7469,7 @@ Question...?,0.2,0.34,0.07,0.29,0.1,0.01,7,Sad,Taylor Swift
 I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.01,7,Sad,Taylor Swift
 Dress,0.26,0.13,0,0.29,0.32,0.01,7,Sad,Taylor Swift
 Dreams,0.26,0.13,0,0.29,0.32,0.01,7,Sad,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.01,7,Sad,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.01,7,Sad,Taylor Swift
 Teardrops on My Guitar,0.27,0.3,0,0.27,0.17,0.01,7,Sad,Taylor Swift
 Ours,0.21,0.24,0.08,0.3,0.17,0.02,7,Sad,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.02,7,Sad,Taylor Swift
@@ -7633,7 +7493,6 @@ You Belong With Me,0.44,0.18,0.04,0.22,0.11,0.06,7,Sad,Taylor Swift
 'tis the damn season,0.19,0.19,0.03,0.42,0.16,0.14,7,Sad,Taylor Swift
 The Lucky One,0.59,0.16,0,0.12,0.12,0.16,7,Sad,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0.21,7,Sad,Taylor Swift
-The Way You Love Me,0.47,0.07,0.03,0.22,0.21,0,8,Sad,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0,8,Sad,Taylor Swift
 Iris,0.27,0.27,0.12,0.23,0.12,0.01,8,Sad,Taylor Swift
 Paris,0.27,0.27,0.12,0.23,0.12,0.01,8,Sad,Taylor Swift
@@ -7654,13 +7513,10 @@ Back to December,0.26,0.21,0.02,0.23,0.28,0.01,9,Sad,Taylor Swift
 Begin Again,0.21,0.15,0.03,0.23,0.38,0.01,9,Sad,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.02,9,Sad,Taylor Swift
 Mary's Song (Oh My My My),0.5,0.1,0.05,0.2,0.15,0.02,9,Sad,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.02,9,Sad,Taylor Swift
 ME!,0.19,0.03,0.04,0.19,0.55,0.03,9,Sad,Taylor Swift
 gold rush,0.26,0.19,0.08,0.19,0.28,0.03,9,Sad,Taylor Swift
 Blank Space,0.17,0.29,0.05,0.18,0.31,0.04,9,Sad,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.04,9,Sad,Taylor Swift
-"Fifteen / You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.04,9,Sad,Taylor Swift
-"You're on Your Own, Kid / Long Live",0.26,0.26,0.14,0.26,0.08,0.04,9,Sad,Taylor Swift
 "You're on Your Own, Kid",0.26,0.26,0.14,0.26,0.08,0.04,9,Sad,Taylor Swift
 22,0.22,0.36,0.06,0.17,0.19,0.05,9,Sad,Taylor Swift
 Dear Reader,0.17,0.09,0.09,0.17,0.49,0.05,9,Sad,Taylor Swift
@@ -7689,11 +7545,10 @@ Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.01,10,Sad,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.01,10,Sad,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.01,10,Sad,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.01,10,Sad,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.01,10,Sad,Taylor Swift
 Back to December,0.26,0.21,0.02,0.23,0.28,0.02,10,Sad,Taylor Swift
 Begin Again,0.21,0.15,0.03,0.23,0.38,0.02,10,Sad,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.02,10,Sad,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.02,10,Sad,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.02,10,Sad,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.03,10,Sad,Taylor Swift
 I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.04,10,Sad,Taylor Swift
 Ours,0.21,0.24,0.08,0.3,0.17,0.05,10,Sad,Taylor Swift
@@ -7709,7 +7564,6 @@ coney island,0.19,0.23,0.07,0.35,0.16,0.1,10,Sad,Taylor Swift
 'tis the damn season,0.19,0.19,0.03,0.42,0.16,0.17,10,Sad,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0.24,10,Sad,Taylor Swift
 Call It What You Want,0.18,0.42,0.06,0.24,0.09,0,11,Sad,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0,11,Sad,Taylor Swift
 Love Story,0.26,0.15,0.15,0.24,0.21,0,11,Sad,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0,11,Sad,Taylor Swift
 Back to December,0.26,0.21,0.02,0.23,0.28,0.01,11,Sad,Taylor Swift
@@ -7719,7 +7573,7 @@ The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.02,11,Sad,Taylor Swift
 Fresh Out the Slammer,0.26,0.37,0.04,0.22,0.11,0.02,11,Sad,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.02,11,Sad,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.03,11,Sad,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.03,11,Sad,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.03,11,Sad,Taylor Swift
 Mary's Song (Oh My My My),0.5,0.1,0.05,0.2,0.15,0.04,11,Sad,Taylor Swift
 ME!,0.19,0.03,0.04,0.19,0.55,0.05,11,Sad,Taylor Swift
 tolerate it,0.23,0.14,0.14,0.19,0.3,0.05,11,Sad,Taylor Swift
@@ -7753,7 +7607,7 @@ Begin Again,0.21,0.15,0.03,0.23,0.38,0.01,12,Sad,Taylor Swift
 The Way I Loved You,0.47,0.07,0.03,0.22,0.21,0.02,12,Sad,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0.02,12,Sad,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.03,12,Sad,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.03,12,Sad,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.03,12,Sad,Taylor Swift
 I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.05,12,Sad,Taylor Swift
 gold rush,0.26,0.19,0.08,0.19,0.28,0.05,12,Sad,Taylor Swift
 I Can Do It With a Broken Heart,0.15,0.18,0.09,0.31,0.27,0.07,12,Sad,Taylor Swift
@@ -7766,7 +7620,7 @@ The Great War,0.21,0.21,0.05,0.34,0.18,0.1,12,Sad,Taylor Swift
 Fortnight,0.15,0.18,0.03,0.49,0.15,0.25,12,Sad,Taylor Swift
 Cruel Summer,0.24,0.18,0.03,0.26,0.29,0,13,Sad,Taylor Swift
 You Need to Calm Down,0.4,0.07,0.1,0.27,0.17,0.01,13,Sad,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.01,13,Sad,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.01,13,Sad,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.02,13,Sad,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.02,13,Sad,Taylor Swift
 I Think He Knows,0.33,0.2,0.02,0.29,0.16,0.03,13,Sad,Taylor Swift
@@ -7790,7 +7644,7 @@ Fortnight,0.15,0.18,0.03,0.49,0.15,0.23,13,Sad,Taylor Swift
 I Think He Knows,0.33,0.2,0.02,0.29,0.16,0,14,Sad,Taylor Swift
 Ours,0.21,0.24,0.08,0.3,0.17,0.01,14,Sad,Taylor Swift
 Teardrops on My Guitar,0.27,0.3,0,0.27,0.17,0.02,14,Sad,Taylor Swift
-Karma (Remix),0.23,0.27,0.05,0.27,0.18,0.02,14,Sad,Taylor Swift
+Karma,0.23,0.27,0.05,0.27,0.18,0.02,14,Sad,Taylor Swift
 I Can Do It With a Broken Heart,0.15,0.18,0.09,0.31,0.27,0.02,14,Sad,Taylor Swift
 champagne problems,0.15,0.44,0.02,0.31,0.08,0.02,14,Sad,Taylor Swift
 Dancing With Our Hands Tied,0.28,0.2,0.08,0.32,0.12,0.03,14,Sad,Taylor Swift
@@ -7801,7 +7655,6 @@ Sad Beautiful Tragic,0.37,0.11,0.02,0.25,0.26,0.04,14,Sad,Taylor Swift
 How Did It End?,0.17,0.21,0.04,0.33,0.25,0.04,14,Sad,Taylor Swift
 State of Grace,0.17,0.28,0.05,0.33,0.17,0.04,14,Sad,Taylor Swift
 Innocent,0.18,0.18,0.09,0.33,0.22,0.04,14,Sad,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.05,14,Sad,Taylor Swift
 "no body, no crime",0.16,0.54,0.03,0.24,0.03,0.05,14,Sad,Taylor Swift
 My Boy Only Breaks His Favorite Toys,0.27,0.3,0,0.24,0.19,0.05,14,Sad,Taylor Swift
 The Story of Us,0.15,0.33,0.03,0.24,0.24,0.05,14,Sad,Taylor Swift
@@ -7819,7 +7672,6 @@ Dear Reader,0.17,0.09,0.09,0.17,0.49,0.02,15,Sad,Taylor Swift
 the 1,0.19,0.29,0.13,0.16,0.23,0.03,15,Sad,Taylor Swift
 Back to December,0.26,0.21,0.02,0.23,0.28,0.04,15,Sad,Taylor Swift
 Last Kiss,0.19,0.17,0.21,0.15,0.28,0.04,15,Sad,Taylor Swift
-This Love / Call It What You Want,0.18,0.42,0.06,0.24,0.09,0.05,15,Sad,Taylor Swift
 Labyrinth,0.42,0.16,0,0.14,0.28,0.05,15,Sad,Taylor Swift
 Enchanted,0.33,0.2,0.06,0.14,0.27,0.05,15,Sad,Taylor Swift
 I Can Do It With a Broken Heart,0.15,0.18,0.09,0.31,0.27,0.12,15,Sad,Taylor Swift
@@ -7830,9 +7682,9 @@ coney island,0.19,0.23,0.07,0.35,0.16,0.16,15,Sad,Taylor Swift
 Starlight,0.15,0.24,0.13,0.35,0.13,0.16,15,Sad,Taylor Swift
 Daylight,0.15,0.24,0.13,0.35,0.13,0.16,15,Sad,Taylor Swift
 Hold On,0.27,0.13,0.07,0.33,0.2,0,1,Angry,Little Dragon
-Tumbling Dice,0.25,0.25,0.07,0.29,0.14,0,1,Angry,Little Dragon
-Amöban,0.14,0.29,0.07,0.25,0.25,0,1,Angry,Little Dragon
-Looking Glass,0.1,0.13,0.07,0.47,0.23,0,1,Angry,Little Dragon
+Tumbling Dice,0.25,0.25,0.07,0.29,0.14,0.000001,1,Angry,Little Dragon
+Amöban,0.14,0.29,0.07,0.25,0.25,0.000001,1,Angry,Little Dragon
+Looking Glass,0.1,0.13,0.07,0.47,0.23,0.000001,1,Angry,Little Dragon
 Crystalfilm,0,0.29,0.08,0.42,0.21,0.01,1,Angry,Little Dragon
 Underbart,0.06,0.38,0.09,0.24,0.24,0.02,1,Angry,Little Dragon
 Cat Rider,0.16,0.38,0.05,0.19,0.22,0.02,1,Angry,Little Dragon
@@ -7844,10 +7696,10 @@ New Fiction,0.15,0.03,0.03,0.58,0.21,0.04,1,Angry,Little Dragon
 Strobe Light,0.14,0.27,0.19,0.3,0.11,0.12,1,Angry,Little Dragon
 A New,0.14,0.29,0.29,0.29,0,0.22,1,Angry,Little Dragon
 Disco Dangerous,0.44,0.22,0,0.22,0.11,0,2,Angry,Little Dragon
-Nightlight,0.13,0.48,0,0.22,0.17,0,2,Angry,Little Dragon
-My Step,0.12,0.18,0,0.53,0.18,0,2,Angry,Little Dragon
-Don't Cry,0.1,0.3,0,0.45,0.15,0,2,Angry,Little Dragon
-Little Man,0.08,0.36,0,0.44,0.12,0,2,Angry,Little Dragon
+Nightlight,0.13,0.48,0,0.22,0.17,0.000001,2,Angry,Little Dragon
+My Step,0.12,0.18,0,0.53,0.18,0.000001,2,Angry,Little Dragon
+Don't Cry,0.1,0.3,0,0.45,0.15,0.000001,2,Angry,Little Dragon
+Little Man,0.08,0.36,0,0.44,0.12,0.000001,2,Angry,Little Dragon
 Turn Left,0.11,0.21,0.05,0.11,0.53,0.05,2,Angry,Little Dragon
 Strobe Light,0.14,0.27,0.19,0.3,0.11,0.19,2,Angry,Little Dragon
 Slugs of Love,0.55,0.13,0.04,0.28,0,0,3,Angry,Little Dragon
@@ -7900,8 +7752,8 @@ Shuffle a Dream,0.05,0.29,0,0.34,0.32,0.05,5,Angry,Little Dragon
 Peace,0,0.43,0,0.29,0.29,0.05,5,Angry,Little Dragon
 The Pop Life,0.07,0.33,0.11,0.26,0.22,0.06,5,Angry,Little Dragon
 Turn Left,0.11,0.21,0.05,0.11,0.53,0.01,6,Angry,Little Dragon
-Swimming,0.1,0.14,0.03,0.14,0.59,0.01,6,Angry,Little Dragon
-Forever,0.08,0.36,0.03,0.53,0,0.01,6,Angry,Little Dragon
+Swimming,0.1,0.14,0.03,0.14,0.59,0.010001,6,Angry,Little Dragon
+Forever,0.08,0.36,0.03,0.53,0,0.010001,6,Angry,Little Dragon
 Constant Surprises,0.05,0.34,0.02,0.05,0.54,0.02,6,Angry,Little Dragon
 Looking Glass,0.1,0.13,0.07,0.47,0.23,0.03,6,Angry,Little Dragon
 Amöban,0.14,0.29,0.07,0.25,0.25,0.03,6,Angry,Little Dragon
@@ -7919,9 +7771,9 @@ The Pop Life,0.07,0.33,0.11,0.26,0.22,0.07,6,Angry,Little Dragon
 Frisco,0.02,0.32,0.11,0.15,0.4,0.07,6,Angry,Little Dragon
 Summertearz,0.15,0.35,0.2,0.1,0.2,0.16,6,Angry,Little Dragon
 Tumbling Dice,0.25,0.25,0.07,0.29,0.14,0.02,7,Angry,Little Dragon
-Looking Glass,0.1,0.13,0.07,0.47,0.23,0.02,7,Angry,Little Dragon
-New Fiction,0.15,0.03,0.03,0.58,0.21,0.02,7,Angry,Little Dragon
-Amöban,0.14,0.29,0.07,0.25,0.25,0.02,7,Angry,Little Dragon
+Looking Glass,0.1,0.13,0.07,0.47,0.23,0.020001,7,Angry,Little Dragon
+New Fiction,0.15,0.03,0.03,0.58,0.21,0.020001,7,Angry,Little Dragon
+Amöban,0.14,0.29,0.07,0.25,0.25,0.020001,7,Angry,Little Dragon
 Klapp Klapp,0.05,0.22,0.08,0.27,0.38,0.03,7,Angry,Little Dragon
 Crystalfilm,0,0.29,0.08,0.42,0.21,0.03,7,Angry,Little Dragon
 Should I,0.09,0.45,0.09,0.23,0.14,0.04,7,Angry,Little Dragon
@@ -7938,8 +7790,8 @@ The Pop Life,0.07,0.33,0.11,0.26,0.22,0.06,7,Angry,Little Dragon
 Strobe Light,0.14,0.27,0.19,0.3,0.11,0.14,7,Angry,Little Dragon
 A New,0.14,0.29,0.29,0.29,0,0.24,7,Angry,Little Dragon
 New Fiction,0.15,0.03,0.03,0.58,0.21,0.02,8,Angry,Little Dragon
-Looking Glass,0.1,0.13,0.07,0.47,0.23,0.02,8,Angry,Little Dragon
-Amöban,0.14,0.29,0.07,0.25,0.25,0.02,8,Angry,Little Dragon
+Looking Glass,0.1,0.13,0.07,0.47,0.23,0.0200001,8,Angry,Little Dragon
+Amöban,0.14,0.29,0.07,0.25,0.25,0.0200001,8,Angry,Little Dragon
 Crystalfilm,0,0.29,0.08,0.42,0.21,0.03,8,Angry,Little Dragon
 Klapp Klapp,0.05,0.22,0.08,0.27,0.38,0.03,8,Angry,Little Dragon
 Underbart,0.06,0.38,0.09,0.24,0.24,0.04,8,Angry,Little Dragon
@@ -7956,7 +7808,7 @@ The Pop Life,0.07,0.33,0.11,0.26,0.22,0.06,8,Angry,Little Dragon
 Strobe Light,0.14,0.27,0.19,0.3,0.11,0.14,8,Angry,Little Dragon
 A New,0.14,0.29,0.29,0.29,0,0.24,8,Angry,Little Dragon
 Amöban,0.14,0.29,0.07,0.25,0.25,0.02,9,Angry,Little Dragon
-Looking Glass,0.1,0.13,0.07,0.47,0.23,0.02,9,Angry,Little Dragon
+Looking Glass,0.1,0.13,0.07,0.47,0.23,0.020001,9,Angry,Little Dragon
 Crystalfilm,0,0.29,0.08,0.42,0.21,0.03,9,Angry,Little Dragon
 Underbart,0.06,0.38,0.09,0.24,0.24,0.04,9,Angry,Little Dragon
 Let Go,0.15,0.3,0.1,0.05,0.4,0.05,9,Angry,Little Dragon
