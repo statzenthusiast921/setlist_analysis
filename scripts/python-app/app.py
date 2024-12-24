@@ -864,18 +864,16 @@ def position_freq_chart(dd7, dd8, rs):
         message = f"### {dd8} by {dd7} has only one unique setlist position in the selected time range or was not played in the selected time range.  Choose a different song or different time range."
         return empty_fig, hidden_style, dcc.Markdown(message), None, None, None, None
 
-
-
-    #----- Only attempt KDE if there’s more than one unique position
-    elif len(song_freq_df['song_num'].unique()) > 1:
-
-        fig = px.bar(
+    fig = px.bar(
             song_freq_df, 
             x='song_num', 
             y='count',
             title=f'Which positions did "{dd8}" by {dd7} occupy in the setlists between {rs[0]} & {rs[1]}',
             labels={'song_num':'Setlist Song Position','count':'Count'},
         )
+
+    #----- Only attempt KDE if there’s more than one unique position
+    if len(song_freq_df['song_num'].unique()) > 1:
 
         #----- Prepare data for KDE to get a more flexible multi-modal distribution
         song_positions = song_freq_df['song_num'].repeat(song_freq_df['count'])
@@ -901,47 +899,46 @@ def position_freq_chart(dd7, dd8, rs):
         fig.add_trace(curve)
 
 
-        #----- Metric for Card 4: Most played song
-        metric_df = setlist_df[setlist_df['ArtistName']==dd7]
+    #----- Metric for Card 4: Most played song
+    metric_df = setlist_df[setlist_df['ArtistName']==dd7]
 
-        #----- Songs that are not playing nice
-        metric_df = metric_df[(metric_df['SongName']!= "")]
+    #----- Songs that are not playing nice
+    metric_df = metric_df[(metric_df['SongName']!= "")]
 
-        metric_df = metric_df[metric_df['Year']>=rs[0]]
-        metric_df = metric_df[metric_df['Year']<=rs[1]]
+    metric_df = metric_df[metric_df['Year']>=rs[0]]
+    metric_df = metric_df[metric_df['Year']<=rs[1]]
 
-        metric4 = metric_df['SongName'].value_counts().reset_index()
-        metric4_song_name = metric4['SongName'][0]
-        metric4_song_played = metric4['count'][0]
+    metric4 = metric_df['SongName'].value_counts().reset_index()
+    metric4_song_name = metric4['SongName'][0]
+    metric4_song_played = metric4['count'][0]
 
-        #----- Metric for Card 5: Most consistently placed song
+    #----- Metric for Card 5: Most consistently placed song
+    metric5_df = metric_df.groupby(['SongName', 'song_num']).size().reset_index(name='count')
+    metric5_df['song_num'] = metric5_df['song_num'] + 1
+    metric5 = metric5_df.loc[metric5_df['count'].idxmax()]
+    metric5_name = metric5['SongName']
+    metric5_position = metric5['song_num']
+    metric5_count = metric5['count']
 
-        metric5_df = metric_df.groupby(['SongName', 'song_num']).size().reset_index(name='count')
-        metric5_df['song_num'] = metric5_df['song_num'] + 1
-        metric5 = metric5_df.loc[metric5_df['count'].idxmax()]
-        metric5_name = metric5['SongName']
-        metric5_position = metric5['song_num']
-        metric5_count = metric5['count']
 
+    #----- Metric for Card 6: Song most used as opener
+    metric6_df = metric_df[['SongName','song_num']]
+    metric6_df = metric6_df[metric6_df['song_num']==0]
+    metric6 = metric6_df['SongName'].value_counts().reset_index()
 
-        #----- Metric for Card 6: Song most used as opener
-        metric6_df = metric_df[['SongName','song_num']]
-        metric6_df = metric6_df[metric6_df['song_num']==0]
-        metric6 = metric6_df['SongName'].value_counts().reset_index()
-
-        metric6_song_name = metric6['SongName'][0]
-        metric6_song_played = metric6['count'][0]
+    metric6_song_name = metric6['SongName'][0]
+    metric6_song_played = metric6['count'][0]
         
-        #----- Metric for Card 7: Song most used as closer
-        metric7_df = metric_df[['RecordID','SongName','song_num']]
-        metric7_df = metric7_df.groupby('RecordID').tail(1).reset_index(drop=True)
-        metric7 = metric7_df['SongName'].value_counts().reset_index()
+    #----- Metric for Card 7: Song most used as closer
+    metric7_df = metric_df[['RecordID','SongName','song_num']]
+    metric7_df = metric7_df.groupby('RecordID').tail(1).reset_index(drop=True)
+    metric7 = metric7_df['SongName'].value_counts().reset_index()
 
-        metric7_song_name = metric7['SongName'][0]
-        metric7_song_played = metric7['count'][0]
+    metric7_song_name = metric7['SongName'][0]
+    metric7_song_played = metric7['count'][0]
 
 
-        card4 = dbc.Card([
+    card4 = dbc.Card([
                 dbc.CardBody([
                     html.P(f'Most Popular Song'),
                     html.H5(f"'{metric4_song_name}'"),
@@ -957,7 +954,7 @@ def position_freq_chart(dd7, dd8, rs):
                 'fontSize':16},
             outline=True)
 
-        card5 = dbc.Card([
+    card5 = dbc.Card([
                 dbc.CardBody([
                     html.P(f'Most Consistently Placed Song'),
                     html.H5(f"'{metric5_name}' ({metric5_position}) "),
@@ -973,7 +970,7 @@ def position_freq_chart(dd7, dd8, rs):
                 'fontSize':16},
             outline=True)
 
-        card6 = dbc.Card([
+    card6 = dbc.Card([
                 dbc.CardBody([
                     html.P(f'Song Most Used as Opener'),
                     html.H5(f"'{metric6_song_name}'"),
@@ -990,7 +987,7 @@ def position_freq_chart(dd7, dd8, rs):
             outline=True)
 
 
-        card7 = dbc.Card([
+    card7 = dbc.Card([
                 dbc.CardBody([
                     html.P(f'Song Most Used as Closer'),
                     html.H5(f"'{metric7_song_name}'"),
@@ -1007,9 +1004,9 @@ def position_freq_chart(dd7, dd8, rs):
             outline=True)
 
         #----- Show the chart and clear the message
-        visible_style = {'display': 'block'}  # Show the chart
+    visible_style = {'display': 'block'}  # Show the chart
 
-        return fig,visible_style, "", card4, card5, card6, card7
+    return fig,visible_style, "", card4, card5, card6, card7
 #------------------------------------------------------------------#
 #--------------------- TAB 5: Emotion Scores  ---------------------#
 #------------------------------------------------------------------#
