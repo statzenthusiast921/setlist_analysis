@@ -120,7 +120,14 @@ app.layout = html.Div([
                         html.P(dcc.Markdown('''**What is the purpose of this dashboard?**'''),style={'color':'white'}),
                    ],style={'text-decoration': 'underline'}),
                    html.Div([
-                       html.P("This dashboard was created as a tool to s.",style={'color':'white'}),
+                       html.P("This dashboard was created as a tool to answer the following questions:",style={'color':'white'}),
+                       html.P("1.) Where are most concerts for the selected artists taking place?",style={'color':'white'}),
+                       html.P("2.) What does a typical setlist for the selected artists look like?",style={'color':'white'}),
+                       html.P("3.) Is there a pattern to the position in which songs are selected in a setlist?",style={'color':'white'}),
+                       html.P("4.) Can we quantify the emotions of lyrics in the songs?",style={'color':'white'}),
+                       html.P("5.) Can we construct optimal setlists based on the emotion scores?",style={'color':'white'}),
+
+
                        html.Br()
                    ]),
                    html.Div([
@@ -128,14 +135,24 @@ app.layout = html.Div([
                    ],style={'text-decoration': 'underline'}),
                    
                    html.Div([
-                       html.P("The data ",style={'color':'white'}),
+                       html.P([
+                        "The data used for this analysis was pulled using APIs from ", 
+                        html.A("setlist.fm", href='https://www.setlist.fm/'),
+                        " to gather all historical setlists for the artists I chose as well as ", 
+                        html.A('genius.com',href='https://genius.com/'),
+                        " to gather corresponding lyris for each song."
+                        ],style={'color':'white'}),
+
                        html.Br()
                    ]),
                    html.Div([
                        html.P(dcc.Markdown('''**What are the limitations of this data?**'''),style={'color':'white'}),
                    ],style={'text-decoration': 'underline'}),
                    html.Div([
-                       html.P("1.) Blah",style={'color':'white'}),
+                       html.P("1.) I was not able to pull every single concert for the selected artists in the time span I researched.",style={'color':'white'}),
+                       html.P("2.) Setlist resuls often ended in ties for specific positions to which I awarded the first occurring song in the list of results to that position.",style={'color':'white'}),
+                       html.P("3.) Spelling and punctuation was not always consistent which made joining lyrics and setlists datasets together challenging.  Using fuzzy deduplication methods solved the majority of these issues.",style={'color':'white'}),
+                       html.P("4.) Several covers were not coded correctly, snuck into the setlists, and had to be manually removed.",style={'color':'white'}),
 
                    ])
 
@@ -481,18 +498,7 @@ app.layout = html.Div([
                 ]),
             ]
 
-        ),
-        dcc.Tab(label='ML-Based Setlists',value='tab-7',style=tab_style, selected_style=tab_selected_style,
-            children = [
-                dbc.Row([
-                    dbc.Col([
-                        
-                    ])
-                ])
-            ]
-
         )
-        
     ])
 
 ])
@@ -721,7 +727,6 @@ def set_city_options_in_state(selected_state):
     Output('date_slider', 'marks'),
     Output('date_slider', 'value'),
     Output('date_slider', 'data'),  # New Output to pass unique_dates
-
     Input('dropdown3', 'value'),
     Input('dropdown4', 'value'),
     Input('dropdown5', 'value'),
@@ -741,7 +746,7 @@ def update_date_slider(artist, country, state, city):
     
     # Ensure there are no issues with an empty dataframe
     if filtered_df.empty:
-        return 0, 1, {}, 0
+        return 0, 1, {}, 0, {}
 
     # Get the unique concert dates and sort them
     unique_dates = sorted(filtered_df['Date'].dt.date.unique())
@@ -859,16 +864,19 @@ def position_freq_chart(dd7, dd8, rs):
         message = f"### {dd8} by {dd7} has only one unique setlist position in the selected time range or was not played in the selected time range.  Choose a different song or different time range."
         return empty_fig, hidden_style, dcc.Markdown(message), None, None, None, None
 
-    fig = px.bar(
-        song_freq_df, 
-        x='song_num', 
-        y='count',
-        title=f'Which positions did "{dd8}" by {dd7} occupy in the setlists between {rs[0]} & {rs[1]}',
-        labels={'song_num':'Setlist Song Position','count':'Count'},
-    )
+
 
     #----- Only attempt KDE if there’s more than one unique position
-    if len(song_freq_df['song_num'].unique()) > 1:
+    elif len(song_freq_df['song_num'].unique()) > 1:
+
+        fig = px.bar(
+            song_freq_df, 
+            x='song_num', 
+            y='count',
+            title=f'Which positions did "{dd8}" by {dd7} occupy in the setlists between {rs[0]} & {rs[1]}',
+            labels={'song_num':'Setlist Song Position','count':'Count'},
+        )
+
         #----- Prepare data for KDE to get a more flexible multi-modal distribution
         song_positions = song_freq_df['song_num'].repeat(song_freq_df['count'])
         #----- Extend x-axis slightly beyond data range
@@ -893,115 +901,115 @@ def position_freq_chart(dd7, dd8, rs):
         fig.add_trace(curve)
 
 
-    #----- Metric for Card 4: Most played song
-    metric_df = setlist_df[setlist_df['ArtistName']==dd7]
+        #----- Metric for Card 4: Most played song
+        metric_df = setlist_df[setlist_df['ArtistName']==dd7]
 
-    #----- Songs that are not playing nice
-    metric_df = metric_df[(metric_df['SongName']!= "")]
+        #----- Songs that are not playing nice
+        metric_df = metric_df[(metric_df['SongName']!= "")]
 
-    metric_df = metric_df[metric_df['Year']>=rs[0]]
-    metric_df = metric_df[metric_df['Year']<=rs[1]]
+        metric_df = metric_df[metric_df['Year']>=rs[0]]
+        metric_df = metric_df[metric_df['Year']<=rs[1]]
 
-    metric4 = metric_df['SongName'].value_counts().reset_index()
-    metric4_song_name = metric4['SongName'][0]
-    metric4_song_played = metric4['count'][0]
+        metric4 = metric_df['SongName'].value_counts().reset_index()
+        metric4_song_name = metric4['SongName'][0]
+        metric4_song_played = metric4['count'][0]
 
-    #----- Metric for Card 5: Most consistently placed song
+        #----- Metric for Card 5: Most consistently placed song
 
-    metric5_df = metric_df.groupby(['SongName', 'song_num']).size().reset_index(name='count')
-    metric5_df['song_num'] = metric5_df['song_num'] + 1
-    metric5 = metric5_df.loc[metric5_df['count'].idxmax()]
-    metric5_name = metric5['SongName']
-    metric5_position = metric5['song_num']
-    metric5_count = metric5['count']
-
-
-    #----- Metric for Card 6: Song most used as opener
-    metric6_df = metric_df[['SongName','song_num']]
-    metric6_df = metric6_df[metric6_df['song_num']==0]
-    metric6 = metric6_df['SongName'].value_counts().reset_index()
-
-    metric6_song_name = metric6['SongName'][0]
-    metric6_song_played = metric6['count'][0]
-    
-    #----- Metric for Card 7: Song most used as closer
-    metric7_df = metric_df[['RecordID','SongName','song_num']]
-    metric7_df = metric7_df.groupby('RecordID').tail(1).reset_index(drop=True)
-    metric7 = metric7_df['SongName'].value_counts().reset_index()
-
-    metric7_song_name = metric7['SongName'][0]
-    metric7_song_played = metric7['count'][0]
+        metric5_df = metric_df.groupby(['SongName', 'song_num']).size().reset_index(name='count')
+        metric5_df['song_num'] = metric5_df['song_num'] + 1
+        metric5 = metric5_df.loc[metric5_df['count'].idxmax()]
+        metric5_name = metric5['SongName']
+        metric5_position = metric5['song_num']
+        metric5_count = metric5['count']
 
 
-    card4 = dbc.Card([
-            dbc.CardBody([
-                html.P(f'Most Popular Song'),
-                html.H5(f"'{metric4_song_name}'"),
-                html.H5(f"{metric4_song_played} times")
-            ])
-        ],
-        style={'display': 'inline-block',
-            'width': '100%',
-            'text-align': 'center',
-            'background-color': '#70747c',
-            'color':'white',
-            'fontWeight': 'bold',
-            'fontSize':16},
-        outline=True)
+        #----- Metric for Card 6: Song most used as opener
+        metric6_df = metric_df[['SongName','song_num']]
+        metric6_df = metric6_df[metric6_df['song_num']==0]
+        metric6 = metric6_df['SongName'].value_counts().reset_index()
 
-    card5 = dbc.Card([
-            dbc.CardBody([
-                html.P(f'Most Consistently Placed Song'),
-                html.H5(f"'{metric5_name}' ({metric5_position}) "),
-                html.H5(f"{metric5_count} times")
-            ])
-        ],
-        style={'display': 'inline-block',
-            'width': '100%',
-            'text-align': 'center',
-            'background-color': '#70747c',
-            'color':'white',
-            'fontWeight': 'bold',
-            'fontSize':16},
-        outline=True)
+        metric6_song_name = metric6['SongName'][0]
+        metric6_song_played = metric6['count'][0]
+        
+        #----- Metric for Card 7: Song most used as closer
+        metric7_df = metric_df[['RecordID','SongName','song_num']]
+        metric7_df = metric7_df.groupby('RecordID').tail(1).reset_index(drop=True)
+        metric7 = metric7_df['SongName'].value_counts().reset_index()
 
-    card6 = dbc.Card([
-            dbc.CardBody([
-                html.P(f'Song Most Used as Opener'),
-                html.H5(f"'{metric6_song_name}'"),
-                html.H5(f"{metric6_song_played} times")
-            ])
-        ],
-        style={'display': 'inline-block',
-            'width': '100%',
-            'text-align': 'center',
-            'background-color': '#70747c',
-            'color':'white',
-            'fontWeight': 'bold',
-            'fontSize':16},
-        outline=True)
+        metric7_song_name = metric7['SongName'][0]
+        metric7_song_played = metric7['count'][0]
 
 
-    card7 = dbc.Card([
-            dbc.CardBody([
-                html.P(f'Song Most Used as Closer'),
-                html.H5(f"'{metric7_song_name}'"),
-                html.H5(f"{metric7_song_played} times")
-            ])
-        ],
-        style={'display': 'inline-block',
-            'width': '100%',
-            'text-align': 'center',
-            'background-color': '#70747c',
-            'color':'white',
-            'fontWeight': 'bold',
-            'fontSize':16},
-        outline=True)
+        card4 = dbc.Card([
+                dbc.CardBody([
+                    html.P(f'Most Popular Song'),
+                    html.H5(f"'{metric4_song_name}'"),
+                    html.H5(f"{metric4_song_played} times")
+                ])
+            ],
+            style={'display': 'inline-block',
+                'width': '100%',
+                'text-align': 'center',
+                'background-color': '#70747c',
+                'color':'white',
+                'fontWeight': 'bold',
+                'fontSize':16},
+            outline=True)
 
-    #----- Show the chart and clear the message
-    visible_style = {'display': 'block'}  # Show the chart
+        card5 = dbc.Card([
+                dbc.CardBody([
+                    html.P(f'Most Consistently Placed Song'),
+                    html.H5(f"'{metric5_name}' ({metric5_position}) "),
+                    html.H5(f"{metric5_count} times")
+                ])
+            ],
+            style={'display': 'inline-block',
+                'width': '100%',
+                'text-align': 'center',
+                'background-color': '#70747c',
+                'color':'white',
+                'fontWeight': 'bold',
+                'fontSize':16},
+            outline=True)
 
-    return fig,visible_style, "", card4, card5, card6, card7
+        card6 = dbc.Card([
+                dbc.CardBody([
+                    html.P(f'Song Most Used as Opener'),
+                    html.H5(f"'{metric6_song_name}'"),
+                    html.H5(f"{metric6_song_played} times")
+                ])
+            ],
+            style={'display': 'inline-block',
+                'width': '100%',
+                'text-align': 'center',
+                'background-color': '#70747c',
+                'color':'white',
+                'fontWeight': 'bold',
+                'fontSize':16},
+            outline=True)
+
+
+        card7 = dbc.Card([
+                dbc.CardBody([
+                    html.P(f'Song Most Used as Closer'),
+                    html.H5(f"'{metric7_song_name}'"),
+                    html.H5(f"{metric7_song_played} times")
+                ])
+            ],
+            style={'display': 'inline-block',
+                'width': '100%',
+                'text-align': 'center',
+                'background-color': '#70747c',
+                'color':'white',
+                'fontWeight': 'bold',
+                'fontSize':16},
+            outline=True)
+
+        #----- Show the chart and clear the message
+        visible_style = {'display': 'block'}  # Show the chart
+
+        return fig,visible_style, "", card4, card5, card6, card7
 #------------------------------------------------------------------#
 #--------------------- TAB 5: Emotion Scores  ---------------------#
 #------------------------------------------------------------------#
@@ -1010,7 +1018,7 @@ def position_freq_chart(dd7, dd8, rs):
     Input('dropdown11','value'),
     Input('dropdown12','value')
 )
-def emotion_chart(dd11,dd12):
+def update_emotion_chart(dd11,dd12):
     emotion_tbl = setlist_emotions_df[setlist_emotions_df['ArtistName']==dd11]
     emotion_tbl = emotion_tbl.rename(
             columns={
@@ -1163,7 +1171,6 @@ def update_slider_max(dd9):
 )
 def update_closeness_chart(dd9, dd10, pos_slider):
 
-
     pos_df = pos_by_pos_df[pos_by_pos_df['ArtistName']==dd9]
     pos_df = pos_df[pos_df['Emotion']==dd10]
 
@@ -1174,18 +1181,17 @@ def update_closeness_chart(dd9, dd10, pos_slider):
     #----- Calculate Row # 
     pos_df['Row #'] = pos_df.groupby('Iteration').cumcount() + 1
 
+    #----- Reverse Closeness Score
     pos_df = pos_df[pos_df['Iteration']==pos_slider]
     pos_df['Closeness_Score'] = 1 - pos_df['Closeness_Score']
 
-    #pos_df['Closeness_Score'] = pos_df['Closeness_Score'].round(2)
-
-    #----- Remove weird song names that are wrong
-    pos_df = pos_df[~pos_df['name'].str.contains("Wrong Way", na=False)]
-
-
     pos_df = pos_df.head(10)
 
-    chosen_song = pos_df['name'].values[0]
+    if not pos_df.empty:
+            chosen_song = pos_df['name'].values[0]
+    else:
+        # Handle the case where pos_df is empty, for example, assign a default song or skip
+        chosen_song = 'No Song Found'
 
     fig = px.bar(
         pos_df, 
