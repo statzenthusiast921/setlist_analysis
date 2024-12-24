@@ -1161,24 +1161,27 @@ def update_slider_max(dd9):
     Input('dropdown10','value'),
     Input('position_slider','value')
 )
-def update_slider_max(dd9, dd10, pos_slider):
+def update_closeness_chart(dd9, dd10, pos_slider):
+
 
     pos_df = pos_by_pos_df[pos_by_pos_df['ArtistName']==dd9]
     pos_df = pos_df[pos_df['Emotion']==dd10]
+
+    #----- Sort by Closeness Score within Iteration
+    pos_df = pos_df.groupby('Iteration').apply(lambda x: x.sort_values('Closeness_Score', ascending=True))
+    pos_df = pos_df.reset_index(drop=True)
+
+    #----- Calculate Row # 
+    pos_df['Row #'] = pos_df.groupby('Iteration').cumcount() + 1
+
     pos_df = pos_df[pos_df['Iteration']==pos_slider]
     pos_df['Closeness_Score'] = 1 - pos_df['Closeness_Score']
-    pos_df['Closeness_Score'] = pos_df['Closeness_Score'].round(2)
 
+    #pos_df['Closeness_Score'] = pos_df['Closeness_Score'].round(2)
 
     #----- Remove weird song names that are wrong
-    pos_df = pos_df[~pos_df['name'].str.contains('Whoa is Me', na=False)]
-    pos_df = pos_df[~pos_df['name'].str.contains('Paraih', na=False)]
-    pos_df = pos_df[~pos_df['name'].str.contains('Sang Real/Waltz', na=False)]
-    pos_df = pos_df[~pos_df['name'].str.contains("I Don't Know/Kitty", na=False)]
-    pos_df = pos_df[~pos_df['name'].str.contains("Eighteen People Living In Harmony", na=False)]
-    pos_df = pos_df[~pos_df['name'].str.contains("Matroshka", na=False)]
     pos_df = pos_df[~pos_df['name'].str.contains("Wrong Way", na=False)]
-    pos_df = pos_df[~pos_df['name'].str.contains("This Love / Call It What You Want", na=False)]
+
 
     pos_df = pos_df.head(10)
 
@@ -1213,6 +1216,9 @@ def update_slider_max(dd9, dd10, pos_slider):
 
     )
 
+    fig.update_traces(
+    hovertemplate="Closeness Score %{x:.2f}<extra></extra>"
+    )
 
     return fig
 
@@ -1271,18 +1277,37 @@ def toggle_between_chart_and_playlist(radio_selection, dd9):
 
 
 #----- Playlist tables
-
 @app.callback(
     Output('playlist_table','children'),
     Input('dropdown9','value'),
     Input('dropdown10','value')
 )
 def table(dd9, dd10):
-    filtered_df = rb_setlist_df[rb_setlist_df['Artist Name']==dd9]
-    filtered_df = filtered_df[filtered_df['Prioritized Emotion']==dd10]
 
+    pos_df = pos_by_pos_df[pos_by_pos_df['ArtistName']==dd9]
+    pos_df = pos_df[pos_df['Emotion']==dd10]
 
-    table_df = filtered_df[['Artist Name','Prioritized Emotion','Song Name']]
+    #----- Sort by Closeness Score within Iteration
+    pos_df = pos_df.groupby('Iteration').apply(lambda x: x.sort_values('Closeness_Score', ascending=True))
+    pos_df = pos_df.reset_index(drop=True)
+
+    #----- Calculate Row # 
+    pos_df['Row #'] = pos_df.groupby('Iteration').cumcount() + 1
+
+    #----- Remove non 1st row values
+    filtered_df = pos_df[pos_df['Row #']==1]
+
+    filtered_df.rename(
+        columns={
+            'Iteration': 'Song #',
+            'name': 'Song Name',
+            'ArtistName': 'Artist Name',
+            'Emotion':'Prioritized Emotion'
+        }, 
+        inplace=True
+    )
+
+    table_df = filtered_df[['Song #','Song Name','Artist Name','Prioritized Emotion']]
 
     return html.Div([
             dash_table.DataTable(
@@ -1298,6 +1323,24 @@ def table(dd9, dd10):
         ])
 
 
+#----- Callback to disable slider
+@app.callback(
+    Output('position_slider', 'disabled'),
+    Input('radio-button-toggle', 'value')
+)
+def toggle_slider_disable(selected_option):
+    return selected_option in ['Spotify View', 'Playlist View']
+
+#----- Callback to emotion dropdown
+@app.callback(
+    Output('dropdown10', 'disabled'),
+    Input('radio-button-toggle', 'value')
+)
+def toggle_slider_disable(selected_option):
+    return selected_option in ['Spotify View']
+
+
+#------------- Info buttons --> opening and closing
 
 @app.callback(
     Output("modal_info1", "is_open"),
