@@ -495,7 +495,7 @@ app.layout = html.Div([
 
                          ])
                     ], width = 12),
-                ]),
+                ])
             ]
 
         )
@@ -647,7 +647,6 @@ def table(dd1,dd2):
 
     table_df = filtered_df[['City','State','RecordID']].drop_duplicates(keep = "first", subset = 'RecordID')
     table_df = table_df.groupby(['City','State']).size().reset_index(name='count')
-
 
     table_df = table_df.rename(columns={table_df.columns[2]: "# Concerts"})
     table_df = table_df.sort_values(['# Concerts', 'City', 'State'], ascending=[False, False, False])
@@ -978,18 +977,16 @@ def position_freq_chart(dd7, dd8, rs):
         message = f"### {dd8} by {dd7} has only one unique setlist position in the selected time range or was not played in the selected time range.  Choose a different song or different time range."
         return empty_fig, hidden_style, dcc.Markdown(message)
 
-    fig = px.bar(
-            song_freq_df, 
-            x='song_num', 
-            y='count',
-            title=f'Which positions did "{dd8}" by {dd7} occupy in the setlists between {rs[0]} & {rs[1]}',
-            labels={'song_num':'Setlist Song Position','count':'Count'},
-        )
-
     #----- Only attempt KDE if there’s more than one unique position
     if len(song_freq_df['song_num'].unique()) > 1:
 
-
+        fig = px.bar(
+                song_freq_df, 
+                x='song_num', 
+                y='count',
+                title=f'Which positions did "{dd8}" by {dd7} occupy in the setlists between {rs[0]} & {rs[1]}',
+                labels={'song_num':'Setlist Song Position','count':'Count'},
+        )
 
         #----- Prepare data for KDE to get a more flexible multi-modal distribution
         song_positions = song_freq_df['song_num'].repeat(song_freq_df['count'])
@@ -1013,7 +1010,6 @@ def position_freq_chart(dd7, dd8, rs):
         )
         #----- Update the figure with the distribution curve
         fig.add_trace(curve)
-
 
         #----- Show the chart and clear the message
         visible_style = {'display': 'block'}  # Show the chart
