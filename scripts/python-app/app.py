@@ -831,73 +831,16 @@ def table(dd3,dd4, dd5, dd6, slider_value, unique_dates):
 def set_song_options_per_artist(selected_artist):
         return [{'label': i, 'value': i} for i in artist_song_dict[selected_artist]], artist_song_dict[selected_artist][0]
     
+#----- Callback for the cards
 @app.callback(
-    Output('position_frequency','figure'),
-    Output('position_frequency', 'style'),  # Output style to control chart visibility
-
-    Output('message_div', 'children'),    
     Output('card4', 'children'),
     Output('card5', 'children'),
     Output('card6', 'children'),
     Output('card7', 'children'),
     Input('dropdown7','value'),
-    Input('dropdown8','value'),
     Input('rangeslider','value')
 )
-def position_freq_chart(dd7, dd8, rs):
-
-    filtered_df = setlist_df[setlist_df['ArtistName']==dd7]
-    filtered_df = filtered_df[filtered_df['SongName']==dd8]
-    filtered_df = filtered_df[filtered_df['Year']>= rs[0]]
-    filtered_df = filtered_df[filtered_df['Year']<= rs[1]]
-    
-    song_freq_df = filtered_df['song_num'].value_counts().reset_index().sort_values(by = 'song_num')
-    song_freq_df['song_num'] = song_freq_df['song_num'] + 1
-
-
-    #----- Check if there's only one unique song_num value
-    if len(song_freq_df['song_num'].unique()) <= 1:
-        #----- Return empty figure and message if only one unique value
-        empty_fig = go.Figure()
-        hidden_style = {'display': 'none'} 
-
-        message = f"### {dd8} by {dd7} has only one unique setlist position in the selected time range or was not played in the selected time range.  Choose a different song or different time range."
-        return empty_fig, hidden_style, dcc.Markdown(message), None, None, None, None
-
-    fig = px.bar(
-            song_freq_df, 
-            x='song_num', 
-            y='count',
-            title=f'Which positions did "{dd8}" by {dd7} occupy in the setlists between {rs[0]} & {rs[1]}',
-            labels={'song_num':'Setlist Song Position','count':'Count'},
-        )
-
-    #----- Only attempt KDE if there’s more than one unique position
-    if len(song_freq_df['song_num'].unique()) > 1:
-
-        #----- Prepare data for KDE to get a more flexible multi-modal distribution
-        song_positions = song_freq_df['song_num'].repeat(song_freq_df['count'])
-        #----- Extend x-axis slightly beyond data range
-        x_min = song_freq_df['song_num'].min() - 0.5
-        x_max = song_freq_df['song_num'].max() + 0.5
-        x_vals = np.linspace(x_min, x_max, 100)
-
-        #----- Perform KDE and scale to match the total count of bars
-        kde = stats.gaussian_kde(song_positions, bw_method=0.3)
-        y_vals = kde(x_vals) * song_freq_df['count'].sum()
-
-        #----- Add the distribution curve as a trace
-        curve = go.Scatter(
-            x=x_vals,
-            y=y_vals,
-            mode='lines',
-            fill='tozeroy',
-            line=dict(color='red', dash='dash'),
-            showlegend=False
-        )
-        #----- Update the figure with the distribution curve
-        fig.add_trace(curve)
-
+def cards_above_position_freq_chart(dd7, rs):
 
     #----- Metric for Card 4: Most played song
     metric_df = setlist_df[setlist_df['ArtistName']==dd7]
@@ -919,7 +862,6 @@ def position_freq_chart(dd7, dd8, rs):
     metric5_name = metric5['SongName']
     metric5_position = metric5['song_num']
     metric5_count = metric5['count']
-
 
     #----- Metric for Card 6: Song most used as opener
     metric6_df = metric_df[['SongName','song_num']]
@@ -1003,10 +945,81 @@ def position_freq_chart(dd7, dd8, rs):
                 'fontSize':16},
             outline=True)
 
-        #----- Show the chart and clear the message
-    visible_style = {'display': 'block'}  # Show the chart
+    return card4, card5, card6, card7
 
-    return fig,visible_style, "", card4, card5, card6, card7
+
+
+#----- Callback for the chart and visibility
+@app.callback(
+    Output('position_frequency','figure'),
+    Output('position_frequency', 'style'),  # Output style to control chart visibility
+    Output('message_div', 'children'),    
+    Input('dropdown7','value'),
+    Input('dropdown8','value'),
+    Input('rangeslider','value')
+)
+def position_freq_chart(dd7, dd8, rs):
+
+    filtered_df = setlist_df[setlist_df['ArtistName']==dd7]
+    filtered_df = filtered_df[filtered_df['SongName']==dd8]
+    filtered_df = filtered_df[filtered_df['Year']>= rs[0]]
+    filtered_df = filtered_df[filtered_df['Year']<= rs[1]]
+    
+    song_freq_df = filtered_df['song_num'].value_counts().reset_index().sort_values(by = 'song_num')
+    song_freq_df['song_num'] = song_freq_df['song_num'] + 1
+
+
+    #----- Check if there's only one unique song_num value
+    if len(song_freq_df['song_num'].unique()) <= 1:
+        #----- Return empty figure and message if only one unique value
+        empty_fig = go.Figure()
+        hidden_style = {'display': 'none'} 
+
+        message = f"### {dd8} by {dd7} has only one unique setlist position in the selected time range or was not played in the selected time range.  Choose a different song or different time range."
+        return empty_fig, hidden_style, dcc.Markdown(message)
+
+    fig = px.bar(
+            song_freq_df, 
+            x='song_num', 
+            y='count',
+            title=f'Which positions did "{dd8}" by {dd7} occupy in the setlists between {rs[0]} & {rs[1]}',
+            labels={'song_num':'Setlist Song Position','count':'Count'},
+        )
+
+    #----- Only attempt KDE if there’s more than one unique position
+    if len(song_freq_df['song_num'].unique()) > 1:
+
+
+
+        #----- Prepare data for KDE to get a more flexible multi-modal distribution
+        song_positions = song_freq_df['song_num'].repeat(song_freq_df['count'])
+        #----- Extend x-axis slightly beyond data range
+        x_min = song_freq_df['song_num'].min() - 0.5
+        x_max = song_freq_df['song_num'].max() + 0.5
+        x_vals = np.linspace(x_min, x_max, 100)
+
+        #----- Perform KDE and scale to match the total count of bars
+        kde = stats.gaussian_kde(song_positions, bw_method=0.3)
+        y_vals = kde(x_vals) * song_freq_df['count'].sum()
+
+        #----- Add the distribution curve as a trace
+        curve = go.Scatter(
+            x=x_vals,
+            y=y_vals,
+            mode='lines',
+            fill='tozeroy',
+            line=dict(color='red', dash='dash'),
+            showlegend=False
+        )
+        #----- Update the figure with the distribution curve
+        fig.add_trace(curve)
+
+
+        #----- Show the chart and clear the message
+        visible_style = {'display': 'block'}  # Show the chart
+
+        return fig, visible_style, ""
+
 #------------------------------------------------------------------#
 #--------------------- TAB 5: Emotion Scores  ---------------------#
 #------------------------------------------------------------------#
