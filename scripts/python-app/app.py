@@ -984,7 +984,7 @@ def position_freq_chart(dd7, dd8, rs):
             return empty_fig, hidden_style, dcc.Markdown(message)
 
     #----- Only attempt KDE if there’s more than one unique position
-    if len(song_freq_df['song_num'].unique()) > 1:
+    elif len(song_freq_df['song_num'].unique()) > 1:
 
         try:
 
