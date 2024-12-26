@@ -854,8 +854,8 @@ def cards_above_position_freq_chart(dd7, rs):
     
     if metric4.get('count') is not None:  
 
-        metric4_song_name = metric4['SongName'].iloc[0]
-        metric4_song_played = metric4.get('count').iloc[0] 
+        metric4_song_name = metric4['SongName'].head(1).values[0]
+        metric4_song_played = metric4.get('count').head(1).values[0]
     else:
         metric4_song_name = 0
         metric4_song_played = 0
@@ -875,8 +875,8 @@ def cards_above_position_freq_chart(dd7, rs):
     metric6 = metric6_df['SongName'].value_counts().reset_index()
 
     if metric6.get('count') is not None:  
-        metric6_song_name = metric6['SongName'].iloc[0]
-        metric6_song_played = metric6.get('count').iloc[0] 
+        metric6_song_name = metric6['SongName'].head(1).values[0]
+        metric6_song_played = metric6.get('count').head(1).values[0]
     else:
         metric6_song_name = 0
         metric6_song_played = 0
@@ -888,8 +888,8 @@ def cards_above_position_freq_chart(dd7, rs):
     metric7 = metric7_df['SongName'].value_counts().reset_index()
 
     if metric7.get('count') is not None:  
-        metric7_song_name = metric7['SongName'].iloc[0]
-        metric7_song_played = metric7.get('count').iloc[0] 
+        metric7_song_name = metric7['SongName'].head(1).values[0]
+        metric7_song_played = metric7.get('count').head(1).values[0]
     else:
         metric7_song_name = 0
         metric7_song_played = 0
