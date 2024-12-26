@@ -1015,7 +1015,10 @@ def position_freq_chart(dd7, dd8, rs):
                     x='index', 
                     y='song_num',
                     title=f'Which positions did "{dd8}" by {dd7} occupy in the setlists between {rs[0]} & {rs[1]}',
-                    labels={'song_num':'Setlist Song Position'},
+                    labels={
+                        'index':'Setlist Song Position',
+                        'song_num':'Count'
+                    },
             )
     
             #----- Prepare data for KDE to get a more flexible multi-modal distribution
@@ -1052,7 +1055,10 @@ def position_freq_chart(dd7, dd8, rs):
                     x='index', 
                     y='song_num',
                     title=f'Which positions did "{dd8}" by {dd7} occupy in the setlists between {rs[0]} & {rs[1]}',
-                    labels={'song_num':'Setlist Song Position'},
+                    labels={
+                        'index':'Setlist Song Position',
+                        'song_num':'Count'
+                    },
             )
     
             #----- Prepare data for KDE to get a more flexible multi-modal distribution
