@@ -971,53 +971,95 @@ def position_freq_chart(dd7, dd8, rs):
     #----- Check if there's only one unique song_num value
     if len(song_freq_df['song_num'].unique()) <= 1:
         #----- Return empty figure and message if only one unique value
-        #empty_fig = go.Figure()
-        empty_fig = go.Figure(layout=dict(template='plotly'))
-
-        hidden_style = {'display': 'none'} 
-
-        message = f"### {dd8} by {dd7} has only one unique setlist position in the selected time range or was not played in the selected time range.  Choose a different song or different time range."
-        return empty_fig, hidden_style, dcc.Markdown(message)
+        try:
+            empty_fig = go.Figure()
+            hidden_style = {'display': 'none'} 
+            message = f"### {dd8} by {dd7} has only one unique setlist position in the selected time range or was not played in the selected time range.  Choose a different song or different time range."
+            return empty_fig, hidden_style, dcc.Markdown(message)
+            
+        except:
+            empty_fig = go.Figure()
+            hidden_style = {'display': 'none'} 
+            message = f"### {dd8} by {dd7} has only one unique setlist position in the selected time range or was not played in the selected time range.  Choose a different song or different time range."
+            return empty_fig, hidden_style, dcc.Markdown(message)
 
     #----- Only attempt KDE if there’s more than one unique position
     if len(song_freq_df['song_num'].unique()) > 1:
 
-        fig = px.bar(
-                song_freq_df, 
-                x='song_num', 
-                y='count',
-                title=f'Which positions did "{dd8}" by {dd7} occupy in the setlists between {rs[0]} & {rs[1]}',
-                labels={'song_num':'Setlist Song Position','count':'Count'},
-        )
+        try:
 
-        #----- Prepare data for KDE to get a more flexible multi-modal distribution
-        song_positions = song_freq_df['song_num'].repeat(song_freq_df['count'])
-        #----- Extend x-axis slightly beyond data range
-        x_min = song_freq_df['song_num'].min() - 0.5
-        x_max = song_freq_df['song_num'].max() + 0.5
-        x_vals = np.linspace(x_min, x_max, 100)
-
-        #----- Perform KDE and scale to match the total count of bars
-        kde = stats.gaussian_kde(song_positions, bw_method=0.3)
-        y_vals = kde(x_vals) * song_freq_df['count'].sum()
-
-        #----- Add the distribution curve as a trace
-        curve = go.Scatter(
-            x=x_vals,
-            y=y_vals,
-            mode='lines',
-            fill='tozeroy',
-            line=dict(color='red', dash='dash'),
-            showlegend=False
-        )
-        #----- Update the figure with the distribution curve
-        fig.add_trace(curve)
-
-        #----- Show the chart and clear the message
-        visible_style = {'display': 'block'}  # Show the chart
-
-        return fig, visible_style, ""
-
+            fig = px.bar(
+                    song_freq_df, 
+                    x='song_num', 
+                    y='count',
+                    title=f'Which positions did "{dd8}" by {dd7} occupy in the setlists between {rs[0]} & {rs[1]}',
+                    labels={'song_num':'Setlist Song Position','count':'Count'},
+            )
+    
+            #----- Prepare data for KDE to get a more flexible multi-modal distribution
+            song_positions = song_freq_df['song_num'].repeat(song_freq_df['count'])
+            #----- Extend x-axis slightly beyond data range
+            x_min = song_freq_df['song_num'].min() - 0.5
+            x_max = song_freq_df['song_num'].max() + 0.5
+            x_vals = np.linspace(x_min, x_max, 100)
+    
+            #----- Perform KDE and scale to match the total count of bars
+            kde = stats.gaussian_kde(song_positions, bw_method=0.3)
+            y_vals = kde(x_vals) * song_freq_df['count'].sum()
+    
+            #----- Add the distribution curve as a trace
+            curve = go.Scatter(
+                x=x_vals,
+                y=y_vals,
+                mode='lines',
+                fill='tozeroy',
+                line=dict(color='red', dash='dash'),
+                showlegend=False
+            )
+            #----- Update the figure with the distribution curve
+            fig.add_trace(curve)
+    
+            #----- Show the chart and clear the message
+            visible_style = {'display': 'block'}  # Show the chart
+    
+            return fig, visible_style, ""
+            
+        except:
+            fig = px.bar(
+                    song_freq_df, 
+                    x='song_num', 
+                    y='count',
+                    title=f'Which positions did "{dd8}" by {dd7} occupy in the setlists between {rs[0]} & {rs[1]}',
+                    labels={'song_num':'Setlist Song Position','count':'Count'},
+            )
+    
+            #----- Prepare data for KDE to get a more flexible multi-modal distribution
+            song_positions = song_freq_df['song_num'].repeat(song_freq_df['count'])
+            #----- Extend x-axis slightly beyond data range
+            x_min = song_freq_df['song_num'].min() - 0.5
+            x_max = song_freq_df['song_num'].max() + 0.5
+            x_vals = np.linspace(x_min, x_max, 100)
+    
+            #----- Perform KDE and scale to match the total count of bars
+            kde = stats.gaussian_kde(song_positions, bw_method=0.3)
+            y_vals = kde(x_vals) * song_freq_df['count'].sum()
+    
+            #----- Add the distribution curve as a trace
+            curve = go.Scatter(
+                x=x_vals,
+                y=y_vals,
+                mode='lines',
+                fill='tozeroy',
+                line=dict(color='red', dash='dash'),
+                showlegend=False
+            )
+            #----- Update the figure with the distribution curve
+            fig.add_trace(curve)
+    
+            #----- Show the chart and clear the message
+            visible_style = {'display': 'block'}  # Show the chart
+    
+            return fig, visible_style, ""
 #------------------------------------------------------------------#
 #--------------------- TAB 5: Emotion Scores  ---------------------#
 #------------------------------------------------------------------#
@@ -1047,106 +1089,184 @@ def update_emotion_chart(dd11,dd12):
         emotion_tbl = emotion_tbl.head(10)
      
 
-
-        emotion_chart = px.bar(
-            emotion_tbl,
-            x='Song Name',
-            y='Angry',
-            color = 'Angry',
-            color_continuous_scale=[
-                    (0.0, 'lightblue'),  # Light blue for low values
-                    (0.5, 'blue'),       # Midway blue for medium values
-                    (1.0, 'darkblue')    # Dark blue for high values
-            ],
-            title = f'Top 10 Songs Ranked by {dd12} Scores'
-        )
-
-        return emotion_chart
+        try:
+            emotion_chart = px.bar(
+                emotion_tbl,
+                x='Song Name',
+                y='Angry',
+                color = 'Angry',
+                color_continuous_scale=[
+                        (0.0, 'lightblue'),  # Light blue for low values
+                        (0.5, 'blue'),       # Midway blue for medium values
+                        (1.0, 'darkblue')    # Dark blue for high values
+                ],
+                title = f'Top 10 Songs Ranked by {dd12} Scores'
+            )
+    
+            return emotion_chart
+            
+        except:
+            motion_chart = px.bar(
+                emotion_tbl,
+                x='Song Name',
+                y='Angry',
+                color = 'Angry',
+                color_continuous_scale=[
+                        (0.0, 'lightblue'),  # Light blue for low values
+                        (0.5, 'blue'),       # Midway blue for medium values
+                        (1.0, 'darkblue')    # Dark blue for high values
+                ],
+                title = f'Top 10 Songs Ranked by {dd12} Scores'
+            )
+    
+            return emotion_chart
 
     elif 'Surprise' in dd12:
         emotion_tbl = emotion_tbl[['Artist Name','Song Name','Surprise']]
         emotion_tbl = emotion_tbl.sort_values('Surprise', ascending=False)
         emotion_tbl = emotion_tbl.head(10)
 
-        emotion_chart = px.bar(
-            emotion_tbl,
-            x='Song Name',
-            y='Surprise',
-            title = f'Top 10 Songs Ranked by {dd12} Scores',
-            color = 'Surprise',
-            color_continuous_scale=[
-                    (0.0, 'lightblue'),  # Light blue for low values
-                    (0.5, 'blue'),       # Midway blue for medium values
-                    (1.0, 'darkblue')    # Dark blue for high values
-            ],
-
-        )
-
-        return emotion_chart
+        try:
+            emotion_chart = px.bar(
+                emotion_tbl,
+                x='Song Name',
+                y='Surprise',
+                title = f'Top 10 Songs Ranked by {dd12} Scores',
+                color = 'Surprise',
+                color_continuous_scale=[
+                        (0.0, 'lightblue'),  # Light blue for low values
+                        (0.5, 'blue'),       # Midway blue for medium values
+                        (1.0, 'darkblue')    # Dark blue for high values
+                ],
+    
+            )
+    
+            return emotion_chart
+            
+        except:
+            emotion_chart = px.bar(
+                emotion_tbl,
+                x='Song Name',
+                y='Surprise',
+                title = f'Top 10 Songs Ranked by {dd12} Scores',
+                color = 'Surprise',
+                color_continuous_scale=[
+                        (0.0, 'lightblue'),  # Light blue for low values
+                        (0.5, 'blue'),       # Midway blue for medium values
+                        (1.0, 'darkblue')    # Dark blue for high values
+                ],
+    
+            )
+    
+            return emotion_chart
 
     elif 'Sad' in dd12:
         emotion_tbl = emotion_tbl[['Artist Name','Song Name','Sad']]
         emotion_tbl = emotion_tbl.sort_values('Sad', ascending=False)
         emotion_tbl = emotion_tbl.head(10)
 
-        emotion_chart = px.bar(
-            emotion_tbl,
-            x='Song Name',
-            y='Sad',
-            title = f'Top 10 Songs Ranked by {dd12} Scores',
-            color = 'Sad',
-            color_continuous_scale=[
-                    (0.0, 'lightblue'),  # Light blue for low values
-                    (0.5, 'blue'),       # Midway blue for medium values
-                    (1.0, 'darkblue')    # Dark blue for high values
-            ],
-
-        )
-
-        return emotion_chart
-
+        try:
+            emotion_chart = px.bar(
+                emotion_tbl,
+                x='Song Name',
+                y='Sad',
+                title = f'Top 10 Songs Ranked by {dd12} Scores',
+                color = 'Sad',
+                color_continuous_scale=[
+                        (0.0, 'lightblue'),  # Light blue for low values
+                        (0.5, 'blue'),       # Midway blue for medium values
+                        (1.0, 'darkblue')    # Dark blue for high values
+                ],
+    
+            )
+    
+            return emotion_chart
+            
+        except:
+            emotion_chart = px.bar(
+                emotion_tbl,
+                x='Song Name',
+                y='Sad',
+                title = f'Top 10 Songs Ranked by {dd12} Scores',
+                color = 'Sad',
+                color_continuous_scale=[
+                        (0.0, 'lightblue'),  # Light blue for low values
+                        (0.5, 'blue'),       # Midway blue for medium values
+                        (1.0, 'darkblue')    # Dark blue for high values
+                ],
+    
+            )
+            return emotion_chart
+            
     elif 'Fear' in dd12:
         emotion_tbl = emotion_tbl[['Artist Name','Song Name','Fear']]
         emotion_tbl = emotion_tbl.sort_values('Fear', ascending=False)
         emotion_tbl = emotion_tbl.head(10)
 
-        emotion_chart = px.bar(
-            emotion_tbl,
-            x='Song Name',
-            y='Fear',
-            title = f'Top 10 Songs Ranked by {dd12} Scores',
-            color = 'Fear',
-            color_continuous_scale=[
-                    (0.0, 'lightblue'),  # Light blue for low values
-                    (0.5, 'blue'),       # Midway blue for medium values
-                    (1.0, 'darkblue')    # Dark blue for high values
-            ],
-
-        )
-
-        return emotion_chart
+        try:
+            emotion_chart = px.bar(
+                emotion_tbl,
+                x='Song Name',
+                y='Fear',
+                title = f'Top 10 Songs Ranked by {dd12} Scores',
+                color = 'Fear',
+                color_continuous_scale=[
+                        (0.0, 'lightblue'),  # Light blue for low values
+                        (0.5, 'blue'),       # Midway blue for medium values
+                        (1.0, 'darkblue')    # Dark blue for high values
+                ]
+            )
+            return emotion_chart
+            
+        except:
+            emotion_chart = px.bar(
+                emotion_tbl,
+                x='Song Name',
+                y='Fear',
+                title = f'Top 10 Songs Ranked by {dd12} Scores',
+                color = 'Fear',
+                color_continuous_scale=[
+                        (0.0, 'lightblue'),  # Light blue for low values
+                        (0.5, 'blue'),       # Midway blue for medium values
+                        (1.0, 'darkblue')    # Dark blue for high values
+                ]
+            )
+            return emotion_chart
 
     elif 'Happy' in dd12:
         emotion_tbl = emotion_tbl[['Artist Name','Song Name','Happy']]
         emotion_tbl = emotion_tbl.sort_values('Happy', ascending=False)
         emotion_tbl = emotion_tbl.head(10)
 
-        emotion_chart = px.bar(
-            emotion_tbl,
-            x='Song Name',
-            y='Happy',
-            title = f'Top 10 Songs Ranked by {dd12} Scores',
-            color = 'Happy',
-            color_continuous_scale=[
-                    (0.0, 'lightblue'),  # Light blue for low values
-                    (0.5, 'blue'),       # Midway blue for medium values
-                    (1.0, 'darkblue')    # Dark blue for high values
-            ],
-
-        )
-
-        return emotion_chart
-
+        try:
+            emotion_chart = px.bar(
+                emotion_tbl,
+                x='Song Name',
+                y='Happy',
+                title = f'Top 10 Songs Ranked by {dd12} Scores',
+                color = 'Happy',
+                color_continuous_scale=[
+                        (0.0, 'lightblue'),  # Light blue for low values
+                        (0.5, 'blue'),       # Midway blue for medium values
+                        (1.0, 'darkblue')    # Dark blue for high values
+                ]
+            )
+            return emotion_chart
+            
+        except:
+            emotion_chart = px.bar(
+                emotion_tbl,
+                x='Song Name',
+                y='Happy',
+                title = f'Top 10 Songs Ranked by {dd12} Scores',
+                color = 'Happy',
+                color_continuous_scale=[
+                        (0.0, 'lightblue'),  # Light blue for low values
+                        (0.5, 'blue'),       # Midway blue for medium values
+                        (1.0, 'darkblue')    # Dark blue for high values
+                ]
+            )
+            return emotion_chart
 
 #----------------------------------------------------------------------------------#
 #------------------------------- TAB 6: Rules Based Setlists  ---------------------#
@@ -1201,41 +1321,77 @@ def update_closeness_chart(dd9, dd10, pos_slider):
         # Handle the case where pos_df is empty, for example, assign a default song or skip
         chosen_song = 'No Song Found'
 
-    fig = px.bar(
-        pos_df, 
-        x="Closeness_Score", y="name", orientation='h',
-        title = f'Ranked Similarity Scores for Setlist Position: {pos_slider}',
-            color = 'Closeness_Score',
-            color_continuous_scale=[
-                    (0.0, 'lightgreen'),  
-                    (0.5, 'green'),       
-                    (1.0, 'darkgreen')    
-            ],
-            labels={
-                "name": "Song Name",
-                "Closeness_Score": "Similarity Score"
-                 },
-    )
-    fig.update_layout(
-        yaxis={'categoryorder': 'total ascending'},
-        xaxis=dict(range=[0, 1]),
-        title=dict(
-            xref='paper',  
-            x=0.5,
-            subtitle=dict(
-                text=f"{chosen_song} is chosen for position {pos_slider} and then can not be chosen again.",
-                font=dict(color="gray", size=13),
-            ),      
+    try:
+        fig = px.bar(
+            pos_df, 
+            x="Closeness_Score", y="name", orientation='h',
+            title = f'Ranked Similarity Scores for Setlist Position: {pos_slider}',
+                color = 'Closeness_Score',
+                color_continuous_scale=[
+                        (0.0, 'lightgreen'),  
+                        (0.5, 'green'),       
+                        (1.0, 'darkgreen')    
+                ],
+                labels={
+                    "name": "Song Name",
+                    "Closeness_Score": "Similarity Score"
+                     },
         )
-
-    )
-
-    fig.update_traces(
-    hovertemplate="Closeness Score %{x:.2f}<extra></extra>"
-    )
-
-    return fig
-
+        fig.update_layout(
+            yaxis={'categoryorder': 'total ascending'},
+            xaxis=dict(range=[0, 1]),
+            title=dict(
+                xref='paper',  
+                x=0.5,
+                subtitle=dict(
+                    text=f"{chosen_song} is chosen for position {pos_slider} and then can not be chosen again.",
+                    font=dict(color="gray", size=13),
+                ),      
+            )
+    
+        )
+    
+        fig.update_traces(
+        hovertemplate="Closeness Score %{x:.2f}<extra></extra>"
+        )
+    
+        return fig
+        
+    except:
+        fig = px.bar(
+            pos_df, 
+            x="Closeness_Score", y="name", orientation='h',
+            title = f'Ranked Similarity Scores for Setlist Position: {pos_slider}',
+                color = 'Closeness_Score',
+                color_continuous_scale=[
+                        (0.0, 'lightgreen'),  
+                        (0.5, 'green'),       
+                        (1.0, 'darkgreen')    
+                ],
+                labels={
+                    "name": "Song Name",
+                    "Closeness_Score": "Similarity Score"
+                     },
+        )
+        fig.update_layout(
+            yaxis={'categoryorder': 'total ascending'},
+            xaxis=dict(range=[0, 1]),
+            title=dict(
+                xref='paper',  
+                x=0.5,
+                subtitle=dict(
+                    text=f"{chosen_song} is chosen for position {pos_slider} and then can not be chosen again.",
+                    font=dict(color="gray", size=13),
+                ),      
+            )
+    
+        )
+    
+        fig.update_traces(
+        hovertemplate="Closeness Score %{x:.2f}<extra></extra>"
+        )
+    
+        return fig
 
 #----- Toggle between chart and playlist
 
