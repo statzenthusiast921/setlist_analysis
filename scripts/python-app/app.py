@@ -988,7 +988,7 @@ def position_freq_chart(dd7, dd8, rs):
     #     columns={'count': 'Count'}, 
     #     inplace=True
     # )
-
+    print(song_freq_df)
 
     #----- Check if there's only one unique song_num value
     if len(song_freq_df['song_num'].unique()) <= 1:
