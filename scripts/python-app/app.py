@@ -852,7 +852,7 @@ def cards_above_position_freq_chart(dd7, rs):
 
     metric4 = metric_df['SongName'].value_counts().reset_index()
     
-    if metric4.get('count') is not None:  
+    if metric4.get('count',None) is not None:  
 
         metric4_song_name = metric4['SongName'].head(1).values[0]
         metric4_song_played = metric4.get('count').head(1).values[0]
@@ -874,7 +874,7 @@ def cards_above_position_freq_chart(dd7, rs):
     metric6_df = metric6_df[metric6_df['song_num']==0]
     metric6 = metric6_df['SongName'].value_counts().reset_index()
 
-    if metric6.get('count') is not None:  
+    if metric6.get('count',None) is not None:  
         metric6_song_name = metric6['SongName'].head(1).values[0]
         metric6_song_played = metric6.get('count').head(1).values[0]
     else:
@@ -887,7 +887,7 @@ def cards_above_position_freq_chart(dd7, rs):
     metric7_df = metric7_df.groupby('RecordID').tail(1).reset_index(drop=True)
     metric7 = metric7_df['SongName'].value_counts().reset_index()
 
-    if metric7.get('count') is not None:  
+    if metric7.get('count',None) is not None:  
         metric7_song_name = metric7['SongName'].head(1).values[0]
         metric7_song_played = metric7.get('count').head(1).values[0]
     else:
@@ -1013,13 +1013,13 @@ def position_freq_chart(dd7, dd8, rs):
             fig = px.bar(
                     song_freq_df, 
                     x='song_num', 
-                    y='level_0',
+                    y='index',
                     title=f'Which positions did "{dd8}" by {dd7} occupy in the setlists between {rs[0]} & {rs[1]}',
                     labels={'song_num':'Setlist Song Position'},
             )
     
             #----- Prepare data for KDE to get a more flexible multi-modal distribution
-            song_positions = song_freq_df['song_num'].repeat(song_freq_df['level_0'])
+            song_positions = song_freq_df['song_num'].repeat(song_freq_df['index'])
             #----- Extend x-axis slightly beyond data range
             x_min = song_freq_df['song_num'].min() - 0.5
             x_max = song_freq_df['song_num'].max() + 0.5
@@ -1027,7 +1027,7 @@ def position_freq_chart(dd7, dd8, rs):
     
             #----- Perform KDE and scale to match the total count of bars
             kde = stats.gaussian_kde(song_positions, bw_method=0.3)
-            y_vals = kde(x_vals) * song_freq_df['level_0'].sum()
+            y_vals = kde(x_vals) * song_freq_df['index'].sum()
     
             #----- Add the distribution curve as a trace
             curve = go.Scatter(
@@ -1050,13 +1050,13 @@ def position_freq_chart(dd7, dd8, rs):
             fig = px.bar(
                     song_freq_df, 
                     x='song_num', 
-                    y='level_0',
+                    y='index',
                     title=f'Which positions did "{dd8}" by {dd7} occupy in the setlists between {rs[0]} & {rs[1]}',
                     labels={'song_num':'Setlist Song Position'},
             )
     
             #----- Prepare data for KDE to get a more flexible multi-modal distribution
-            song_positions = song_freq_df['song_num'].repeat(song_freq_df['level_0'])
+            song_positions = song_freq_df['song_num'].repeat(song_freq_df['index'])
             #----- Extend x-axis slightly beyond data range
             x_min = song_freq_df['song_num'].min() - 0.5
             x_max = song_freq_df['song_num'].max() + 0.5
@@ -1064,7 +1064,7 @@ def position_freq_chart(dd7, dd8, rs):
     
             #----- Perform KDE and scale to match the total count of bars
             kde = stats.gaussian_kde(song_positions, bw_method=0.3)
-            y_vals = kde(x_vals) * song_freq_df['level_0'].sum()
+            y_vals = kde(x_vals) * song_freq_df['index'].sum()
     
             #----- Add the distribution curve as a trace
             curve = go.Scatter(
