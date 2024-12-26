@@ -852,7 +852,9 @@ def cards_above_position_freq_chart(dd7, rs):
 
     metric4 = metric_df['SongName'].value_counts().reset_index()
     metric4_song_name = metric4['SongName'].iloc[0]
-    metric4_song_played = metric4['count'].iloc[0]
+    #metric4_song_played = metric4['count'].iloc[0]
+    metric4_song_played = metric4.get('count', None).iloc[0] 
+
 
     #----- Metric for Card 5: Most consistently placed song
     metric5_df = metric_df.groupby(['SongName', 'song_num']).size().reset_index(name='count')
@@ -869,7 +871,9 @@ def cards_above_position_freq_chart(dd7, rs):
     metric6 = metric6_df['SongName'].value_counts().reset_index()
 
     metric6_song_name = metric6['SongName'].iloc[0]
-    metric6_song_played = metric6['count'].iloc[0]
+    #metric6_song_played = metric6['count'].iloc[0]
+    metric6_song_played = metric6.get('count', None).iloc[0] 
+
         
     #----- Metric for Card 7: Song most used as closer
     metric7_df = metric_df[['RecordID','SongName','song_num']]
@@ -877,7 +881,9 @@ def cards_above_position_freq_chart(dd7, rs):
     metric7 = metric7_df['SongName'].value_counts().reset_index()
 
     metric7_song_name = metric7['SongName'].iloc[0]
-    metric7_song_played = metric7['count'].iloc[0]
+    #metric7_song_played = metric7['count'].iloc[0]
+    metric7_song_played = metric7.get('count', None).iloc[0] 
+
 
 
     card4 = dbc.Card([
