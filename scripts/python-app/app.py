@@ -971,7 +971,9 @@ def position_freq_chart(dd7, dd8, rs):
     #----- Check if there's only one unique song_num value
     if len(song_freq_df['song_num'].unique()) <= 1:
         #----- Return empty figure and message if only one unique value
-        empty_fig = go.Figure()
+        #empty_fig = go.Figure()
+        empty_fig = go.Figure(layout=dict(template='plotly'))
+
         hidden_style = {'display': 'none'} 
 
         message = f"### {dd8} by {dd7} has only one unique setlist position in the selected time range or was not played in the selected time range.  Choose a different song or different time range."
