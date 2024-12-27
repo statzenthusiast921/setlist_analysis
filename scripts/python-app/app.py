@@ -876,29 +876,22 @@ def cards_above_position_freq_chart(dd7, rs):
     metric5_count = metric5['count']
 
     #----- Metric for Card 6: Song most used as opener
-    metric6_df = metric_df[['SongName','song_num']]
+    metric6_df = metric_df.groupby(['SongName', 'song_num']).size().reset_index(name='count')
     metric6_df = metric6_df[metric6_df['song_num']==0]
-    metric6 = metric6_df['SongName'].value_counts().reset_index()
-
-    if metric6.get('count',None) is not None:  
-        metric6_song_name = metric6['SongName'].head(1).values[0]
-        metric6_song_played = metric6.get('count').head(1).values[0]
-    else:
-        metric6_song_name = 0
-        metric6_song_played = 0
-
+    metric6 = metric5_df.loc[metric6_df['count'].idxmax()]
+    
+    metric6_song_name = metric6['SongName']
+    metric6_song_played = metric6['count']
         
     #----- Metric for Card 7: Song most used as closer
     metric7_df = metric_df[['RecordID','SongName','song_num']]
     metric7_df = metric7_df.groupby('RecordID').tail(1).reset_index(drop=True)
-    metric7 = metric7_df['SongName'].value_counts().reset_index()
 
-    if metric7.get('count',None) is not None:  
-        metric7_song_name = metric7['SongName'].head(1).values[0]
-        metric7_song_played = metric7.get('count').head(1).values[0]
-    else:
-        metric7_song_name = 0
-        metric7_song_played = 0
+    metric7_df = metric7_df.groupby(['SongName']).size().reset_index(name='count')
+    metric7 = metric7_df.loc[metric7_df['count'].idxmax()]
+    
+    metric7_song_name = metric7['SongName']
+    metric7_song_played = metric7['count']
 
 
 
