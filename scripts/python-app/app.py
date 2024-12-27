@@ -852,12 +852,18 @@ def cards_above_position_freq_chart(dd7, rs):
 
     metric4 = metric_df['SongName'].value_counts().reset_index()
 
-    if metric4.get('count',None) is not None:  
-        metric4_song_name = metric4['SongName'].head(1).values[0]
-        metric4_song_played = metric4.get('count').head(1).values[0]
-    else:
-        metric4_song_name = 0
-        metric4_song_played = 0
+    # if metric4.get('count',None) is not None:  
+    #     metric4_song_name = metric4['SongName'].head(1).values[0]
+    #     metric4_song_played = metric4.get('count').head(1).values[0]
+    # else:
+    #     metric4_song_name = 0
+    #     metric4_song_played = 0
+    metric4_df = metric_df.groupby(['SongName']).size().reset_index(name='count')
+    metric4 = metric4_df.loc[metric4_df['count'].idxmax()]
+    
+    metric4_song_name = metric4['SongName']
+    metric4_song_played = metric4['count']
+    
 
 
     #----- Metric for Card 5: Most consistently placed song
