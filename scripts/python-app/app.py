@@ -850,15 +850,12 @@ def cards_above_position_freq_chart(dd7, rs):
     metric_df = metric_df[metric_df['Year']>=rs[0]]
     metric_df = metric_df[metric_df['Year']<=rs[1]]
 
-    metric4 = metric_df['SongName'].value_counts().reset_index()
-    
-    if metric4.get('count',None) is not None:  
+    metric4 = metric_df['SongName'].value_counts().reset_index(name = 'count')
+    metric4 = metric4.loc[metric4['count'].idxmax()]
 
-        metric4_song_name = metric4['SongName'].head(1).values[0]
-        metric4_song_played = metric4.get('count').head(1).values[0]
-    else:
-        metric4_song_name = 0
-        metric4_song_played = 0
+    metric4_song_name = metric4['SongName']
+    metric4_song_played = metric4['count']
+
 
     #----- Metric for Card 5: Most consistently placed song
     metric5_df = metric_df.groupby(['SongName', 'song_num']).size().reset_index(name='count')
@@ -982,13 +979,9 @@ def position_freq_chart(dd7, dd8, rs):
     filtered_df = filtered_df[filtered_df['Year']<= rs[1]]
     
     song_freq_df = filtered_df['song_num'].value_counts().reset_index().sort_values(by = 'song_num').reset_index()
-    song_freq_df['song_num'] = song_freq_df['song_num'] + 1
+    song_freq_df['index'] = song_freq_df['index'] + 1
 
-    # song_freq_df.rename(
-    #     columns={'count': 'Count'}, 
-    #     inplace=True
-    # )
-    print(song_freq_df)
+
 
     #----- Check if there's only one unique song_num value
     if len(song_freq_df['song_num'].unique()) <= 1:
