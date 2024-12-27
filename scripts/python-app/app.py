@@ -150,7 +150,7 @@ app.layout = html.Div([
                    ],style={'text-decoration': 'underline'}),
                    html.Div([
                        html.P("1.) I was not able to pull every single concert for the selected artists in the time span I researched.",style={'color':'white'}),
-                       html.P("2.) Setlist resuls often ended in ties for specific positions to which I awarded the first occurring song in the list of results to that position.",style={'color':'white'}),
+                       html.P("2.) Setlist results often ended in ties for specific positions to which I awarded the first occurring song in the list of results to that position.",style={'color':'white'}),
                        html.P("3.) Spelling and punctuation was not always consistent which made joining lyrics and setlists datasets together challenging.  Using fuzzy deduplication methods solved the majority of these issues.",style={'color':'white'}),
                        html.P("4.) Several covers were not coded correctly, snuck into the setlists, and had to be manually removed.",style={'color':'white'}),
 
